@@ -416,7 +416,7 @@ jQuery(document).ready(function($) {
 			$('.page_wrapper').append(modal_html);
 		} else {
 			for (let i in char) {
-				if (char[i].title.toLowerCase().indexOf(key) != -1) {
+				if (char[i].title.toLowerCase().indexOf(key.toLowerCase()) != -1) {
 					let row = char[i];
 					let type = row.color;
 					type = type.split(',');

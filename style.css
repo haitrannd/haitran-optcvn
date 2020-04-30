@@ -87,10 +87,11 @@ button, a {
   border: 0;
   padding: 0 5px;
   box-shadow: 1px 1px 4px #333;
+  margin-top: 85px;
 }
 
 .pirate_festival_page .body_page {
-	height: calc(100vh - 105px);
+	height: calc(100vh - 175px);
   background-color: rgba(51, 51, 51, 0.9);
   margin: 25px;
   border-radius: 10px;
