@@ -5,14 +5,14 @@ window.character = {
 		'title' : 'Luffy/Ace',
 		'color' : 'str, qck',
 		'class' : 'freespirit, fighter',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Hỗ trợ',
 		'skill' : {
 			'note' : 'lv10 - 27 CT',
-			'des' : 'Tăng ATK của FREE SPIRIT lên 3 levels (20 giây), tăng DEF lên 3 levels (20 giây), tấn công trong một phạm vi lớn, gây một lượng sát thương bằng với (ATK x 0.65).',
+			'des' : 'Tăng ATK của FREE SPIRIT lên 3 cấp (20 giây), tăng DEF lên 3 cấp (20 giây), tấn công trong một phạm vi lớn, gây một lượng sát thương bằng với (ATK x 0.65).',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK của lên 5 levels, tăng tỉ lệ crit lên 2 levels cho FREE SPIRIT.'
+			'des' : 'Tăng ATK của lên 5 cấp, tăng tỉ lệ crit lên 2 cấp cho FREE SPIRIT.'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ thù ở gần',
@@ -28,14 +28,14 @@ window.character = {
 		'title' : 'Bartolomeo/Cavendish',
 		'color' : 'dex, qck',
 		'class' : 'driven, striker, slasher',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Phòng thủ',
 		'skill' : {
 			'note' : 'lv10 - 28 CT',
-			'des' : 'Sát thương địch ở tầm trung theo hàng ngang với lượng sát thương bằng (ATK x 0.8). Tăng tỉ lệ xuất hiện (guard – khiên chắn) của các đồng đội DRIVEN lên 7 levels (21 giây). Tăng ATK của DRIVEN lên 7 levels (21 giây).',
+			'des' : 'Sát thương địch ở tầm trung theo hàng ngang với lượng sát thương bằng (ATK x 0.8). Tăng tỉ lệ xuất hiện (guard – khiên chắn) của các đồng đội DRIVEN lên 7 cấp (21 giây). Tăng ATK của DRIVEN lên 7 cấp (21 giây).',
 		},
 		'hidden_skill' : {
-			'des' : 'GUARD cho DRIVEN lên 3 levels. Tăng ATK của bản thân lên 8 levels.'
+			'des' : 'GUARD cho DRIVEN lên 3 cấp. Tăng ATK của bản thân lên 8 cấp.'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ thù ở gần',
@@ -51,14 +51,14 @@ window.character = {
 		'title' : 'Sanji/Judge',
 		'color' : 'psy',
 		'class' : 'powerhouse, fighter',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Phòng thủ',
 		'skill' : {
 			'note' : 'lv10 - 27 CT',
-			'des' : 'Gây 1250 sát thương cho kẻ địch ở tầm trung theo hàng ngang. Tăng ATK của POWERHOUSE lên 6 levels (20 giây).',
+			'des' : 'Gây 1250 sát thương cho kẻ địch ở tầm trung theo hàng ngang. Tăng ATK của POWERHOUSE lên 6 cấp (20 giây).',
 		},
 		'hidden_skill' : {
-			'des' : 'Khi HP nhỏ hơn hoặc bằng 50%, tăng HP của POWERHOUSE lên 5 levels và tăng ATK bản thân lên 8 levels'
+			'des' : 'Khi HP nhỏ hơn hoặc bằng 50%, tăng HP của POWERHOUSE lên 5 cấp và tăng ATK bản thân lên 8 cấp'
 		},
 		'others' : {
 			'target' : 'Tấn công địch có ATK cao nhất',
@@ -74,14 +74,14 @@ window.character = {
 		'title' : 'Luffy/Law',
 		'color' : 'dex, qck',
 		'class' : 'fighter, freespirit, slasher',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 45 CT',
-			'des' : 'Gây 1700 sát thương chuẩn cho tất cả kẻ địch. Gây thêm sát thương băng với (ATK x 1.45) cho một kẻ địch ngẫu nhiên. Tăng ATK của đồng mình lên 2 levels (15 giây)',
+			'des' : 'Gây 1700 sát thương chuẩn cho tất cả kẻ địch. Gây thêm sát thương băng với (ATK x 1.45) cho một kẻ địch ngẫu nhiên. Tăng ATK của đồng mình lên 2 cấp (15 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'ATK đồng đội tăng lên 6 levels'
+			'des' : 'ATK đồng đội tăng lên 6 cấp'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ thù ở gần',
@@ -97,14 +97,14 @@ window.character = {
 		'title' : 'Sabo/Koala',
 		'color' : 'str, int',
 		'class' : 'freespirit, cerebral',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Hỗ trợ',
 		'skill' : {
 			'note' : 'lv10 - 29 CT',
-			'des' : 'Tấn công kẻ địch đứng giữa hàng trước với sát thường bằng (ATK x 0.65), giảm DEF 3 levels (25 giây). Tấn công kẻ địch ở khu vực phía trước với sát thương bằng (ATK x 1.15).',
+			'des' : 'Tấn công kẻ địch đứng giữa hàng trước với sát thường bằng (ATK x 0.65), giảm DEF 3 cấp (25 giây). Tấn công kẻ địch ở khu vực phía trước với sát thương bằng (ATK x 1.15).',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng crit CEREBRAL và bản thân lên 5 levels. Tăng SPEED của CEREBRAL và bản thân lên 2 levels.'
+			'des' : 'Tăng crit CEREBRAL và bản thân lên 5 cấp. Tăng SPEED của CEREBRAL và bản thân lên 2 cấp.'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ thù ở gần',
@@ -120,14 +120,14 @@ window.character = {
 		'title' : 'Whitebeard V1',
 		'color' : 'str',
 		'class' : 'striker, powerhouse',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 23 CT',
 			'des' : 'Giảm 48% máu toàn bộ địch',
 		},
 		'hidden_skill' : {
-			'des' : 'Khi HP lớn hơn hoặc bằng 30%, toàn bộ đồng đội tăng ATK lên 8 levels, tăng DEF bản thân lên 8 levels'
+			'des' : 'Khi HP lớn hơn hoặc bằng 30%, toàn bộ đồng đội tăng ATK lên 8 cấp, tăng DEF bản thân lên 8 cấp'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ thù ở gần',
@@ -143,14 +143,14 @@ window.character = {
 		'title' : 'Lucci V1',
 		'color' : 'str',
 		'class' : 'powerhouse, fighter',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 23 CT',
 			'des' : 'Giảm 48% máu toàn bộ địch',
 		},
 		'hidden_skill' : {
-			'des' : 'Khi HP lớn hơn hoặc bằng 30%, toàn bộ đồng đội tăng ATK lên 8 levels, tăng DEF bản thân lên 8 levels'
+			'des' : 'Khi HP lớn hơn hoặc bằng 30%, toàn bộ đồng đội tăng ATK lên 8 cấp, tăng DEF bản thân lên 8 cấp'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ thù ở gần',
@@ -166,14 +166,14 @@ window.character = {
 		'title' : 'Crocodile V1',
 		'color' : 'str',
 		'class' : 'cerebral, driven',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 19 CT',
-			'des' : 'Giảm ATK của kẻ địch đi 24% và tăng CRIT của đồng đội lên 4 levels (15 giây)',
+			'des' : 'Giảm ATK của kẻ địch đi 24% và tăng CRIT của đồng đội lên 4 cấp (15 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK của CEREBRAL lên 6 levels. Khi HP nhỏ hơn hoặc bằng 60%, tăng ATK bản thân lên 8 levels'
+			'des' : 'Tăng ATK của CEREBRAL lên 6 cấp. Khi HP nhỏ hơn hoặc bằng 60%, tăng ATK bản thân lên 8 cấp'
 		},
 		'others' : {
 			'target' : 'Nhắm vào mục tiêu ở gần',
@@ -189,14 +189,14 @@ window.character = {
 		'title' : 'Akainu V1',
 		'color' : 'str',
 		'class' : 'fighter, powerhouse',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 36 CT',
 			'des' : 'Gây 1150 sát thương chuẩn cho toàn bộ kẻ địch, gây 1900 sát thương chuẩn nếu trận chiến còn 50 giây hoặc nhỏ hơn, gây 3150 sát thương chuẩn nếu còn 30 giây hoặc nhỏ hơn',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK của STR lên 6 levels. Tăng thêm 2 levels nếu còn 30 giây hoặc ít hơn'
+			'des' : 'Tăng ATK của STR lên 6 cấp. Tăng thêm 2 cấp nếu còn 30 giây hoặc ít hơn'
 		},
 		'others' : {
 			'target' : 'Nhắm vào mục tiêu ở gần',
@@ -212,14 +212,14 @@ window.character = {
 		'title' : 'Inuarashi',
 		'color' : 'str',
 		'class' : 'cerebral, slasher',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 28 CT',
 			'des' : 'Giảm ATK bản thân đi 20%, tấn công kẻ địch ở tầm ngang với sát thương bằng với (ATK x 1.95)',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng SPEED của CEREBRAL lên 6 levels, tăng ATK của bản thân lên 9 levels nếu HP dưới 60%.'
+			'des' : 'Tăng SPEED của CEREBRAL lên 6 cấp, tăng ATK của bản thân lên 9 cấp nếu HP dưới 60%.'
 		},
 		'others' : {
 			'target' : 'Nhắm vào mục tiêu ở gần',
@@ -235,14 +235,14 @@ window.character = {
 		'title' : 'Bigmom V1',
 		'color' : 'str',
 		'class' : 'powerhouse, driven',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 51 CT',
-			'des' : 'Tấn công kẻ địch ở hàng ngang phía trước với sát thương bằng (ATK x 0.95), tấn công kẻ địch ở hàng giữa theo chiều dọc với sát thương bằng (ATK x 1.2), tấn công toàn bộ kẻ địch với sát thương bằng (ATK x 0.9). Tăng ATK bản thân lên 16 levels trong 30 giây',
+			'des' : 'Tấn công kẻ địch ở hàng ngang phía trước với sát thương bằng (ATK x 0.95), tấn công kẻ địch ở hàng giữa theo chiều dọc với sát thương bằng (ATK x 1.2), tấn công toàn bộ kẻ địch với sát thương bằng (ATK x 0.9). Tăng ATK bản thân lên 16 cấp trong 30 giây',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng HP của STR, QCK, DEX lên 3 levels'
+			'des' : 'Tăng HP của STR, QCK, DEX lên 3 cấp'
 		},
 		'others' : {
 			'target' : 'Nhắm vào mục tiêu ở gần',
@@ -258,14 +258,14 @@ window.character = {
 		'title' : 'Bullet',
 		'color' : 'str',
 		'class' : 'fighter, driven',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Phòng thủ',
 		'skill' : {
 			'note' : 'lv10 - 20 CT',
-			'des' : 'Tăng ATK bản thân lên 11 levels (15 giây), tăng DEF bản thân lên 8 leves (15 giây), bật trạng thái khiêu khích (sẽ bị kẻ địch nhắm vào). Giảm 20% máu của kẻ địch.',
+			'des' : 'Tăng ATK bản thân lên 11 cấp (15 giây), tăng DEF bản thân lên 8 leves (15 giây), bật trạng thái khiêu khích (sẽ bị kẻ địch nhắm vào). Giảm 20% máu của kẻ địch.',
 		},
 		'hidden_skill' : {
-			'des' : 'STR, QCK, INT tăng ATK lên 6 levels. Các đồng đội khác tăng ATK lên 5 levels'
+			'des' : 'STR, QCK, INT tăng ATK lên 6 cấp. Các đồng đội khác tăng ATK lên 5 cấp'
 		},
 		'others' : {
 			'target' : 'Nhắm vào mục tiêu ở gần',
@@ -281,14 +281,14 @@ window.character = {
 		'title' : 'Log Luffy',
 		'color' : 'str',
 		'class' : 'fighter, freespirit',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 35 CT',
-			'des' : 'Tấn công kẻ địch ở tầm trung gây (ATK x 1.35) sát thương và tăng SPEED của đồng đội lên 3 levels nếu còn 50 giây hoặc ít hơn',
+			'des' : 'Tấn công kẻ địch ở tầm trung gây (ATK x 1.35) sát thương và tăng SPEED của đồng đội lên 3 cấp nếu còn 50 giây hoặc ít hơn',
 		},
 		'hidden_skill' : {
-			'des' : 'STR tăng ATK lên 5 levels. ATK bản thân tăng 5 levels'
+			'des' : 'STR tăng ATK lên 5 cấp. ATK bản thân tăng 5 cấp'
 		},
 		'others' : {
 			'target' : 'Nhắm vào mục tiêu ở gần',
@@ -304,14 +304,14 @@ window.character = {
 		'title' : 'Zoro V1',
 		'color' : 'dex',
 		'class' : 'slasher, driven',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 36 CT',
-			'des' : 'Tấn công toàn bộ kẻ địch với sát thương bằng (ATK x 1.35) và giảm DEF kẻ địch đi 3 levels trong 10 giây',
+			'des' : 'Tấn công toàn bộ kẻ địch với sát thương bằng (ATK x 1.35) và giảm DEF kẻ địch đi 3 cấp trong 10 giây',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng CRIT của SLASHER lên 6 levels, ATK bản thân lên 6 levels'
+			'des' : 'Tăng CRIT của SLASHER lên 6 cấp, ATK bản thân lên 6 cấp'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ địch có ATK cao nhất',
@@ -327,7 +327,7 @@ window.character = {
 		'title' : 'Nami V1',
 		'color' : 'dex',
 		'class' : 'cerebral, striker',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Phá hoại',
 		'skill' : {
 			'note' : 'lv10 - 22 CT',
@@ -350,14 +350,14 @@ window.character = {
 		'title' : 'Usopp',
 		'color' : 'dex',
 		'class' : 'shooter',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Phá hoại',
 		'skill' : {
 			'note' : 'lv10 - 30 CT',
 			'des' : 'Giảm HP của kẻ địch hàng trước đi 37%, có 75% cơ hội one hit (9 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng SPEED của SHOOTER lên 6 levels, ATK bản thân lên 6 levels khi HP nhỏ hơn hoặc bằng 50%. ATK bản thân lên 7 levels khi HP dưới 30%.'
+			'des' : 'Tăng SPEED của SHOOTER lên 6 cấp, ATK bản thân lên 6 cấp khi HP nhỏ hơn hoặc bằng 50%. ATK bản thân lên 7 cấp khi HP dưới 30%.'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ địch có SPEED cao nhất',
@@ -373,14 +373,14 @@ window.character = {
 		'title' : 'Ace V1',
 		'color' : 'dex',
 		'class' : 'shooter, freespirit',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 35 CT',
-			'des' : 'Giảm 70% ATK bản thân, gây (ATK x 1.9) sát thương cho kẻ địch ở tầm trung và tăng ATK của SHOOTER lên 3 levels (30 giây)',
+			'des' : 'Giảm 70% ATK bản thân, gây (ATK x 1.9) sát thương cho kẻ địch ở tầm trung và tăng ATK của SHOOTER lên 3 cấp (30 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'Trong 40 giây đầu, tăng SPEED của SHOOTER lên 6 levels, tăng ATK bản thân lên 6 levels'
+			'des' : 'Trong 40 giây đầu, tăng SPEED của SHOOTER lên 6 cấp, tăng ATK bản thân lên 6 cấp'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ địch có ATK cao nhất',
@@ -396,14 +396,14 @@ window.character = {
 		'title' : 'Corazon',
 		'color' : 'dex',
 		'class' : 'cerebral, freespirit',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Hồi phục',
 		'skill' : {
 			'note' : 'lv10 - 32 CT',
-			'des' : 'Hồi 2.75x HP của đồng đội xung quanh và tăng DEF lên 7 levels (10 giây)',
+			'des' : 'Hồi 2.75x HP của đồng đội xung quanh và tăng DEF lên 7 cấp (10 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'Khi HP lớn hơn hoặc bằng 70%, ATK của đồng đội tăng 10 levels'
+			'des' : 'Khi HP lớn hơn hoặc bằng 70%, ATK của đồng đội tăng 10 cấp'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ địch ở gần',
@@ -419,14 +419,14 @@ window.character = {
 		'title' : 'Magellan',
 		'color' : 'dex',
 		'class' : 'striker, shooter',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Phá hoại',
 		'skill' : {
 			'note' : 'lv10 - 31 CT',
-			'des' : 'ATK giảm 3 levels đối với kẻ địch ở tầm xa (47 giây). Giảm tốc độ tăng CT của kẻ địch 4 levels (34 giây).',
+			'des' : 'ATK giảm 3 cấp đối với kẻ địch ở tầm xa (47 giây). Giảm tốc độ tăng CT của kẻ địch 4 cấp (34 giây).',
 		},
 		'hidden_skill' : {
-			'des' : 'Khi HP của đồng minh ở level 5 hoặc cao hơn, tăng HP đồng minh thêm 7 levels'
+			'des' : 'Khi HP của đồng minh ở cấp 5 hoặc cao hơn, tăng HP đồng minh thêm 7 cấp'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ địch ở gần',
@@ -442,14 +442,14 @@ window.character = {
 		'title' : 'Rayleigh V2',
 		'color' : 'dex',
 		'class' : 'cerebral, freespirit',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Phòng thủ',
 		'skill' : {
 			'note' : 'lv10 - 37 CT',
-			'des' : 'Gây 600 sát thương chuẩn cho toàn bộ kẻ địch, tăng ATK của đồng đội lên 3 levels (24 giây), tăng DEF lên 2 levels (24 giây)',
+			'des' : 'Gây 600 sát thương chuẩn cho toàn bộ kẻ địch, tăng ATK của đồng đội lên 3 cấp (24 giây), tăng DEF lên 2 cấp (24 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng HP đồng mình lên 5 levels, khi còn dưới 20% HP, tăng HP đồng minh lên 2 levels'
+			'des' : 'Tăng HP đồng mình lên 5 cấp, khi còn dưới 20% HP, tăng HP đồng minh lên 2 cấp'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ địch ở gần',
@@ -465,14 +465,14 @@ window.character = {
 		'title' : 'Jinbe V2',
 		'color' : 'dex',
 		'class' : 'powerhouse, fighter',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Phòng thủ',
 		'skill' : {
 			'note' : 'lv10 - 31 CT',
-			'des' : 'Giảm 12% ATK kẻ địch trong phạm vi trung bình. Tăng ATK của FIGHTER, SLASHER và SHOOTER lên 4 levels trong 19 giây',
+			'des' : 'Giảm 12% ATK kẻ địch trong phạm vi trung bình. Tăng ATK của FIGHTER, SLASHER và SHOOTER lên 4 cấp trong 19 giây',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK của STR, DEX, PSY lên 5 levels, tăng DEF lên 1 levels'
+			'des' : 'Tăng ATK của STR, DEX, PSY lên 5 cấp, tăng DEF lên 1 cấp'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ địch ở gần',
@@ -488,14 +488,14 @@ window.character = {
 		'title' : 'Doflamingo V2',
 		'color' : 'dex',
 		'class' : 'driven, cerebral',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 30 CT',
 			'des' : 'Gây (ATK x 1.45) sát thương cho kẻ địch ở tầm trung. Tiếp tục gây thêm (ATK x 0.35) sát thương nếu còn 60 giây. Tiếp tục gây thêm (ATK x 04) sát thương nếu còn 45 giây. Tiếp tục gây thêm (ATK x 0.45) sát thương nếu còn 30 giây',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK của CEREBRAL lên 6 levels'
+			'des' : 'Tăng ATK của CEREBRAL lên 6 cấp'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ địch ở gần',
@@ -511,14 +511,14 @@ window.character = {
 		'title' : 'Brook',
 		'color' : 'dex',
 		'class' : 'slasher, freespirit',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Phòng thủ',
 		'skill' : {
 			'note' : 'lv10 - 45 CT',
-			'des' : 'Hồi 2450 HP cho đồng mình ở hàng trung tâm và tăng DEF lên 3 levels (30 Giây).',
+			'des' : 'Hồi 2450 HP cho đồng mình ở hàng trung tâm và tăng DEF lên 3 cấp (30 Giây).',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK đồng minh lên 5 levels. Khi HP nhỏ hơn hoặc bằng 50%, tăng DEF bản thân lên 5 levels'
+			'des' : 'Tăng ATK đồng minh lên 5 cấp. Khi HP nhỏ hơn hoặc bằng 50%, tăng DEF bản thân lên 5 cấp'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ địch ở gần',
@@ -534,14 +534,14 @@ window.character = {
 		'title' : 'Blackbeard',
 		'color' : 'dex',
 		'class' : 'driven, powerhouse',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 42 CT',
-			'des' : 'Giảm HP địch đi 25%, gây 1750 sát thương chuẩn cho kẻ địch STR và giảm DEF đi 4 levels (25 giây)',
+			'des' : 'Giảm HP địch đi 25%, gây 1750 sát thương chuẩn cho kẻ địch STR và giảm DEF đi 4 cấp (25 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK đồng minh lên 5 levels, ATK bản thân 3 levels'
+			'des' : 'Tăng ATK đồng minh lên 5 cấp, ATK bản thân 3 cấp'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ địch ít máu nhất',
@@ -557,14 +557,14 @@ window.character = {
 		'title' : 'Kaido',
 		'color' : 'dex',
 		'class' : 'striker, powerhouse',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 55 CT',
 			'des' : 'Giảm HP kẻ địch ở hàng trước đi 25%, và gây (ATK x 2.1) sát thương',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK của POWERHOUSE/STRIKER lên 6 levels, ATK bản thân lên 7 levels. Tăng tốc độ CT lên 6 levels'
+			'des' : 'Tăng ATK của POWERHOUSE/STRIKER lên 6 cấp, ATK bản thân lên 7 cấp. Tăng tốc độ CT lên 6 cấp'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ địch ít máu nhất',
@@ -580,14 +580,14 @@ window.character = {
 		'title' : 'Kuzan V3',
 		'color' : 'qck',
 		'class' : 'freespirit, shooter',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 33 CT',
 			'des' : 'Gây (ATK x 1.4) sát thương cho một vùng lớn và có 70% cơ hội khóa CT của kẻ địch trong 6 giây',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng SPEED của STR, DEX, QCK lên 5 levels, các đồng đội còn lại được tăng SPEED lên 2 levels trong 15 giây'
+			'des' : 'Tăng SPEED của STR, DEX, QCK lên 5 cấp, các đồng đội còn lại được tăng SPEED lên 2 cấp trong 15 giây'
 		},
 		'others' : {
 			'target' : 'Đang cập nhật',
@@ -603,14 +603,14 @@ window.character = {
 		'title' : 'Mihawk & Perona',
 		'color' : 'str, psy',
 		'class' : 'cerebral, slasher, driven',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Phá hoại',
 		'skill' : {
 			'note' : 'lv10 - 35 CT',
-			'des' : 'Giảm ATK của địch đi 5 levels và DEF đi 3 levels trong 25 giây, giảm HP địch đi 25%',
+			'des' : 'Giảm ATK của địch đi 5 cấp và DEF đi 3 cấp trong 25 giây, giảm HP địch đi 25%',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng SPEED đồng đội lên 5 levels, HP lên 1 level'
+			'des' : 'Tăng SPEED đồng đội lên 5 cấp, HP lên 1 cấp'
 		},
 		'others' : {
 			'target' : 'Đang cập nhật',
@@ -626,14 +626,14 @@ window.character = {
 		'title' : 'Marco',
 		'color' : 'qck',
 		'class' : 'fighter, powerhouse',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Phòng thủ',
 		'skill' : {
 			'note' : 'lv10 - 23 CT',
-			'des' : 'Tấn công kẻ địch tầm trung bình với lượng sát thường (ATK x 0.75), giảm ATK 6 levels trong 15 giây, hồi phục HP một đồng đội bằng 2.7x HP',
+			'des' : 'Tấn công kẻ địch tầm trung bình với lượng sát thường (ATK x 0.75), giảm ATK 6 cấp trong 15 giây, hồi phục HP một đồng đội bằng 2.7x HP',
 		},
 		'hidden_skill' : {
-			'des' : 'Khi HP lớn hơn hoặc bằng 50%, tăng tỉ lệ xuất hiện khiên của QCK và PSY lên 7 levels. Tăng ATK bản thân lên 6 levels'
+			'des' : 'Khi HP lớn hơn hoặc bằng 50%, tăng tỉ lệ xuất hiện khiên của QCK và PSY lên 7 cấp. Tăng ATK bản thân lên 6 cấp'
 		},
 		'others' : {
 			'target' : 'Đang cập nhật',
@@ -649,14 +649,14 @@ window.character = {
 		'title' : 'Red hair pirates',
 		'color' : 'psy, qck',
 		'class' : 'slasher, cerebral',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Phòng thủ',
 		'skill' : {
 			'note' : 'lv10 - 24 CT',
-			'des' : 'Giảm HP hàng ngang và hàng trung bình đi 21%, tăng DEF đồng đội lên 4 levels (14 giây)',
+			'des' : 'Giảm HP hàng ngang và hàng trung bình đi 21%, tăng DEF đồng đội lên 4 cấp (14 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'Khi trận đấu còn 70s, đồng đội tăng DEF lên 5 levels, ATK bản thân tăng 3 levels'
+			'des' : 'Khi trận đấu còn 70s, đồng đội tăng DEF lên 5 cấp, ATK bản thân tăng 3 cấp'
 		},
 		'others' : {
 			'target' : 'Đang cập nhật',
@@ -672,14 +672,14 @@ window.character = {
 		'title' : 'Arlong pirates',
 		'color' : 'str',
 		'class' : 'slasher, powerhouse',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 33 CT',
-			'des' : 'Khi HP lớn hơn hoặc bằng 30%, tăng ATK đồng đội lên 3 levels trong 15 giây, tấn công kẻ địch tầm trung bình (ATK x 1.3) sát thương. Khi HP nhỏ hơn hoặc bằng 30%, tăng ATK đồng đội lên 4 levels trong 15 giây, tấn công kẻ địch tầm trung bình (ATK x 1.55) sát thương',
+			'des' : 'Khi HP lớn hơn hoặc bằng 30%, tăng ATK đồng đội lên 3 cấp trong 15 giây, tấn công kẻ địch tầm trung bình (ATK x 1.3) sát thương. Khi HP nhỏ hơn hoặc bằng 30%, tăng ATK đồng đội lên 4 cấp trong 15 giây, tấn công kẻ địch tầm trung bình (ATK x 1.55) sát thương',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK bản thân lên 5 levels. Khi HP nhỏ hơn hoặc bằng 30%, ATK bản thân tăng 5 levels, DEF bản thân tăng 4 levels'
+			'des' : 'Tăng ATK bản thân lên 5 cấp. Khi HP nhỏ hơn hoặc bằng 30%, ATK bản thân tăng 5 cấp, DEF bản thân tăng 4 cấp'
 		},
 		'others' : {
 			'target' : 'Đang cập nhật',
@@ -695,14 +695,14 @@ window.character = {
 		'title' : 'Pudding',
 		'color' : 'int',
 		'class' : 'cerebral, shooter',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Hỗ trợ',
 		'skill' : {
 			'note' : 'lv10 - 22 CT',
-			'des' : 'Giảm CT của INT đi 15%, tăng ATK INT lên 3 levels (20 giây), tăng ATK của đồng đội INT có ATK cao nhất (20 giây) lên 8 levels',
+			'des' : 'Giảm CT của INT đi 15%, tăng ATK INT lên 3 cấp (20 giây), tăng ATK của đồng đội INT có ATK cao nhất (20 giây) lên 8 cấp',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng HP INT lên 5 levels, tăng ATK của INT có ATK cao nhất lên 2 levels'
+			'des' : 'Tăng HP INT lên 5 cấp, tăng ATK của INT có ATK cao nhất lên 2 cấp'
 		},
 		'others' : {
 			'target' : 'Đang cập nhật',
@@ -718,14 +718,14 @@ window.character = {
 		'title' : 'Name & Robin',
 		'color' : 'int, dex',
 		'class' : 'cerebral, striker, freespirit',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Hỗ trợ',
 		'skill' : {
 			'note' : 'lv10 - 28 CT',
-			'des' : 'Giảm HP kẻ địch tầm trung đi 30%, rút ngắn thời gian bị tê liệt của đồng đội đi 10 giây, tăng CRIT lên 3 levels (24 giây)',
+			'des' : 'Giảm HP kẻ địch tầm trung đi 30%, rút ngắn thời gian bị tê liệt của đồng đội đi 10 giây, tăng CRIT lên 3 cấp (24 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng khả năng hồi phục của đồng đội lên 5 levels, tăng tỉ lệ xuất hiện khiên lên 1 level'
+			'des' : 'Tăng khả năng hồi phục của đồng đội lên 5 cấp, tăng tỉ lệ xuất hiện khiên lên 1 cấp'
 		},
 		'others' : {
 			'target' : 'Đang cập nhật',
@@ -741,14 +741,14 @@ window.character = {
 		'title' : 'Robin',
 		'color' : 'int',
 		'class' : 'cerebral, fighter',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Phòng thủ',
 		'skill' : {
 			'note' : 'lv10 - 26 CT',
-			'des' : 'Tăng tỉ lệ xuất hiện khiên lên 7 levels (25 giây), 80% tỉ lệ one hit kẻ địch hàng giữa (12 giây)',
+			'des' : 'Tăng tỉ lệ xuất hiện khiên lên 7 cấp (25 giây), 80% tỉ lệ one hit kẻ địch hàng giữa (12 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng tỉ lệ xuất hiện khiên của CEREBRAL lên 6 levels, tăng DEF CEREBRAL lên 3 levels trong 25 giây'
+			'des' : 'Tăng tỉ lệ xuất hiện khiên của CEREBRAL lên 6 cấp, tăng DEF CEREBRAL lên 3 cấp trong 25 giây'
 		},
 		'others' : {
 			'target' : 'Đang cập nhật',
@@ -764,14 +764,14 @@ window.character = {
 		'title' : 'Sabo V2',
 		'color' : 'qck',
 		'class' : 'fighter, freespirit',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Hỗ trợ',
 		'skill' : {
 			'note' : 'lv10 - 30 CT',
-			'des' : 'Tấn công một vùng rộng ở phía trước, gây (ATK x 0.9) sát thương và tăng ATK của STR, DEX, QCK lên 6 levels (25 giây)',
+			'des' : 'Tấn công một vùng rộng ở phía trước, gây (ATK x 0.9) sát thương và tăng ATK của STR, DEX, QCK lên 6 cấp (25 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'Trong 30 giây đầu, tăng SPEED của STR, DEX, QCK lên 2 levels. Tăng SPEED của STR, DEX, QCK lên 2 levels'
+			'des' : 'Trong 30 giây đầu, tăng SPEED của STR, DEX, QCK lên 2 cấp. Tăng SPEED của STR, DEX, QCK lên 2 cấp'
 		},
 		'others' : {
 			'target' : 'Đang cập nhật',
@@ -787,14 +787,14 @@ window.character = {
 		'title' : 'O-Soba Mask',
 		'color' : 'qck',
 		'class' : 'powerhouse, freespirit',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 37 CT',
-			'des' : 'Gây (ATK x 1.35) sát thương cho kẻ địch tầm trung tâm và tăng tỉ lệ đánh trượt lên 4 levels (15 giây)',
+			'des' : 'Gây (ATK x 1.35) sát thương cho kẻ địch tầm trung tâm và tăng tỉ lệ đánh trượt lên 4 cấp (15 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK cả team lên 5 levels, ATK bản thân lên 4 levels'
+			'des' : 'Tăng ATK cả team lên 5 cấp, ATK bản thân lên 4 cấp'
 		},
 		'others' : {
 			'target' : 'Đang cập nhật',
@@ -810,14 +810,14 @@ window.character = {
 		'title' : 'Luffy & Zoro',
 		'color' : 'str, dex',
 		'class' : 'slasher, freespirit',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 27 CT',
-			'des' : 'Gây (ATK x 1.35) sát thương cho kẻ địch tầm trung tâm và tầm ngang, tăng tỉ lệ CRIT cho FREESPIRIT và SLASHER lên 3 levels (30 giây)',
+			'des' : 'Gây (ATK x 1.35) sát thương cho kẻ địch tầm trung tâm và tầm ngang, tăng tỉ lệ CRIT cho FREESPIRIT và SLASHER lên 3 cấp (30 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'Khi FREESPIRIT/SLASHER CRIT, tăng ATK 6 levels, có thể tăng tối đa 2 lần. Trong 30 giây đầu tăng CRIT FREESPIRIT/SLASHER lên 1 level'
+			'des' : 'Khi FREESPIRIT/SLASHER CRIT, tăng ATK 6 cấp, có thể tăng tối đa 2 lần. Trong 30 giây đầu tăng CRIT FREESPIRIT/SLASHER lên 1 cấp'
 		},
 		'others' : {
 			'target' : 'Đang cập nhật',
@@ -833,14 +833,14 @@ window.character = {
 		'title' : 'Chopper',
 		'color' : 'psy',
 		'class' : 'shooter, cerebral',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Hồi phục',
 		'skill' : {
 			'note' : 'lv10 - 38 CT',
 			'des' : 'Hồi 0.6 x HP cho đồng đội trung tâm, giảm 7 giây trói, giảm 7 giây tê liệt, giảm 7 giây hiệu ứng bất lợi',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng HP lên 6 levels'
+			'des' : 'Tăng HP lên 6 cấp'
 		},
 		'others' : {
 			'target' : 'Đang cập nhật',
@@ -856,14 +856,14 @@ window.character = {
 		'title' : 'Lucci V2',
 		'color' : 'qck',
 		'class' : 'shooter, powerhouse',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 32 CT',
-			'des' : 'Gây (ATK x 1.5) sát thương cho địch ở hàng ngang, giảm DEF đi 7 levels',
+			'des' : 'Gây (ATK x 1.5) sát thương cho địch ở hàng ngang, giảm DEF đi 7 cấp',
 		},
 		'hidden_skill' : {
-			'des' : 'Khi CRIT, SHOOTER được tăng SPEED lên 7 levels, ATK lên 5 levels, cộng dồn tối đa 3 lần'
+			'des' : 'Khi CRIT, SHOOTER được tăng SPEED lên 7 cấp, ATK lên 5 cấp, cộng dồn tối đa 3 lần'
 		},
 		'others' : {
 			'target' : 'Đang cập nhật',
@@ -879,14 +879,14 @@ window.character = {
 		'title' : 'Komurasaki',
 		'color' : 'qck',
 		'class' : 'slasher, cerebral',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Hồi phục',
 		'skill' : {
 			'note' : 'lv10 - 30 CT',
-			'des' : 'Hồi 1.45 x HP cho một vùng lớn. Khi máu lớn hơn hoặc bằng 50% tăng CRIT của QCK và INT lên 2 levels (15 giây). ATK tăng thêm 4 levels (15 giây) khi HP trên 80%',
+			'des' : 'Hồi 1.45 x HP cho một vùng lớn. Khi máu lớn hơn hoặc bằng 50% tăng CRIT của QCK và INT lên 2 cấp (15 giây). ATK tăng thêm 4 cấp (15 giây) khi HP trên 80%',
 		},
 		'hidden_skill' : {
-			'des' : 'QCK, INT tăng HP lên 5 levels, DEF lên 1 level'
+			'des' : 'QCK, INT tăng HP lên 5 cấp, DEF lên 1 cấp'
 		},
 		'others' : {
 			'target' : 'Đang cập nhật',
@@ -899,17 +899,17 @@ window.character = {
 	},
 
 	'ace_v2' : {
-		'title' : 'Ave V2',
+		'title' : 'Ace V2',
 		'color' : 'int',
 		'class' : 'shooter, fighter',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Hỗ trợ',
 		'skill' : {
 			'note' : 'lv10 - 30 CT',
-			'des' : 'Gây (ATK x 0.7) sát thương lên một vùng rộng, tăng ATK FIGHTER/SHOOTER lên 4 levels (20 giây) và rút ngắn thời gian trạng thái khóa (block) đi 11 giây',
+			'des' : 'Gây (ATK x 0.7) sát thương lên một vùng rộng, tăng ATK FIGHTER/SHOOTER lên 4 cấp (20 giây) và rút ngắn thời gian trạng thái khóa (block) đi 11 giây',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng HP FIGHTER/SHOOTER lên 5 levels, tăng tốc độ CT FIGHTER/SHOOTER lên 2 levels khi còn 70s'
+			'des' : 'Tăng HP FIGHTER/SHOOTER lên 5 cấp, tăng tốc độ CT FIGHTER/SHOOTER lên 2 cấp khi còn 70s'
 		},
 		'others' : {
 			'target' : 'Đang cập nhật',
@@ -925,14 +925,14 @@ window.character = {
 		'title' : 'Katakuri',
 		'color' : 'int',
 		'class' : 'striker, powerhouse',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Phá hoại',
 		'skill' : {
 			'note' : 'lv10 - 29 CT',
-			'des' : 'Tấn công hàng ngang gây (ATK x 0.9) sát thương và giảm SPEED đi 6 levels (30 giây)',
+			'des' : 'Tấn công hàng ngang gây (ATK x 0.9) sát thương và giảm SPEED đi 6 cấp (30 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng tỉ lệ đánh lùi lên 6 levels. Khi đẩy lùi 1 kẻ địch, tướng đẩy lùi sẽ được tăng ATK lên 7 levels, cộng dồn 2 lần.'
+			'des' : 'Tăng tỉ lệ đánh lùi lên 6 cấp. Khi đẩy lùi 1 kẻ địch, tướng đẩy lùi sẽ được tăng ATK lên 7 cấp, cộng dồn 2 lần.'
 		},
 		'others' : {
 			'target' : 'Đang cập nhật',
@@ -948,14 +948,14 @@ window.character = {
 		'title' : 'Whitebread v2',
 		'color' : 'int',
 		'class' : 'striker, powerhouse',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Phòng thủ',
 		'skill' : {
 			'note' : 'lv10 - 31 CT',
-			'des' : 'Giảm HP một vùng nhỏ kẻ địch đi 26%, tăng DEF một lượng lớn đồng đội lên 4 levels (25 giây). Khi HP nhỏ hoặc bằng 50% tăng ATK lên 5 levels (25 giây)',
+			'des' : 'Giảm HP một vùng nhỏ kẻ địch đi 26%, tăng DEF một lượng lớn đồng đội lên 4 cấp (25 giây). Khi HP nhỏ hoặc bằng 50% tăng ATK lên 5 cấp (25 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng HP STRIKER/POWERHOUSE lên 6 levels, khi HP nhỏ hoặc bằng 40% tăng DEF lên 3 levels'
+			'des' : 'Tăng HP STRIKER/POWERHOUSE lên 6 cấp, khi HP nhỏ hoặc bằng 40% tăng DEF lên 3 cấp'
 		},
 		'others' : {
 			'target' : 'Đang cập nhật',
@@ -971,11 +971,11 @@ window.character = {
 		'title' : 'Stampede Luffy',
 		'color' : 'psy',
 		'class' : 'fighter, powerhouse',
-		'level' : 'legend',
+		'cấp' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 37 CT',
-			'des' : 'Khi HP lớn hoặc bằng 50%, ATK bản thân tăng 10 levels (15 giây). Gây (ATK x 1.95) sát thương cho địch ở hàng giữa',
+			'des' : 'Khi HP lớn hoặc bằng 50%, ATK bản thân tăng 10 cấp (15 giây). Gây (ATK x 1.95) sát thương cho địch ở hàng giữa',
 		},
 		'hidden_skill' : {
 			'des' : 'Tăng ATK STR, DEX, PSY'
@@ -987,6 +987,420 @@ window.character = {
 		'pattern': 'Đang cập nhật',
 		'img' : {
 			'src' : 'stampede_luffy.png'
+		},
+	},
+
+	'shira_sherry' : {
+		'title' : 'Shirahoshi & Mansherry',
+		'color' : 'psy, int',
+		'class' : 'cerebral, striker',
+		'cấp' : 'legend',
+		'type' : 'Hồi phục',
+		'skill' : {
+			'note' : 'lv10 - 40 CT',
+			'des' : 'Hồi 2.5 x HP cho đồng đội, rút ngắn thời gian tê liệt 6 giây, rút ngắn thời gian trói 6 giây',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP STRIKER/CEREBRAL/FREESPIRIT lên 5 cấp. Khi HP nhỏ hoặc bằng 50%, tăng HP lên 3 cấp'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'shira_sherry.png'
+		},
+	},
+
+	'vivi_rebecca' : {
+		'title' : 'Vivi & Rebecca',
+		'color' : 'dex, str',
+		'class' : 'cerebral, striker, freespirit',
+		'cấp' : 'legend',
+		'type' : 'Hỗ trợ',
+		'skill' : {
+			'note' : 'lv10 - 24 CT',
+			'des' : 'Tất cả kẻ địch giảm DEF 3 cấp (30 giây). STRIKER/CEREBRAL tăng ATK 3 cấp (30 giây)',
+		},
+		'hidden_skill' : {
+			'des' : 'Khi còn 70 giây, STRIKER/CEREBRAL tăng ATK 7 cấp'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'vivi_rebecca.png'
+		},
+	},
+
+	'inu_neko' : {
+		'title' : 'Inuarashi & Nekomamushi',
+		'color' : 'psy, str',
+		'class' : 'cerebral, striker, slasher',
+		'cấp' : 'legend',
+		'type' : 'Hỗ trợ',
+		'skill' : {
+			'note' : 'lv10 - 31 CT',
+			'des' : 'Tấn công một vùng nhỏ phía trước, gây (ATK x 0.85) sát thương. CEREBRAL/STRIKER ATK tăng 6 cấp (25 giây), hồi HP toàn bộ đồng đội bằng 0.45 x HP',
+		},
+		'hidden_skill' : {
+			'des' : 'Trong 45 giây đầu, CEREBRAL/STRIKER tăng SPEED lên 5 cấp, tăng ATK bản thân lên 6 cấp'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'inu_neko.png'
+		},
+	},
+
+	'zeus_prometheus_bm' : {
+		'title' : 'Zeus & Prometheus & Bigmom',
+		'color' : 'int',
+		'class' : 'powerhouse, striker, slasher',
+		'cấp' : 'legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 33 CT',
+			'des' : 'Tấn công một vùng lớn phía trước, gây (ATK x 1.25) sát thương. Nếu HP lớn hoặc bằng 50%, tăng ATK đồng đội lên 3 cấp',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK đồng đội lên 7 cấp, HP lên 2 cấp, DEF giảm 2 cấp'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'zeus_prometheus_bm.png'
+		},
+	},
+
+	'fujitora_v2' : {
+		'title' : 'Fujitora V2',
+		'color' : 'int',
+		'class' : 'powerhouse, slasher',
+		'cấp' : 'legend',
+		'type' : 'Phá hoại',
+		'skill' : {
+			'note' : 'lv10 - 38 CT',
+			'des' : 'Tấn công toàn bộ địch, gây (ATK x 1.25) sát thương. Có 30% khóa mục tiêu',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng tỉ lệ đẩy lùi của SLASHER lên 6 cấp. Tăng HP SLASHER lên 2 cấp'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'fujitora_v2.png'
+		},
+	},
+
+	'zoro_v2' : {
+		'title' : 'Zoro V2',
+		'color' : 'int',
+		'class' : 'driven, slasher',
+		'cấp' : 'legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 36 CT',
+			'des' : 'Tấn công địch ở giữa phía trước, gây (ATK x 1.7) sát thương và SLASHER ATK tăng 4 cấp (8 giây)',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng tỉ lệ đẩy lùi của SLASHER lên 6 cấp. Tăng DEF bản thân lên 2 cấp'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'zoro_v2.png'
+		},
+	},
+
+	'mihawk_v2' : {
+		'title' : 'Mihawk V2',
+		'color' : 'dex',
+		'class' : 'freespirit, slasher',
+		'cấp' : 'legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 15 CT',
+			'des' : 'Khi còn trên 70 giây, cắt 15% HP một vùng lớn kẻ địch. Khi nhở hoặc bằng 70 giây, cắt 30% HP một vùng lớn kẻ địch',
+		},
+		'hidden_skill' : {
+			'des' : 'SLASHER tăng SPEED 5 cấp, ATK bản thân tăng 8 cấp trong 30 giây'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'mihawk_v2.png'
+		},
+	},
+
+	'cracker' : {
+		'title' : 'Cracker',
+		'color' : 'qck',
+		'class' : 'powerhouse, slasher',
+		'cấp' : 'legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 37 CT',
+			'des' : 'Gây (ATK x 1.3) sát thương lên kẻ địch ở vùng trung tâm, tăng CRIT SLASHER/POWERHOUSE lên 5 cấp (15 giây). Khi HP nhỏ hoặc bằng 50%, giảm thời gian CT đi 25%.',
+		},
+		'hidden_skill' : {
+			'des' : 'SLASHER/POWERHOUSE tăng tốc CT lên 6 cấp'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'cracker.png'
+		},
+	},
+
+	'doflamingo_v1' : {
+		'title' : 'Doflamingo V1',
+		'color' : 'int',
+		'class' : 'driven, slasher',
+		'cấp' : 'legend',
+		'type' : 'Phòng thủ',
+		'skill' : {
+			'note' : 'lv10 - 31 CT',
+			'des' : 'Gây (ATK x 1.4) sát thương cho một kẻ địch, tăng DEF DRIVEN lên 5 cấp (19 giây).',
+		},
+		'hidden_skill' : {
+			'des' : 'DRIVEN tăng HP lên 6 cấp. DRIVEN tăng DEF 2 cấp trong 30 giây đầu'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'doflamingo_v1.png'
+		},
+	},
+
+	'hancock_v2' : {
+		'title' : 'Hancock V2',
+		'color' : 'psy',
+		'class' : 'freespirit, shooter',
+		'cấp' : 'legend',
+		'type' : 'Hỗ trợ',
+		'skill' : {
+			'note' : 'lv10 - 31 CT',
+			'des' : 'Gây 1300 sát thương chuẩn cho 3 kẻ địch, tăng ATK SHOOTER/FREESPIRIT lên 6 cấp (23 giây) và CRIT lên 4 cấp',
+		},
+		'hidden_skill' : {
+			'des' : 'SHOOTER/FREESPIRIT CRIT tăng 6 cấp. Khi CRIT, tăng ATK FREESPIRIT lên 2 cấp, cộng dồn 4 lần.'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'hancock_v2.png'
+		},
+	},
+
+	'nekomamushi' : {
+		'title' : 'Nekomamushi',
+		'color' : 'psy',
+		'class' : 'striker, powerhouse',
+		'cấp' : 'legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 36 CT',
+			'des' : 'Gây (ATK x 1.5) sát thương cho vùng lớn ở phía trước, tăng DEF STRIKER lên 2 cấp (15 giây)',
+		},
+		'hidden_skill' : {
+			'des' : 'STRIKER HP tăng 6 cấp. Khi HP nhỏ hoặc bằng 60%, STRIKER tăng ATK 2 cấp'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'nekomamushi.png'
+		},
+	},
+
+	'katakuri_v2' : {
+		'title' : 'Katakuri V2',
+		'color' : 'psy',
+		'class' : 'fighter, powerhouse',
+		'cấp' : 'legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 25 CT',
+			'des' : 'Gây (ATK x 1.65) sát thương cho một vùng nhỏ, hồi 25% máu',
+		},
+		'hidden_skill' : {
+			'des' : 'FIGHTER/SLASHER/SHOOTER/CEREBRAL/POWERHOUSE tăng ATK lên 6 cấp'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'katakuri_v2.png'
+		},
+	},
+
+	'snakeman' : {
+		'title' : 'Snakeman',
+		'color' : 'str',
+		'class' : 'fighter, powerhouse',
+		'cấp' : 'legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - ? CT',
+			'des' : 'Gây (ATK x 2.7) sát thương cho hàng ngang vùng trung tâm',
+		},
+		'hidden_skill' : {
+			'des' : '60 giây đầu tăng ATK đồng đội lên 7 cấp'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'snakeman.png'
+		},
+	},
+
+	'cavendish' : {
+		'title' : 'Cavendish',
+		'color' : 'qck',
+		'class' : 'slasher, driven',
+		'cấp' : 'legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 36 CT',
+			'des' : 'Gây (ATK x 0.6) sát thương cho vùng lớn kẻ địch, tăng ATK bản thân lên 20 cấp (30 giây), DEF lên 14 cấp (30 giây)',
+		},
+		'hidden_skill' : {
+			'des' : 'Khi còn 70 giây, tăng SPEED STR/DEX/QCK lên 8 cấp'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'cavendish.png'
+		},
+	},
+
+	'carrot' : {
+		'title' : 'Carrot',
+		'color' : 'qck',
+		'class' : 'slasher, fighter',
+		'cấp' : 'legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 39 CT',
+			'des' : 'Gây 2450 sát thương chuẩn cho vùng lớn kẻ địch phía trước, rút ngắn thời gian CT của FIGHTER/SLASHER/STRIKER/SHOOTER/CEREBRAL 20%',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng speed FIGHTER/SLASHER/STRIKER/SHOOTER/CEREBRAL lên 5 cấp, ATK bản thân tăng 5 cấp'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'carrot.png'
+		},
+	},
+
+	'zephyr' : {
+		'title' : 'Zephyr',
+		'color' : 'qck',
+		'class' : 'shooter, fighter',
+		'cấp' : 'legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 25 CT',
+			'des' : 'Cắt 32% HP kẻ địch ở vùng trung tâm, gây 1550 sát thương chuẩn lên kẻ địch trong 1 vùng nhỏ',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK SHOOTER lên 5 cấp. Tăng ATK bản thân lên 4 cấp nếu số đồng đội trong trận chỉ còn ít hơn hoặc bằng 5, lên 7 cấp nếu ít hơn hoặc bằng 3'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'zephyr.png'
+		},
+	},
+
+	'bege' : {
+		'title' : 'Bege',
+		'color' : 'int',
+		'class' : 'shooter, driven',
+		'cấp' : 'legend',
+		'type' : 'Phòng thủ',
+		'skill' : {
+			'note' : 'lv10 - 32 CT',
+			'des' : 'Bật trạng thái khiêu khích (30 giây). Khi ở trong trạng thái khiêu khích và máu nhỏ hoặc bằng 50%, hồi 50% máu và tăng DEF SHOOTER lên 5 cấp (30 giây)',
+		},
+		'hidden_skill' : {
+			'des' : 'Khi còn 70 giây, SHOOTER tăng HP lên 5 cấp, DEF lên 5 cấp'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'bege.png'
+		},
+	},
+
+	'franky' : {
+		'title' : 'Franky',
+		'color' : 'qck',
+		'class' : 'shooter, freespirit',
+		'cấp' : 'legend',
+		'type' : 'Phòng thủ',
+		'skill' : {
+			'note' : 'lv10 - 25 CT',
+			'des' : 'Cắt 21% HP kẻ địch vùng trung tâm, FIGHTER/SLASHER/STRIKER/SHOOTER tăng DEF lên 4 cấp (20 giây).Nếu số lượng địch nhiều hơn số lượng đồng đội là 3, tăng DEF 4 cấp (20 giây)',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP FIGHTER/SLASHER/STRIKER/SHOOTER'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'franky.png'
 		},
 	},
 
