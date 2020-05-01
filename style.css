@@ -78,7 +78,7 @@ button, a {
   margin: 0 auto;
   text-align: center;
   height: 40px;
-  margin-top: 15px;
+  margin-top: 85px;
 }
 
 .pirate_festival_page .search input {
@@ -87,7 +87,6 @@ button, a {
   border: 0;
   padding: 0 5px;
   box-shadow: 1px 1px 4px #333;
-  margin-top: 85px;
 }
 
 .pirate_festival_page .body_page {
@@ -181,24 +180,30 @@ button, a {
 }
 
 .modal .modal-dialog {
-	height: calc(100vh - 20px);
+	max-height: calc(100vh - 20px);
 }
 
 .modal .modal-dialog .modal-content {
 	height: 100%;
 }
 
+.modal .modal-dialog .modal-content .modal-header {
+	height: 56px;
+}
+
+.modal .modal-dialog .modal-content .modal-body .info_wrapper {
+  max-height: 270px;
+  overflow: auto;
+}
+
 .modal .img_wrapper {
-	height: 197px;
-  position: relative;
-  overflow: hidden;
+	width: 300px;
   border-radius: 5px;
+  margin: 0 auto;
 }
 
 .modal .img_wrapper img {
   width: 100%;
-  position: absolute;
-  top: -133px;
 }
 
 .modal button {
@@ -211,43 +216,4 @@ button, a {
 
 .modal .modal-body .info_wrapper .info.class {
 	padding-top: 14px;
-}
-
-/* RESPONSIVE */
-@media screen and (min-width: 414px) {
-	.modal .img_wrapper img {
-		top: -160px;
-	}
-}
-
-@media screen and (min-width: 600px) {
-	.modal .img_wrapper {
-		height: 300px;
-	}
-
-	.modal .img_wrapper img {
-		top: -242px;
-	}
-}
-
-@media screen and (min-width: 640px) {
-	.modal .img_wrapper img {
-		top: -267px;
-	}
-}
-
-@media screen and (min-width: 750px) {
-	.modal .img_wrapper {
-		height: 270px;
-	}
-
-	.modal .img_wrapper img {
-		top: -417px;
-	}
-}
-
-@media screen and (min-width: 768px) {
-	.modal .img_wrapper img {
-		top: -340px;
-	}
 }

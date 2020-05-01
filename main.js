@@ -19,7 +19,7 @@ window.character = {
 			'extra_ability' : 'Có 50% cơ hội tránh hiệu ứng bất lợi (Chắc thế)'
 		},
 		'img' : {
-			'src' : 'luffy_ace.jpg'
+			'src' : 'luffy_ace.png'
 		},
 	},
 
@@ -41,7 +41,7 @@ window.character = {
 			'extra_ability' : 'Hồi phục 50HP mỗi vòng',
 		},
 		'img' : {
-			'src' : 'barto_caven.jpg'
+			'src' : 'barto_caven.png'
 		},
 	},
 
@@ -63,7 +63,7 @@ window.character = {
 			'extra_ability' : 'Có 50% cơ hội tránh bị one hit (Chắc thế)',
 		},
 		'img' : {
-			'src' : 'sanji_judge.jpg'
+			'src' : 'sanji_judge.png'
 		},
 	},
 
@@ -85,7 +85,7 @@ window.character = {
 			'extra_ability' : 'Hồi 100HP mỗi vòng',
 		},
 		'img' : {
-			'src' : 'luffy_law.jpg'
+			'src' : 'luffy_law.png'
 		},
 	},
 
@@ -107,12 +107,12 @@ window.character = {
 			'extra_ability' : '50% cơ hộ tránh quirks (Ko hiểu là gì =))',
 		},
 		'img' : {
-			'src' : 'sabo_koala.jpg'
+			'src' : 'sabo_koala.png'
 		},
 	},
 
-	'whitebread_V1' : {
-		'title' : 'Whitebread V1',
+	'whitebeard_v1' : {
+		'title' : 'Whitebeard V1',
 		'color' : 'str',
 		'class' : 'striker, powerhouse',
 		'level' : 'legend',
@@ -129,7 +129,7 @@ window.character = {
 			'extra_ability' : '70% cơ hội tránh sát thương liên hoàn (Ví dụ như doffy v2 có thể gây sát thương 4 lần liên tiếp, whitebread có thể block)',
 		},
 		'img' : {
-			'src' : 'whitebread_v1.jpg'
+			'src' : 'whitebeard_v1.png'
 		},
 	},
 
@@ -151,7 +151,7 @@ window.character = {
 			'extra_ability' : '70% cơ hội tránh sát thương liên hoàn (Ví dụ như doffy v2 có thể gây sát thương 4 lần liên tiếp, whitebread có thể block)',
 		},
 		'img' : {
-			'src' : 'lucci_v1.jpg'
+			'src' : 'lucci_v1.png'
 		},
 	},
 
@@ -173,7 +173,7 @@ window.character = {
 			'extra_ability' : 'Hồi 150HP sau mỗi vòng',
 		},
 		'img' : {
-			'src' : 'crocodile_v1.jpg'
+			'src' : 'crocodile_v1.png'
 		},
 	},
 
@@ -195,7 +195,7 @@ window.character = {
 			'extra_ability' : 'Hồi 150HP mỗi vòng nếu HP nhỏ hơn hoặc bằng 50%',
 		},
 		'img' : {
-			'src' : 'akai_v1.jpg'
+			'src' : 'akainu_v1.png'
 		},
 	},
 
@@ -217,7 +217,7 @@ window.character = {
 			'extra_ability' : '70% cơ hội ngăn trói',
 		},
 		'img' : {
-			'src' : 'inuarashi.jpg'
+			'src' : 'inuarashi.png'
 		},
 	},
 
@@ -239,7 +239,7 @@ window.character = {
 			'extra_ability' : '70% cơ hội chặn các hiệu ứng khóa (para, bind) (Chắc thế)',
 		},
 		'img' : {
-			'src' : 'bigmom_v1.jpg'
+			'src' : 'bigmom_v1.png'
 		},
 	},
 
@@ -261,7 +261,7 @@ window.character = {
 			'extra_ability' : '50% cơ hội tránh hiệu ứng bất lợi',
 		},
 		'img' : {
-			'src' : 'bullet.jpg'
+			'src' : 'bullet.png'
 		},
 	},
 
@@ -283,7 +283,7 @@ window.character = {
 			'extra_ability' : 'Khi HP nhỏ hơn hoặc bằng 50%, hồi 100HP mỗi vòng',
 		},
 		'img' : {
-			'src' : 'log_luffy.jpg'
+			'src' : 'log_luffy.png'
 		},
 	},
 
@@ -305,7 +305,7 @@ window.character = {
 			'extra_ability' : '70% cơ hội tránh leanness',
 		},
 		'img' : {
-			'src' : 'zoro_v1.jpg'
+			'src' : 'zoro_v1.png'
 		},
 	},
 
@@ -327,7 +327,7 @@ window.character = {
 			'extra_ability' : 'Hồi 150HP mỗi vòng',
 		},
 		'img' : {
-			'src' : 'nami_v1.jpg'
+			'src' : 'nami_v1.png'
 		},
 	},
 
