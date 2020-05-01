@@ -18,6 +18,7 @@ window.character = {
 			'target' : 'Nhắm vào kẻ thù ở gần',
 			'extra_ability' : 'Có 50% cơ hội tránh hiệu ứng bất lợi (Chắc thế)'
 		},
+		'pattern': '',
 		'img' : {
 			'src' : 'luffy_ace.png'
 		},
@@ -31,7 +32,7 @@ window.character = {
 		'type' : 'Phòng thủ',
 		'skill' : {
 			'note' : 'lv10 - 28 CT',
-			'des' : 'Sát thương địch ở tầm trung theo hàng ngang với lượng sát thương bằng (ATK x 0.8). Tăng tỉ lệ xuất hiện (guard – khiên chắn) của các đồng minh DRIVEN lên 7 levels (21 giây). Tăng ATK của DRIVEN lên 7 levels (21 giây).',
+			'des' : 'Sát thương địch ở tầm trung theo hàng ngang với lượng sát thương bằng (ATK x 0.8). Tăng tỉ lệ xuất hiện (guard – khiên chắn) của các đồng đội DRIVEN lên 7 levels (21 giây). Tăng ATK của DRIVEN lên 7 levels (21 giây).',
 		},
 		'hidden_skill' : {
 			'des' : 'GUARD cho DRIVEN lên 3 levels. Tăng ATK của bản thân lên 8 levels.'
@@ -40,6 +41,7 @@ window.character = {
 			'target' : 'Nhắm vào kẻ thù ở gần',
 			'extra_ability' : 'Hồi phục 50HP mỗi vòng',
 		},
+		'pattern': '',
 		'img' : {
 			'src' : 'barto_caven.png'
 		},
@@ -62,6 +64,7 @@ window.character = {
 			'target' : 'Tấn công địch có ATK cao nhất',
 			'extra_ability' : 'Có 50% cơ hội tránh bị one hit (Chắc thế)',
 		},
+		'pattern': '',
 		'img' : {
 			'src' : 'sanji_judge.png'
 		},
@@ -78,12 +81,13 @@ window.character = {
 			'des' : 'Gây 1700 sát thương chuẩn cho tất cả kẻ địch. Gây thêm sát thương băng với (ATK x 1.45) cho một kẻ địch ngẫu nhiên. Tăng ATK của đồng mình lên 2 levels (15 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'ATK đồng minh tăng lên 6 levels'
+			'des' : 'ATK đồng đội tăng lên 6 levels'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ thù ở gần',
 			'extra_ability' : 'Hồi 100HP mỗi vòng',
 		},
+		'pattern': '',
 		'img' : {
 			'src' : 'luffy_law.png'
 		},
@@ -104,8 +108,9 @@ window.character = {
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ thù ở gần',
-			'extra_ability' : '50% cơ hộ tránh quirks (Ko hiểu là gì =))',
+			'extra_ability' : '50% cơ hộ tránh CRIT',
 		},
+		'pattern': '',
 		'img' : {
 			'src' : 'sabo_koala.png'
 		},
@@ -122,12 +127,13 @@ window.character = {
 			'des' : 'Giảm 48% máu toàn bộ địch',
 		},
 		'hidden_skill' : {
-			'des' : 'Khi HP lớn hơn hoặc bằng 30%, toàn bộ đồng minh tăng ATK lên 8 levels, tăng DEF bản thân lên 8 levels'
+			'des' : 'Khi HP lớn hơn hoặc bằng 30%, toàn bộ đồng đội tăng ATK lên 8 levels, tăng DEF bản thân lên 8 levels'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ thù ở gần',
 			'extra_ability' : '70% cơ hội tránh sát thương liên hoàn (Ví dụ như doffy v2 có thể gây sát thương 4 lần liên tiếp, whitebread có thể block)',
 		},
+		'pattern': '',
 		'img' : {
 			'src' : 'whitebeard_v1.png'
 		},
@@ -144,12 +150,13 @@ window.character = {
 			'des' : 'Giảm 48% máu toàn bộ địch',
 		},
 		'hidden_skill' : {
-			'des' : 'Khi HP lớn hơn hoặc bằng 30%, toàn bộ đồng minh tăng ATK lên 8 levels, tăng DEF bản thân lên 8 levels'
+			'des' : 'Khi HP lớn hơn hoặc bằng 30%, toàn bộ đồng đội tăng ATK lên 8 levels, tăng DEF bản thân lên 8 levels'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ thù ở gần',
 			'extra_ability' : '70% cơ hội tránh sát thương liên hoàn (Ví dụ như doffy v2 có thể gây sát thương 4 lần liên tiếp, whitebread có thể block)',
 		},
+		'pattern': '',
 		'img' : {
 			'src' : 'lucci_v1.png'
 		},
@@ -163,7 +170,7 @@ window.character = {
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 19 CT',
-			'des' : 'Giảm ATK của kẻ địch đi 24% và tăng CRIT của đồng minh lên 4 levels (15 giây)',
+			'des' : 'Giảm ATK của kẻ địch đi 24% và tăng CRIT của đồng đội lên 4 levels (15 giây)',
 		},
 		'hidden_skill' : {
 			'des' : 'Tăng ATK của CEREBRAL lên 6 levels. Khi HP nhỏ hơn hoặc bằng 60%, tăng ATK bản thân lên 8 levels'
@@ -172,6 +179,7 @@ window.character = {
 			'target' : 'Nhắm vào mục tiêu ở gần',
 			'extra_ability' : 'Hồi 150HP sau mỗi vòng',
 		},
+		'pattern': '',
 		'img' : {
 			'src' : 'crocodile_v1.png'
 		},
@@ -194,6 +202,7 @@ window.character = {
 			'target' : 'Nhắm vào mục tiêu ở gần',
 			'extra_ability' : 'Hồi 150HP mỗi vòng nếu HP nhỏ hơn hoặc bằng 50%',
 		},
+		'pattern': '',
 		'img' : {
 			'src' : 'akainu_v1.png'
 		},
@@ -216,6 +225,7 @@ window.character = {
 			'target' : 'Nhắm vào mục tiêu ở gần',
 			'extra_ability' : '70% cơ hội ngăn trói',
 		},
+		'pattern': '',
 		'img' : {
 			'src' : 'inuarashi.png'
 		},
@@ -232,12 +242,13 @@ window.character = {
 			'des' : 'Tấn công kẻ địch ở hàng ngang phía trước với sát thương bằng (ATK x 0.95), tấn công kẻ địch ở hàng giữa theo chiều dọc với sát thương bằng (ATK x 1.2), tấn công toàn bộ kẻ địch với sát thương bằng (ATK x 0.9). Tăng ATK bản thân lên 16 levels trong 30 giây',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK của STR, QCK, DEX lên 3 levels'
+			'des' : 'Tăng HP của STR, QCK, DEX lên 3 levels'
 		},
 		'others' : {
 			'target' : 'Nhắm vào mục tiêu ở gần',
 			'extra_ability' : '70% cơ hội chặn các hiệu ứng khóa (para, bind) (Chắc thế)',
 		},
+		'pattern': '',
 		'img' : {
 			'src' : 'bigmom_v1.png'
 		},
@@ -254,12 +265,13 @@ window.character = {
 			'des' : 'Tăng ATK bản thân lên 11 levels (15 giây), tăng DEF bản thân lên 8 leves (15 giây), bật trạng thái khiêu khích (sẽ bị kẻ địch nhắm vào). Giảm 20% máu của kẻ địch.',
 		},
 		'hidden_skill' : {
-			'des' : 'STR, QCK, INT tăng ATK lên 6 levels. Các đồng minh khác tăng ATK lên 5 levels'
+			'des' : 'STR, QCK, INT tăng ATK lên 6 levels. Các đồng đội khác tăng ATK lên 5 levels'
 		},
 		'others' : {
 			'target' : 'Nhắm vào mục tiêu ở gần',
 			'extra_ability' : '50% cơ hội tránh hiệu ứng bất lợi',
 		},
+		'pattern': '',
 		'img' : {
 			'src' : 'bullet.png'
 		},
@@ -273,7 +285,7 @@ window.character = {
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 35 CT',
-			'des' : 'Tấn công kẻ địch ở tầm trung gây (ATK x 1.35) sát thương và tăng SPEED của đồng minh lên 3 levels nếu còn 50 giây hoặc ít hơn',
+			'des' : 'Tấn công kẻ địch ở tầm trung gây (ATK x 1.35) sát thương và tăng SPEED của đồng đội lên 3 levels nếu còn 50 giây hoặc ít hơn',
 		},
 		'hidden_skill' : {
 			'des' : 'STR tăng ATK lên 5 levels. ATK bản thân tăng 5 levels'
@@ -282,6 +294,7 @@ window.character = {
 			'target' : 'Nhắm vào mục tiêu ở gần',
 			'extra_ability' : 'Khi HP nhỏ hơn hoặc bằng 50%, hồi 100HP mỗi vòng',
 		},
+		'pattern': '',
 		'img' : {
 			'src' : 'log_luffy.png'
 		},
@@ -304,6 +317,7 @@ window.character = {
 			'target' : 'Nhắm vào kẻ địch có ATK cao nhất',
 			'extra_ability' : '70% cơ hội tránh leanness',
 		},
+		'pattern': '',
 		'img' : {
 			'src' : 'zoro_v1.png'
 		},
@@ -326,8 +340,239 @@ window.character = {
 			'target' : 'Nhắm vào kẻ địch ở gần',
 			'extra_ability' : 'Hồi 150HP mỗi vòng',
 		},
+		'pattern': '',
 		'img' : {
 			'src' : 'nami_v1.png'
+		},
+	},
+
+	'usopp' : {
+		'title' : 'Usopp',
+		'color' : 'dex',
+		'class' : 'shooter',
+		'level' : 'legend',
+		'type' : 'Phá hoại',
+		'skill' : {
+			'note' : 'lv10 - 30 CT',
+			'des' : 'Giảm HP của kẻ địch hàng trước đi 37%, có 75% cơ hội one hit (9 giây)',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng SPEED của SHOOTER lên 6 levels, ATK bản thân lên 6 levels khi HP nhỏ hơn hoặc bằng 50%. ATK bản thân lên 7 levels khi HP dưới 30%.'
+		},
+		'others' : {
+			'target' : 'Nhắm vào kẻ địch có SPEED cao nhất',
+			'extra_ability' : '70% cơ hội tránh khóa chiêu',
+		},
+		'pattern': '',
+		'img' : {
+			'src' : 'usopp.png'
+		},
+	},
+
+	'ace_v1' : {
+		'title' : 'Ace V1',
+		'color' : 'dex',
+		'class' : 'shooter, freespirit',
+		'level' : 'legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 35 CT',
+			'des' : 'Giảm 70% ATK bản thân, gây (ATK x 1.9) sát thương cho kẻ địch ở tầm trung và tăng ATK của SHOOTER lên 3 levels (30 giây)',
+		},
+		'hidden_skill' : {
+			'des' : 'Trong 40 giây đầu, tăng SPEED của SHOOTER lên 6 levels, tăng ATK bản thân lên 6 levels'
+		},
+		'others' : {
+			'target' : 'Nhắm vào kẻ địch có ATK cao nhất',
+			'extra_ability' : '70% tránh được leanness',
+		},
+		'pattern': '',
+		'img' : {
+			'src' : 'ace_v1.png'
+		},
+	},
+
+	'corazon' : {
+		'title' : 'Corazon',
+		'color' : 'dex',
+		'class' : 'cerebral, freespirit',
+		'level' : 'legend',
+		'type' : 'Hồi phục',
+		'skill' : {
+			'note' : 'lv10 - 32 CT',
+			'des' : 'Hồi 2.75x HP của đồng đội xung quanh và tăng DEF lên 7 levels (10 giây)',
+		},
+		'hidden_skill' : {
+			'des' : 'Khi HP lớn hơn hoặc bằng 70%, ATK của đồng đội tăng 10 levels'
+		},
+		'others' : {
+			'target' : 'Nhắm vào kẻ địch ở gần',
+			'extra_ability' : 'Khi HP bản thân nhỏ hơn hoặc bằng 50%, Hồi 200 HP mỗi vòng',
+		},
+		'pattern': '',
+		'img' : {
+			'src' : 'corazon.png'
+		},
+	},
+
+	'magellan' : {
+		'title' : 'Magellan',
+		'color' : 'dex',
+		'class' : 'striker, shooter',
+		'level' : 'legend',
+		'type' : 'Phá hoại',
+		'skill' : {
+			'note' : 'lv10 - 31 CT',
+			'des' : 'ATK giảm 3 levels đối với kẻ địch ở tầm xa (47 giây). Giảm tốc độ tăng CT của kẻ địch 4 levels (34 giây).',
+		},
+		'hidden_skill' : {
+			'des' : 'Khi HP của đồng minh ở level 5 hoặc cao hơn, tăng HP đồng minh thêm 7 levels'
+		},
+		'others' : {
+			'target' : 'Nhắm vào kẻ địch ở gần',
+			'extra_ability' : 'Hồi 150HP mỗi vòng',
+		},
+		'pattern': '',
+		'img' : {
+			'src' : 'magellan.png'
+		},
+	},
+
+	'rayleigh_v2' : {
+		'title' : 'Rayleigh V2',
+		'color' : 'dex',
+		'class' : 'cerebral, freespirit',
+		'level' : 'legend',
+		'type' : 'Phòng thủ',
+		'skill' : {
+			'note' : 'lv10 - 37 CT',
+			'des' : 'Gây 600 sát thương chuẩn cho toàn bộ kẻ địch, tăng ATK của đồng đội lên 3 levels (24 giây), tăng DEF lên 2 levels (24 giây)',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP đồng mình lên 5 levels, khi còn dưới 20% HP, tăng HP đồng minh lên 2 levels'
+		},
+		'others' : {
+			'target' : 'Nhắm vào kẻ địch ở gần',
+			'extra_ability' : '50% cơ hội tránh ngăn chặn',
+		},
+		'pattern': '',
+		'img' : {
+			'src' : 'rayleigh_v2.png'
+		},
+	},
+
+	'jinbe_v2' : {
+		'title' : 'Jinbe V2',
+		'color' : 'dex',
+		'class' : 'powerhouse, fighter',
+		'level' : 'legend',
+		'type' : 'Phòng thủ',
+		'skill' : {
+			'note' : 'lv10 - 31 CT',
+			'des' : 'Giảm 12% ATK kẻ địch trong phạm vi trung bình. Tăng ATK của FIGHTER, SLASHER và SHOOTER lên 4 levels trong 19 giây',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK của STR, DEX, PSY lên 5 levels, tăng DEF lên 1 levels'
+		},
+		'others' : {
+			'target' : 'Nhắm vào kẻ địch ở gần',
+			'extra_ability' : 'Hồi 100HP mỗi vòng',
+		},
+		'pattern': '',
+		'img' : {
+			'src' : 'jinbe_v2.png'
+		},
+	},
+
+	'dof_v2' : {
+		'title' : 'Doflamingo V2',
+		'color' : 'dex',
+		'class' : 'driven, cerebral',
+		'level' : 'legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 30 CT',
+			'des' : 'Gây (ATK x 1.45) sát thương cho kẻ địch ở tầm trung. Tiếp tục gây thêm (ATK x 0.35) sát thương nếu còn 60 giây. Tiếp tục gây thêm (ATK x 04) sát thương nếu còn 45 giây. Tiếp tục gây thêm (ATK x 0.45) sát thương nếu còn 30 giây',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK của CEREBRAL lên 6 levels'
+		},
+		'others' : {
+			'target' : 'Nhắm vào kẻ địch ở gần',
+			'extra_ability' : 'Hồi 100HP mỗi vòng',
+		},
+		'pattern': '',
+		'img' : {
+			'src' : 'dof_v2.png'
+		},
+	},
+
+	'brook' : {
+		'title' : 'Brook',
+		'color' : 'dex',
+		'class' : 'slasher, freespirit',
+		'level' : 'legend',
+		'type' : 'Phòng thủ',
+		'skill' : {
+			'note' : 'lv10 - 45 CT',
+			'des' : 'Hồi 2450 HP cho đồng mình ở hàng trung tâm và tăng DEF lên 3 levels (30 Giây).',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK đồng minh lên 5 levels. Khi HP nhỏ hơn hoặc bằng 50%, tăng DEF bản thân lên 5 levels'
+		},
+		'others' : {
+			'target' : 'Nhắm vào kẻ địch ở gần',
+			'extra_ability' : '50% cơ hội tránh ngăn chặn',
+		},
+		'pattern': '',
+		'img' : {
+			'src' : 'brook.png'
+		},
+	},
+
+	'blackbeard' : {
+		'title' : 'Blackbeard',
+		'color' : 'dex',
+		'class' : 'driven, powerhouse',
+		'level' : 'legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 42 CT',
+			'des' : 'Giảm HP địch đi 25%, gây 1750 sát thương chuẩn cho kẻ địch STR và giảm DEF đi 4 levels (25 giây)',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK đồng minh lên 5 levels, ATK bản thân 3 levels'
+		},
+		'others' : {
+			'target' : 'Nhắm vào kẻ địch ít máu nhất',
+			'extra_ability' : '50% cơ hội tránh CRIT',
+		},
+		'pattern': '',
+		'img' : {
+			'src' : 'blackbeard.png'
+		},
+	},
+
+	'kaido' : {
+		'title' : 'Kaido',
+		'color' : 'dex',
+		'class' : 'striker, powerhouse',
+		'level' : 'legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 55 CT',
+			'des' : 'Giảm HP kẻ địch ở hàng trước đi 25%, và gây (ATK x 2.1) sát thương',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK của POWERHOUSE/STRIKER lên 6 levels, ATK bản thân lên 7 levels. Tăng tốc độ CT lên 6 levels'
+		},
+		'others' : {
+			'target' : 'Nhắm vào kẻ địch ít máu nhất',
+			'extra_ability' : 'Không có',
+		},
+		'pattern': '',
+		'img' : {
+			'src' : 'kaido.png'
 		},
 	},
 
@@ -397,7 +642,7 @@ jQuery(document).ready(function($) {
 				modal_html    +=             '<span class="skill_des">' + row.skill.des + '</span>';
 				modal_html    +=           '</div>';
 				modal_html    +=           '<div class="info hidden_skill">';
-				modal_html    +=             '<span class="hidden_skill_title"><b>Kỹ năng ẩn:</b> </span>';
+				modal_html    +=             '<span class="hidden_skill_title"><b>Kỹ năng bị động:</b> </span>';
 				modal_html    +=             '<span class="skill_des">' + row.hidden_skill.des + '</span>';
 				modal_html    +=           '</div>';
 				modal_html    +=           '<div class="info target">';
@@ -460,7 +705,7 @@ jQuery(document).ready(function($) {
 					modal_html    +=             '<span class="skill_des">' + row.skill.des + '</span>';
 					modal_html    +=           '</div>';
 					modal_html    +=           '<div class="info hidden_skill">';
-					modal_html    +=             '<span class="hidden_skill_title"><b>Kỹ năng ẩn:</b> </span>';
+					modal_html    +=             '<span class="hidden_skill_title"><b>Kỹ năng bị động:</b> </span>';
 					modal_html    +=             '<span class="skill_des">' + row.hidden_skill.des + '</span>';
 					modal_html    +=           '</div>';
 					modal_html    +=           '<div class="info target">';
