@@ -898,6 +898,98 @@ window.character = {
 		},
 	},
 
+	'ace_v2' : {
+		'title' : 'Ave V2',
+		'color' : 'int',
+		'class' : 'shooter, fighter',
+		'level' : 'legend',
+		'type' : 'Hỗ trợ',
+		'skill' : {
+			'note' : 'lv10 - 30 CT',
+			'des' : 'Gây (ATK x 0.7) sát thương lên một vùng rộng, tăng ATK FIGHTER/SHOOTER lên 4 levels (20 giây) và rút ngắn thời gian trạng thái khóa (block) đi 11 giây',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP FIGHTER/SHOOTER lên 5 levels, tăng tốc độ CT FIGHTER/SHOOTER lên 2 levels khi còn 70s'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'ace_v2.png'
+		},
+	},
+
+	'katakuri' : {
+		'title' : 'Katakuri',
+		'color' : 'int',
+		'class' : 'striker, powerhouse',
+		'level' : 'legend',
+		'type' : 'Phá hoại',
+		'skill' : {
+			'note' : 'lv10 - 29 CT',
+			'des' : 'Tấn công hàng ngang gây (ATK x 0.9) sát thương và giảm SPEED đi 6 levels (30 giây)',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng tỉ lệ đánh lùi lên 6 levels. Khi đẩy lùi 1 kẻ địch, tướng đẩy lùi sẽ được tăng ATK lên 7 levels, cộng dồn 2 lần.'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'katakuri.png'
+		},
+	},
+
+	'whitebeard_v2' : {
+		'title' : 'Whitebread v2',
+		'color' : 'int',
+		'class' : 'striker, powerhouse',
+		'level' : 'legend',
+		'type' : 'Phòng thủ',
+		'skill' : {
+			'note' : 'lv10 - 31 CT',
+			'des' : 'Giảm HP một vùng nhỏ kẻ địch đi 26%, tăng DEF một lượng lớn đồng đội lên 4 levels (25 giây). Khi HP nhỏ hoặc bằng 50% tăng ATK lên 5 levels (25 giây)',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP STRIKER/POWERHOUSE lên 6 levels, khi HP nhỏ hoặc bằng 40% tăng DEF lên 3 levels'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'whitebeard_v2.png'
+		},
+	},
+
+	'stampede_luffy' : {
+		'title' : 'Stampede Luffy',
+		'color' : 'psy',
+		'class' : 'fighter, powerhouse',
+		'level' : 'legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 37 CT',
+			'des' : 'Khi HP lớn hoặc bằng 50%, ATK bản thân tăng 10 levels (15 giây). Gây (ATK x 1.95) sát thương cho địch ở hàng giữa',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK STR, DEX, PSY'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'stampede_luffy.png'
+		},
+	},
+
 }
 
 jQuery(document).ready(function($) {
