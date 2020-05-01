@@ -576,6 +576,328 @@ window.character = {
 		},
 	},
 
+	'kuzan_v3' : {
+		'title' : 'Kuzan V3',
+		'color' : 'qck',
+		'class' : 'freespirit, shooter',
+		'level' : 'legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 33 CT',
+			'des' : 'Gây (ATK x 1.4) sát thương cho một vùng lớn và có 70% cơ hội khóa CT của kẻ địch trong 6 giây',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng SPEED của STR, DEX, QCK lên 5 levels, các đồng đội còn lại được tăng SPEED lên 2 levels trong 15 giây'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'kuzan_v3.png'
+		},
+	},
+
+	'mihawk_perona' : {
+		'title' : 'Mihawk & Perona',
+		'color' : 'str, psy',
+		'class' : 'cerebral, slasher, driven',
+		'level' : 'legend',
+		'type' : 'Phá hoại',
+		'skill' : {
+			'note' : 'lv10 - 35 CT',
+			'des' : 'Giảm ATK của địch đi 5 levels và DEF đi 3 levels trong 25 giây, giảm HP địch đi 25%',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng SPEED đồng đội lên 5 levels, HP lên 1 level'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'mihawk_perona.png'
+		},
+	},
+
+	'marco' : {
+		'title' : 'Marco',
+		'color' : 'qck',
+		'class' : 'fighter, powerhouse',
+		'level' : 'legend',
+		'type' : 'Phòng thủ',
+		'skill' : {
+			'note' : 'lv10 - 23 CT',
+			'des' : 'Tấn công kẻ địch tầm trung bình với lượng sát thường (ATK x 0.75), giảm ATK 6 levels trong 15 giây, hồi phục HP một đồng đội bằng 2.7x HP',
+		},
+		'hidden_skill' : {
+			'des' : 'Khi HP lớn hơn hoặc bằng 50%, tăng tỉ lệ xuất hiện khiên của QCK và PSY lên 7 levels. Tăng ATK bản thân lên 6 levels'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'marco.png'
+		},
+	},
+
+	'red_hair_pirates' : {
+		'title' : 'Red hair pirates',
+		'color' : 'psy, qck',
+		'class' : 'slasher, cerebral',
+		'level' : 'legend',
+		'type' : 'Phòng thủ',
+		'skill' : {
+			'note' : 'lv10 - 24 CT',
+			'des' : 'Giảm HP hàng ngang và hàng trung bình đi 21%, tăng DEF đồng đội lên 4 levels (14 giây)',
+		},
+		'hidden_skill' : {
+			'des' : 'Khi trận đấu còn 70s, đồng đội tăng DEF lên 5 levels, ATK bản thân tăng 3 levels'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'red_hair_pirates.png'
+		},
+	},
+
+	'arlong_pirates' : {
+		'title' : 'Arlong pirates',
+		'color' : 'str',
+		'class' : 'slasher, powerhouse',
+		'level' : 'legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 33 CT',
+			'des' : 'Khi HP lớn hơn hoặc bằng 30%, tăng ATK đồng đội lên 3 levels trong 15 giây, tấn công kẻ địch tầm trung bình (ATK x 1.3) sát thương. Khi HP nhỏ hơn hoặc bằng 30%, tăng ATK đồng đội lên 4 levels trong 15 giây, tấn công kẻ địch tầm trung bình (ATK x 1.55) sát thương',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK bản thân lên 5 levels. Khi HP nhỏ hơn hoặc bằng 30%, ATK bản thân tăng 5 levels, DEF bản thân tăng 4 levels'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'arlong_pirates.png'
+		},
+	},
+
+	'pudding' : {
+		'title' : 'Pudding',
+		'color' : 'int',
+		'class' : 'cerebral, shooter',
+		'level' : 'legend',
+		'type' : 'Hỗ trợ',
+		'skill' : {
+			'note' : 'lv10 - 22 CT',
+			'des' : 'Giảm CT của INT đi 15%, tăng ATK INT lên 3 levels (20 giây), tăng ATK của đồng đội INT có ATK cao nhất (20 giây) lên 8 levels',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP INT lên 5 levels, tăng ATK của INT có ATK cao nhất lên 2 levels'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'pudding.png'
+		},
+	},
+
+	'nami_robin' : {
+		'title' : 'Name & Robin',
+		'color' : 'int, dex',
+		'class' : 'cerebral, striker, freespirit',
+		'level' : 'legend',
+		'type' : 'Hỗ trợ',
+		'skill' : {
+			'note' : 'lv10 - 28 CT',
+			'des' : 'Giảm HP kẻ địch tầm trung đi 30%, rút ngắn thời gian bị tê liệt của đồng đội đi 10 giây, tăng CRIT lên 3 levels (24 giây)',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng khả năng hồi phục của đồng đội lên 5 levels, tăng tỉ lệ xuất hiện khiên lên 1 level'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'nami_robin.png'
+		},
+	},
+
+	'robin' : {
+		'title' : 'Robin',
+		'color' : 'int',
+		'class' : 'cerebral, fighter',
+		'level' : 'legend',
+		'type' : 'Phòng thủ',
+		'skill' : {
+			'note' : 'lv10 - 26 CT',
+			'des' : 'Tăng tỉ lệ xuất hiện khiên lên 7 levels (25 giây), 80% tỉ lệ one hit kẻ địch hàng giữa (12 giây)',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng tỉ lệ xuất hiện khiên của CEREBRAL lên 6 levels, tăng DEF CEREBRAL lên 3 levels trong 25 giây'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'robin.png'
+		},
+	},
+
+	'sabo_v2' : {
+		'title' : 'Sabo V2',
+		'color' : 'qck',
+		'class' : 'fighter, freespirit',
+		'level' : 'legend',
+		'type' : 'Hỗ trợ',
+		'skill' : {
+			'note' : 'lv10 - 30 CT',
+			'des' : 'Tấn công một vùng rộng ở phía trước, gây (ATK x 0.9) sát thương và tăng ATK của STR, DEX, QCK lên 6 levels (25 giây)',
+		},
+		'hidden_skill' : {
+			'des' : 'Trong 30 giây đầu, tăng SPEED của STR, DEX, QCK lên 2 levels. Tăng SPEED của STR, DEX, QCK lên 2 levels'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'sabo_v2.png'
+		},
+	},
+
+	'sanji_v3' : {
+		'title' : 'O-Soba Mask',
+		'color' : 'qck',
+		'class' : 'powerhouse, freespirit',
+		'level' : 'legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 37 CT',
+			'des' : 'Gây (ATK x 1.35) sát thương cho kẻ địch tầm trung tâm và tăng tỉ lệ đánh trượt lên 4 levels (15 giây)',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK cả team lên 5 levels, ATK bản thân lên 4 levels'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'sanji_v3.png'
+		},
+	},
+
+	'luffy_zoro' : {
+		'title' : 'Luffy & Zoro',
+		'color' : 'str, dex',
+		'class' : 'slasher, freespirit',
+		'level' : 'legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 27 CT',
+			'des' : 'Gây (ATK x 1.35) sát thương cho kẻ địch tầm trung tâm và tầm ngang, tăng tỉ lệ CRIT cho FREESPIRIT và SLASHER lên 3 levels (30 giây)',
+		},
+		'hidden_skill' : {
+			'des' : 'Khi FREESPIRIT/SLASHER CRIT, tăng ATK 6 levels, có thể tăng tối đa 2 lần. Trong 30 giây đầu tăng CRIT FREESPIRIT/SLASHER lên 1 level'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'luffy_zoro.png'
+		},
+	},
+
+	'chopper' : {
+		'title' : 'Chopper',
+		'color' : 'str, dex',
+		'class' : 'shooter, cerebral',
+		'level' : 'legend',
+		'type' : 'Hồi phục',
+		'skill' : {
+			'note' : 'lv10 - 38 CT',
+			'des' : 'Hồi 0.6 x HP cho đồng đội trung tâm, giảm 7 giây trói, giảm 7 giây tê liệt, giảm 7 giây hiệu ứng bất lợi',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP lên 6 levels'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'chopper.png'
+		},
+	},
+
+	'lucci_v2' : {
+		'title' : 'Lucci V2',
+		'color' : 'qck',
+		'class' : 'shooter, powerhouse',
+		'level' : 'legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 32 CT',
+			'des' : 'Gây (ATK x 1.5) sát thương cho địch ở hàng ngang, giảm DEF đi 7 levels',
+		},
+		'hidden_skill' : {
+			'des' : 'Khi CRIT, SHOOTER được tăng SPEED lên 7 levels, ATK lên 5 levels, cộng dồn tối đa 3 lần'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'lucci_v2.png'
+		},
+	},
+
+	'komurasaki' : {
+		'title' : 'Komurasaki',
+		'color' : 'qck',
+		'class' : 'slasher, cerebral',
+		'level' : 'legend',
+		'type' : 'Hồi phục',
+		'skill' : {
+			'note' : 'lv10 - 30 CT',
+			'des' : 'Hồi 1.45 x HP cho một vùng lớn. Khi máu lớn hơn hoặc bằng 50% tăng CRIT của QCK và INT lên 2 levels (15 giây). ATK tăng thêm 4 levels (15 giây) khi HP trên 80%',
+		},
+		'hidden_skill' : {
+			'des' : 'QCK, INT tăng HP lên 5 levels, DEF lên 1 level'
+		},
+		'others' : {
+			'target' : 'Đang cập nhật',
+			'extra_ability' : 'Đang cập nhật',
+		},
+		'pattern': 'Đang cập nhật',
+		'img' : {
+			'src' : 'komurasaki.png'
+		},
+	},
+
 }
 
 jQuery(document).ready(function($) {
