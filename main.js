@@ -831,7 +831,7 @@ window.character = {
 
 	'chopper' : {
 		'title' : 'Chopper',
-		'color' : 'str, dex',
+		'color' : 'psy',
 		'class' : 'shooter, cerebral',
 		'level' : 'legend',
 		'type' : 'Hồi phục',
