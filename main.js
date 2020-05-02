@@ -2038,7 +2038,92 @@ jQuery(document).ready(function($) {
 		$('.menu').slideDown(300);
 	});
 
-	function haitran_print_char (key) {
+	$('.pirate_festival_page span.filter').click(function(event) {
+		$('.pirate_festival_page .filter_block').fadeToggle(300);
+	});
+
+	function haitran_create_filter () {
+		let key_val = $('input[name="char_name"]').val();
+		let color_val = $('select[name="color"]').val();
+		let class_val = $('select[name="class"]').val();
+		let type_val = $('select[name="type"]').val();
+		let filter = {};
+
+		if (key_val != '') {
+			filter.key = key_val;
+		}
+		if (color_val != 'all') {
+			filter.color = color_val;
+		}
+		if (class_val != 'all') {
+			filter.class = class_val;
+		}
+		if (type_val != 'all') {
+			filter.type = type_val;
+		}
+
+		if ($.isEmptyObject(filter)) {
+			filter = '';
+		}
+
+		return filter;
+	}
+
+	function haitran_filter (obj, filter) {
+		let check = 1;
+
+		if (filter.key != undefined) {
+			if (obj.title.toLowerCase().indexOf(filter.key.toLowerCase()) == -1) {
+				check = 0;
+				return check;
+			}
+		}
+
+		if (filter.color != undefined) {
+			let color = obj.color;
+			color = color.split(',');
+			let check_color = 0;
+			for (let i in color) {
+				let value = color[i].trim();
+				if (filter.color != value) {
+					check_color ++;
+				}
+			}
+
+			if (check_color == color.length) {
+				check = 0;
+				return check;
+			}
+		}
+
+		if (filter.class != undefined) {
+			let class_filter = obj.class;
+			class_filter = class_filter.split(',');
+			let check_class = 0;
+			for (let i in class_filter) {
+				let value = class_filter[i].trim();
+				if (filter.class != value) {
+					check_class ++;
+				}
+			}
+
+			if (check_class == class_filter.length) {
+				check = 0;
+				return check;
+			}
+		}
+
+		if (filter.type != undefined) {
+			if (filter.type != obj.type) {
+				check = 0;
+				return check;
+			}
+		}
+
+		return check;
+	}
+
+	function haitran_print_char (filter) {
 		var char = window.character;
 		var modal_html = '';
 
@@ -2046,7 +2131,7 @@ jQuery(document).ready(function($) {
 		$('.pirate_festival_page .body_page').html("");
 		$('.page_wrapper .modal').remove();
 
-		if (key == '') {
+		if (filter == '') {
 			for (let i in char) {
 				let row = char[i];
 				let type = row.color;
@@ -2110,7 +2195,7 @@ jQuery(document).ready(function($) {
 			$('.page_wrapper').append(modal_html);
 		} else {
 			for (let i in char) {
-				if (char[i].title.toLowerCase().indexOf(key.toLowerCase()) != -1) {
+				if (haitran_filter(char[i], filter)) {
 					let row = char[i];
 					let type = row.color;
 					type = type.split(',');
@@ -2180,10 +2265,16 @@ jQuery(document).ready(function($) {
 
 	var char_name_timeout = null;
 	$('input[name="char_name"]').keyup(function(event) {
+		let filter = haitran_create_filter();
 		clearTimeout(char_name_timeout);
-		var value = $(this).val();
 		char_name_timeout = setTimeout( function () {
-			haitran_print_char(value);
+			haitran_print_char(filter);
 		}, 500);
+	});
+
+	$('select[name="color"]').add('select[name="class"]').add('select[name="type"]').change(function(event) {
+		let filter = haitran_create_filter();
+		haitran_print_char(filter);
+		$(this).parents('.filter_block').fadeToggle(300);
 	});
 });

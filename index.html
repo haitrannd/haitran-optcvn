@@ -30,8 +30,46 @@
 		<div class="body">
 			<div class="back_to_menu"><i class="fas fa-times"></i></div>
 			<div class="page pirate_festival_page bottom">
-				<div class="search"><input type="text" name="char_name" placeholder="Tên tướng"></div>
+				<div class="search"><input type="text" name="char_name" placeholder="Tên tướng"><span class="filter"><i class="fas fa-list"></i></span></div>
 				<div class="body_page"></div>
+				<div class="filter_block">
+					<div class="filter_item color_filter">
+						<span class="title">Hệ: </span>
+						<select name="color">
+							<option value="all">Tất cả</option>
+							<option value="dex">DEX</option>
+							<option value="str">STR</option>
+							<option value="qck">QCK</option>
+							<option value="int">INT</option>
+							<option value="psy">PSY</option>
+						</select>
+					</div>
+					<div class="filter_item class">
+						<span class="title">Class: </span>
+						<select name="class">
+							<option value="all">Tất cả</option>
+							<option value="fighter">Fighter</option>
+							<option value="freespirit">Freespirit</option>
+							<option value="striker">Striker</option>
+							<option value="powerhouse">Powerhouse</option>
+							<option value="slasher">Slasher</option>
+							<option value="shooter">Shooter</option>
+							<option value="driven">Driven</option>
+							<option value="cerebral">Cerebral</option>
+						</select>
+					</div>
+					<div class="filter_item type">
+						<span class="title">Loại: </span>
+						<select name="type">
+							<option value="all">Tất cả</option>
+							<option value="Tấn công">Tấn công</option>
+							<option value="Phòng thủ">Phòng thủ</option>
+							<option value="Hỗ trợ">Hỗ trợ</option>
+							<option value="Hồi phục">Hồi phục</option>
+							<option value="Phá hoại">Phá hoại</option>
+						</select>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
