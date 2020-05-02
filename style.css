@@ -140,14 +140,18 @@ button, a {
 .pirate_festival_page .filter_block {
   position: absolute;
   top: 132px;
+  display: none;
+  width: 100vw;
+}
+
+.pirate_festival_page .filter_block .filter_wrapper {
   z-index: 10;
   background-color: #fff;
   padding: 15px;
   border-radius: 5px;
-  right: 55px;
   width: 250px;
+  margin: 0 auto;
   box-shadow: 1px 1px 4px #333;
-  display: none;
 }
 
 .pirate_festival_page .filter_block .filter_item {
