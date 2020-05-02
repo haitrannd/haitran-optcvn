@@ -2277,5 +2277,6 @@ jQuery(document).ready(function($) {
 		let filter = haitran_create_filter();
 		haitran_print_char(filter);
 		$(this).parents('.filter_block').fadeToggle(300);
+		$('.pirate_festival_page .search span.filter').toggleClass('active');
 	});
 });
