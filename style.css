@@ -123,6 +123,20 @@ button, a {
   box-shadow: 1px 1px 4px #333;
 }
 
+.pirate_festival_page .search .filter i {
+  font-size: 20px;
+}
+
+.pirate_festival_page .search .filter i.fa-list,
+.pirate_festival_page .search .filter.active i.fa-times {
+  display: block;
+}
+
+.pirate_festival_page .search .filter.active i.fa-list,
+.pirate_festival_page .search .filter .fa-times {
+  display: none;
+}
+
 .pirate_festival_page .filter_block {
   position: absolute;
   top: 132px;

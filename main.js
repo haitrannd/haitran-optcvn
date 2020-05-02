@@ -2040,6 +2040,7 @@ jQuery(document).ready(function($) {
 
 	$('.pirate_festival_page span.filter').click(function(event) {
 		$('.pirate_festival_page .filter_block').fadeToggle(300);
+		$(this).toggleClass('active');
 	});
 
 	function haitran_create_filter () {
