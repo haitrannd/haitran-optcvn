@@ -87,7 +87,7 @@ window.character = {
 			'target' : 'Nhắm vào kẻ thù ở gần',
 			'extra_ability' : 'Hồi 100HP mỗi vòng',
 		},
-		'pattern': '',
+		'pattern': 'Atk - Atk - Strong - Full',
 		'img' : {
 			'src' : 'luffy_law.png'
 		},
@@ -110,7 +110,7 @@ window.character = {
 			'target' : 'Nhắm vào kẻ thù ở gần',
 			'extra_ability' : '50% cơ hộ tránh CRIT',
 		},
-		'pattern': '',
+		'pattern': 'Atk - Strong - Heal lv1 (small) - Atk',
 		'img' : {
 			'src' : 'sabo_koala.png'
 		},
@@ -133,7 +133,7 @@ window.character = {
 			'target' : 'Nhắm vào kẻ thù ở gần',
 			'extra_ability' : '70% cơ hội tránh sát thương liên hoàn (Ví dụ như doffy v2 có thể gây sát thương 4 lần liên tiếp, whitebread có thể block)',
 		},
-		'pattern': '',
+		'pattern': 'Atk - Strong atk - Full',
 		'img' : {
 			'src' : 'whitebeard_v1.png'
 		},
@@ -154,9 +154,9 @@ window.character = {
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ thù ở gần',
-			'extra_ability' : '70% cơ hội tránh sát thương liên hoàn (Ví dụ như doffy v2 có thể gây sát thương 4 lần liên tiếp, whitebread có thể block)',
+			'extra_ability' : '70% cơ hội tránh tê liệt (paralysis)',
 		},
-		'pattern': '',
+		'pattern': 'Strong - Atk - Atk - Full',
 		'img' : {
 			'src' : 'lucci_v1.png'
 		},
@@ -179,7 +179,7 @@ window.character = {
 			'target' : 'Nhắm vào mục tiêu ở gần',
 			'extra_ability' : 'Hồi 150HP sau mỗi vòng',
 		},
-		'pattern': '',
+		'pattern': 'Atk - Atk - Strong - Full',
 		'img' : {
 			'src' : 'crocodile_v1.png'
 		},
@@ -202,7 +202,7 @@ window.character = {
 			'target' : 'Nhắm vào mục tiêu ở gần',
 			'extra_ability' : 'Hồi 150HP mỗi vòng nếu HP nhỏ hơn hoặc bằng 50%',
 		},
-		'pattern': '',
+		'pattern': 'Atk - Atk - Strong - Full',
 		'img' : {
 			'src' : 'akainu_v1.png'
 		},
@@ -223,9 +223,9 @@ window.character = {
 		},
 		'others' : {
 			'target' : 'Nhắm vào mục tiêu ở gần',
-			'extra_ability' : '70% cơ hội ngăn trói',
+			'extra_ability' : '70% cơ hội tránh khóa chiêu (silence)',
 		},
-		'pattern': '',
+		'pattern': 'Strong - Atk - Strong - Full',
 		'img' : {
 			'src' : 'inuarashi.png'
 		},
@@ -246,9 +246,9 @@ window.character = {
 		},
 		'others' : {
 			'target' : 'Nhắm vào mục tiêu ở gần',
-			'extra_ability' : '70% cơ hội chặn các hiệu ứng khóa (para, bind) (Chắc thế)',
+			'extra_ability' : '70% cơ hội chặn tê liệt (paralysis)',
 		},
-		'pattern': '',
+		'pattern': 'Atk - Atk - Atk - Full',
 		'img' : {
 			'src' : 'bigmom_v1.png'
 		},
@@ -354,7 +354,7 @@ window.character = {
 		'type' : 'Phá hoại',
 		'skill' : {
 			'note' : 'lv10 - 30 CT',
-			'des' : 'Giảm HP của kẻ địch hàng trước đi 37%, có 75% cơ hội one hit (9 giây)',
+			'des' : 'Giảm HP của kẻ địch hàng trước đi 37%, có 75% cơ hội trói (9 giây)',
 		},
 		'hidden_skill' : {
 			'des' : 'Tăng SPEED của SHOOTER lên 6 cấp, ATK bản thân lên 6 cấp khi HP nhỏ hơn hoặc bằng 50%. ATK bản thân lên 7 cấp khi HP dưới 30%.'
@@ -363,7 +363,7 @@ window.character = {
 			'target' : 'Nhắm vào kẻ địch có SPEED cao nhất',
 			'extra_ability' : '70% cơ hội tránh khóa chiêu',
 		},
-		'pattern': '',
+		'pattern': 'Atk - Self healing lv2 - Strong - Atk',
 		'img' : {
 			'src' : 'usopp.png'
 		},
@@ -384,9 +384,9 @@ window.character = {
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ địch có ATK cao nhất',
-			'extra_ability' : '70% tránh được leanness',
+			'extra_ability' : '70% tránh khóa hồi máu',
 		},
-		'pattern': '',
+		'pattern': 'Atk - Atk - Strong - Full',
 		'img' : {
 			'src' : 'ace_v1.png'
 		},
@@ -409,7 +409,7 @@ window.character = {
 			'target' : 'Nhắm vào kẻ địch ở gần',
 			'extra_ability' : 'Khi HP bản thân nhỏ hơn hoặc bằng 50%, Hồi 200 HP mỗi vòng',
 		},
-		'pattern': '',
+		'pattern': 'Atk - Heal lv3 (small) - Atk - Heal lv2 (small)',
 		'img' : {
 			'src' : 'corazon.png'
 		},
@@ -455,7 +455,7 @@ window.character = {
 			'target' : 'Nhắm vào kẻ địch ở gần',
 			'extra_ability' : '50% cơ hội tránh ngăn chặn',
 		},
-		'pattern': '',
+		'pattern': 'Atk - Atk - Self healing lv2',
 		'img' : {
 			'src' : 'rayleigh_v2.png'
 		},
@@ -501,7 +501,7 @@ window.character = {
 			'target' : 'Nhắm vào kẻ địch ở gần',
 			'extra_ability' : 'Hồi 100HP mỗi vòng',
 		},
-		'pattern': '',
+		'pattern': 'Atk - Atk - Strong - Full',
 		'img' : {
 			'src' : 'dof_v2.png'
 		},
@@ -524,7 +524,7 @@ window.character = {
 			'target' : 'Nhắm vào kẻ địch ở gần',
 			'extra_ability' : '50% cơ hội tránh ngăn chặn',
 		},
-		'pattern': '',
+		'pattern': 'Atk - Heal lv1 (small) - Atk - Heal lv2 (small)',
 		'img' : {
 			'src' : 'brook.png'
 		},
@@ -547,7 +547,7 @@ window.character = {
 			'target' : 'Nhắm vào kẻ địch ít máu nhất',
 			'extra_ability' : '50% cơ hội tránh CRIT',
 		},
-		'pattern': '',
+		'pattern': 'Atk - Atk - Strong - Full',
 		'img' : {
 			'src' : 'blackbeard.png'
 		},
@@ -613,10 +613,10 @@ window.character = {
 			'des' : 'Tăng SPEED đồng đội lên 5 cấp, HP lên 1 cấp'
 		},
 		'others' : {
-			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : '50% né khóa chiêu (silence)',
 		},
-		'pattern': 'Đang cập nhật',
+		'pattern': 'Atk - Self healing lv2 - Strong atk - Atk',
 		'img' : {
 			'src' : 'mihawk_perona.png'
 		},
@@ -783,6 +783,29 @@ window.character = {
 		},
 	},
 
+	'sabo_v3' : {
+		'title' : 'Sabo V3',
+		'color' : 'dex',
+		'class' : 'fighter, shooter',
+		'cấp' : 'legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 27 CT',
+			'des' : 'Gây (ATK x 1.15) sát thương cho một vùng lớn ở phía trước. FIGHTER/SHOOTER/FREESPIRIT tăng ATK lên 2 cấp',
+		},
+		'hidden_skill' : {
+			'des' : 'FIGHTER/SHOOTER/FREESPIRIT tăng ATK lên 6 cấp (40 giây), ATK bản thân tăng 2 cấp (40 giây)'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : '50% cơ hội né CRIT',
+		},
+		'pattern': 'Atk - Atk - Strong - Full',
+		'img' : {
+			'src' : 'sabo_v3.png'
+		},
+	},
+
 	'sanji_v3' : {
 		'title' : 'O-Soba Mask',
 		'color' : 'qck',
@@ -797,10 +820,10 @@ window.character = {
 			'des' : 'Tăng ATK cả team lên 5 cấp, ATK bản thân lên 4 cấp'
 		},
 		'others' : {
-			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : '50% né CRIT',
 		},
-		'pattern': 'Đang cập nhật',
+		'pattern': 'Atk - Atk - Strong - Full',
 		'img' : {
 			'src' : 'sanji_v3.png'
 		},
@@ -1050,10 +1073,10 @@ window.character = {
 			'des' : 'Trong 45 giây đầu, CEREBRAL/STRIKER tăng SPEED lên 5 cấp, tăng ATK bản thân lên 6 cấp'
 		},
 		'others' : {
-			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : '50% tránh tê liệt (paralysis)',
 		},
-		'pattern': 'Đang cập nhật',
+		'pattern': 'Atk - Strong Atk - Heal lv1 (small) - Strong atk',
 		'img' : {
 			'src' : 'inu_neko.png'
 		},
@@ -1142,10 +1165,10 @@ window.character = {
 			'des' : 'SLASHER tăng SPEED 5 cấp, ATK bản thân tăng 8 cấp trong 30 giây'
 		},
 		'others' : {
-			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'target' : 'Kẻ địch có ATK cao nhất',
+			'extra_ability' : '50% tránh CRIT',
 		},
-		'pattern': 'Đang cập nhật',
+		'pattern': 'Strong - Full - Atk - Strong',
 		'img' : {
 			'src' : 'mihawk_v2.png'
 		},
@@ -1280,10 +1303,10 @@ window.character = {
 			'des' : '60 giây đầu tăng ATK đồng đội lên 7 cấp'
 		},
 		'others' : {
-			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : '70% tránh trạng thái ngăn hồi phục (anti heal)',
 		},
-		'pattern': 'Đang cập nhật',
+		'pattern': 'Atk - Atk - Strong - Full',
 		'img' : {
 			'src' : 'snakeman.png'
 		},
@@ -1510,10 +1533,10 @@ window.character = {
 			'des' : 'Tăng tỉ lệ xuất hiện khiên (GUARD) của đồng đội lên 5 cấp. Khi HP đồng đội nhỏ hoặc bằng 50%, tăng DEF đồng đội đó lên 3 cấp.'
 		},
 		'others' : {
-			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : '50% tránh khóa chiêu',
 		},
-		'pattern': 'Đang cập nhật',
+		'pattern': 'Atk - Atk - Self healing lv2',
 		'img' : {
 			'src' : 'whitebeard_marco.png'
 		},
@@ -1602,10 +1625,10 @@ window.character = {
 			'des' : 'FIGHTER tăng HP lên 6 cấp, DEF lên 2 cấp'
 		},
 		'others' : {
-			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : 'Hồi 100HP mỗi vòng',
 		},
-		'pattern': 'Đang cập nhật',
+		'pattern': 'Atk - Atk - Self healing lv2',
 		'img' : {
 			'src' : 'jinbe_v1.png'
 		},
@@ -2185,6 +2208,9 @@ jQuery(document).ready(function($) {
 				modal_html    +=           '</div>';
 				modal_html    +=           '<div class="info extra_ablility">';
 				modal_html    +=             '<span class="extra_ablility_title"><b>Khả năng:</b> ' + row.others.extra_ability + '</span>';
+				modal_html    +=           '</div>';
+				modal_html    +=           '<div class="info pattern">';
+				modal_html    +=             '<span class="pattern_title"><b>Thứ tự tấn công: </b> ' + row.pattern + '</span>';
 				modal_html    +=           '</div>';
 				modal_html    +=         '</div>';
 
