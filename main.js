@@ -2288,6 +2288,52 @@ jQuery(document).ready(function($) {
 		}
 	}
 
+	// /**
+	//  * Helper function to send a service to server.
+	//  */
+	// function custom_services_request(service_name, params, callback) {
+	//   try {
+	// 	  // Obtain session token.
+	// 		var token_url = "https://tbabo.thietkewebgiaidieu.com?q=services/session/token"
+	// 		jQuery.ajax({
+	// 		  url: token_url,
+	// 		  type: 'get',
+	// 		  dataType: 'text',
+	// 		  error:function (jqXHR, textStatus, errorThrown) {
+	// 				if (!errorThrown) {
+	// 				  // errorThrown = Drupal.t('Token retrieval failed!');
+	// 				}
+	// 		  },
+	// 		  success: function(token) {
+	// 				// Call the web service.
+	// 				jQuery.ajax({
+	// 				  url: 'https://tbabo.thietkewebgiaidieu.com?q=drupalgap/drupalapp/' + service_name + '.json',
+	// 				  type: 'post',
+	// 				  data: params,
+	// 				  dataType: 'json',
+	// 				  beforeSend: function(request) {
+	// 						request.setRequestHeader("X-CSRF-Token", token);
+	// 				  },
+	// 				  error: function (jqXHR, textStatus, errorThrown) {
+	// 						console.log(arguments);
+	// 				  },
+	// 				  success: function(data) {
+	// 				    callback(data);
+	// 				  }
+	// 				});
+	// 		  }
+	// 		});
+	//   }
+	//   catch (error) { console.log('drupalgap service error - ' + error); }
+	// }
+
+	// custom_services_request('node_load', {nid: 1}, function (data) {
+	// 	console.log(data);
+	// });
+	$.ajax({url: "https://suckhoechuanmy.com/test", success: function(result){
+    console.log(result);
+  }});
+
 	haitran_print_char('');
 
 	var char_name_timeout = null;
