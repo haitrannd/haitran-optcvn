@@ -2028,9 +2028,9 @@ window.character = {
 }
 
 jQuery(document).ready(function($) {
-	$('button.pirate_festival').click(function(event) {
+	$('.menu .button_wrapper button.btn').click(function(event) {
 		$('.menu').slideUp(300);
-		$('.page.pirate_festival_page').toggleClass('active');
+		$('.page.' + $(this).attr('target')).toggleClass('active');
 	});
 
 	$('.back_to_menu i').click(function(event) {

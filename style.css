@@ -82,6 +82,19 @@ button, a {
           transition: 0.3s;
 }
 
+.page.event_page {
+  padding: 15px;
+  overflow: auto;
+}
+
+.md.wiki {
+  color: #fff;
+}
+
+.md.wiki > ul {
+  color: #fff
+}
+
 .pirate_festival_page {
 	background-image: url('images/bg.jpg');
 	background-size: cover;
