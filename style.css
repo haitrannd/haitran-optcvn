@@ -19,6 +19,37 @@ button, a {
 	        transition: 0.3s;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+body .page_wrapper, body .page_wrapper .body {
+  display: flex;
+  justify-content: center;
+}
+
+body .page_wrapper .body {
+  width: 100vw;
+  max-width: 700px;
+  position: relative;
+}
+
 .menu {
 	position: fixed;
   width: 100vw;
@@ -30,6 +61,7 @@ button, a {
   z-index: 5;
   background-image: url('images/bg_menu.jpg');
   background-size: cover;
+  max-width: 700px;
 }
 
 .menu .button_wrapper {
@@ -74,12 +106,17 @@ button, a {
 	position: fixed;
   width: 100vw;
   height: 100vh;
+  max-width: 700px;
   background-color: #333;
   -webkit-transition: 0.3s;
      -moz-transition: 0.3s;
       -ms-transition: 0.3s;
        -o-transition: 0.3s;
           transition: 0.3s;
+}
+
+.pirate_festival_page .filter_block {
+  max-width: 700px;
 }
 
 .page.event_page {
@@ -232,6 +269,9 @@ button, a {
 .back_to_menu {
 	z-index: 2;
 	padding: 10px 15px;
+  position: absolute;
+  left: 0;
+  cursor: pointer;
 }
 
 .pirate_festival_page .char {
@@ -239,6 +279,7 @@ button, a {
   margin-bottom: 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid #fff;
+  cursor: pointer;
 }
 
 .pirate_festival_page .color span {
