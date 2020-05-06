@@ -91,6 +91,10 @@ button, a {
   color: #fff;
 }
 
+.md.wiki h1 {
+	font-size: 18px;
+}
+
 .md.wiki > ul {
   color: #fff
 }
