@@ -107,7 +107,7 @@ body .page_wrapper .body {
   width: 100vw;
   height: 100vh;
   max-width: 700px;
-  background-color: #333;
+  background-color: #999;
   -webkit-transition: 0.3s;
      -moz-transition: 0.3s;
       -ms-transition: 0.3s;
@@ -139,6 +139,7 @@ body .page_wrapper .body {
 
 .md.wiki {
   color: #fff;
+  text-shadow: 1px 1px 1px #333;
 }
 
 .md.wiki > ul {
