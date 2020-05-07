@@ -107,7 +107,7 @@ body .page_wrapper .body {
   width: 100vw;
   height: 100vh;
   max-width: 700px;
-  background-color: #999;
+  background-color: #fff;
   -webkit-transition: 0.3s;
      -moz-transition: 0.3s;
       -ms-transition: 0.3s;
@@ -116,7 +116,7 @@ body .page_wrapper .body {
 }
 
 .page .text-body {
-  color: #fff;
+  color: #333;
   padding: 20px;
   height: 100%;
   display: flex;
@@ -138,12 +138,11 @@ body .page_wrapper .body {
 }
 
 .md.wiki {
-  color: #fff;
-  text-shadow: 1px 1px 1px #333;
+  color: #333;
 }
 
 .md.wiki > ul {
-  color: #fff
+  color: #333;
 }
 
 .pirate_festival_page {
@@ -245,7 +244,7 @@ body .page_wrapper .body {
 }
 
 .back_to_menu i {
-	color: #fff;
+	color: #333;
 }
 
 .bottom {
