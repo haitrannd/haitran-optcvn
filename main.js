@@ -122,7 +122,7 @@ jQuery(document).ready(function($) {
 				html      += '</div>';
 
 				html      += '<div class="color">';
-				html      +=   '(' + type_html + ') ( <span class="stars">' + row.stars + '</span> )';
+				html      +=   type_html + ' - <span class="stars">' + row.stars + '</span>';
 				html      += '</div>';
 
 				html    += '</div>';
@@ -188,7 +188,7 @@ jQuery(document).ready(function($) {
 					html      += '</div>';
 
 					html      += '<div class="color">';
-					html      +=   '(' + type_html + ') ( ' + row.stars + ' )';
+					html      +=   type_html + ' - <span class="stars">' + row.stars + '</span>';
 					html      += '</div>';
 
 					html    += '</div>';
