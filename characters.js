@@ -86,7 +86,7 @@ window.character = {
 			'target' : 'Nhắm vào kẻ thù ở gần',
 			'extra_ability' : 'Hồi 100HP mỗi vòng',
 		},
-		'pattern': 'Atk - Atk - Strong - Full',
+		'pattern': 'Atk → Atk → Strong → Full',
 		'img' : {
 			'src' : 'luffy_law.png'
 		},
@@ -109,7 +109,7 @@ window.character = {
 			'target' : 'Nhắm vào kẻ thù ở gần',
 			'extra_ability' : '50% cơ hộ tránh CRIT',
 		},
-		'pattern': 'Atk - Strong - Heal lv1 (small) - Atk',
+		'pattern': 'Atk → Strong → Heal lv1 (small) → Atk',
 		'img' : {
 			'src' : 'sabo_koala.png'
 		},
@@ -132,7 +132,7 @@ window.character = {
 			'target' : 'Nhắm vào kẻ thù ở gần',
 			'extra_ability' : '70% cơ hội tránh sát thương liên hoàn (Ví dụ như doffy v2 có thể gây sát thương 4 lần liên tiếp, whitebread có thể block)',
 		},
-		'pattern': 'Atk - Strong atk - Full',
+		'pattern': 'Atk → Strong atk → Full',
 		'img' : {
 			'src' : 'whitebeard_v1.png'
 		},
@@ -178,7 +178,7 @@ window.character = {
 			'target' : 'Nhắm vào mục tiêu ở gần',
 			'extra_ability' : 'Hồi 150HP sau mỗi vòng',
 		},
-		'pattern': 'Atk - Atk - Strong - Full',
+		'pattern': 'Atk → Atk → Strong → Full',
 		'img' : {
 			'src' : 'crocodile_v1.png'
 		},
@@ -201,7 +201,7 @@ window.character = {
 			'target' : 'Nhắm vào mục tiêu ở gần',
 			'extra_ability' : 'Hồi 150HP mỗi vòng nếu HP nhỏ hơn hoặc bằng 50%',
 		},
-		'pattern': 'Atk - Atk - Strong - Full',
+		'pattern': 'Atk → Atk → Strong → Full',
 		'img' : {
 			'src' : 'akainu_v1.png'
 		},
@@ -247,7 +247,7 @@ window.character = {
 			'target' : 'Nhắm vào mục tiêu ở gần',
 			'extra_ability' : '70% cơ hội chặn tê liệt (paralysis)',
 		},
-		'pattern': 'Atk - Atk - Atk - Full',
+		'pattern': 'Atk → Atk → Atk → Full',
 		'img' : {
 			'src' : 'bigmom_v1.png'
 		},
@@ -339,7 +339,7 @@ window.character = {
 			'target' : 'Nhắm vào kẻ địch ở gần',
 			'extra_ability' : 'Hồi 150HP mỗi vòng',
 		},
-		'pattern': 'Atk - Self healing lv2 - Strong - Heal lv1 (small)',
+		'pattern': 'Atk → Self healing lv2 → Strong → Heal lv1 (small)',
 		'img' : {
 			'src' : 'nami_v1.png'
 		},
@@ -362,7 +362,7 @@ window.character = {
 			'target' : 'Nhắm vào kẻ địch có SPEED cao nhất',
 			'extra_ability' : '70% cơ hội tránh khóa chiêu',
 		},
-		'pattern': 'Atk - Self healing lv2 - Strong - Atk',
+		'pattern': 'Atk → Self healing lv2 → Strong → Atk',
 		'img' : {
 			'src' : 'usopp.png'
 		},
@@ -385,7 +385,7 @@ window.character = {
 			'target' : 'Nhắm vào kẻ địch có ATK cao nhất',
 			'extra_ability' : '70% tránh khóa hồi máu',
 		},
-		'pattern': 'Atk - Atk - Strong - Full',
+		'pattern': 'Atk → Atk → Strong → Full',
 		'img' : {
 			'src' : 'ace_v1.png'
 		},
@@ -408,7 +408,7 @@ window.character = {
 			'target' : 'Nhắm vào kẻ địch ở gần',
 			'extra_ability' : 'Khi HP bản thân nhỏ hơn hoặc bằng 50%, Hồi 200 HP mỗi vòng',
 		},
-		'pattern': 'Atk - Heal lv3 (small) - Atk - Heal lv2 (small)',
+		'pattern': 'Atk → Heal lv3 (small) → Atk → Heal lv2 (small)',
 		'img' : {
 			'src' : 'corazon.png'
 		},
@@ -454,7 +454,7 @@ window.character = {
 			'target' : 'Nhắm vào kẻ địch ở gần',
 			'extra_ability' : '50% cơ hội tránh ngăn chặn',
 		},
-		'pattern': 'Atk - Atk - Self healing lv2',
+		'pattern': 'Atk → Atk → Self healing lv2',
 		'img' : {
 			'src' : 'rayleigh_v2.png'
 		},
@@ -477,7 +477,7 @@ window.character = {
 			'target' : 'Nhắm vào kẻ địch ở gần',
 			'extra_ability' : 'Hồi 100HP mỗi vòng',
 		},
-		'pattern': 'Atk - Atk - Self healing lv2',
+		'pattern': 'Atk → Atk → Self healing lv2',
 		'img' : {
 			'src' : 'jinbe_v2.png'
 		},
@@ -500,7 +500,7 @@ window.character = {
 			'target' : 'Nhắm vào kẻ địch ở gần',
 			'extra_ability' : 'Hồi 100HP mỗi vòng',
 		},
-		'pattern': 'Atk - Atk - Strong - Full',
+		'pattern': 'Atk → Atk → Strong → Full',
 		'img' : {
 			'src' : 'dof_v2.png'
 		},
@@ -523,7 +523,7 @@ window.character = {
 			'target' : 'Nhắm vào kẻ địch ở gần',
 			'extra_ability' : '50% cơ hội tránh ngăn chặn',
 		},
-		'pattern': 'Atk - Heal lv1 (small) - Atk - Heal lv2 (small)',
+		'pattern': 'Atk → Heal lv1 (small) → Atk → Heal lv2 (small)',
 		'img' : {
 			'src' : 'brook.png'
 		},
@@ -546,7 +546,7 @@ window.character = {
 			'target' : 'Nhắm vào kẻ địch ít máu nhất',
 			'extra_ability' : '50% cơ hội tránh CRIT',
 		},
-		'pattern': 'Atk - Atk - Strong - Full',
+		'pattern': 'Atk → Atk → Strong → Full',
 		'img' : {
 			'src' : 'blackbeard.png'
 		},
@@ -615,7 +615,7 @@ window.character = {
 			'target' : 'Kẻ địch ở gần',
 			'extra_ability' : '50% né khóa chiêu (silence)',
 		},
-		'pattern': 'Atk - Self healing lv2 - Strong atk - Atk',
+		'pattern': 'Atk → Self healing lv2 → Strong atk → Atk',
 		'img' : {
 			'src' : 'mihawk_perona.png'
 		},
@@ -799,7 +799,7 @@ window.character = {
 			'target' : 'Kẻ địch ở gần',
 			'extra_ability' : '50% cơ hội né CRIT',
 		},
-		'pattern': 'Atk - Atk - Strong - Full',
+		'pattern': 'Atk → Atk → Strong → Full',
 		'img' : {
 			'src' : 'sabo_v3.png'
 		},
@@ -822,7 +822,7 @@ window.character = {
 			'target' : 'Kẻ địch ở gần',
 			'extra_ability' : '50% né CRIT',
 		},
-		'pattern': 'Atk - Atk - Strong - Full',
+		'pattern': 'Atk → Atk → Strong → Full',
 		'img' : {
 			'src' : 'sanji_v3.png'
 		},
@@ -1075,7 +1075,7 @@ window.character = {
 			'target' : 'Kẻ địch ở gần',
 			'extra_ability' : '50% tránh tê liệt (paralysis)',
 		},
-		'pattern': 'Atk - Strong Atk - Heal lv1 (small) - Strong atk',
+		'pattern': 'Atk → Strong Atk → Heal lv1 (small) → Strong atk',
 		'img' : {
 			'src' : 'inu_neko.png'
 		},
@@ -1305,7 +1305,7 @@ window.character = {
 			'target' : 'Kẻ địch ở gần',
 			'extra_ability' : '70% tránh trạng thái ngăn hồi phục (anti heal)',
 		},
-		'pattern': 'Atk - Atk - Strong - Full',
+		'pattern': 'Atk → Atk → Strong → Full',
 		'img' : {
 			'src' : 'snakeman.png'
 		},
@@ -1535,7 +1535,7 @@ window.character = {
 			'target' : 'Kẻ địch ở gần',
 			'extra_ability' : '50% tránh khóa chiêu',
 		},
-		'pattern': 'Atk - Atk - Self healing lv2',
+		'pattern': 'Atk → Atk → Self healing lv2',
 		'img' : {
 			'src' : 'whitebeard_marco.png'
 		},
@@ -1627,7 +1627,7 @@ window.character = {
 			'target' : 'Kẻ địch ở gần',
 			'extra_ability' : 'Hồi 100HP mỗi vòng',
 		},
-		'pattern': 'Atk - Atk - Self healing lv2',
+		'pattern': 'Atk → Atk → Self healing lv2',
 		'img' : {
 			'src' : 'jinbe_v1.png'
 		},
@@ -2159,6 +2159,75 @@ window.character = {
 		'pattern': 'Normal Attack → Strong Attack → Lv.1 Short Range Heal → Normal Attack',
 		'img' : {
 			'src' : 'Trafalgar_Law_True_Desire_of_Life.png'
+		},
+	},
+
+	'Charlotte_Katakuri_Haki_that_Conquers_the_Future' : {
+		'title' : 'Charlotte Katakuri, Haki that Conquers the Future',
+		'color' : 'int',
+		'class' : 'driven, fighter',
+		'stars' : 'Legend',
+		'type' : '?',
+		'skill' : {
+			'note' : 'lv10 - 31 Giây',
+			'des' : 'Giảm SPEED kẻ địch trong một vùng lớn 5 cấp trong 20 giây. Giảm tích nộ (CT charge) của kẻ địch thuộc FREESPIRIT đi 4 cấp trong 20 giây',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng SPEED INT lên 5 cấp'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : '50% cơ hội tránh tê liệt (paralysis)',
+		},
+		'pattern': 'Normal Attack → Lv.2 Self Heal → Strong Attack → Normal Attack',
+		'img' : {
+			'src' : 'Charlotte_Katakuri_Haki_that_Conquers_the_Future.png'
+		},
+	},
+
+	'blackbeard_v2' : {
+		'title' : 'Blackbeard V2',
+		'color' : 'int',
+		'class' : 'driven, powerhouse',
+		'stars' : 'Legend',
+		'type' : '?',
+		'skill' : {
+			'note' : 'lv10 - 20 Giây',
+			'des' : 'Gây (1.2 x ATK) sát thương cho kẻ địch ở vùng trung tâm và tăng ATK bản thân lên 10 cấp trong 25 giây',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP INT lên 1 cấp. Khi máu bằng hoặc nhỏ hơn 60%, Tăng tích nộ (CT charge) bản thân lên 5 cấp'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : '50% cơ hội tránh tê liệt (paralysis)',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'blackbeard_v2.png'
+		},
+	},
+
+	'sabo_v4' : {
+		'title' : 'Sabo V4',
+		'color' : 'str',
+		'class' : 'fighter, freespirit',
+		'stars' : 'Legend',
+		'type' : '?',
+		'skill' : {
+			'note' : 'lv10 - 29 Giây',
+			'des' : 'Tăng ATK FREESPIRIT lên 5 cấp trong 25 giây, tăng SPEED FIGHTER lên 5 cấp trong 25 giây',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK STR lên 5 cấp mỗi khi STR CRIT, cộng dồn 2 lần.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : '50% cơ hội tránh khóa skill',
+		},
+		'pattern': 'Normal Attack → Strong Attack → Lv.1 Small Range Heal → Normal Attack',
+		'img' : {
+			'src' : 'sabo_v4.png'
 		},
 	},
 
