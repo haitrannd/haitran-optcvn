@@ -122,7 +122,7 @@ jQuery(document).ready(function($) {
 				html      += '</div>';
 
 				html      += '<div class="color">';
-				html      +=   '(' + type_html + ')';
+				html      +=   '(' + type_html + ') ( <span class="stars">' + row.stars + '</span> )';
 				html      += '</div>';
 
 				html    += '</div>';
@@ -132,7 +132,7 @@ jQuery(document).ready(function($) {
 				modal_html    +=   '<div class="modal-dialog">';
 				modal_html    +=     '<div class="modal-content">';
 				modal_html    +=       '<div class="modal-header">';
-				modal_html    +=         '<button type="button" class="close" data-dismiss="modal">&times;</button><h4 class="modal-title">' + row.title + '</h4>';
+				modal_html    +=         '<button type="button" class="close" data-dismiss="modal">&times;</button><h4 class="modal-title">' + row.title + ' ( ' + row.stars + ' )</h4>';
 				modal_html    +=       '</div>';
 				modal_html    +=       '<div class="modal-body">';
 
@@ -188,7 +188,7 @@ jQuery(document).ready(function($) {
 					html      += '</div>';
 
 					html      += '<div class="color">';
-					html      +=   '(' + type_html + ')';
+					html      +=   '(' + type_html + ') ( ' + row.stars + ' )';
 					html      += '</div>';
 
 					html    += '</div>';
@@ -198,7 +198,7 @@ jQuery(document).ready(function($) {
 					modal_html    +=   '<div class="modal-dialog">';
 					modal_html    +=     '<div class="modal-content">';
 					modal_html    +=       '<div class="modal-header">';
-					modal_html    +=         '<button type="button" class="close" data-dismiss="modal">&times;</button><h4 class="modal-title">' + row.title + '</h4>';
+					modal_html    +=         '<button type="button" class="close" data-dismiss="modal">&times;</button><h4 class="modal-title">' + row.title + '( ' + row.stars + ' )</h4>';
 					modal_html    +=       '</div>';
 					modal_html    +=       '<div class="modal-body">';
 

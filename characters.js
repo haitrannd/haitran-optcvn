@@ -4,10 +4,10 @@ window.character = {
 		'title' : 'Luffy/Ace',
 		'color' : 'str, qck',
 		'class' : 'freespirit, fighter',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Hỗ trợ',
 		'skill' : {
-			'note' : 'lv10 - 27 CT',
+			'note' : 'lv10 - 27 Giây',
 			'des' : 'Tăng ATK của FREE SPIRIT lên 3 cấp (20 giây), tăng DEF lên 3 cấp (20 giây), tấn công trong một phạm vi lớn, gây một lượng sát thương bằng với (ATK x 0.65).',
 		},
 		'hidden_skill' : {
@@ -27,10 +27,10 @@ window.character = {
 		'title' : 'Bartolomeo/Cavendish',
 		'color' : 'dex, qck',
 		'class' : 'driven, striker, slasher',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Phòng thủ',
 		'skill' : {
-			'note' : 'lv10 - 28 CT',
+			'note' : 'lv10 - 28 Giây',
 			'des' : 'Sát thương địch ở tầm trung theo hàng ngang với lượng sát thương bằng (ATK x 0.8). Tăng tỉ lệ xuất hiện (guard – khiên chắn) của các đồng đội DRIVEN lên 7 cấp (21 giây). Tăng ATK của DRIVEN lên 7 cấp (21 giây).',
 		},
 		'hidden_skill' : {
@@ -50,10 +50,10 @@ window.character = {
 		'title' : 'Sanji/Judge',
 		'color' : 'psy',
 		'class' : 'powerhouse, fighter',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Phòng thủ',
 		'skill' : {
-			'note' : 'lv10 - 27 CT',
+			'note' : 'lv10 - 27 Giây',
 			'des' : 'Gây 1250 sát thương cho kẻ địch ở tầm trung theo hàng ngang. Tăng ATK của POWERHOUSE lên 6 cấp (20 giây).',
 		},
 		'hidden_skill' : {
@@ -73,10 +73,10 @@ window.character = {
 		'title' : 'Luffy/Law',
 		'color' : 'dex, qck',
 		'class' : 'fighter, freespirit, slasher',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 45 CT',
+			'note' : 'lv10 - 45 Giây',
 			'des' : 'Gây 1700 sát thương chuẩn cho tất cả kẻ địch. Gây thêm sát thương băng với (ATK x 1.45) cho một kẻ địch ngẫu nhiên. Tăng ATK của đồng mình lên 2 cấp (15 giây)',
 		},
 		'hidden_skill' : {
@@ -96,10 +96,10 @@ window.character = {
 		'title' : 'Sabo/Koala',
 		'color' : 'str, int',
 		'class' : 'freespirit, cerebral',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Hỗ trợ',
 		'skill' : {
-			'note' : 'lv10 - 29 CT',
+			'note' : 'lv10 - 29 Giây',
 			'des' : 'Tấn công kẻ địch đứng giữa hàng trước với sát thường bằng (ATK x 0.65), giảm DEF 3 cấp (25 giây). Tấn công kẻ địch ở khu vực phía trước với sát thương bằng (ATK x 1.15).',
 		},
 		'hidden_skill' : {
@@ -119,10 +119,10 @@ window.character = {
 		'title' : 'Whitebeard V1',
 		'color' : 'str',
 		'class' : 'striker, powerhouse',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 23 CT',
+			'note' : 'lv10 - 23 Giây',
 			'des' : 'Giảm 48% máu toàn bộ địch',
 		},
 		'hidden_skill' : {
@@ -142,10 +142,10 @@ window.character = {
 		'title' : 'Lucci V1',
 		'color' : 'str',
 		'class' : 'powerhouse, fighter',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 23 CT',
+			'note' : 'lv10 - 23 Giây',
 			'des' : 'Giảm 48% máu toàn bộ địch',
 		},
 		'hidden_skill' : {
@@ -165,10 +165,10 @@ window.character = {
 		'title' : 'Crocodile V1',
 		'color' : 'str',
 		'class' : 'cerebral, driven',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 19 CT',
+			'note' : 'lv10 - 19 Giây',
 			'des' : 'Giảm ATK của kẻ địch đi 24% và tăng CRIT của đồng đội lên 4 cấp (15 giây)',
 		},
 		'hidden_skill' : {
@@ -188,10 +188,10 @@ window.character = {
 		'title' : 'Akainu V1',
 		'color' : 'str',
 		'class' : 'fighter, powerhouse',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 36 CT',
+			'note' : 'lv10 - 36 Giây',
 			'des' : 'Gây 1150 sát thương chuẩn cho toàn bộ kẻ địch, gây 1900 sát thương chuẩn nếu trận chiến còn 50 giây hoặc nhỏ hơn, gây 3150 sát thương chuẩn nếu còn 30 giây hoặc nhỏ hơn',
 		},
 		'hidden_skill' : {
@@ -211,10 +211,10 @@ window.character = {
 		'title' : 'Inuarashi',
 		'color' : 'str',
 		'class' : 'cerebral, slasher',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 28 CT',
+			'note' : 'lv10 - 28 Giây',
 			'des' : 'Giảm ATK bản thân đi 20%, tấn công kẻ địch ở tầm ngang với sát thương bằng với (ATK x 1.95)',
 		},
 		'hidden_skill' : {
@@ -234,10 +234,10 @@ window.character = {
 		'title' : 'Bigmom V1',
 		'color' : 'str',
 		'class' : 'powerhouse, driven',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 51 CT',
+			'note' : 'lv10 - 51 Giây',
 			'des' : 'Tấn công kẻ địch ở hàng ngang phía trước với sát thương bằng (ATK x 0.95), tấn công kẻ địch ở hàng giữa theo chiều dọc với sát thương bằng (ATK x 1.2), tấn công toàn bộ kẻ địch với sát thương bằng (ATK x 0.9). Tăng ATK bản thân lên 16 cấp trong 30 giây',
 		},
 		'hidden_skill' : {
@@ -257,10 +257,10 @@ window.character = {
 		'title' : 'Bullet',
 		'color' : 'str',
 		'class' : 'fighter, driven',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Phòng thủ',
 		'skill' : {
-			'note' : 'lv10 - 20 CT',
+			'note' : 'lv10 - 20 Giây',
 			'des' : 'Tăng ATK bản thân lên 11 cấp (15 giây), tăng DEF bản thân lên 8 leves (15 giây), bật trạng thái khiêu khích (sẽ bị kẻ địch nhắm vào). Giảm 20% máu của kẻ địch.',
 		},
 		'hidden_skill' : {
@@ -280,10 +280,10 @@ window.character = {
 		'title' : 'Log Luffy',
 		'color' : 'str',
 		'class' : 'fighter, freespirit',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 35 CT',
+			'note' : 'lv10 - 35 Giây',
 			'des' : 'Tấn công kẻ địch ở tầm trung gây (ATK x 1.35) sát thương và tăng SPEED của đồng đội lên 3 cấp nếu còn 50 giây hoặc ít hơn',
 		},
 		'hidden_skill' : {
@@ -303,10 +303,10 @@ window.character = {
 		'title' : 'Zoro V1',
 		'color' : 'dex',
 		'class' : 'slasher, driven',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 36 CT',
+			'note' : 'lv10 - 36 Giây',
 			'des' : 'Tấn công toàn bộ kẻ địch với sát thương bằng (ATK x 1.35) và giảm DEF kẻ địch đi 3 cấp trong 10 giây',
 		},
 		'hidden_skill' : {
@@ -326,14 +326,14 @@ window.character = {
 		'title' : 'Nami V1',
 		'color' : 'dex',
 		'class' : 'cerebral, striker',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Phá hoại',
 		'skill' : {
-			'note' : 'lv10 - 22 CT',
+			'note' : 'lv10 - 22 Giây',
 			'des' : 'Gây (ATK x 1.1) sát thương một vùng lớn và có 30% cơ hội loại bỏ trạng thái tê liệt (paralysis).',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng DEX SPEED lên 6 cấp, CT đồng đội tăng 2 cấp.'
+			'des' : 'Tăng DEX SPEED lên 6 cấp, giảm thời gian dùng chiêu đi 2 giây.'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ địch ở gần',
@@ -349,10 +349,10 @@ window.character = {
 		'title' : 'Usopp',
 		'color' : 'dex',
 		'class' : 'shooter',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Phá hoại',
 		'skill' : {
-			'note' : 'lv10 - 30 CT',
+			'note' : 'lv10 - 30 Giây',
 			'des' : 'Giảm HP của kẻ địch hàng trước đi 37%, có 75% cơ hội trói (9 giây)',
 		},
 		'hidden_skill' : {
@@ -372,10 +372,10 @@ window.character = {
 		'title' : 'Ace V1',
 		'color' : 'dex',
 		'class' : 'shooter, freespirit',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 35 CT',
+			'note' : 'lv10 - 35 Giây',
 			'des' : 'Giảm 70% ATK bản thân, gây (ATK x 1.9) sát thương cho kẻ địch ở tầm trung và tăng ATK của SHOOTER lên 3 cấp (30 giây)',
 		},
 		'hidden_skill' : {
@@ -395,10 +395,10 @@ window.character = {
 		'title' : 'Corazon',
 		'color' : 'dex',
 		'class' : 'cerebral, freespirit',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Hồi phục',
 		'skill' : {
-			'note' : 'lv10 - 32 CT',
+			'note' : 'lv10 - 32 Giây',
 			'des' : 'Hồi 2.75x HP của đồng đội xung quanh và tăng DEF lên 7 cấp (10 giây)',
 		},
 		'hidden_skill' : {
@@ -418,11 +418,11 @@ window.character = {
 		'title' : 'Magellan',
 		'color' : 'dex',
 		'class' : 'striker, shooter',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Phá hoại',
 		'skill' : {
-			'note' : 'lv10 - 31 CT',
-			'des' : 'ATK giảm 3 cấp đối với kẻ địch ở tầm xa (47 giây). Giảm tốc độ tăng CT của kẻ địch 4 cấp (34 giây).',
+			'note' : 'lv10 - 31 Giây',
+			'des' : 'ATK giảm 3 cấp đối với kẻ địch ở tầm xa (47 giây). Giảm tốc độ tăng Giây của kẻ địch 4 cấp (34 giây).',
 		},
 		'hidden_skill' : {
 			'des' : 'Khi HP của đồng minh ở cấp 5 hoặc cao hơn, tăng HP đồng minh thêm 7 cấp'
@@ -441,10 +441,10 @@ window.character = {
 		'title' : 'Rayleigh V2',
 		'color' : 'dex',
 		'class' : 'cerebral, freespirit',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Phòng thủ',
 		'skill' : {
-			'note' : 'lv10 - 37 CT',
+			'note' : 'lv10 - 37 Giây',
 			'des' : 'Gây 600 sát thương chuẩn cho toàn bộ kẻ địch, tăng ATK của đồng đội lên 3 cấp (24 giây), tăng DEF lên 2 cấp (24 giây)',
 		},
 		'hidden_skill' : {
@@ -464,10 +464,10 @@ window.character = {
 		'title' : 'Jinbe V2',
 		'color' : 'dex',
 		'class' : 'powerhouse, fighter',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Phòng thủ',
 		'skill' : {
-			'note' : 'lv10 - 31 CT',
+			'note' : 'lv10 - 31 Giây',
 			'des' : 'Giảm 12% ATK kẻ địch trong phạm vi trung bình. Tăng ATK của FIGHTER, SLASHER và SHOOTER lên 4 cấp trong 19 giây',
 		},
 		'hidden_skill' : {
@@ -487,10 +487,10 @@ window.character = {
 		'title' : 'Doflamingo V2',
 		'color' : 'dex',
 		'class' : 'driven, cerebral',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 30 CT',
+			'note' : 'lv10 - 30 Giây',
 			'des' : 'Gây (ATK x 1.45) sát thương cho kẻ địch ở tầm trung. Tiếp tục gây thêm (ATK x 0.35) sát thương nếu còn 60 giây. Tiếp tục gây thêm (ATK x 04) sát thương nếu còn 45 giây. Tiếp tục gây thêm (ATK x 0.45) sát thương nếu còn 30 giây',
 		},
 		'hidden_skill' : {
@@ -510,10 +510,10 @@ window.character = {
 		'title' : 'Brook',
 		'color' : 'dex',
 		'class' : 'slasher, freespirit',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Phòng thủ',
 		'skill' : {
-			'note' : 'lv10 - 45 CT',
+			'note' : 'lv10 - 45 Giây',
 			'des' : 'Hồi 2450 HP cho đồng mình ở hàng trung tâm và tăng DEF lên 3 cấp (30 Giây).',
 		},
 		'hidden_skill' : {
@@ -533,10 +533,10 @@ window.character = {
 		'title' : 'Blackbeard',
 		'color' : 'dex',
 		'class' : 'driven, powerhouse',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 42 CT',
+			'note' : 'lv10 - 42 Giây',
 			'des' : 'Giảm HP địch đi 25%, gây 1750 sát thương chuẩn cho kẻ địch STR và giảm DEF đi 4 cấp (25 giây)',
 		},
 		'hidden_skill' : {
@@ -556,14 +556,14 @@ window.character = {
 		'title' : 'Kaido',
 		'color' : 'dex',
 		'class' : 'striker, powerhouse',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 55 CT',
+			'note' : 'lv10 - 55 Giây',
 			'des' : 'Giảm HP kẻ địch ở hàng trước đi 25%, và gây (ATK x 2.1) sát thương',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK của POWERHOUSE/STRIKER lên 6 cấp, ATK bản thân lên 7 cấp. Tăng tốc độ CT lên 6 cấp'
+			'des' : 'Tăng ATK của POWERHOUSE/STRIKER lên 6 cấp, ATK bản thân lên 7 cấp. Giảm thời gian dùng skill đi 6 giây'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ địch ít máu nhất',
@@ -579,11 +579,11 @@ window.character = {
 		'title' : 'Kuzan V3',
 		'color' : 'qck',
 		'class' : 'freespirit, shooter',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 33 CT',
-			'des' : 'Gây (ATK x 1.4) sát thương cho một vùng lớn và có 70% cơ hội khóa CT của kẻ địch trong 6 giây',
+			'note' : 'lv10 - 33 Giây',
+			'des' : 'Gây (ATK x 1.4) sát thương cho một vùng lớn và có 70% cơ hội khóa skill của kẻ địch trong 6 giây',
 		},
 		'hidden_skill' : {
 			'des' : 'Tăng SPEED của STR, DEX, QCK lên 5 cấp, các đồng đội còn lại được tăng SPEED lên 2 cấp trong 15 giây'
@@ -602,10 +602,10 @@ window.character = {
 		'title' : 'Mihawk & Perona',
 		'color' : 'str, psy',
 		'class' : 'cerebral, slasher, driven',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Phá hoại',
 		'skill' : {
-			'note' : 'lv10 - 35 CT',
+			'note' : 'lv10 - 35 Giây',
 			'des' : 'Giảm ATK của địch đi 5 cấp và DEF đi 3 cấp trong 25 giây, giảm HP địch đi 25%',
 		},
 		'hidden_skill' : {
@@ -625,10 +625,10 @@ window.character = {
 		'title' : 'Marco',
 		'color' : 'qck',
 		'class' : 'fighter, powerhouse',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Phòng thủ',
 		'skill' : {
-			'note' : 'lv10 - 23 CT',
+			'note' : 'lv10 - 23 Giây',
 			'des' : 'Tấn công kẻ địch tầm trung bình với lượng sát thường (ATK x 0.75), giảm ATK 6 cấp trong 15 giây, hồi phục HP một đồng đội bằng 2.7x HP',
 		},
 		'hidden_skill' : {
@@ -648,10 +648,10 @@ window.character = {
 		'title' : 'Red hair pirates',
 		'color' : 'psy, qck',
 		'class' : 'slasher, cerebral',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Phòng thủ',
 		'skill' : {
-			'note' : 'lv10 - 24 CT',
+			'note' : 'lv10 - 24 Giây',
 			'des' : 'Giảm HP hàng ngang và hàng trung bình đi 21%, tăng DEF đồng đội lên 4 cấp (14 giây)',
 		},
 		'hidden_skill' : {
@@ -671,10 +671,10 @@ window.character = {
 		'title' : 'Arlong pirates',
 		'color' : 'str',
 		'class' : 'slasher, powerhouse',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 33 CT',
+			'note' : 'lv10 - 33 Giây',
 			'des' : 'Khi HP lớn hơn hoặc bằng 30%, tăng ATK đồng đội lên 3 cấp trong 15 giây, tấn công kẻ địch tầm trung bình (ATK x 1.3) sát thương. Khi HP nhỏ hơn hoặc bằng 30%, tăng ATK đồng đội lên 4 cấp trong 15 giây, tấn công kẻ địch tầm trung bình (ATK x 1.55) sát thương',
 		},
 		'hidden_skill' : {
@@ -694,11 +694,11 @@ window.character = {
 		'title' : 'Pudding',
 		'color' : 'int',
 		'class' : 'cerebral, shooter',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Hỗ trợ',
 		'skill' : {
-			'note' : 'lv10 - 22 CT',
-			'des' : 'Giảm CT của INT đi 15%, tăng ATK INT lên 3 cấp (20 giây), tăng ATK của đồng đội INT có ATK cao nhất (20 giây) lên 8 cấp',
+			'note' : 'lv10 - 22 Giây',
+			'des' : 'Giảm thời gian dùng skill của INT đi 15%, tăng ATK INT lên 3 cấp (20 giây), tăng ATK của đồng đội INT có ATK cao nhất (20 giây) lên 8 cấp',
 		},
 		'hidden_skill' : {
 			'des' : 'Tăng HP INT lên 5 cấp, tăng ATK của INT có ATK cao nhất lên 2 cấp'
@@ -717,10 +717,10 @@ window.character = {
 		'title' : 'Name & Robin',
 		'color' : 'int, dex',
 		'class' : 'cerebral, striker, freespirit',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Hỗ trợ',
 		'skill' : {
-			'note' : 'lv10 - 28 CT',
+			'note' : 'lv10 - 28 Giây',
 			'des' : 'Giảm HP kẻ địch tầm trung đi 30%, rút ngắn thời gian bị tê liệt của đồng đội đi 10 giây, tăng CRIT lên 3 cấp (24 giây)',
 		},
 		'hidden_skill' : {
@@ -740,10 +740,10 @@ window.character = {
 		'title' : 'Robin',
 		'color' : 'int',
 		'class' : 'cerebral, fighter',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Phòng thủ',
 		'skill' : {
-			'note' : 'lv10 - 26 CT',
+			'note' : 'lv10 - 26 Giây',
 			'des' : 'Tăng tỉ lệ xuất hiện khiên lên 7 cấp (25 giây), 80% tỉ lệ one hit kẻ địch hàng giữa (12 giây)',
 		},
 		'hidden_skill' : {
@@ -763,10 +763,10 @@ window.character = {
 		'title' : 'Sabo V2',
 		'color' : 'qck',
 		'class' : 'fighter, freespirit',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Hỗ trợ',
 		'skill' : {
-			'note' : 'lv10 - 30 CT',
+			'note' : 'lv10 - 30 Giây',
 			'des' : 'Tấn công một vùng rộng ở phía trước, gây (ATK x 0.9) sát thương và tăng ATK của STR, DEX, QCK lên 6 cấp (25 giây)',
 		},
 		'hidden_skill' : {
@@ -786,10 +786,10 @@ window.character = {
 		'title' : 'Sabo V3',
 		'color' : 'dex',
 		'class' : 'fighter, shooter',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 27 CT',
+			'note' : 'lv10 - 27 Giây',
 			'des' : 'Gây (ATK x 1.15) sát thương cho một vùng lớn ở phía trước. FIGHTER/SHOOTER/FREESPIRIT tăng ATK lên 2 cấp',
 		},
 		'hidden_skill' : {
@@ -809,10 +809,10 @@ window.character = {
 		'title' : 'O-Soba Mask',
 		'color' : 'qck',
 		'class' : 'powerhouse, freespirit',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 37 CT',
+			'note' : 'lv10 - 37 Giây',
 			'des' : 'Gây (ATK x 1.35) sát thương cho kẻ địch tầm trung tâm và tăng tỉ lệ đánh trượt lên 4 cấp (15 giây)',
 		},
 		'hidden_skill' : {
@@ -832,10 +832,10 @@ window.character = {
 		'title' : 'Luffy & Zoro',
 		'color' : 'str, dex',
 		'class' : 'slasher, freespirit',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 27 CT',
+			'note' : 'lv10 - 27 Giây',
 			'des' : 'Gây (ATK x 1.35) sát thương cho kẻ địch tầm trung tâm và tầm ngang, tăng tỉ lệ CRIT cho FREESPIRIT và SLASHER lên 3 cấp (30 giây)',
 		},
 		'hidden_skill' : {
@@ -855,10 +855,10 @@ window.character = {
 		'title' : 'Chopper',
 		'color' : 'psy',
 		'class' : 'shooter, cerebral',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Hồi phục',
 		'skill' : {
-			'note' : 'lv10 - 38 CT',
+			'note' : 'lv10 - 38 Giây',
 			'des' : 'Hồi 0.6 x HP cho đồng đội trung tâm, giảm 7 giây trói, giảm 7 giây tê liệt, giảm 7 giây hiệu ứng bất lợi',
 		},
 		'hidden_skill' : {
@@ -878,10 +878,10 @@ window.character = {
 		'title' : 'Lucci V2',
 		'color' : 'qck',
 		'class' : 'shooter, powerhouse',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 32 CT',
+			'note' : 'lv10 - 32 Giây',
 			'des' : 'Gây (ATK x 1.5) sát thương cho địch ở hàng ngang, giảm DEF đi 7 cấp',
 		},
 		'hidden_skill' : {
@@ -901,10 +901,10 @@ window.character = {
 		'title' : 'Komurasaki',
 		'color' : 'qck',
 		'class' : 'slasher, cerebral',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Hồi phục',
 		'skill' : {
-			'note' : 'lv10 - 30 CT',
+			'note' : 'lv10 - 30 Giây',
 			'des' : 'Hồi 1.45 x HP cho một vùng lớn. Khi máu lớn hơn hoặc bằng 50% tăng CRIT của QCK và INT lên 2 cấp (15 giây). ATK tăng thêm 4 cấp (15 giây) khi HP trên 80%',
 		},
 		'hidden_skill' : {
@@ -924,14 +924,14 @@ window.character = {
 		'title' : 'Ace V2',
 		'color' : 'int',
 		'class' : 'shooter, fighter',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Hỗ trợ',
 		'skill' : {
-			'note' : 'lv10 - 30 CT',
+			'note' : 'lv10 - 30 Giây',
 			'des' : 'Gây (ATK x 0.7) sát thương lên một vùng rộng, tăng ATK FIGHTER/SHOOTER lên 4 cấp (20 giây) và rút ngắn thời gian trạng thái khóa (block) đi 11 giây',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng HP FIGHTER/SHOOTER lên 5 cấp, tăng tốc độ CT FIGHTER/SHOOTER lên 2 cấp khi còn 70s'
+			'des' : 'Tăng HP FIGHTER/SHOOTER lên 5 cấp, giảm thời gian dùng skill FIGHTER/SHOOTER đi 2 giây khi còn 70s'
 		},
 		'others' : {
 			'target' : 'Đang cập nhật',
@@ -947,10 +947,10 @@ window.character = {
 		'title' : 'Katakuri',
 		'color' : 'int',
 		'class' : 'striker, powerhouse',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Phá hoại',
 		'skill' : {
-			'note' : 'lv10 - 29 CT',
+			'note' : 'lv10 - 29 Giây',
 			'des' : 'Tấn công hàng ngang gây (ATK x 0.9) sát thương và giảm SPEED đi 6 cấp (30 giây)',
 		},
 		'hidden_skill' : {
@@ -970,10 +970,10 @@ window.character = {
 		'title' : 'Whitebread v2',
 		'color' : 'int',
 		'class' : 'striker, powerhouse',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Phòng thủ',
 		'skill' : {
-			'note' : 'lv10 - 31 CT',
+			'note' : 'lv10 - 31 Giây',
 			'des' : 'Giảm HP một vùng nhỏ kẻ địch đi 26%, tăng DEF một lượng lớn đồng đội lên 4 cấp (25 giây). Khi HP nhỏ hoặc bằng 50% tăng ATK lên 5 cấp (25 giây)',
 		},
 		'hidden_skill' : {
@@ -993,10 +993,10 @@ window.character = {
 		'title' : 'Stampede Luffy',
 		'color' : 'psy',
 		'class' : 'fighter, powerhouse',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 37 CT',
+			'note' : 'lv10 - 37 Giây',
 			'des' : 'Khi HP lớn hoặc bằng 50%, ATK bản thân tăng 10 cấp (15 giây). Gây (ATK x 1.95) sát thương cho địch ở hàng giữa',
 		},
 		'hidden_skill' : {
@@ -1016,10 +1016,10 @@ window.character = {
 		'title' : 'Shirahoshi & Mansherry',
 		'color' : 'psy, int',
 		'class' : 'cerebral, striker',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Hồi phục',
 		'skill' : {
-			'note' : 'lv10 - 40 CT',
+			'note' : 'lv10 - 40 Giây',
 			'des' : 'Hồi 2.5 x HP cho đồng đội, rút ngắn thời gian tê liệt 6 giây, rút ngắn thời gian trói 6 giây',
 		},
 		'hidden_skill' : {
@@ -1039,10 +1039,10 @@ window.character = {
 		'title' : 'Vivi & Rebecca',
 		'color' : 'dex, str',
 		'class' : 'cerebral, striker, freespirit',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Hỗ trợ',
 		'skill' : {
-			'note' : 'lv10 - 24 CT',
+			'note' : 'lv10 - 24 Giây',
 			'des' : 'Tất cả kẻ địch giảm DEF 3 cấp (30 giây). STRIKER/CEREBRAL tăng ATK 3 cấp (30 giây)',
 		},
 		'hidden_skill' : {
@@ -1062,10 +1062,10 @@ window.character = {
 		'title' : 'Inuarashi & Nekomamushi',
 		'color' : 'psy, str',
 		'class' : 'cerebral, striker, slasher',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Hỗ trợ',
 		'skill' : {
-			'note' : 'lv10 - 31 CT',
+			'note' : 'lv10 - 31 Giây',
 			'des' : 'Tấn công một vùng nhỏ phía trước, gây (ATK x 0.85) sát thương. CEREBRAL/STRIKER ATK tăng 6 cấp (25 giây), hồi HP toàn bộ đồng đội bằng 0.45 x HP',
 		},
 		'hidden_skill' : {
@@ -1085,10 +1085,10 @@ window.character = {
 		'title' : 'Zeus & Prometheus & Bigmom',
 		'color' : 'int',
 		'class' : 'powerhouse, striker, slasher',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 33 CT',
+			'note' : 'lv10 - 33 Giây',
 			'des' : 'Tấn công một vùng lớn phía trước, gây (ATK x 1.25) sát thương. Nếu HP lớn hoặc bằng 50%, tăng ATK đồng đội lên 3 cấp',
 		},
 		'hidden_skill' : {
@@ -1108,10 +1108,10 @@ window.character = {
 		'title' : 'Fujitora V2',
 		'color' : 'int',
 		'class' : 'powerhouse, slasher',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Phá hoại',
 		'skill' : {
-			'note' : 'lv10 - 38 CT',
+			'note' : 'lv10 - 38 Giây',
 			'des' : 'Tấn công toàn bộ địch, gây (ATK x 1.25) sát thương. Có 30% khóa mục tiêu',
 		},
 		'hidden_skill' : {
@@ -1131,10 +1131,10 @@ window.character = {
 		'title' : 'Zoro V2',
 		'color' : 'int',
 		'class' : 'driven, slasher',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 36 CT',
+			'note' : 'lv10 - 36 Giây',
 			'des' : 'Tấn công địch ở giữa phía trước, gây (ATK x 1.7) sát thương và SLASHER ATK tăng 4 cấp (8 giây)',
 		},
 		'hidden_skill' : {
@@ -1154,10 +1154,10 @@ window.character = {
 		'title' : 'Mihawk V2',
 		'color' : 'dex',
 		'class' : 'freespirit, slasher',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 15 CT',
+			'note' : 'lv10 - 15 Giây',
 			'des' : 'Khi còn trên 70 giây, cắt 15% HP một vùng lớn kẻ địch. Khi nhở hoặc bằng 70 giây, cắt 30% HP một vùng lớn kẻ địch',
 		},
 		'hidden_skill' : {
@@ -1177,14 +1177,14 @@ window.character = {
 		'title' : 'Cracker',
 		'color' : 'qck',
 		'class' : 'powerhouse, slasher',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 37 CT',
-			'des' : 'Gây (ATK x 1.3) sát thương lên kẻ địch ở vùng trung tâm, tăng CRIT SLASHER/POWERHOUSE lên 5 cấp (15 giây). Khi HP nhỏ hoặc bằng 50%, giảm thời gian CT đi 25%.',
+			'note' : 'lv10 - 37 Giây',
+			'des' : 'Gây (ATK x 1.3) sát thương lên kẻ địch ở vùng trung tâm, tăng CRIT SLASHER/POWERHOUSE lên 5 cấp (15 giây). Khi HP nhỏ hoặc bằng 50%, giảm thời gian dùng skill đi 25%.',
 		},
 		'hidden_skill' : {
-			'des' : 'SLASHER/POWERHOUSE tăng tốc CT lên 6 cấp'
+			'des' : 'SLASHER/POWERHOUSE giảm thời gian dùng skill đi 6 giây'
 		},
 		'others' : {
 			'target' : 'Đang cập nhật',
@@ -1200,10 +1200,10 @@ window.character = {
 		'title' : 'Doflamingo V1',
 		'color' : 'int',
 		'class' : 'driven, slasher',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Phòng thủ',
 		'skill' : {
-			'note' : 'lv10 - 31 CT',
+			'note' : 'lv10 - 31 Giây',
 			'des' : 'Gây (ATK x 1.4) sát thương cho một kẻ địch, tăng DEF DRIVEN lên 5 cấp (19 giây).',
 		},
 		'hidden_skill' : {
@@ -1223,10 +1223,10 @@ window.character = {
 		'title' : 'Hancock V2',
 		'color' : 'psy',
 		'class' : 'freespirit, shooter',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Hỗ trợ',
 		'skill' : {
-			'note' : 'lv10 - 31 CT',
+			'note' : 'lv10 - 31 Giây',
 			'des' : 'Gây 1300 sát thương chuẩn cho 3 kẻ địch, tăng ATK SHOOTER/FREESPIRIT lên 6 cấp (23 giây) và CRIT lên 4 cấp',
 		},
 		'hidden_skill' : {
@@ -1246,10 +1246,10 @@ window.character = {
 		'title' : 'Nekomamushi',
 		'color' : 'psy',
 		'class' : 'striker, powerhouse',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 36 CT',
+			'note' : 'lv10 - 36 Giây',
 			'des' : 'Gây (ATK x 1.5) sát thương cho vùng lớn ở phía trước, tăng DEF STRIKER lên 2 cấp (15 giây)',
 		},
 		'hidden_skill' : {
@@ -1269,10 +1269,10 @@ window.character = {
 		'title' : 'Katakuri V2',
 		'color' : 'psy',
 		'class' : 'fighter, powerhouse',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 25 CT',
+			'note' : 'lv10 - 25 Giây',
 			'des' : 'Gây (ATK x 1.65) sát thương cho một vùng nhỏ, hồi 25% máu',
 		},
 		'hidden_skill' : {
@@ -1292,10 +1292,10 @@ window.character = {
 		'title' : 'Snakeman',
 		'color' : 'str',
 		'class' : 'fighter, powerhouse',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - ? CT',
+			'note' : 'lv10 - ? Giây',
 			'des' : 'Gây (ATK x 2.7) sát thương cho hàng ngang vùng trung tâm',
 		},
 		'hidden_skill' : {
@@ -1315,10 +1315,10 @@ window.character = {
 		'title' : 'Cavendish',
 		'color' : 'qck',
 		'class' : 'slasher, driven',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 36 CT',
+			'note' : 'lv10 - 36 Giây',
 			'des' : 'Gây (ATK x 0.6) sát thương cho vùng lớn kẻ địch, tăng ATK bản thân lên 20 cấp (30 giây), DEF lên 14 cấp (30 giây)',
 		},
 		'hidden_skill' : {
@@ -1338,11 +1338,11 @@ window.character = {
 		'title' : 'Carrot',
 		'color' : 'qck',
 		'class' : 'slasher, fighter',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 39 CT',
-			'des' : 'Gây 2450 sát thương chuẩn cho vùng lớn kẻ địch phía trước, rút ngắn thời gian CT của FIGHTER/SLASHER/STRIKER/SHOOTER/CEREBRAL 20%',
+			'note' : 'lv10 - 39 Giây',
+			'des' : 'Gây 2450 sát thương chuẩn cho vùng lớn kẻ địch phía trước, rút ngắn thời gian dùng skill của FIGHTER/SLASHER/STRIKER/SHOOTER/CEREBRAL 20%',
 		},
 		'hidden_skill' : {
 			'des' : 'Tăng speed FIGHTER/SLASHER/STRIKER/SHOOTER/CEREBRAL lên 5 cấp, ATK bản thân tăng 5 cấp'
@@ -1361,10 +1361,10 @@ window.character = {
 		'title' : 'Zephyr',
 		'color' : 'qck',
 		'class' : 'shooter, fighter',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 25 CT',
+			'note' : 'lv10 - 25 Giây',
 			'des' : 'Cắt 32% HP kẻ địch ở vùng trung tâm, gây 1550 sát thương chuẩn lên kẻ địch trong 1 vùng nhỏ',
 		},
 		'hidden_skill' : {
@@ -1384,10 +1384,10 @@ window.character = {
 		'title' : 'Bege',
 		'color' : 'int',
 		'class' : 'shooter, driven',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Phòng thủ',
 		'skill' : {
-			'note' : 'lv10 - 32 CT',
+			'note' : 'lv10 - 32 Giây',
 			'des' : 'Bật trạng thái khiêu khích (30 giây). Khi ở trong trạng thái khiêu khích và máu nhỏ hoặc bằng 50%, hồi 50% máu và tăng DEF SHOOTER lên 5 cấp (30 giây)',
 		},
 		'hidden_skill' : {
@@ -1407,10 +1407,10 @@ window.character = {
 		'title' : 'Franky',
 		'color' : 'qck',
 		'class' : 'shooter, freespirit',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Phòng thủ',
 		'skill' : {
-			'note' : 'lv10 - 25 CT',
+			'note' : 'lv10 - 25 Giây',
 			'des' : 'Cắt 21% HP kẻ địch vùng trung tâm, FIGHTER/SLASHER/STRIKER/SHOOTER tăng DEF lên 4 cấp (20 giây).Nếu số lượng địch nhiều hơn số lượng đồng đội là 3, tăng DEF 4 cấp (20 giây)',
 		},
 		'hidden_skill' : {
@@ -1430,10 +1430,10 @@ window.character = {
 		'title' : 'Garp',
 		'color' : 'psy',
 		'class' : 'powerhouse, freespirit',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 30 CT',
+			'note' : 'lv10 - 30 Giây',
 			'des' : 'Cắt 45% HP một kẻ địch, rút ngắn trạng thái khóa chiêu đi 9 giây, tăng ATK lên 3 cấp trong 15 giây',
 		},
 		'hidden_skill' : {
@@ -1453,10 +1453,10 @@ window.character = {
 		'title' : 'Sanji V1',
 		'color' : 'int',
 		'class' : 'powerhouse, fighter',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 30 CT',
+			'note' : 'lv10 - 30 Giây',
 			'des' : 'Giảm DEF kẻ địch vùng trung tâm đi 6 cấp trong 6 giây, gây (ATK x 2.15) sát thương',
 		},
 		'hidden_skill' : {
@@ -1476,10 +1476,10 @@ window.character = {
 		'title' : 'God Enel',
 		'color' : 'qck',
 		'class' : 'shooter, striker',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Phòng thủ',
 		'skill' : {
-			'note' : 'lv10 - 55 CT',
+			'note' : 'lv10 - 55 Giây',
 			'des' : 'Gây 2400 sát thương chuẩn lên toàn bộ kẻ địch, giảm DEF đi 4 cấp trong 40 giây',
 		},
 		'hidden_skill' : {
@@ -1499,10 +1499,10 @@ window.character = {
 		'title' : 'Shiki',
 		'color' : 'qck',
 		'class' : 'driven, striker',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Phá hoại',
 		'skill' : {
-			'note' : 'lv10 - 38 CT',
+			'note' : 'lv10 - 38 Giây',
 			'des' : 'Gây 1450 sát thương chuẩn lên kẻ địch hàng ngang, giảm DEF đi 2 cấp trong 24 giây, và có 51% khả năng khóa hành động của kẻ địch trong 6 giây',
 		},
 		'hidden_skill' : {
@@ -1522,10 +1522,10 @@ window.character = {
 		'title' : 'Whitebeard & Marco',
 		'color' : 'qck',
 		'class' : 'powerhouse, striker',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Phòng thủ',
 		'skill' : {
-			'note' : 'lv10 - 27 CT',
+			'note' : 'lv10 - 27 Giây',
 			'des' : 'Cắt 32% HP toàn bộ địch. Hồi HP bản thân bằng (HP x 2.15)',
 		},
 		'hidden_skill' : {
@@ -1545,10 +1545,10 @@ window.character = {
 		'title' : 'Sanji V2',
 		'color' : 'psy',
 		'class' : 'powerhouse, fighter',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 37 CT',
+			'note' : 'lv10 - 37 Giây',
 			'des' : 'Khi còn trên 80% HP, tăng ATK bản thân 12 cấp (15 giây), tấn công kẻ địch có ATK cao nhất 3 lần với sát thương bằng với (ATK x 0.95)',
 		},
 		'hidden_skill' : {
@@ -1568,10 +1568,10 @@ window.character = {
 		'title' : 'Judge',
 		'color' : 'int',
 		'class' : 'powerhouse, driven',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Hỗ trợ',
 		'skill' : {
-			'note' : 'lv10 - 22 CT',
+			'note' : 'lv10 - 22 Giây',
 			'des' : 'Gây (ATK x 0.8) sát thương cho một vùng nhỏ, tăng ATK POWERHOUSE lên 6 cấp trong 33 giây',
 		},
 		'hidden_skill' : {
@@ -1591,14 +1591,14 @@ window.character = {
 		'title' : 'Tesoro',
 		'color' : 'qck',
 		'class' : 'striker, driven',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Phòng thủ',
 		'skill' : {
-			'note' : 'lv10 - 34 CT',
+			'note' : 'lv10 - 34 Giây',
 			'des' : 'Gây 1200 sát thương chuẩn kẻ địch vùng trung tâm, đồng đội vùng trung tâm tăng DEF lên 7 cấp trong 10 giây',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng tốc độ CT của đồng đội lên 5 cấp. Khi HP nhỏ hoặc bằng 60%, DEF đồng đội tăng 1 cấp'
+			'des' : 'Giảm thời gian dùng skill của đồng đội 5 giây. Khi HP nhỏ hoặc bằng 60%, DEF đồng đội tăng 1 cấp'
 		},
 		'others' : {
 			'target' : 'Đang cập nhật',
@@ -1614,10 +1614,10 @@ window.character = {
 		'title' : 'Jinbe V1',
 		'color' : 'int',
 		'class' : 'fighter, powerhouse',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Phòng thủ',
 		'skill' : {
-			'note' : 'lv10 - 31 CT',
+			'note' : 'lv10 - 31 Giây',
 			'des' : 'Gây (ATK x 1.3) sát thương cho kẻ địch hàng ngang vùng trung tâm, giảm ATK đi 15 cấp (25 giây)',
 		},
 		'hidden_skill' : {
@@ -1637,10 +1637,10 @@ window.character = {
 		'title' : 'Buggy',
 		'color' : 'int',
 		'class' : 'driven, shooter',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Hỗ trợ',
 		'skill' : {
-			'note' : 'lv10 - 23 CT',
+			'note' : 'lv10 - 23 Giây',
 			'des' : 'Đồng đội tăng ATK lên 5 cấp (25 giây), SPEED lên 8 cấp (25 giây)',
 		},
 		'hidden_skill' : {
@@ -1660,14 +1660,14 @@ window.character = {
 		'title' : 'Kizaru',
 		'color' : 'psy',
 		'class' : 'slasher, shooter',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Hỗ trợ',
 		'skill' : {
-			'note' : 'lv10 - 17 CT',
+			'note' : 'lv10 - 17 Giây',
 			'des' : 'Tấn công 4 kẻ địch với sát thương (ATK x 0.6). SLASHER/SHOOTER tăng ATK lên 7 cấp',
 		},
 		'hidden_skill' : {
-			'des' : '30 giây đầu tăng SPEED của SLASHER/SHOOTER lên 6 cấp. Tăng tốc độ CT SLASHER/SHOOTER lên 2 cấp'
+			'des' : '30 giây đầu tăng SPEED của SLASHER/SHOOTER lên 6 cấp. Giảm thời gian dùng skill của SLASHER/SHOOTER đi 2 giây'
 		},
 		'others' : {
 			'target' : 'Đang cập nhật',
@@ -1683,10 +1683,10 @@ window.character = {
 		'title' : 'Kuzan V2',
 		'color' : 'psy',
 		'class' : 'slasher, shooter',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 37 CT',
+			'note' : 'lv10 - 37 Giây',
 			'des' : 'Gây 1200 sát thương chuẩn lên toàn bộ địch và giảm DEF của STR/INT đi 2 cấp (28 giây)',
 		},
 		'hidden_skill' : {
@@ -1706,10 +1706,10 @@ window.character = {
 		'title' : 'Akainu V2',
 		'color' : 'int',
 		'class' : 'fighter, shooter',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 37 CT',
+			'note' : 'lv10 - 37 Giây',
 			'des' : 'Cắt 16% HP toàn bộ địch, DEF của QCK/PSY giảm 4 cấp (40 giây)',
 		},
 		'hidden_skill' : {
@@ -1729,10 +1729,10 @@ window.character = {
 		'title' : 'Shanks V2',
 		'color' : 'int',
 		'class' : 'freespirit, cerebral',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Hỗ trợ',
 		'skill' : {
-			'note' : 'lv10 - 27 CT',
+			'note' : 'lv10 - 27 Giây',
 			'des' : 'Cắt 10% HP toàn bộ địch, giảm tỷ lệ xuất hiện khiên đi 4 cấp (25 giây), tăng CRIT của INT lên 5 cấp trong 14 giây',
 		},
 		'hidden_skill' : {
@@ -1752,10 +1752,10 @@ window.character = {
 		'title' : 'Law V1',
 		'color' : 'psy',
 		'class' : 'freespirit, slasher',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 30 CT',
+			'note' : 'lv10 - 30 Giây',
 			'des' : 'Gây 1300 sát thương chuẩn cho một vùng nhỏ, và inflicts continuous damage lv3 (40 seconds), giảm DEF 4 cấp (20 giây)',
 		},
 		'hidden_skill' : {
@@ -1775,10 +1775,10 @@ window.character = {
 		'title' : 'Bartolomeo',
 		'color' : 'qck',
 		'class' : 'driven, striker',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Phòng thủ',
 		'skill' : {
-			'note' : 'lv10 - 15 CT',
+			'note' : 'lv10 - 15 Giây',
 			'des' : 'Gây (ATK x 1.2) sát thương cho một kẻ địch, chuyển trạng thái khiêu khích (28 giây) và tăng tỉ lệ xuất hiện khiên lên 10 cấp trong 28 giây',
 		},
 		'hidden_skill' : {
@@ -1798,10 +1798,10 @@ window.character = {
 		'title' : 'Law V2',
 		'color' : 'qck',
 		'class' : 'cerebral, striker',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 32 CT',
+			'note' : 'lv10 - 32 Giây',
 			'des' : 'Gây 2850 sát thương chuẩn cho kẻ địch vùng trung tâm và tăng CRIT của STRIKER lên 4 cấp',
 		},
 		'hidden_skill' : {
@@ -1821,10 +1821,10 @@ window.character = {
 		'title' : 'Mihawk V1',
 		'color' : 'int',
 		'class' : 'slasher',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 32 CT',
+			'note' : 'lv10 - 32 Giây',
 			'des' : 'Tấn công kẻ địch trong một vùng lớn phía trước, gây (ATK x 1.65) sát thương, và giảm tỉ lệ xuất hiện khiên đi 2 cấp (15 giây)',
 		},
 		'hidden_skill' : {
@@ -1844,14 +1844,14 @@ window.character = {
 		'title' : 'Hordy',
 		'color' : 'int',
 		'class' : 'slasher',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Phòng thủ',
 		'skill' : {
-			'note' : 'lv10 - 27 CT',
+			'note' : 'lv10 - 27 Giây',
 			'des' : 'Gây 1700 sát thương chuẩn lên kẻ địch có DEF cao nhất, tăng DEF POWERHOUSE lên 6 cấp (15 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng HP POWERHOUSE lên 6 cấp, tăng tốc độ CT lên 2 cấp cho POWERHOUSE'
+			'des' : 'Tăng HP POWERHOUSE lên 6 cấp, giảm thời gian dùng skill đi 2 giây cho POWERHOUSE'
 		},
 		'others' : {
 			'target' : 'Đang cập nhật',
@@ -1867,10 +1867,10 @@ window.character = {
 		'title' : 'Sengoku',
 		'color' : 'int',
 		'class' : 'slasher',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Hỗ trợ',
 		'skill' : {
-			'note' : 'lv10 - 41 CT',
+			'note' : 'lv10 - 41 Giây',
 			'des' : 'Gây (ATK x 0.5) sát thương cho một kẻ địch vùng trung tâm, tăng ATK đồng đội lên 4 cấp. Khi còn 50 giây, tăng ATK lên 4 cấp',
 		},
 		'hidden_skill' : {
@@ -1890,10 +1890,10 @@ window.character = {
 		'title' : 'Kuzan V1',
 		'color' : 'qck',
 		'class' : 'shooter, striker',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Hỗ trợ',
 		'skill' : {
-			'note' : 'lv10 - 35 CT',
+			'note' : 'lv10 - 35 Giây',
 			'des' : 'Gây 2500 sát thương chuẩn một vùng lớn, 85% tỉ lệ khóa hành động kẻ địch trong 5 giây',
 		},
 		'hidden_skill' : {
@@ -1913,10 +1913,10 @@ window.character = {
 		'title' : 'Shanks V1',
 		'color' : 'psy',
 		'class' : 'slasher, cerebral',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Phá hoại',
 		'skill' : {
-			'note' : 'lv10 - 45 CT',
+			'note' : 'lv10 - 45 Giây',
 			'des' : 'Cắt 23% HP toàn bộ địch. Nếu còn 30 giây, gây 2150 sát thương chuẩn và DEF giảm 7 cấp trong 10 giây',
 		},
 		'hidden_skill' : {
@@ -1936,10 +1936,10 @@ window.character = {
 		'title' : 'Rayleigh V1',
 		'color' : 'int',
 		'class' : 'slasher, fighter',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Hồi phục',
 		'skill' : {
-			'note' : 'lv10 - 29 CT',
+			'note' : 'lv10 - 29 Giây',
 			'des' : 'Giảm khóa chiêu đi 10 giây. Có 35% cơ hội khóa chiêu một vùng lớn địch trong 10 giây và giảm ATK xuống 9 cấp trong 19 giây',
 		},
 		'hidden_skill' : {
@@ -1959,10 +1959,10 @@ window.character = {
 		'title' : 'Luffy Gear 4 V1',
 		'color' : 'psy',
 		'class' : 'freespirit, fighter',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 29 CT',
+			'note' : 'lv10 - 29 Giây',
 			'des' : 'Tấn công địch có HP cao nhất với sát thương bằng (ATK x 4), giảm ATK bản thân 10 cấp (15 giây) và DEF bản thân 3 cấp (15 giây)',
 		},
 		'hidden_skill' : {
@@ -1982,10 +1982,10 @@ window.character = {
 		'title' : 'Sabo V1',
 		'color' : 'psy',
 		'class' : 'freespirit, fighter',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Hỗ trợ',
 		'skill' : {
-			'note' : 'lv10 - 23 CT',
+			'note' : 'lv10 - 23 Giây',
 			'des' : 'Giảm DEF địch có HP cao nhất đi 4 cấp trong 15 giây, gây (ATK x 0.6) sát thương, tăng ATK FREESPIRIT lên 5 cấp (24 giây)',
 		},
 		'hidden_skill' : {
@@ -2005,10 +2005,10 @@ window.character = {
 		'title' : 'Hancock V1',
 		'color' : 'qck',
 		'class' : 'freespirit, shooter',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Hồi phục',
 		'skill' : {
-			'note' : 'lv10 - 34 CT',
+			'note' : 'lv10 - 34 Giây',
 			'des' : 'Gây 1000 sát thương chuẩn lên 1 kẻ địch, giảm DEF đi 4 cấp trong 20 giây một vùng lớn. Hồi HP đồng đội bằng (HP x 1.25)',
 		},
 		'hidden_skill' : {
@@ -2028,10 +2028,10 @@ window.character = {
 		'title' : 'Fujitora V1',
 		'color' : 'int',
 		'class' : 'driven, powerhouse',
-		'cấp' : 'legend',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 36 CT',
+			'note' : 'lv10 - 36 Giây',
 			'des' : 'Cắt 49% HP toàn bộ địch',
 		},
 		'hidden_skill' : {
@@ -2044,6 +2044,121 @@ window.character = {
 		'pattern': 'Đang cập nhật',
 		'img' : {
 			'src' : 'fujitora_v1.png'
+		},
+	},
+
+	'snakeman_v2' : {
+		'title' : 'Snake-man V2',
+		'color' : 'str',
+		'class' : 'fighter, freespirit',
+		'stars' : 'legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 32 Giây',
+			'des' : 'Gây (1.3 x ATK) sát thương cho 2 kẻ địch và tăng ATK STR lên 5 cấp trong 20 giây. Khi trận đấu còn 30 giây, gây (2 x ATK) sát thương một vùng',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK của STR lên 5 cấp và SPEED lên 1 cấp'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : '50% tránh khóa skill',
+		},
+		'pattern': 'Normal Atk → Normal Atk → Strong Atk → Full Power Atk',
+		'img' : {
+			'src' : 'snakeman_v2.png'
+		},
+	},
+
+	'Boa_Hancock_Devoted_to_Strawhat_Luffy' : {
+		'title' : 'Boa Hancock, Devoted to Strawhat Luffy',
+		'color' : 'str',
+		'class' : 'fighter, freespirit',
+		'stars' : 'Rare Recruit',
+		'type' : '?',
+		'skill' : {
+			'note' : 'lv10 - 36 Giây',
+			'des' : 'Hồi (1.5 x RCV) HP cho một vùng, tăng ATK của STR lên 3 cấp trong 20 giây',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP FIGHTER lên 5 cấp'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : 'Không có',
+		},
+		'pattern': 'Normal Attack → Lv.2 Medium Range Heal → Normal Attack → Lv.2 Small Range Heal',
+		'img' : {
+			'src' : 'Boa_Hancock_Devoted_to_Strawhat_Luffy.png'
+		},
+	},
+
+	'Monkey_D_Luffy_Straw_Hat_Pirates_Outcome_of_a_Hard_fought_Battle' : {
+		'title' : 'Monkey D. Luffy, Straw Hat Pirates: Outcome of a Hard-fought Battle',
+		'color' : 'psy',
+		'class' : 'fighter, freespirit',
+		'stars' : 'Pirate Festival Gift',
+		'type' : '?',
+		'skill' : {
+			'note' : 'lv10 - 26 Giây',
+			'des' : 'Gây 2000 sát thương chuẩn cho kẻ địch ở vùng trung tâm',
+		},
+		'hidden_skill' : {
+			'des' : 'Trong 30 giây đầu, Tăng CRIT PSY lên 5 cấp'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : 'Không có',
+		},
+		'pattern': 'Normal Attack → Strong Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'Monkey_D_Luffy_Straw_Hat_Pirates_Outcome_of_a_Hard_fought_Battle.png'
+		},
+	},
+
+	'Kami_Enel_Ruthless_Thunder' : {
+		'title' : 'Kami Enel, Ruthless Thunder',
+		'color' : 'int',
+		'class' : 'driven, shooter',
+		'stars' : 'Rare Recruit',
+		'type' : '?',
+		'skill' : {
+			'note' : 'lv10 - 25 Giây',
+			'des' : 'Tăng DEF bản thân lên 5 cấp trong 10 giây, tăng GUARD đồng đội lên 5 cấp trong 15 giây',
+		},
+		'hidden_skill' : {
+			'des' : 'Nếu còn 5 hoặc ít hơn đồng đội trên sân, tăng HP INT lên 5 cấp'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : 'Không có',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Lv.2 Self Heal',
+		'img' : {
+			'src' : 'Kami_Enel_Ruthless_Thunder.png'
+		},
+	},
+
+	'Trafalgar_Law_True_Desire_of_Life' : {
+		'title' : 'Trafalgar Law, True Desire of Life',
+		'color' : 'str',
+		'class' : 'slasher, freespirit',
+		'stars' : 'Rare Recruit',
+		'type' : '?',
+		'skill' : {
+			'note' : 'lv10 - 32 Giây',
+			'des' : 'Gây 2000 sát thương chuẩn cho 1 kẻ địch ở vùng trung tâm, và hồi 1700HP cho 1 đồng đội ở vùng trung tâm',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK FREESPIRIT lên 5 cấp'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : 'Không có',
+		},
+		'pattern': 'Normal Attack → Strong Attack → Lv.1 Short Range Heal → Normal Attack',
+		'img' : {
+			'src' : 'Trafalgar_Law_True_Desire_of_Life.png'
 		},
 	},
 
