@@ -968,7 +968,7 @@ window.character = {
 
 	'whitebeard_v2' : {
 		'title' : 'Whitebread v2',
-		'color' : 'int',
+		'color' : 'qck',
 		'class' : 'striker, powerhouse',
 		'stars' : 'legend',
 		'type' : 'Phòng thủ',
@@ -2228,6 +2228,52 @@ window.character = {
 		'pattern': 'Normal Attack → Strong Attack → Lv.1 Small Range Heal → Normal Attack',
 		'img' : {
 			'src' : 'sabo_v4.png'
+		},
+	},
+
+	'nami_v2' : {
+		'title' : 'O-Nami, Novice Kunoichi',
+		'color' : 'qck',
+		'class' : 'striker, cerebral',
+		'stars' : 'Legend',
+		'type' : 'Hồi Phục',
+		'skill' : {
+			'note' : 'lv10 - 28 Giây',
+			'des' : 'Khi HP lớn hoặc bằng 70%, giảm DEF toàn bộ địch đi 4 cấp trong 19 giây. CRIT của đồng đội tăng 1 cấp (19 giây). Nếu HP nhỏ hơn 70%, hồi (2.15 x RCV) HP cho đồng đội',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK đồng đội lên 5 cấp, tăng CT đồng đội lên 1 cấp'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : '...',
+		},
+		'pattern': 'Normal Attack → Lv.1 Small Range Heal → Lv.2 Small Range Heal',
+		'img' : {
+			'src' : 'nami_v2.png'
+		},
+	},
+
+	'Hody' : {
+		'title' : 'Hody Jones, False Crusader Rampaging Recklessly',
+		'color' : 'int',
+		'class' : 'powerhouse, shooter',
+		'stars' : 'Legend',
+		'type' : 'Phòng thủ',
+		'skill' : {
+			'note' : 'lv10 - 27 Giây',
+			'des' : 'Gây 1700 sát thương chuẩn cho kẻ địch có DEF cao nhất, tăng DEF lên 6 cấp cho đồng đội có DEF cao nhất.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK POWERHOUSE lên 6 cấp, tăng CT POWERHOUSE lên 2 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch có SPEED cao nhất',
+			'extra_ability' : '...',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack',
+		'img' : {
+			'src' : 'Hody.png'
 		},
 	},
 
