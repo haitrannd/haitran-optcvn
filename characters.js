@@ -714,7 +714,7 @@ window.character = {
 	},
 
 	'nami_robin' : {
-		'title' : 'Name & Robin',
+		'title' : 'Nami & Robin',
 		'color' : 'int, dex',
 		'class' : 'cerebral, striker, freespirit',
 		'stars' : 'legend',
