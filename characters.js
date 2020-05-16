@@ -215,7 +215,7 @@ window.character = {
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 28 Giây',
-			'des' : 'Giảm ATK bản thân đi 20%, tấn công kẻ địch ở tầm ngang với sát thương bằng với (ATK x 1.95)',
+			'des' : 'Giảm HP bản thân đi 20%, tấn công kẻ địch ở tầm ngang với sát thương bằng với (ATK x 1.95)',
 		},
 		'hidden_skill' : {
 			'des' : 'Tăng SPEED của CEREBRAL lên 6 cấp, tăng ATK của bản thân lên 9 cấp nếu HP dưới 60%.'
@@ -399,7 +399,7 @@ window.character = {
 		'type' : 'Hồi phục',
 		'skill' : {
 			'note' : 'lv10 - 32 Giây',
-			'des' : 'Hồi 2.75x HP của đồng đội xung quanh và tăng DEF lên 7 cấp (10 giây)',
+			'des' : 'Hồi (2.75 x RCV) HP cho đồng đội xung quanh và tăng DEF lên 7 cấp (10 giây)',
 		},
 		'hidden_skill' : {
 			'des' : 'Khi HP lớn hơn hoặc bằng 70%, ATK của đồng đội tăng 10 cấp'
@@ -629,7 +629,7 @@ window.character = {
 		'type' : 'Phòng thủ',
 		'skill' : {
 			'note' : 'lv10 - 23 Giây',
-			'des' : 'Tấn công kẻ địch tầm trung bình với lượng sát thường (ATK x 0.75), giảm ATK 6 cấp trong 15 giây, hồi phục HP một đồng đội bằng 2.7x HP',
+			'des' : 'Tấn công kẻ địch tầm trung bình với lượng sát thường (ATK x 0.75), giảm ATK 6 cấp trong 15 giây, hồi phục HP một đồng đội bằng (2.7 x RCV)',
 		},
 		'hidden_skill' : {
 			'des' : 'Khi HP lớn hơn hoặc bằng 50%, tăng tỉ lệ xuất hiện khiên của QCK và PSY lên 7 cấp. Tăng ATK bản thân lên 6 cấp'
@@ -859,7 +859,7 @@ window.character = {
 		'type' : 'Hồi phục',
 		'skill' : {
 			'note' : 'lv10 - 38 Giây',
-			'des' : 'Hồi 0.6 x HP cho đồng đội trung tâm, giảm 7 giây trói, giảm 7 giây tê liệt, giảm 7 giây hiệu ứng bất lợi',
+			'des' : 'Hồi (0.6 x RCV) HP cho đồng đội trung tâm, giảm 7 giây trói, giảm 7 giây tê liệt, giảm 7 giây hiệu ứng bất lợi',
 		},
 		'hidden_skill' : {
 			'des' : 'Tăng HP lên 6 cấp'
@@ -905,7 +905,7 @@ window.character = {
 		'type' : 'Hồi phục',
 		'skill' : {
 			'note' : 'lv10 - 30 Giây',
-			'des' : 'Hồi 1.45 x HP cho một vùng lớn. Khi máu lớn hơn hoặc bằng 50% tăng CRIT của QCK và INT lên 2 cấp (15 giây). ATK tăng thêm 4 cấp (15 giây) khi HP trên 80%',
+			'des' : 'Hồi (1.45 x RCV) HP cho một vùng lớn. Khi máu lớn hơn hoặc bằng 50% tăng CRIT của QCK và INT lên 2 cấp (15 giây). ATK tăng thêm 4 cấp (15 giây) khi HP trên 80%',
 		},
 		'hidden_skill' : {
 			'des' : 'QCK, INT tăng HP lên 5 cấp, DEF lên 1 cấp'
@@ -1020,7 +1020,7 @@ window.character = {
 		'type' : 'Hồi phục',
 		'skill' : {
 			'note' : 'lv10 - 40 Giây',
-			'des' : 'Hồi 2.5 x HP cho đồng đội, rút ngắn thời gian tê liệt 6 giây, rút ngắn thời gian trói 6 giây',
+			'des' : 'Hồi (2.5 x RCV) HP cho đồng đội, rút ngắn thời gian tê liệt 6 giây, rút ngắn thời gian trói 6 giây',
 		},
 		'hidden_skill' : {
 			'des' : 'Tăng HP STRIKER/CEREBRAL/FREESPIRIT lên 5 cấp. Khi HP nhỏ hoặc bằng 50%, tăng HP lên 3 cấp'
@@ -1066,7 +1066,7 @@ window.character = {
 		'type' : 'Hỗ trợ',
 		'skill' : {
 			'note' : 'lv10 - 31 Giây',
-			'des' : 'Tấn công một vùng nhỏ phía trước, gây (ATK x 0.85) sát thương. CEREBRAL/STRIKER ATK tăng 6 cấp (25 giây), hồi HP toàn bộ đồng đội bằng 0.45 x HP',
+			'des' : 'Tấn công một vùng nhỏ phía trước, gây (ATK x 0.85) sát thương. CEREBRAL/STRIKER ATK tăng 6 cấp (25 giây), hồi HP toàn bộ đồng đội bằng (0.45 x RCV)',
 		},
 		'hidden_skill' : {
 			'des' : 'Trong 45 giây đầu, CEREBRAL/STRIKER tăng SPEED lên 5 cấp, tăng ATK bản thân lên 6 cấp'
@@ -1526,7 +1526,7 @@ window.character = {
 		'type' : 'Phòng thủ',
 		'skill' : {
 			'note' : 'lv10 - 27 Giây',
-			'des' : 'Cắt 32% HP toàn bộ địch. Hồi HP bản thân bằng (HP x 2.15)',
+			'des' : 'Cắt 32% HP toàn bộ địch. Hồi HP bản thân bằng (RCV x 2.15)',
 		},
 		'hidden_skill' : {
 			'des' : 'Tăng tỉ lệ xuất hiện khiên (GUARD) của đồng đội lên 5 cấp. Khi HP đồng đội nhỏ hoặc bằng 50%, tăng DEF đồng đội đó lên 3 cấp.'
@@ -1840,29 +1840,6 @@ window.character = {
 		},
 	},
 
-	'hordy' : {
-		'title' : 'Hordy',
-		'color' : 'int',
-		'class' : 'slasher',
-		'stars' : 'legend',
-		'type' : 'Phòng thủ',
-		'skill' : {
-			'note' : 'lv10 - 27 Giây',
-			'des' : 'Gây 1700 sát thương chuẩn lên kẻ địch có DEF cao nhất, tăng DEF POWERHOUSE lên 6 cấp (15 giây)',
-		},
-		'hidden_skill' : {
-			'des' : 'Tăng HP POWERHOUSE lên 6 cấp, giảm thời gian dùng skill đi 2 giây cho POWERHOUSE'
-		},
-		'others' : {
-			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
-		},
-		'pattern': 'Đang cập nhật',
-		'img' : {
-			'src' : 'hordy.png'
-		},
-	},
-
 	'sengoku' : {
 		'title' : 'Sengoku',
 		'color' : 'int',
@@ -2009,7 +1986,7 @@ window.character = {
 		'type' : 'Hồi phục',
 		'skill' : {
 			'note' : 'lv10 - 34 Giây',
-			'des' : 'Gây 1000 sát thương chuẩn lên 1 kẻ địch, giảm DEF đi 4 cấp trong 20 giây một vùng lớn. Hồi HP đồng đội bằng (HP x 1.25)',
+			'des' : 'Gây 1000 sát thương chuẩn lên 1 kẻ địch, giảm DEF đi 4 cấp trong 20 giây một vùng lớn. Hồi HP đồng đội bằng (RCV x 1.25)',
 		},
 		'hidden_skill' : {
 			'des' : 'Khi HP lớn hoặc bằng 50%, QCK/PSY tăng SPEED lên 9 cấp'
@@ -2274,6 +2251,75 @@ window.character = {
 		'pattern': 'Normal Attack → Normal Attack → Strong Attack',
 		'img' : {
 			'src' : 'Hody.png'
+		},
+	},
+
+	'shirahoshi' : {
+		'title' : 'Shirahoshi, Promised Reunion',
+		'color' : 'psy',
+		'class' : 'striker',
+		'stars' : 'Legend',
+		'type' : 'Hồi phục',
+		'skill' : {
+			'note' : 'lv10 - 39 Giây',
+			'des' : 'Hồi HP một vùng lớn đồng đội bằng (2.55 x RCV) HP. Tăng khả năng đánh lùi của đồng đội lên 5 cấp.',
+		},
+		'hidden_skill' : {
+			'des' : 'Khi HP nhỏ hoặc bằng 50%, tăng RCV bản thân lên 29 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : '70% cơ hội tránh khóa chiêu.',
+		},
+		'pattern': 'Normal Attack → Lv.3 Small Range Heal → Lv.1 self heal → Lv.2 Small Range Heal',
+		'img' : {
+			'src' : 'shirahoshi.png'
+		},
+	},
+
+	'jack' : {
+		'title' : 'Jack, Eleph-Eleph Fruit: Ancient Model User',
+		'color' : 'str',
+		'class' : 'striker, fighter',
+		'stars' : 'Legend',
+		'type' : 'Phòng thủ',
+		'skill' : {
+			'note' : 'lv10 - 26 Giây',
+			'des' : 'Tăng DEF đồng đội lên 3 cấp (20 giây). Cắt 14% HP kẻ địch trong một vùng rộng, cắt 23% nếu trận đấu còn 70 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP đồng đội lên 5 cấp, tăng DEF đồng đội lên 1 cấp trong 30 giây đầu.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch có ATK cao nhất',
+			'extra_ability' : '50% tránh khóa chiêu',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Lv.2 self heal',
+		'img' : {
+			'src' : 'jack.png'
+		},
+	},
+
+	'rayleigh_v3' : {
+		'title' : 'Dark King Rayleigh, Teaching a New Era',
+		'color' : 'psy',
+		'class' : 'cerebral, fighter',
+		'stars' : 'Legend',
+		'type' : 'Hỗ trợ',
+		'skill' : {
+			'note' : 'lv10 - 22 Giây',
+			'des' : 'Gây 1000 sát thương chuẩn cho toàn bộ kẻ địch. Giảm DEF kẻ địch có nhiều máu nhất đi 5 cấp, tăng ATK đồng đội có ATK cao nhất lên 7 cấp trong 25 giây',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK FIGHTER/CEREBRAL và DEF FIGHTER/CEREBRAL lên 5 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : 'Khi HP nhỏ hoặc bằng 50%, hồi 100HP mỗi lượt',
+		},
+		'pattern': 'Normal Attack → Lv.3 heal small Range → Lv.1 self heal → Lv.2 heal',
+		'img' : {
+			'src' : 'rayleigh_v3.png'
 		},
 	},
 
