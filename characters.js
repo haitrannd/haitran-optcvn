@@ -2284,15 +2284,15 @@ window.character = {
 		'stars' : 'Legend',
 		'type' : 'Phòng thủ',
 		'skill' : {
-			'note' : 'lv10 - 26 Giây',
+			'note' : 'lv10 - 22 Giây',
 			'des' : 'Tăng DEF đồng đội lên 3 cấp (20 giây). Cắt 14% HP kẻ địch trong một vùng rộng, cắt 23% nếu trận đấu còn 70 giây.',
 		},
 		'hidden_skill' : {
 			'des' : 'Tăng HP đồng đội lên 5 cấp, tăng DEF đồng đội lên 1 cấp trong 30 giây đầu.'
 		},
 		'others' : {
-			'target' : 'Kẻ địch có ATK cao nhất',
-			'extra_ability' : '50% tránh khóa chiêu',
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : 'Khi HP nhỏ hoặc bằng 50%, hồi 100HP mỗi lượt',
 		},
 		'pattern': 'Normal Attack → Normal Attack → Lv.2 self heal',
 		'img' : {
@@ -2307,15 +2307,15 @@ window.character = {
 		'stars' : 'Legend',
 		'type' : 'Hỗ trợ',
 		'skill' : {
-			'note' : 'lv10 - 22 Giây',
+			'note' : 'lv10 - 26 Giây',
 			'des' : 'Gây 1000 sát thương chuẩn cho toàn bộ kẻ địch. Giảm DEF kẻ địch có nhiều máu nhất đi 5 cấp, tăng ATK đồng đội có ATK cao nhất lên 7 cấp trong 25 giây',
 		},
 		'hidden_skill' : {
 			'des' : 'Tăng ATK FIGHTER/CEREBRAL và DEF FIGHTER/CEREBRAL lên 5 cấp.'
 		},
 		'others' : {
-			'target' : 'Kẻ địch ở gần',
-			'extra_ability' : 'Khi HP nhỏ hoặc bằng 50%, hồi 100HP mỗi lượt',
+			'target' : 'Kẻ địch có ATK cao nhất',
+			'extra_ability' : '50% tránh khóa chiêu',
 		},
 		'pattern': 'Normal Attack → Lv.3 heal small Range → Lv.1 self heal → Lv.2 heal',
 		'img' : {
