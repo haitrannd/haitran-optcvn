@@ -1843,7 +1843,7 @@ window.character = {
 	'sengoku' : {
 		'title' : 'Sengoku',
 		'color' : 'int',
-		'class' : 'slasher',
+		'class' : 'fighter, cerebral',
 		'stars' : 'legend',
 		'type' : 'Hỗ trợ',
 		'skill' : {
@@ -2250,7 +2250,7 @@ window.character = {
 		},
 		'pattern': 'Normal Attack → Normal Attack → Strong Attack',
 		'img' : {
-			'src' : 'Hody.png'
+			'src' : 'hody.png'
 		},
 	},
 
@@ -2320,6 +2320,52 @@ window.character = {
 		'pattern': 'Normal Attack → Lv.3 heal small Range → Lv.1 self heal → Lv.2 heal',
 		'img' : {
 			'src' : 'rayleigh_v3.png'
+		},
+	},
+
+	'dex_tm_luffy' : {
+		'title' : 'Monkey D. Luffy, Celebrate 6th Anniversary Cruise',
+		'color' : 'dex',
+		'class' : 'freespirit, fighter',
+		'stars' : 'TM Character',
+		'type' : '?',
+		'skill' : {
+			'note' : 'lv10 - 32 Giây',
+			'des' : 'Gây (0.9 x ATK) sát thương lên những kẻ địch ở vùng trung tâm và tăng SPEED của DEX lên 5 cấp trong 20 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK FREESPIRIT lên 5 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : '50% tránh khóa chiêu',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'dex_tm_luffy.png'
+		},
+	},
+
+	'str_carrot_kizuna' : {
+		'title' : 'Carrot, Awakening Sulong',
+		'color' : 'str',
+		'class' : 'fighter, slasher',
+		'stars' : 'Kizuna',
+		'type' : '?',
+		'skill' : {
+			'note' : 'lv10 - 38 Giây',
+			'des' : 'Giảm DEF vùng lớn kẻ địch đi 6 cấp trong 20 giây. Giảm SPEED DEX trong 1 vùng lớn trước mặt đi 7 cấp trong 20 giây',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK STR lên 6 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch có SPEED cao',
+			'extra_ability' : '30% tránh tê liệt (paralysis)',
+		},
+		'pattern': 'Normal Attack → Lv.2 Self Heal → Strong Attack → Normal Attack',
+		'img' : {
+			'src' : 'str_carrot_kizuna.png'
 		},
 	},
 
