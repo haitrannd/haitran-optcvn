@@ -115,7 +115,7 @@ jQuery(document).ready(function($) {
 					type_html += '<span class="color ' + type[j].trim() + '">' + type[j].trim() + '</span>';
 				}
 
-				let html = '<div class="char ' + i + '" data-toggle="modal" data-target="#' + i + '">';
+				let html = '<div class="open_modal char ' + i + '" data-toggle="modal" data-target="#' + i + '">';
 
 				html      += '<div class="name">';
 				html      +=   '<span><i class="fas fa-anchor"></i> ' + row.title + '</span>';
@@ -136,7 +136,7 @@ jQuery(document).ready(function($) {
 				modal_html    +=       '</div>';
 				modal_html    +=       '<div class="modal-body">';
 
-				modal_html    +=         '<div class="img_wrapper"><img src="images/' + row.img.src + '" /></div>';
+				modal_html    +=         '<div class="img_wrapper"><img data-src="images/' + row.img.src + '" /></div>';
 
 				modal_html    +=         '<div class="info_wrapper">';
 				modal_html    +=           '<div class="info class">';
@@ -170,6 +170,11 @@ jQuery(document).ready(function($) {
 				modal_html    += '</div>';
 			}
 			$('.page_wrapper').append(modal_html);
+
+			$('.open_modal').click((event) => {
+				let target = $($(event.currentTarget).attr('data-target')).find('img');
+				target.attr('src', target.attr('data-src'));
+			});
 		} else {
 			for (let i in char) {
 				if (haitran_filter(char[i], filter)) {
@@ -181,7 +186,7 @@ jQuery(document).ready(function($) {
 						type_html += '<span class="color ' + type[j].trim() + '">' + type[j].trim() + '</span>';
 					}
 
-					let html = '<div class="char ' + i + '" data-toggle="modal" data-target="#' + i + '">';
+					let html = '<div class="open_modal char ' + i + '" data-toggle="modal" data-target="#' + i + '">';
 
 					html      += '<div class="name">';
 					html      +=   '<span><i class="fas fa-anchor"></i> ' + row.title + '</span>';
@@ -238,6 +243,11 @@ jQuery(document).ready(function($) {
 			}
 
 			$('.page_wrapper').append(modal_html);
+
+			$('.open_modal').click((event) => {
+				let target = $($(event.currentTarget).attr('data-target')).find('img');
+				target.attr('src', target.attr('data-src'));
+			});
 		}
 	}
 
