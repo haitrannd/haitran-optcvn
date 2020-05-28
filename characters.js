@@ -2369,4 +2369,188 @@ window.character = {
 		},
 	},
 
+	'dex_kid_legend' : {
+		'title' : 'Eustass Kid, Magnetic Captain Challenging the Dragon',
+		'color' : 'dex',
+		'class' : 'driven, striker',
+		'stars' : 'legend',
+		'type' : '?',
+		'skill' : {
+			'note' : 'lv10 - 28 Giây',
+			'des' : 'Tăng DEF tất cả đồng minh lên 3 cấp trong 25 giây và gây (1.6 x ATK) sát thương cho kẻ địch có class POWERHOUSE',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng DEF của DEX lên 2 cấp, HP của DEX lên 5 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch có ATK cao',
+			'extra_ability' : '50% tránh sát thương liên hoàn',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Lv.2 Self Heal',
+		'img' : {
+			'src' : 'dex_kid_legend.png'
+		},
+	},
+
+	'dex_hawkins_legend' : {
+		'title' : 'Magician Basil Hawkins, Follower of the Dragon',
+		'color' : 'dex',
+		'class' : 'cerebral, slasher',
+		'stars' : 'legend',
+		'type' : '?',
+		'skill' : {
+			'note' : 'lv10 - 29 Giây',
+			'des' : 'Tăng DEF bản thân lên 5 cấp, ATK bản thân lên 6 cấp và giảm sát thương kẻ địch đối với bản thân trong 20 giây. Nếu HP dưới 40%, gây (0.7 x ATK) sát thương cho một vùng kẻ địch',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng SPEED bản thân lên 5 cấp nếu máu dưới 50%.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : 'Hồi 100 HP mỗi lượt',
+		},
+		'pattern': 'Normal Attack → Lv.1 Self Heal → Normal Attack → Lv.2 Self Heal',
+		'img' : {
+			'src' : 'dex_hawkins_legend.png'
+		},
+	},
+
+	'mr0_int_raid' : {
+		'title' : 'Mr. 0, Uncowardly Duel',
+		'color' : 'int',
+		'class' : 'driven, slasher',
+		'stars' : 'raid',
+		'type' : '?',
+		'skill' : {
+			'note' : 'lv10 - 31 Giây',
+			'des' : 'Giảm sự chính xác của toàn bộ kẻ địch đi 5 cấp trong 20 giây. Giảm ATK FREESPIRIT đi 7 cấp trong 20 giây',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP DRIVEN lên 5 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : 'Hồi 100 HP mỗi lượt',
+		},
+		'pattern': 'Normal Attack → Lv.2 Self Heal → Strong Attack → Normal Attack',
+		'img' : {
+			'src' : 'mr0_int_raid.png'
+		},
+	},
+
+	'osoba_dex_raid' : {
+		'title' : 'O-Soba Mask, Mysterious Germa 66',
+		'color' : 'dex',
+		'class' : 'powerhouse, freespirit',
+		'stars' : 'raid',
+		'type' : '?',
+		'skill' : {
+			'note' : 'lv10 - 27 Giây',
+			'des' : 'Gây (1.3 x ATK) sát thương cho 1 kẻ địch, tăng SPEED DEX lên 5 cấp trong 20 giây và DEF DEX lên 6 cấp trong 15 giây',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP DEX lên 5 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch có ATK cao',
+			'extra_ability' : 'Không có',
+		},
+		'pattern': 'Normal Attack → Strong Attack → Lv.1 Small Range Heal → Normal Attack',
+		'img' : {
+			'src' : 'osoba_dex_raid.png'
+		},
+	},
+
+	'xdrake_dex_rr' : {
+		'title' : 'Red Flag X Drake, Former Drake Pirate',
+		'color' : 'dex',
+		'class' : 'powerhouse, slasher',
+		'stars' : 'Rare Recruit',
+		'type' : '?',
+		'skill' : {
+			'note' : 'lv10 - 27 Giây',
+			'des' : 'Gây (1.25 x ATK) cho kẻ địch ở vùng trung tâm phía trước, tăng ATK DEX lên 3 cấp trong 20 giây',
+		},
+		'hidden_skill' : {
+			'des' : 'Khi còn 50 giây, tăng ATK DEX lên 5 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : 'Không có',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'xdrake_dex_rr.png'
+		},
+	},
+
+	'page_one_dex_rr' : {
+		'title' : 'Page One, Tobiroppo of the Beasts Pirates',
+		'color' : 'dex',
+		'class' : 'powerhouse, slasher',
+		'stars' : 'Rare Recruit',
+		'type' : '?',
+		'skill' : {
+			'note' : 'lv10 - 26 Giây',
+			'des' : 'Giảm tích nộ (CT) của kẻ địch có DEF cao nhất đi 20%. Nếu có nhiều hơn 5 đồng mình ở trên sân, tăng SPEED DEX lên 4 cấp trong 25 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Trong 50 giây đầu, tăng HP DEX lên 5 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : 'Không có',
+		},
+		'pattern': 'Normal Attack → Strong Attack → Lv.1 Small Range Heal → Normal Attack',
+		'img' : {
+			'src' : 'page_one_dex_rr.png'
+		},
+	},
+
+	'sanji_str_rr_pf' : {
+		'title' : 'Sanji, Burning Flames of Anger',
+		'color' : 'str',
+		'class' : 'powerhouse, fighter',
+		'stars' : 'Pirate Festival LRR',
+		'type' : '?',
+		'skill' : {
+			'note' : 'lv10 - 28 Giây',
+			'des' : 'Gây (1 x ATK) sát thương cho 1 kẻ địch ở đổi diện, tăng ATK STR lên 4 cấp trong 25 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK STR lên 5 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : 'Không có',
+		},
+		'pattern': 'Normal Attack → Strong Attack → Lv.1 Short Range Heal → Normal Attack',
+		'img' : {
+			'src' : 'sanji_str_rr_pf.png'
+		},
+	},
+
+	'otama_str_lrr_pf' : {
+		'title' : 'O-Tama, Bonding with Komachiyo',
+		'color' : 'str',
+		'class' : 'freespirit, fighter',
+		'stars' : 'Pirate Festival LRR',
+		'type' : '?',
+		'skill' : {
+			'note' : 'lv10 - 17 Giây',
+			'des' : 'Hồi (1.05 x RCV) HP cho đồng minh một vùng và (1.7 x RCV) HP cho đồng mình có HP thấp nhất.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng CRIT FIGHTER và FREESPIRIT lên 5 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : 'Không có',
+		},
+		'pattern': 'Normal Attack → Lv.2 Medium Range Heal → Normal Attack → Lv.2 Small Range Heal',
+		'img' : {
+			'src' : 'otama_str_lrr_pf.png'
+		},
+	},
+
 }

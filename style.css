@@ -370,6 +370,7 @@ body .page_wrapper .body {
 
 .modal .img_wrapper img {
   width: 100%;
+  min-height: 240px;
 }
 
 .modal button {
