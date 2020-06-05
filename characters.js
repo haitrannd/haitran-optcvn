@@ -8,19 +8,20 @@ window.character = {
 		'type' : 'Hỗ trợ',
 		'skill' : {
 			'note' : 'lv10 - 27 Giây',
-			'des' : 'Tăng ATK của FREE SPIRIT lên 3 cấp (20 giây), tăng DEF lên 3 cấp (20 giây), tấn công trong một phạm vi lớn, gây một lượng sát thương bằng với (ATK x 0.65).',
+			'des' : 'Tăng ATK của FREE SPIRIT lên 3 cấp (20 giây), tăng DEF lên 3 cấp (20 giây), tấn công trong một phạm vi lớn phía trước, gây một lượng sát thương bằng với (ATK x 0.65).',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK của lên 5 cấp, tăng tỉ lệ crit lên 2 cấp cho FREE SPIRIT.'
+			'des' : 'Tăng ATK của FREESPIRIT lên 5 cấp, tăng tỉ lệ crit lên 2 cấp cho FREE SPIRIT.'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ thù ở gần',
-			'extra_ability' : 'Có 50% cơ hội tránh hiệu ứng bất lợi (Chắc thế)'
+			'extra_ability' : 'Có 50% cơ hội tránh tê liệt (paralysis)'
 		},
 		'pattern': '',
 		'img' : {
 			'src' : 'luffy_ace.png'
 		},
+		'tags': 'skill_atk_up, skill_atk_up_class_fs, skill_def_up, skill_def_up_class_fs, skill_deal_dmg, hiddenskill_atk_up, hiddenskill_atk_up_class_fs, hiddenskill_crit_up, hiddenskill_crit_up_class_fs, target_nearby, ability_prevent_para',
 	},
 
 	'barto_caven' : {
@@ -31,7 +32,7 @@ window.character = {
 		'type' : 'Phòng thủ',
 		'skill' : {
 			'note' : 'lv10 - 28 Giây',
-			'des' : 'Sát thương địch ở tầm trung theo hàng ngang với lượng sát thương bằng (ATK x 0.8). Tăng tỉ lệ xuất hiện (guard – khiên chắn) của các đồng đội DRIVEN lên 7 cấp (21 giây). Tăng ATK của DRIVEN lên 7 cấp (21 giây).',
+			'des' : 'Sát thương địch hàng dọc với lượng sát thương bằng (ATK x 0.8). Tăng tỉ lệ xuất hiện (guard – khiên chắn) của các đồng đội DRIVEN lên 7 cấp (21 giây). Tăng ATK của DRIVEN lên 7 cấp (21 giây).',
 		},
 		'hidden_skill' : {
 			'des' : 'GUARD cho DRIVEN lên 3 cấp. Tăng ATK của bản thân lên 8 cấp.'
@@ -44,6 +45,7 @@ window.character = {
 		'img' : {
 			'src' : 'barto_caven.png'
 		},
+		'tags': 'skill_atk_up, skill_guard_up, skill_deal_dmg, hiddenskill_guard_up, hiddenskill_atk_up, target_nearby, ability_heal',
 	},
 
 	'sanji_judge' : {
@@ -61,12 +63,13 @@ window.character = {
 		},
 		'others' : {
 			'target' : 'Tấn công địch có ATK cao nhất',
-			'extra_ability' : 'Có 50% cơ hội tránh bị one hit (Chắc thế)',
+			'extra_ability' : 'Có 50% cơ hội tránh khóa chiêu (silence)',
 		},
 		'pattern': '',
 		'img' : {
 			'src' : 'sanji_judge.png'
 		},
+		'tags': 'skill_fixed_dmg, skill_atk_up, hiddenskill_hp_up, hiddenskill_atk_up, target_highest_atk, ability_prevent_silence',
 	},
 
 	'luffy_law' : {
@@ -90,6 +93,7 @@ window.character = {
 		'img' : {
 			'src' : 'luffy_law.png'
 		},
+		'tags': 'skill_fixed_dmg, skill_deal_dmg, skill_atk_up, hiddenskill_hp_up, hiddenskill_atk_up, target_highest_atk, ability_prevent_silence',
 	},
 
 	'sabo_koala' : {

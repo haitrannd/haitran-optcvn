@@ -223,7 +223,12 @@ body .page_wrapper .body {
 
 .pirate_festival_page .filter_block .filter_item {
   display: flex;
+  flex-wrap: wrap;
   margin: 10px;
+}
+
+.pirate_festival_page .filter_block .filter_item .item {
+  width: 100%;
 }
 
 .pirate_festival_page .filter_block .filter_item span.title {
