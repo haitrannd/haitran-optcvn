@@ -213,7 +213,7 @@ window.character = {
 		'img' : {
 			'src' : 'akainu_v1.png'
 		},
-		'tags': 'skill_fixed_dmg, hiddenskill_atk_up, hiddenskill_atk_up_color_str, target_nearby, ability_heal';
+		'tags': 'skill_fixed_dmg, hiddenskill_atk_up, hiddenskill_atk_up_color_str, target_nearby, ability_heal',
 	},
 
 	'inuarashi' : {
