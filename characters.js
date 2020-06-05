@@ -45,7 +45,7 @@ window.character = {
 		'img' : {
 			'src' : 'barto_caven.png'
 		},
-		'tags': 'skill_atk_up, skill_guard_up, skill_deal_dmg, hiddenskill_guard_up, hiddenskill_atk_up, target_nearby, ability_heal',
+		'tags': 'skill_deal_dmg, skill_guard_up, skill_guard_up_class_driven, skill_atk_up, skill_atk_up_class_driven, hiddenskill_guard_up, hiddenskill_atk_up, hiddenskill_atk_up_self, target_nearby, ability_heal',
 	},
 
 	'sanji_judge' : {
@@ -69,7 +69,7 @@ window.character = {
 		'img' : {
 			'src' : 'sanji_judge.png'
 		},
-		'tags': 'skill_fixed_dmg, skill_atk_up, hiddenskill_hp_up, hiddenskill_atk_up, target_highest_atk, ability_prevent_silence',
+		'tags': 'skill_fixed_dmg, skill_atk_up, skill_atk_up_class_ph, hiddenskill_hp_up, hiddenskill_hp_up_class_ph, hiddenskill_atk_up, hiddenskill_atk_up_self, target_highest_atk, ability_prevent_silence',
 	},
 
 	'luffy_law' : {
@@ -93,7 +93,7 @@ window.character = {
 		'img' : {
 			'src' : 'luffy_law.png'
 		},
-		'tags': 'skill_fixed_dmg, skill_deal_dmg, skill_atk_up, hiddenskill_hp_up, hiddenskill_atk_up, target_highest_atk, ability_prevent_silence',
+		'tags': 'skill_fixed_dmg, skill_deal_dmg, skill_atk_up, skill_atk_up_all, hiddenskill_atk_up, hiddenskill_atk_up_all, target_nearby, ability_heal',
 	},
 
 	'sabo_koala' : {
@@ -117,6 +117,7 @@ window.character = {
 		'img' : {
 			'src' : 'sabo_koala.png'
 		},
+		'tags': 'skill_deal_dmg, skill_def_down, skill_def_down_all, hiddenskill_crit_up, hiddenskill_crit_up_class_cerebral, hiddenskill_crit_up_self, hiddenskill_speed_up, hiddenskill_speed_up_class_cerebral, hiddenskill_speed_up_self, target_nearby, ability_prevent_crit',
 	},
 
 	'whitebeard_v1' : {
@@ -140,6 +141,7 @@ window.character = {
 		'img' : {
 			'src' : 'whitebeard_v1.png'
 		},
+		'tags': 'skill_cut_hp, skill_cut_hp_all, hiddenskill_atk_up, hiddenskill_atk_up_all, hiddenskill_def_up, hiddenskill_def_up_self, target_nearby, ability_prevent_stack_dmg',
 	},
 
 	'Lucci_v1' : {
@@ -149,11 +151,11 @@ window.character = {
 		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 23 Giây',
-			'des' : 'Giảm 48% máu toàn bộ địch',
+			'note' : 'lv10 - ? Giây',
+			'des' : 'Gây 4850 sát thương chuẩn lên 1 kẻ địch',
 		},
 		'hidden_skill' : {
-			'des' : 'Khi HP lớn hơn hoặc bằng 30%, toàn bộ đồng đội tăng ATK lên 8 cấp, tăng DEF bản thân lên 8 cấp'
+			'des' : 'Tăng ATK POWERHOUSE lên 6 cấp, giảm DEF đi 2 cấp. Trong 25 giây đầu tăng ATK bản thân lên 18 cấp'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ thù ở gần',
@@ -163,6 +165,7 @@ window.character = {
 		'img' : {
 			'src' : 'lucci_v1.png'
 		},
+		'tags': 'skill_fixed_dmg, skill_atk_up, skill_atk_up_class_ph, hiddenskill_def_down, hiddenskill_def_down_ally, hiddenskill_atk_up, hiddenskill_atk_up_self, target_nearby, ability_prevent_para',
 	},
 
 	'crocodile_v1' : {
@@ -173,7 +176,7 @@ window.character = {
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 19 Giây',
-			'des' : 'Giảm ATK của kẻ địch đi 24% và tăng CRIT của đồng đội lên 4 cấp (15 giây)',
+			'des' : 'Giảm HP của kẻ địch đi 24% và tăng CRIT của đồng đội lên 4 cấp (15 giây)',
 		},
 		'hidden_skill' : {
 			'des' : 'Tăng ATK của CEREBRAL lên 6 cấp. Khi HP nhỏ hơn hoặc bằng 60%, tăng ATK bản thân lên 8 cấp'
@@ -186,6 +189,7 @@ window.character = {
 		'img' : {
 			'src' : 'crocodile_v1.png'
 		},
+		'tags': 'skill_cut_hp, skill_cut_hp_all, skill_crit_up, skill_crit_up_all, hiddenskill_atk_up, hiddenskill_atk_up_class_cerebral, hiddenskill_atk_up_self',
 	},
 
 	'akai_v1' : {
@@ -196,7 +200,7 @@ window.character = {
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 36 Giây',
-			'des' : 'Gây 1150 sát thương chuẩn cho toàn bộ kẻ địch, gây 1900 sát thương chuẩn nếu trận chiến còn 50 giây hoặc nhỏ hơn, gây 3150 sát thương chuẩn nếu còn 30 giây hoặc nhỏ hơn',
+			'des' : 'Gây 1150 sát thương chuẩn cho vùng lớn, gây 1900 sát thương chuẩn nếu trận chiến còn 50 giây hoặc nhỏ hơn, gây 3150 sát thương chuẩn nếu còn 30 giây hoặc nhỏ hơn',
 		},
 		'hidden_skill' : {
 			'des' : 'Tăng ATK của STR lên 6 cấp. Tăng thêm 2 cấp nếu còn 30 giây hoặc ít hơn'
@@ -209,6 +213,7 @@ window.character = {
 		'img' : {
 			'src' : 'akainu_v1.png'
 		},
+		'tags': 'skill_fixed_dmg, hiddenskill_atk_up, hiddenskill_atk_up_color_str, target_nearby, ability_heal';
 	},
 
 	'inuarashi' : {
@@ -232,6 +237,7 @@ window.character = {
 		'img' : {
 			'src' : 'inuarashi.png'
 		},
+		'tags': 'skill_cut_hp, skill_cut_hp_self, skill_deal_dmg, hiddenskill_speed_up, hiddenskill_atk_up, hiddenskill_atk_up_self',
 	},
 
 	'bigmom_v1' : {
@@ -245,7 +251,7 @@ window.character = {
 			'des' : 'Tấn công kẻ địch ở hàng ngang phía trước với sát thương bằng (ATK x 0.95), tấn công kẻ địch ở hàng giữa theo chiều dọc với sát thương bằng (ATK x 1.2), tấn công toàn bộ kẻ địch với sát thương bằng (ATK x 0.9). Tăng ATK bản thân lên 16 cấp trong 30 giây',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng HP của STR, QCK, DEX lên 3 cấp'
+			'des' : 'Tăng HP của STR, QCK, DEX lên 7 cấp'
 		},
 		'others' : {
 			'target' : 'Nhắm vào mục tiêu ở gần',
@@ -255,6 +261,7 @@ window.character = {
 		'img' : {
 			'src' : 'bigmom_v1.png'
 		},
+		'tags': 'skill_deal_dmg, skill_atk_up, skill_atk_up_self, hiddenskill_hp_up, hiddenskill_hp_up_self, target_nearby, ability_prevent_para',
 	},
 
 	'bullet' : {
@@ -272,12 +279,13 @@ window.character = {
 		},
 		'others' : {
 			'target' : 'Nhắm vào mục tiêu ở gần',
-			'extra_ability' : '50% cơ hội tránh hiệu ứng bất lợi',
+			'extra_ability' : '50% cơ hội tránh tê liệt (paralysis)',
 		},
 		'pattern': '',
 		'img' : {
 			'src' : 'bullet.png'
 		},
+		'tags': 'skill_atk_up, skill_atk_up_self, skill_def_up, skill_def_up_self, skill_lock_target, skill_cut_hp, hiddenskill_atk_up, hiddenskill_atk_up_color_str, hiddenskill_atk_up_color_qck, hiddenskill_atk_up_color_int, hiddenskill_atk_up_all, target_nearby, ability_prevent_para',
 	},
 
 	'log_luffy' : {
@@ -301,6 +309,7 @@ window.character = {
 		'img' : {
 			'src' : 'log_luffy.png'
 		},
+		'tags': 'skill_deal_dmg, skill_speed_up, skill_speed_up_all, target_nearby, ability_heal',
 	},
 
 	'zoro_v1' : {
@@ -318,12 +327,13 @@ window.character = {
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ địch có ATK cao nhất',
-			'extra_ability' : '70% cơ hội tránh leanness',
+			'extra_ability' : '70% cơ hội tránh tê liệt',
 		},
 		'pattern': '',
 		'img' : {
 			'src' : 'zoro_v1.png'
 		},
+		'tags': 'skill_deal_dmg, skill_def_down, hiddenskill_crit_up_class_slasher, hiddenskill_crit_up, hiddenskill_atk_up, hiddenskill_atk_up_self, target_nearby, ability_prevent_para',
 	},
 
 	'nami_v1' : {
@@ -334,7 +344,7 @@ window.character = {
 		'type' : 'Phá hoại',
 		'skill' : {
 			'note' : 'lv10 - 22 Giây',
-			'des' : 'Gây (ATK x 1.1) sát thương một vùng lớn và có 30% cơ hội loại bỏ trạng thái tê liệt (paralysis).',
+			'des' : 'Gây (ATK x 1.1) sát thương một vùng lớn và có 30% cơ hội làm tê liệt kẻ địch (paralysis).',
 		},
 		'hidden_skill' : {
 			'des' : 'Tăng DEX SPEED lên 6 cấp, giảm thời gian dùng chiêu đi 2 giây.'
@@ -347,6 +357,7 @@ window.character = {
 		'img' : {
 			'src' : 'nami_v1.png'
 		},
+		'tags': 'skill_deal_dmg, skill_para_enemies, hiddenskill_speed_up, hiddenskill_speed_up_color_dex, hiddenskill_ct_up, hiddenskill_ct_up_color_dex, target_nearby, ability_heal',
 	},
 
 	'usopp' : {
@@ -357,7 +368,7 @@ window.character = {
 		'type' : 'Phá hoại',
 		'skill' : {
 			'note' : 'lv10 - 30 Giây',
-			'des' : 'Giảm HP của kẻ địch hàng trước đi 37%, có 75% cơ hội trói (9 giây)',
+			'des' : 'Giảm HP của kẻ địch hàng trước đi 37%, có 75% cơ hội khóa chiêu (9 giây)',
 		},
 		'hidden_skill' : {
 			'des' : 'Tăng SPEED của SHOOTER lên 6 cấp, ATK bản thân lên 6 cấp khi HP nhỏ hơn hoặc bằng 50%. ATK bản thân lên 7 cấp khi HP dưới 30%.'
@@ -370,6 +381,7 @@ window.character = {
 		'img' : {
 			'src' : 'usopp.png'
 		},
+		'tags': 'skill_cut_hp, skill_silence_enemies, hiddenskill_speed_up, hiddenskill_speed_up_class_shooter, hiddenskill_atk_up, hiddenskill_atk_up_self',
 	},
 
 	'ace_v1' : {
@@ -380,19 +392,20 @@ window.character = {
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 35 Giây',
-			'des' : 'Giảm 70% ATK bản thân, gây (ATK x 1.9) sát thương cho kẻ địch ở tầm trung và tăng ATK của SHOOTER lên 3 cấp (30 giây)',
+			'des' : 'Giảm 70% HP bản thân, gây (ATK x 1.9) sát thương cho kẻ địch ở tầm trung và tăng ATK của SHOOTER lên 3 cấp (30 giây)',
 		},
 		'hidden_skill' : {
 			'des' : 'Trong 40 giây đầu, tăng SPEED của SHOOTER lên 6 cấp, tăng ATK bản thân lên 6 cấp'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ địch có ATK cao nhất',
-			'extra_ability' : '70% tránh khóa hồi máu',
+			'extra_ability' : '70% tránh khóa tê liệt',
 		},
 		'pattern': 'Atk → Atk → Strong → Full',
 		'img' : {
 			'src' : 'ace_v1.png'
 		},
+		'tags': 'skill_cut_hp, skill_cut_hp_self, skill_deal_dmg, skill_atk_up, skill_atk_up_class_shooter, hiddenskill_speed_up, hiddenskill_speed_up_class_shooter, hiddenskill_atk_up, hiddenskill_atk_up_self, target_highest_atk, ability_prevent_para',
 	},
 
 	'corazon' : {
@@ -416,6 +429,7 @@ window.character = {
 		'img' : {
 			'src' : 'corazon.png'
 		},
+		'tags': 'skill_heal, skill_def_up, hiddenskill_atk_up, target_nearby, ability_heal',
 	},
 
 	'magellan' : {
