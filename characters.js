@@ -453,6 +453,7 @@ window.character = {
 		'img' : {
 			'src' : 'magellan.png'
 		},
+		'tags': 'skill_atk_down, skill_ct_down, hiddenskill_hp_up, target_nearby, ability_heal',
 	},
 
 	'rayleigh_v2' : {

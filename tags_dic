@@ -215,6 +215,26 @@ skill_heal_color_int
 skill_heal_color_psy
 skill_heal_self
 
+skill_ct_down
+skill_ct_down_ally
+skill_ct_down_all
+skill_ct_down_class
+skill_ct_down_class_fs
+skill_ct_down_class_fighter
+skill_ct_down_class_shooter
+skill_ct_down_class_slasher
+skill_ct_down_class_cerebral
+skill_ct_down_class_ph
+skill_ct_down_class_driven
+skill_ct_down_class_striker
+skill_ct_down_color
+skill_ct_down_color_dex
+skill_ct_down_color_str
+skill_ct_down_color_qck
+skill_ct_down_color_int
+skill_ct_down_color_psy
+skill_ct_down_self
+
 skill_para_enemies
 skill_silence_enemies
 

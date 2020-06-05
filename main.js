@@ -21,6 +21,14 @@ jQuery(document).ready(function($) {
 		let color_val = $('select[name="color"]').val();
 		let class_val = $('select[name="class"]').val();
 		let type_val = $('select[name="type"]').val();
+
+		let effect_val = {};
+		$('input.effect').each(function(index, el) {
+			if ($(this).is(':checked')) {
+				effect_val[index] = $(this).val();
+			}
+		});
+
 		let filter = {};
 
 		if (key_val != '') {
@@ -34,6 +42,9 @@ jQuery(document).ready(function($) {
 		}
 		if (type_val != 'all') {
 			filter.type = type_val;
+		}
+		if (!$.isEmptyObject(effect_val)) {
+			filter.effect = effect_val;
 		}
 
 		if ($.isEmptyObject(filter)) {
@@ -89,6 +100,22 @@ jQuery(document).ready(function($) {
 
 		if (filter.type != undefined) {
 			if (filter.type != obj.type) {
+				check = 0;
+				return check;
+			}
+		}
+
+		if (filter.effect != undefined) {
+			if (obj.tags != undefined) {
+				let arr_tags = obj.tags.split(', ');
+				let tags = {};
+				for(let i in arr_tags) {
+					tags[i] = arr_tags[i];
+				}
+
+				check = haitran_check_obj_exist_in_obj(tags, filter.effect);
+				return check;
+			} else {
 				check = 0;
 				return check;
 			}
@@ -251,6 +278,27 @@ jQuery(document).ready(function($) {
 		}
 	}
 
+	// obj_1 is the root
+	function haitran_check_obj_exist_in_obj (obj_1, obj_2) {
+		var check = 1;
+
+		// Compare
+		var count = 0;
+		for (let i in obj_1) {
+			for (let j in obj_2) {
+				if (obj_1[i] == obj_2[j]) {
+					count ++;
+				}
+			}
+		}
+
+		if (count != Object.keys(obj_2).length) {
+			return check = 0;
+		}
+
+		return check;
+	}
+
 	haitran_print_char('');
 
 	var char_name_timeout = null;
@@ -267,5 +315,10 @@ jQuery(document).ready(function($) {
 		haitran_print_char(filter);
 		$(this).parents('.filter_block').fadeToggle(300);
 		$('.pirate_festival_page .search span.filter').toggleClass('active');
+	});
+
+	$('input.effect').change(function(event) {
+		let filter = haitran_create_filter();
+		haitran_print_char(filter);
 	});
 });
