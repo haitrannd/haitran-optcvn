@@ -1,0 +1,483 @@
+
+* {
+	font-size: 14px;
+}
+
+button {
+	outline: none !imortant;
+	color: #333 !important;
+	font-weight: 600 !important;
+	-webkit-box-shadow: 0 0 5px #333;
+	        box-shadow: 0 0 5px #333;
+}
+
+button, a {
+	-webkit-transition: 0.3s;
+	   -moz-transition: 0.3s;
+	    -ms-transition: 0.3s;
+	     -o-transition: 0.3s;
+	        transition: 0.3s;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+body .page_wrapper, body .page_wrapper .body {
+  display: flex;
+  justify-content: center;
+}
+
+body .page_wrapper .body {
+  width: 100vw;
+  max-width: 700px;
+  position: relative;
+}
+
+.menu {
+	position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: #cccccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  background-image: url('../../images/bg_menu.jpg');
+  background-size: cover;
+  max-width: 700px;
+}
+
+.menu .button_wrapper {
+	width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(51, 51, 51, 0.7);
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  flex-direction: column;
+}
+
+.menu .button_wrapper button {
+  width: 300px;
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: steelblue;
+  color: #fff !important;
+  margin-bottom: 15px;
+}
+
+.menu .button_wrapper button.pirate_festival {
+  background-image: url('../../images/bg_pf_btn.png');
+  background-position-x: -19px;
+  background-position-y: -186px;
+  text-shadow: 1px 1px 4px #333;
+}
+
+.menu .button_wrapper button.current_event {
+  background-image: url('../../images/bg_event.png');
+  background-position-x: 150px;
+  background-position-y: -70px;
+  text-shadow: 1px 1px 4px #333;
+  background-size: 1000px;
+  background-repeat: no-repeat;
+}
+
+.page {
+	z-index: -1;
+	bottom: -100vh;
+	position: fixed;
+  width: 100vw;
+  height: 100vh;
+  max-width: 700px;
+  background-color: #fff;
+  -webkit-transition: 0.3s;
+     -moz-transition: 0.3s;
+      -ms-transition: 0.3s;
+       -o-transition: 0.3s;
+          transition: 0.3s;
+}
+
+.page .text-body {
+  color: #333;
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.page .text-body p {
+  font-size: 20px;
+}
+
+.pirate_festival_page .filter_block {
+  max-width: 700px;
+}
+
+.page.event_page {
+  padding: 15px;
+  overflow: auto;
+}
+
+.md.wiki {
+  color: #333;
+}
+
+.md.wiki h1 {
+	font-size: 18px;
+}
+
+.md.wiki > ul {
+  color: #333;
+}
+
+.pirate_festival_page {
+	background-image: url('../../images/bg.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.pirate_festival_page .search {
+	width: 320px;
+  margin: 0 auto;
+  text-align: center;
+  height: 40px;
+  margin-top: 85px;
+  display: flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+
+.pirate_festival_page .search input {
+  height: 40px;
+  border-radius: 5px;
+  border: 0;
+  padding: 0 5px;
+  box-shadow: 1px 1px 4px #333;
+  width: 270px;
+}
+
+.pirate_festival_page .search .filter {
+  color: #333;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px #333;
+}
+
+.pirate_festival_page .search .filter i {
+  font-size: 20px;
+}
+
+.pirate_festival_page .search .filter i.fa-list,
+.pirate_festival_page .search .filter.active i.fa-times {
+  display: block;
+}
+
+.pirate_festival_page .search .filter.active i.fa-list,
+.pirate_festival_page .search .filter .fa-times {
+  display: none;
+}
+
+.pirate_festival_page .filter_block {
+  position: absolute;
+  top: 132px;
+  display: none;
+  width: 100vw;
+}
+
+.pirate_festival_page .filter_block .filter_wrapper {
+  z-index: 10;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  width: 320px;
+  margin: 0 auto;
+  box-shadow: 1px 1px 4px #333;
+}
+
+.pirate_festival_page .filter_block .filter_item.effect .tab-content .tab-pane {
+  
+}
+
+.pirate_festival_page .filter_block .filter_item.effect .tab-content {
+  width: 48%;
+}
+
+.pirate_festival_page .filter_block .filter_item.effect .nav.nav-tabs {
+  display: flex;
+  flex-direction: column;
+  /* margin-right: 5px; */
+  border: 0;
+  border-right: 1px solid #333;
+  width: 48%;
+}
+
+.pirate_festival_page .filter_block .filter_item.effect .nav.nav-tabs > li > a {
+  border-radius: 0;
+  padding: 5px;
+  color: #333;
+  margin: 0 !important;
+  border: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pirate_festival_page .filter_block .filter_item.effect .nav.nav-tabs > li.active > a, 
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  /* background-color: #333; */
+  color: white;
+}
+
+.pirate_festival_page .filter_block .filter_item.effect .tab-content .tab-pane.active {
+  height: 116px;
+  overflow: auto;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+}
+
+.pirate_festival_page .filter_block .filter_item.effect .nav.nav-tabs > li > a i {
+  display: none;
+}
+
+.pirate_festival_page .filter_block .filter_item.effect .nav.nav-tabs > li.active > a i {
+  display: block;
+  font-size: 9px;
+}
+
+.pirate_festival_page .filter_block .filter_item.effect .nav.nav-tabs > li:nth-child(1).active > a {
+  background-color: #065e06;
+}
+
+.pirate_festival_page .filter_block .filter_item.effect .nav.nav-tabs > li:nth-child(2).active > a {
+  background-color: #a01b1b;
+}
+
+.pirate_festival_page .filter_block .filter_item.effect .nav.nav-tabs > li:nth-child(3).active > a {
+  background-color: #dd9715;
+}
+
+.pirate_festival_page .filter_block .filter_item.effect .nav.nav-tabs > li:nth-child(4).active > a {
+  background-color: deepskyblue;
+}
+
+.pirate_festival_page .filter_block .filter_item {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.pirate_festival_page .filter_block .filter_item .item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #333;
+  /* min-height: 29px; */
+}
+
+.pirate_festival_page .filter_block .filter_item .item.active {
+  background-color: #333;
+  color: white;
+}
+
+.pirate_festival_page .filter_block .filter_item .item input {
+  display: none;
+}
+
+.pirate_festival_page .filter_block .filter_item .item input,
+.pirate_festival_page .filter_block .filter_item .item label {
+  margin: 0;
+  /* margin-right: 5px; */
+  text-align: center;
+  padding: 5px;
+}
+
+.pirate_festival_page .filter_block .filter_item span.title {
+  width: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.pirate_festival_page .filter_block .filter_item select {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.pirate_festival_page .body_page {
+	height: calc(100vh - 175px);
+  background-color: rgba(51, 51, 51, 0.9);
+  margin: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  overflow: auto;
+}
+
+.back_to_menu i {
+	color: #333;
+}
+
+.bottom {
+	bottom: -100vh;
+}
+
+.bottom.active {
+	bottom: 0;
+}
+
+.top {
+	top: -100vh;
+}
+
+.top.active {
+	top: 0;
+}
+
+.left {
+	left: -100vw;
+}
+
+.left.active {
+	left: 0;
+}
+
+.right {
+	right: -100vw;
+}
+
+.right.active {
+	right: 0;
+}
+
+.back_to_menu {
+	z-index: 2;
+	padding: 10px 15px;
+  position: absolute;
+  left: 0;
+  cursor: pointer;
+}
+
+.pirate_festival_page .char {
+	display: flex;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #fff;
+  cursor: pointer;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.pirate_festival_page .color span {
+	text-transform: uppercase;
+  padding: 2px;
+}
+
+.pirate_festival_page .name {
+	margin-right: 15px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: #fff;
+}
+
+.pirate_festival_page .color {
+  color: #fff;
+  width: 100%;
+}
+
+.pirate_festival_page .color .stars {
+  text-transform: uppercase;
+  color: #ffd808;
+}
+
+.str {
+	color: red !important;
+}
+
+.qck {
+	color: lightskyblue !important;
+}
+
+.dex {
+	color: lightgreen !important;
+}
+
+.psy {
+	color: gold !important;
+}
+
+.int {
+	color: orchid !important;
+}
+
+.modal .modal-dialog {
+	max-height: calc(100vh - 20px);
+}
+
+.modal .modal-dialog .modal-content {
+	height: 100%;
+}
+
+.modal .modal-dialog .modal-content .modal-header {
+	/* height: 56px; */
+}
+
+.modal .modal-dialog .modal-content .modal-body .info_wrapper {
+  max-height: 270px;
+  overflow: auto;
+}
+
+.modal .img_wrapper {
+	width: 300px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.modal .img_wrapper img {
+  width: 100%;
+  min-height: 240px;
+}
+
+.modal button {
+	box-shadow: unset;
+}
+
+.modal .modal-body .info_wrapper .info {
+	margin-bottom: 10px;
+}
+
+.modal .modal-body .info_wrapper .info.class {
+	padding-top: 14px;
+}
