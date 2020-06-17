@@ -2572,4 +2572,27 @@ window.character = {
 		},
 	},
 
+	'luffy_boa_kizuna' : {
+		'title' : 'Luffy & Hancock, Joint Front for Training',
+		'color' : 'psy, int',
+		'class' : 'freespirit, fighter, shooter',
+		'stars' : 'Kizuna',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 32 Giây',
+			'des' : 'Gây (2 x ATK) sát thương cho 2 kẻ địch, tăng DEF đồng đội lên 4 cấp (25 giây).',
+		},
+		'hidden_skill' : {
+			'des' : 'Khi còn ít hơn 4 đồng đội, tăng khiên (guard) đồng đội lên 7 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : 'Không có',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Lv.1 heal allies in short range',
+		'img' : {
+			'src' : 'luffy_boa_kizuna.png'
+		},
+	},
+
 }
