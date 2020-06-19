@@ -582,7 +582,7 @@ window.character = {
 			'des' : 'Giảm HP kẻ địch ở hàng trước đi 25%, và gây (ATK x 2.1) sát thương',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK của POWERHOUSE/STRIKER lên 6 cấp, ATK bản thân lên 7 cấp. Giảm thời gian dùng skill đi 6 giây'
+			'des' : 'Tăng ATK của POWERHOUSE/STRIKER lên 6 cấp, ATK bản thân lên 7 cấp. Làm chậm CT bản thân đi 6 cấp (mé nó ngáo :3)'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ địch ít máu nhất',

@@ -226,7 +226,7 @@ body .page_wrapper .body {
 }
 
 .pirate_festival_page .filter_block .filter_item.effect .tab-content {
-  width: 48%;
+  width: 50%;
 }
 
 .pirate_festival_page .filter_block .filter_item.effect .nav.nav-tabs {
@@ -235,7 +235,7 @@ body .page_wrapper .body {
   /* margin-right: 5px; */
   border: 0;
   border-right: 1px solid #333;
-  width: 48%;
+  width: 50%;
 }
 
 .pirate_festival_page .filter_block .filter_item.effect .nav.nav-tabs > li > a {
@@ -247,6 +247,7 @@ body .page_wrapper .body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-left: 15px;
 }
 
 .pirate_festival_page .filter_block .filter_item.effect .nav.nav-tabs > li.active > a, 
@@ -295,6 +296,10 @@ body .page_wrapper .body {
   margin: 10px;
   justify-content: center;
   margin-bottom: 20px;
+}
+
+.pirate_festival_page .filter_block .filter_item.effect {
+  margin: 0 -15px;
 }
 
 .pirate_festival_page .filter_block .filter_item .item {
