@@ -254,6 +254,25 @@ skill_blow_up_color_int
 skill_blow_up_color_psy
 skill_blow_up_self
 
+skill_silence_down
+skill_silence_down_all
+skill_silence_down_class
+skill_silence_down_class_fs
+skill_silence_down_class_fighter
+skill_silence_down_class_shooter
+skill_silence_down_class_slasher
+skill_silence_down_class_cerebral
+skill_silence_down_class_ph
+skill_silence_down_class_driven
+skill_silence_down_class_striker
+skill_silence_down_color
+skill_silence_down_color_dex
+skill_silence_down_color_str
+skill_silence_down_color_qck
+skill_silence_down_color_int
+skill_silence_down_color_psy
+skill_silence_down_self
+
 skill_para_enemies
 skill_silence_enemies
 
@@ -463,6 +482,7 @@ TARGET
 target_nearby
 target_highest_atk
 target_highest_speed
+target_highest_def
 
 __________________________________*/
 

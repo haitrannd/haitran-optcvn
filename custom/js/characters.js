@@ -1758,13 +1758,14 @@ window.character = {
 			'des' : 'CRIT của INT tăng 5 cấp. Khi đồng đội INT CRIT, tăng ATK lên 1 cấp, cộng dồn 4 lần'
 		},
 		'others' : {
-			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : '50% tránh tê liệt',
 		},
-		'pattern': 'Đang cập nhật',
+		'pattern': 'Normal Atk → Strong Atk → Heal lv1 (small range) → Strong Atk',
 		'img' : {
 			'src' : 'shanks_v2.png'
 		},
+		'tags': 'skill_cut_hp, skill_guard_down, skill_crit_up, skill_crit_up_color_int, hiddenskill_crit_up, hiddenskill_crit_up_color_int, hiddenskill_atk_up, hiddenskill_atk_up_color_int, target_nearby, ability_prevent_para'
 	},
 
 	'law_v1' : {
@@ -1775,19 +1776,20 @@ window.character = {
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 30 Giây',
-			'des' : 'Gây 1300 sát thương chuẩn cho một vùng nhỏ, và inflicts continuous damage lv3 (40 seconds), giảm DEF 4 cấp (20 giây)',
+			'des' : 'Gây 1300 sát thương chuẩn cho một vùng nhỏ, tăng sát thương liên hoàn lên 3 cấp (40 giây), giảm DEF 4 cấp (20 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'HP SLASHER/FREESPIRIT tăng 6 cấp khi còn 70 giây. Khả năng hồi phục của SLASHER/FREESPIRIT tăng 2 cấp'
+			'des' : 'HP SLASHER/FREESPIRIT tăng 6 cấp. Khi còn 70 giây, Tăng RCV SLASHER/FREESPIRIT lên 2 cấp'
 		},
 		'others' : {
-			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'target' : 'Kẻ địch có DEF cao',
+			'extra_ability' : '70% tránh khóa chiêu',
 		},
-		'pattern': 'Đang cập nhật',
+		'pattern': 'Normal Atk → Normal Atk → Strong Atk → Fullpower Atk',
 		'img' : {
 			'src' : 'law_v1.png'
 		},
+		'tags': 'skill_fixed_dmg, skill_def_down, hiddenskill_hp_up, hiddenskill_hp_up_class_slasher, hiddenskill_hp_up_class_fs, hiddenskill_rcv_up, hiddenskill_rcv_up_class_slasher, hiddenskill_rcv_up_class_fs, target_highest_def, ability_prevent_silence'
 	},
 
 	'bartolomeo' : {
@@ -1798,19 +1800,20 @@ window.character = {
 		'type' : 'Phòng thủ',
 		'skill' : {
 			'note' : 'lv10 - 15 Giây',
-			'des' : 'Gây (ATK x 1.2) sát thương cho một kẻ địch, chuyển trạng thái khiêu khích (28 giây) và tăng tỉ lệ xuất hiện khiên lên 10 cấp trong 28 giây',
+			'des' : 'Gây (ATK x 1.2) sát thương cho một kẻ địch, chuyển trạng thái khiêu khích (28 giây). Tăng tỉ lệ xuất hiện khiên lên 10 cấp trong 28 giây',
 		},
 		'hidden_skill' : {
 			'des' : 'DRIVEN/STRIKER tăng tỉ lệ xuất hiện khiên lên 6 cấp. Khi HP nhỏ hoặc bằng 30% tăng DEF DRIVEN/STRIKER lên 3 cấp'
 		},
 		'others' : {
-			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'target' : 'Kẻ địch có ATK cao',
+			'extra_ability' : '70% tránh khóa chiêu',
 		},
-		'pattern': 'Đang cập nhật',
+		'pattern': 'Normal Atk → Normal Atk → Heal lv2',
 		'img' : {
 			'src' : 'bartolomeo.png'
 		},
+		'tags': 'skill_deal_dmg, skill_lock_target, skill_guard_up, hiddenskill_guard_up, hiddenskill_guard_up_class_driven, hiddenskill_guard_up_class_striker, hiddenskill_def_up, hiddenskill_def_up_class_driven, hiddenskill_def_up_class_striker, target_highest_atk, ability_prevent_silence'
 	},
 
 	'law_v2' : {
@@ -1821,19 +1824,20 @@ window.character = {
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 32 Giây',
-			'des' : 'Gây 2850 sát thương chuẩn cho kẻ địch vùng trung tâm và tăng CRIT của STRIKER lên 4 cấp',
+			'des' : 'Gây 2850 sát thương chuẩn một vùng lớn và tăng CRIT của STRIKER lên 4 cấp trong 15 giây',
 		},
 		'hidden_skill' : {
 			'des' : 'Trong 50 giây đầu STRIKER tăng SPEED lên 8 cấp.'
 		},
 		'others' : {
-			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : 'Miễn nhiễm khóa chiêu',
 		},
-		'pattern': 'Đang cập nhật',
+		'pattern': 'Normal Atk → Strong Atk → Strong Atk → Fullpower Atk',
 		'img' : {
 			'src' : 'law_v2.png'
 		},
+		'tags': 'skill_fixed_dmg, skill_crit_up, skill_crit_up_class_striker, hiddenskill_speed_up, hiddenskill_speed_up_class_striker, target_nearby, ability_prevent_silence'
 	},
 
 	'mihawk_v1' : {
@@ -1850,13 +1854,14 @@ window.character = {
 			'des' : 'SLASHER ATK tăng 6 cấp. Khi kẻ địch bị đánh lùi, tăng ATK bản thân lên 6 cấp, cộng dồn 3 lần'
 		},
 		'others' : {
-			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : '70% tránh tê liệt',
 		},
-		'pattern': 'Đang cập nhật',
+		'pattern': 'Normal Atk → Normal Atk → Strong Atk → Fullpower Atk',
 		'img' : {
 			'src' : 'mihawk_v1.png'
 		},
+		'tags': 'skill_deal_dmg, skill_guard_down, hiddenskill_atk_up, hiddenskill_atk_up_class_slasher'
 	},
 
 	'sengoku' : {
@@ -1867,19 +1872,20 @@ window.character = {
 		'type' : 'Hỗ trợ',
 		'skill' : {
 			'note' : 'lv10 - 41 Giây',
-			'des' : 'Gây (ATK x 0.5) sát thương cho một kẻ địch vùng trung tâm, tăng ATK đồng đội lên 4 cấp. Khi còn 50 giây, tăng ATK lên 4 cấp',
+			'des' : 'Gây (ATK x 0.5) sát thương một vùng lớn, tăng ATK đồng đội lên 4 cấp. Khi còn 50 giây, tăng ATK lên 4 cấp',
 		},
 		'hidden_skill' : {
-			'des' : 'Khi còn 50 giây, đồng đội tăng HP lên 6 cấp, ATK lên 5 cấp'
+			'des' : 'Khi còn 50 giây, đồng đội tăng HP lên 6 cấp. Tăng ATK đồng đội lên 5 cấp'
 		},
 		'others' : {
-			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : '50% tránh tê liệt',
 		},
 		'pattern': 'Đang cập nhật',
 		'img' : {
 			'src' : 'sengoku.png'
 		},
+		'tags': 'skill_deal_dmg, skill_atk_up, hiddenskill_hp_up, hiddenskill_atk_up, target_nearby, ability_prevent_para'
 	},
 
 	'kuzan_v1' : {
@@ -1893,16 +1899,17 @@ window.character = {
 			'des' : 'Gây 2500 sát thương chuẩn một vùng lớn, 85% tỉ lệ khóa hành động kẻ địch trong 5 giây',
 		},
 		'hidden_skill' : {
-			'des' : 'Khi CRIT, tăng ATK đồng đội lên 7 cấp'
+			'des' : 'Khi CRIT, tăng ATK đồng đội lên 7 cấp, cộng dồn 2 lần.'
 		},
 		'others' : {
-			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : 'Không có',
 		},
-		'pattern': 'Đang cập nhật',
+		'pattern': 'Normal Atk → Strong Atk → Heal lv1 (small range) → Normal Atk',
 		'img' : {
 			'src' : 'kuzan_v1.png'
 		},
+		'tags': 'skill_fixed_dmg, skill_silence_enemies, hiddenskill_atk_up, target_nearby'
 	},
 
 	'shanks_v1' : {
@@ -1919,13 +1926,14 @@ window.character = {
 			'des' : 'Khi còn 30 giây PSY tăng ATK lên 9 cấp'
 		},
 		'others' : {
-			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : '50% cơ hội tránh khóa chiêu',
 		},
-		'pattern': 'Đang cập nhật',
+		'pattern': 'Normal Atk → Self Heal lv2 (range) → Strong Atk → Normal Atk',
 		'img' : {
 			'src' : 'shanks_v1.png'
 		},
+		'tags': 'skill_cut_hp, skill_fixed_dmg, skill_def_down, hiddenskill_atk_up, target_nearby, ability_prevent_silence'
 	},
 
 	'rayleigh_v1' : {
@@ -1942,13 +1950,14 @@ window.character = {
 			'des' : 'Tăng SPEED đồng đội lên 7 cấp'
 		},
 		'others' : {
-			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : '70% cơ hội tránh khóa chiêu',
 		},
-		'pattern': 'Đang cập nhật',
+		'pattern': 'Normal Atk → Heal lv1 (range) → Normal Atk → Heal lv2 (range)',
 		'img' : {
 			'src' : 'rayleigh_v1.png'
 		},
+		'tags': 'skill_silence_down, skill_silence_enemies, skill_atk_down, hiddenskill_speed_up, target_nearby, ability_prevent_silence'
 	},
 
 	'g4_v1' : {
@@ -1962,19 +1971,20 @@ window.character = {
 			'des' : 'Tấn công địch có HP cao nhất với sát thương bằng (ATK x 4), giảm ATK bản thân 10 cấp (15 giây) và DEF bản thân 3 cấp (15 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK bản thân lên 7 cấp'
+			'des' : 'Tăng ATK bản thân lên 7 cấp. Tăng ATK FIGHTER/FREESPIRIT lên 5 cấp.'
 		},
 		'others' : {
-			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'target' : 'Kẻ địch có ATK cao',
+			'extra_ability' : '70% cơ hội tránh tê liệt',
 		},
-		'pattern': 'Đang cập nhật',
+		'pattern': 'Normal Atk → Strong Atk → Fullpower Atk',
 		'img' : {
 			'src' : 'g4_v1.png'
 		},
+		'tags': 'skill_deal_dmg, skill_atk_down, skill_atk_down_self, skill_def_down, skill_def_down_self, hiddenskill_atk_up, hiddenskill_atk_up_self, hiddenskill_atk_up_class_fighter, hiddenskill_atk_up_class_fs, target_highest_atk, ability_prevent_para'
 	},
 
-	'sabo_v1' : {
+	'sabo_v1_psy' : {
 		'title' : 'Sabo V1',
 		'color' : 'psy',
 		'class' : 'freespirit, fighter',
@@ -1982,19 +1992,20 @@ window.character = {
 		'type' : 'Hỗ trợ',
 		'skill' : {
 			'note' : 'lv10 - 23 Giây',
-			'des' : 'Giảm DEF địch có HP cao nhất đi 4 cấp trong 15 giây, gây (ATK x 0.6) sát thương, tăng ATK FREESPIRIT lên 5 cấp (24 giây)',
+			'des' : 'Giảm DEF kẻ địch có HP cao nhất đi 4 cấp trong 15 giây, gây (ATK x 0.6) sát thương, tăng ATK FREESPIRIT lên 5 cấp (24 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng SPEED FREESPIRIT lên 6 cấp. Tăng ATK FREESPIRIT lên 2 cấp nếu CRIT, cộng dồn 2 lần'
+			'des' : 'Tăng SPEED FREESPIRIT lên 6 cấp. Tăng ATK SHOOTER/FREESPIRIT lên 2 cấp nếu tướng đó CRIT, cộng dồn 2 lần'
 		},
 		'others' : {
-			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'target' : 'Kẻ địch có ATK cao',
+			'extra_ability' : 'Khi HP nhỏ hoặc bằng 50%, hồi 200HP mỗi lượt',
 		},
-		'pattern': 'Đang cập nhật',
+		'pattern': 'Normal Atk → Strong Atk → Heal lv1 (in small range) → Strong Atk',
 		'img' : {
 			'src' : 'sabo_v1.png'
 		},
+		'tags': 'skill_def_down, skill_deal_dmg, skill_atk_up, skill_atk_up_class_fs, hiddenskill_speed_up, hiddenskill_speed_up_class_fs, hiddenskill_atk_up, hiddenskill_atk_up_class_fs, hiddenskill_atk_up_class_shooter, target_highest_atk, ability_heal'
 	},
 
 	'hancock_v1' : {
