@@ -235,6 +235,25 @@ skill_ct_down_color_int
 skill_ct_down_color_psy
 skill_ct_down_self
 
+skill_blow_up
+skill_blow_up_all
+skill_blow_up_class
+skill_blow_up_class_fs
+skill_blow_up_class_fighter
+skill_blow_up_class_shooter
+skill_blow_up_class_slasher
+skill_blow_up_class_cerebral
+skill_blow_up_class_ph
+skill_blow_up_class_driven
+skill_blow_up_class_striker
+skill_blow_up_color
+skill_blow_up_color_dex
+skill_blow_up_color_str
+skill_blow_up_color_qck
+skill_blow_up_color_int
+skill_blow_up_color_psy
+skill_blow_up_self
+
 skill_para_enemies
 skill_silence_enemies
 
@@ -357,6 +376,25 @@ hiddenskill_speed_up_color_int
 hiddenskill_speed_up_color_psy
 hiddenskill_speed_up_self
 
+hiddenskill_rcv_up
+hiddenskill_rcv_up_all
+hiddenskill_rcv_up_class
+hiddenskill_rcv_up_class_fs
+hiddenskill_rcv_up_class_fighter
+hiddenskill_rcv_up_class_shooter
+hiddenskill_rcv_up_class_slasher
+hiddenskill_rcv_up_class_cerebral
+hiddenskill_rcv_up_class_ph
+hiddenskill_rcv_up_class_driven
+hiddenskill_rcv_up_class_striker
+hiddenskill_rcv_up_color
+hiddenskill_rcv_up_color_dex
+hiddenskill_rcv_up_color_str
+hiddenskill_rcv_up_color_qck
+hiddenskill_rcv_up_color_int
+hiddenskill_rcv_up_color_psy
+hiddenskill_rcv_up_self
+
 hiddenskill_def_down
 hiddenskill_def_down_ally
 hiddenskill_def_down_all
@@ -424,6 +462,7 @@ TARGET
 
 target_nearby
 target_highest_atk
+target_highest_speed
 
 __________________________________*/
 
