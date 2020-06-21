@@ -122,6 +122,7 @@ function haitran_reset_filter () {
 	$('.filter_wrapper select').val('all');
 	$('input[name="char_name"]').val('');
 	$('.filter_wrapper input').prop('checked', false);
+	$('.pirate_festival_page .filter_block .filter_item .item').removeClass('active');
 	haitran_print_char('');
 	$('.search span.filter').trigger('click');
 }
