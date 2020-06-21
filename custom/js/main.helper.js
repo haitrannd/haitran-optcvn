@@ -116,6 +116,17 @@ function haitran_filter (obj, filter) {
 }
 
 /* 
+ * Reset Filter
+ */
+function haitran_reset_filter () {
+	$('.filter_wrapper select').val('all');
+	$('input[name="char_name"]').val('');
+	$('.filter_wrapper input').prop('checked', false);
+	haitran_print_char('');
+	$('.search span.filter').trigger('click');
+}
+
+/* 
  * Show data
  */
 function haitran_print_char (filter) {
@@ -313,6 +324,10 @@ function haitran_handle_navigation_and_action_ui () {
 	$('.pirate_festival_page span.filter').click(function(event) {
 		$('.pirate_festival_page .filter_block').fadeToggle(300);
 		$(this).toggleClass('active');
+	});
+
+	$('.reset_filter').on('click', function(event) {
+		haitran_reset_filter();
 	});
 }
 

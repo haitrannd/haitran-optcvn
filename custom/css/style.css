@@ -219,6 +219,7 @@ body .page_wrapper .body {
   width: 320px;
   margin: 0 auto;
   box-shadow: 1px 1px 4px #333;
+  position: relative;
 }
 
 .pirate_festival_page .filter_block .filter_item.effect .tab-content .tab-pane {
@@ -486,4 +487,16 @@ body .page_wrapper .body {
 
 .modal .modal-body .info_wrapper .info.class {
 	padding-top: 14px;
+}
+
+.reset_filter {
+  background-image: url('../../images/reset_filter.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 9px;
+  right: 9px;
 }
