@@ -5,6 +5,7 @@ window.skill = {
 		'skill_def_up' : 'Tăng DEF',
 		'skill_def_down' : 'Giảm DEF',
 		'skill_ct_up' : 'Tăng CT',
+		'skill_ct_shorten' : 'Rút ngắn CT',
 		'skill_ct_down' : 'Giảm CT',
 		'skill_deal_dmg' : 'Gây sát thương',
 		'skill_fixed_dmg' : 'Gây sát thương chuẩn',
@@ -20,6 +21,7 @@ window.skill = {
 		'skill_blow_down' : 'Giảm tỉ lệ đẩy lùi',
 		'skill_silence_down' : 'Giảm khóa chiêu',
 		'skill_silence_enemies' : 'Khóa chiêu',
+		'skill_para_enemies' : 'Khóa hành động',
 		'skill_lock_target' : 'Khóa mục tiêu',
 	},
 	'hidden_skill' : {
