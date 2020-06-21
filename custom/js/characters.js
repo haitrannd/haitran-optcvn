@@ -963,22 +963,22 @@ window.character = {
 		},
 	},
 
-	'katakuri' : {
-		'title' : 'Katakuri',
+	'katakuri_v1_int' : {
+		'title' : 'Katakuri V1',
 		'color' : 'int',
 		'class' : 'striker, powerhouse',
 		'stars' : 'legend',
 		'type' : 'Phá hoại',
 		'skill' : {
 			'note' : 'lv10 - 29 Giây',
-			'des' : 'Tấn công hàng ngang gây (ATK x 0.9) sát thương và giảm SPEED đi 6 cấp (30 giây)',
+			'des' : 'Tấn công một vùng lớn theo hàng ngang gây (ATK x 0.9) sát thương và giảm SPEED đi 6 cấp (30 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng tỉ lệ đánh lùi lên 6 cấp. Khi đẩy lùi 1 kẻ địch, tướng đẩy lùi sẽ được tăng ATK lên 7 cấp, cộng dồn 2 lần.'
+			'des' : 'Tăng tỉ lệ đánh lùi của đồng minh lên 6 cấp. Khi đẩy lùi 1 kẻ địch, Tăng ATK bản thân lên 7 cấp, cộng dồn 2 lần.'
 		},
 		'others' : {
 			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'extra_ability' : '70% tránh khóa hành động',
 		},
 		'pattern': 'Đang cập nhật',
 		'img' : {
