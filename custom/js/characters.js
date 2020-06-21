@@ -107,7 +107,7 @@ window.character = {
 			'des' : 'Tấn công vùng lớn phía trước với sát thường bằng (ATK x 0.65), giảm DEF 3 cấp (25 giây). Tấn công vùng nhỏ phía trước với sát thương bằng (ATK x 1.15).',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng crit CEREBRAL và bản thân lên 5 cấp. Tăng SPEED của CEREBRAL và bản thân lên 2 cấp.'
+			'des' : 'FREESPIRIT/CEREBRAL tăng CRIT  lên 5 cấp, tăng SPEED lên 2 cấp.'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ thù ở gần',
@@ -117,7 +117,7 @@ window.character = {
 		'img' : {
 			'src' : 'sabo_koala.png'
 		},
-		'tags': 'skill_deal_dmg, skill_def_down, skill_def_down_all, hiddenskill_crit_up, hiddenskill_crit_up_class_cerebral, hiddenskill_crit_up_self, hiddenskill_speed_up, hiddenskill_speed_up_class_cerebral, hiddenskill_speed_up_self, target_nearby, ability_prevent_crit',
+		'tags': 'skill_deal_dmg, skill_def_down, skill_def_down_all, hiddenskill_crit_up, hiddenskill_crit_up_class_cerebral, hiddenskill_crit_up_class_fs, hiddenskill_speed_up, hiddenskill_speed_up_class_cerebral, hiddenskill_speed_up_class_fs, target_nearby, ability_prevent_crit',
 	},
 
 	'whitebeard_v1' : {
@@ -432,7 +432,7 @@ window.character = {
 		'tags': 'skill_heal, skill_def_up, hiddenskill_atk_up, target_nearby, ability_heal',
 	},
 
-	'magellan' : {
+	'magellan_dex' : {
 		'title' : 'Magellan',
 		'color' : 'dex',
 		'class' : 'striker, shooter',
@@ -440,10 +440,10 @@ window.character = {
 		'type' : 'Phá hoại',
 		'skill' : {
 			'note' : 'lv10 - 31 Giây',
-			'des' : 'ATK giảm 3 cấp đối với kẻ địch ở tầm xa (47 giây). Giảm tốc độ tăng Giây của kẻ địch 4 cấp (34 giây).',
+			'des' : 'Giảm ATK một vùng lớn đi 3 cấp (47 giây). Làm chậm nộ của kẻ địch đi 4 cấp (34 giây).',
 		},
 		'hidden_skill' : {
-			'des' : 'Khi HP của đồng minh ở cấp 5 hoặc cao hơn, tăng HP đồng minh thêm 7 cấp'
+			'des' : 'Khi có 5 hoặc nhiều hơn đồng minh ở trên sân, tăng HP đồng minh thêm 7 cấp'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ địch ở gần',
@@ -855,7 +855,7 @@ window.character = {
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 27 Giây',
-			'des' : 'Gây (ATK x 1.35) sát thương cho kẻ địch tầm trung tâm và tầm ngang, tăng tỉ lệ CRIT cho FREESPIRIT và SLASHER lên 3 cấp (30 giây)',
+			'des' : 'Gây (ATK x 1.35) sát thương cho một vùng lớn theo hàng ngang, tăng tỉ lệ CRIT cho FREESPIRIT và SLASHER lên 3 cấp (30 giây)',
 		},
 		'hidden_skill' : {
 			'des' : 'Khi FREESPIRIT/SLASHER CRIT, tăng ATK 6 cấp, có thể tăng tối đa 2 lần. Trong 30 giây đầu tăng CRIT FREESPIRIT/SLASHER lên 1 cấp'
@@ -901,19 +901,20 @@ window.character = {
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 32 Giây',
-			'des' : 'Gây (ATK x 1.5) sát thương cho địch ở hàng ngang, giảm DEF đi 7 cấp',
+			'des' : 'Giảm DEF vùng lớn kẻ địch theo hàng ngang đi 7 cấp, gây (ATK x 1.5) sát thương.',
 		},
 		'hidden_skill' : {
 			'des' : 'Khi CRIT, SHOOTER được tăng SPEED lên 7 cấp, ATK lên 5 cấp, cộng dồn tối đa 3 lần'
 		},
 		'others' : {
 			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'extra_ability' : 'Khi máu dưới 50%, hồi 150HP mỗi lượt',
 		},
 		'pattern': 'Đang cập nhật',
 		'img' : {
 			'src' : 'lucci_v2.png'
 		},
+		'tags': ''
 	},
 
 	'komurasaki' : {
@@ -1238,7 +1239,7 @@ window.character = {
 		},
 	},
 
-	'hancock_v2' : {
+	'hancock_v2_psy' : {
 		'title' : 'Hancock V2',
 		'color' : 'psy',
 		'class' : 'freespirit, shooter',
@@ -1249,11 +1250,11 @@ window.character = {
 			'des' : 'Gây 1300 sát thương chuẩn cho 3 kẻ địch, tăng ATK SHOOTER/FREESPIRIT lên 6 cấp (23 giây) và CRIT lên 4 cấp',
 		},
 		'hidden_skill' : {
-			'des' : 'SHOOTER/FREESPIRIT CRIT tăng 6 cấp. Khi CRIT, tăng ATK FREESPIRIT lên 2 cấp, cộng dồn 4 lần.'
+			'des' : 'SHOOTER/FREESPIRIT CRIT tăng 6 cấp. Khi CRIT, tăng ATK SHOOTER/FREESPIRIT lên 2 cấp, cộng dồn 4 lần.'
 		},
 		'others' : {
 			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'extra_ability' : 'Hồi 200HP mỗi lượt',
 		},
 		'pattern': 'Đang cập nhật',
 		'img' : {
@@ -1422,7 +1423,7 @@ window.character = {
 		},
 	},
 
-	'franky' : {
+	'franky_qck' : {
 		'title' : 'Franky',
 		'color' : 'qck',
 		'class' : 'shooter, freespirit',
@@ -1433,11 +1434,11 @@ window.character = {
 			'des' : 'Cắt 21% HP kẻ địch vùng trung tâm, FIGHTER/SLASHER/STRIKER/SHOOTER tăng DEF lên 4 cấp (20 giây).Nếu số lượng địch nhiều hơn số lượng đồng đội là 3, tăng DEF 4 cấp (20 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng HP FIGHTER/SLASHER/STRIKER/SHOOTER'
+			'des' : 'Tăng HP FIGHTER/SLASHER/STRIKER/SHOOTER lên 7 cấp'
 		},
 		'others' : {
 			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'extra_ability' : '70% tránh tê liệt',
 		},
 		'pattern': 'Đang cập nhật',
 		'img' : {
@@ -1652,7 +1653,7 @@ window.character = {
 		},
 	},
 
-	'buggy' : {
+	'buggy_int' : {
 		'title' : 'Buggy',
 		'color' : 'int',
 		'class' : 'driven, shooter',
@@ -1660,14 +1661,14 @@ window.character = {
 		'type' : 'Hỗ trợ',
 		'skill' : {
 			'note' : 'lv10 - 23 Giây',
-			'des' : 'Đồng đội tăng ATK lên 5 cấp (25 giây), SPEED lên 8 cấp (25 giây)',
+			'des' : 'Đồng đội xung quanh tăng ATK lên 5 cấp (25 giây), SPEED lên 8 cấp (25 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'SPEED đồng đội tăng lên 6 cấp. Tăng ATK bản thân lên 6 cấp khi CRIT, cộng dồn 3 lần'
+			'des' : 'SPEED tất cả đồng đội tăng lên 6 cấp. Tăng ATK bản thân lên 6 cấp khi CRIT, cộng dồn 3 lần'
 		},
 		'others' : {
 			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'extra_ability' : 'Hồi 150HP mỗi lượt',
 		},
 		'pattern': 'Đang cập nhật',
 		'img' : {
@@ -1675,7 +1676,7 @@ window.character = {
 		},
 	},
 
-	'kizaru' : {
+	'kizaru_psy' : {
 		'title' : 'Kizaru',
 		'color' : 'psy',
 		'class' : 'slasher, shooter',
@@ -1683,14 +1684,14 @@ window.character = {
 		'type' : 'Hỗ trợ',
 		'skill' : {
 			'note' : 'lv10 - 17 Giây',
-			'des' : 'Tấn công 4 kẻ địch với sát thương (ATK x 0.6). SLASHER/SHOOTER tăng ATK lên 7 cấp',
+			'des' : 'Tấn công 4 kẻ địch với sát thương (ATK x 0.6). SLASHER/SHOOTER tăng ATK lên 7 cấp (10 giây)',
 		},
 		'hidden_skill' : {
-			'des' : '30 giây đầu tăng SPEED của SLASHER/SHOOTER lên 6 cấp. Giảm thời gian dùng skill của SLASHER/SHOOTER đi 2 giây'
+			'des' : 'Tăng SPEED của SLASHER/SHOOTER lên 6 cấp. Trong 30 giây đầu tăng tốc tích nộ của SLASHER/SHOOTER lên 2 giây'
 		},
 		'others' : {
 			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'extra_ability' : '70% tránh khóa chiêu',
 		},
 		'pattern': 'Đang cập nhật',
 		'img' : {
