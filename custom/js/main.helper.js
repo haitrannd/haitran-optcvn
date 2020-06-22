@@ -101,6 +101,13 @@ function haitran_filter (obj, filter) {
 		}
 	}
 
+	// CT
+	let ct = parseInt(obj.skill.note.replace('lv10 - ', '').replace(' Giây'));
+	if (ct < filter.head_ct || ct > filter.tail_ct) {
+		check = 0;
+		return check;
+	}
+
 	if (filter.effect != undefined) {
 		if (obj.tags != undefined) {
 			let arr_tags = obj.tags.split(', ');
@@ -117,13 +124,6 @@ function haitran_filter (obj, filter) {
 		}
 	}
 
-	// CT
-	let ct = parseInt(obj.skill.note.replace('lv10 - ', '').replace(' Giây'));
-	if (ct < filter.head_ct || ct > filter.tail_ct) {
-		check = 0;
-		return check;
-	}
-
 	return check;
 }
 
@@ -134,9 +134,7 @@ function haitran_reset_filter () {
 	$('.filter_wrapper select').val('all');
 	$('input[name="char_name"]').val('');
 	$('input[name="head"]').val(0);
-	$('input[name="head"]').next().html(0);
 	$('input[name="tail"]').val(100);
-	$('input[name="tail"]').next().html(100);
 	$('.filter_wrapper input[type="checkbox"]').prop('checked', false);
 	$('.pirate_festival_page .filter_block .filter_item .item').removeClass('active');
 	haitran_print_char('');
@@ -348,27 +346,30 @@ function haitran_handle_navigation_and_action_ui () {
 	});
 
 	var timeout_range = null;
-	$('#slider-range').slider({
-    range: true,
+
+  $(".js-range-slider").ionRangeSlider({
+    type: "double",
     min: 0,
     max: 100,
-    values: [ 0, 100 ],
-    slide: function( event, ui ) {
-    	$('input[name="head"]').next().html(ui.values[0]);
-    	$('input[name="tail"]').next().html(ui.values[1]);
+    from: 0,
+    to: 100,
+    grid: true,
+    postfix: " CT",
+    skin: "flat",
+    onChange: function (data) {
     	clearTimeout(timeout_range);
     	timeout_range = setTimeout(function () {
-    		if (ui.values[0] != $('input[name="head"]').val()) {
-    			$('input[name="head"]').val(ui.values[0]);
+    		if (data.from != $('input[name="head"]').val()) {
+    			$('input[name="head"]').val(data.from);
 	      	$('input[name="head"]').trigger('change');
 	    	}
 
-	    	if (ui.values[1] != $('input[name="tail"]').val()) {
-	    		$('input[name="tail"]').val(ui.values[1]);
+	    	if (data.to != $('input[name="tail"]').val()) {
+	    		$('input[name="tail"]').val(data.to);
 	      	$('input[name="tail"]').trigger('change');
 	    	}
     	}, 500);
-    }
+    },
   });
 }
 
@@ -407,8 +408,8 @@ function haitran_handle_filter () {
 		} else {
 			$(this).parent().removeClass('active');
 		}
-		
 		let filter = haitran_create_filter();
+		console.log(filter);
 		haitran_print_char(filter);
 	});
 
@@ -417,6 +418,7 @@ function haitran_handle_filter () {
   	if ($(this).attr('name') == 'head') {
   		if (parseInt($(this).val()) < parseInt($(this).parent().siblings('.block').find('input').val())) {
   			let filter = haitran_create_filter();
+  			console.log(filter);
 				haitran_print_char(filter);
   		} else {
   			$('input[name="head"]').val(0);

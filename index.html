@@ -23,9 +23,9 @@
   <link href="fontawesome/css/brands.css" rel="stylesheet">
   <link href="fontawesome/css/solid.css" rel="stylesheet">
 
-  <!-- jquery ui -->
-  <link rel="stylesheet" href="libraries/jquery_ui/jquery_ui.css">
-	<script type="text/javascript" src="libraries/jquery_ui/jquery_ui.js"></script>
+  <!-- ion.rangeSlider -->
+  <link rel="stylesheet" href="libraries/ion.ranger.slider/ion.rangeSlider.min.css">
+	<script type="text/javascript" src="libraries/ion.ranger.slider/ion.rangeSlider.min.js"></script>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -111,9 +111,9 @@
 						</div>
 						<div class="filter_item ct">
 							<p>Lọc theo CT</p>
-							<div id="slider-range"></div>
-							<div class="head_block block"><input type="text" name="head" inputmode="numeric" pattern="[0-9]*" value="0"><span>0</span></div>
-							<div class="tail_block block"><input type="text" name="tail" inputmode="numeric" pattern="[0-9]*" value="100"><span>100</span></div>
+							<input type="text" class="js-range-slider" name="my_range" value="" />
+							<div class="head_block block"><input type="text" name="head" inputmode="numeric" pattern="[0-9]*" value="0"></div>
+							<div class="tail_block block"><input type="text" name="tail" inputmode="numeric" pattern="[0-9]*" value="100"></div>
 						</div>
 						<span class="reset_filter"></span>
 					</div>
