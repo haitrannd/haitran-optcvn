@@ -151,7 +151,7 @@ window.character = {
 		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - ? Giây',
+			'note' : 'lv10 - 30 Giây',
 			'des' : 'Gây 4850 sát thương chuẩn lên 1 kẻ địch',
 		},
 		'hidden_skill' : {
@@ -1316,7 +1316,7 @@ window.character = {
 		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - ? Giây',
+			'note' : 'lv10 - 40 Giây',
 			'des' : 'Gây (ATK x 2.7) sát thương một vùng rộng phía trước theo hàng ngang',
 		},
 		'hidden_skill' : {

@@ -23,6 +23,10 @@
   <link href="fontawesome/css/brands.css" rel="stylesheet">
   <link href="fontawesome/css/solid.css" rel="stylesheet">
 
+  <!-- jquery ui -->
+  <link rel="stylesheet" href="libraries/jquery_ui/jquery_ui.css">
+	<script type="text/javascript" src="libraries/jquery_ui/jquery_ui.js"></script>
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -104,6 +108,12 @@
 						    <div id="ability" class="tab-pane fade"></div>
 						    <div id="target" class="tab-pane fade"></div>
 						  </div>
+						</div>
+						<div class="filter_item ct">
+							<p>Lọc theo CT</p>
+							<div id="slider-range"></div>
+							<div class="head_block block"><input type="text" name="head" inputmode="numeric" pattern="[0-9]*" value="0"><span>0</span></div>
+							<div class="tail_block block"><input type="text" name="tail" inputmode="numeric" pattern="[0-9]*" value="100"><span>100</span></div>
 						</div>
 						<span class="reset_filter"></span>
 					</div>

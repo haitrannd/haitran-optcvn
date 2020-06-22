@@ -9,6 +9,8 @@ function haitran_create_filter () {
 	let color_val = $('select[name="color"]').val();
 	let class_val = $('select[name="class"]').val();
 	let type_val = $('select[name="type"]').val();
+	let head_ct_val = $('input[name="head"]').val();
+	let tail_ct_val = $('input[name="tail"]').val();
 
 	let effect_val = {};
 	$('input.effect').each(function(index, el) {
@@ -18,6 +20,9 @@ function haitran_create_filter () {
 	});
 
 	let filter = {};
+
+	filter.head_ct = head_ct_val;
+	filter.tail_ct = tail_ct_val;
 
 	if (key_val != '') {
 		filter.key = key_val;
@@ -112,6 +117,13 @@ function haitran_filter (obj, filter) {
 		}
 	}
 
+	// CT
+	let ct = parseInt(obj.skill.note.replace('lv10 - ', '').replace(' Giây'));
+	if (ct < filter.head_ct || ct > filter.tail_ct) {
+		check = 0;
+		return check;
+	}
+
 	return check;
 }
 
@@ -121,7 +133,11 @@ function haitran_filter (obj, filter) {
 function haitran_reset_filter () {
 	$('.filter_wrapper select').val('all');
 	$('input[name="char_name"]').val('');
-	$('.filter_wrapper input').prop('checked', false);
+	$('input[name="head"]').val(0);
+	$('input[name="head"]').next().html(0);
+	$('input[name="tail"]').val(100);
+	$('input[name="tail"]').next().html(100);
+	$('.filter_wrapper input[type="checkbox"]').prop('checked', false);
 	$('.pirate_festival_page .filter_block .filter_item .item').removeClass('active');
 	haitran_print_char('');
 	$('.search span.filter').trigger('click');
@@ -330,6 +346,30 @@ function haitran_handle_navigation_and_action_ui () {
 	$('.reset_filter').on('click', function(event) {
 		haitran_reset_filter();
 	});
+
+	var timeout_range = null;
+	$('#slider-range').slider({
+    range: true,
+    min: 0,
+    max: 100,
+    values: [ 0, 100 ],
+    slide: function( event, ui ) {
+    	$('input[name="head"]').next().html(ui.values[0]);
+    	$('input[name="tail"]').next().html(ui.values[1]);
+    	clearTimeout(timeout_range);
+    	timeout_range = setTimeout(function () {
+    		if (ui.values[0] != $('input[name="head"]').val()) {
+    			$('input[name="head"]').val(ui.values[0]);
+	      	$('input[name="head"]').trigger('change');
+	    	}
+
+	    	if (ui.values[1] != $('input[name="tail"]').val()) {
+	    		$('input[name="tail"]').val(ui.values[1]);
+	      	$('input[name="tail"]').trigger('change');
+	    	}
+    	}, 500);
+    }
+  });
 }
 
 /* 
@@ -371,6 +411,29 @@ function haitran_handle_filter () {
 		let filter = haitran_create_filter();
 		haitran_print_char(filter);
 	});
+
+	// CT Filter
+	$('input[name="head"]').add('input[name="tail"]').change(function(event) {
+  	if ($(this).attr('name') == 'head') {
+  		if (parseInt($(this).val()) < parseInt($(this).parent().siblings('.block').find('input').val())) {
+  			let filter = haitran_create_filter();
+				haitran_print_char(filter);
+  		} else {
+  			$('input[name="head"]').val(0);
+  			alert('CT đầu phải nhỏ hơn CT cuối');
+  		}
+  	}
+
+  	if ($(this).attr('name') == 'tail') {
+  		if (parseInt($(this).val()) > parseInt($(this).parent().siblings('.block').find('input').val())) {
+  			let filter = haitran_create_filter();
+				haitran_print_char(filter);
+  		} else {
+  			$('input[name="tail"]').val(100);
+  			alert('CT cuối phải lớn hơn CT đầu');
+  		}
+  	}
+  });
 }
 
 /* 
