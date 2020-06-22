@@ -355,7 +355,7 @@ function haitran_handle_navigation_and_action_ui () {
     to: 100,
     grid: true,
     postfix: " CT",
-    skin: "flat",
+    skin: "modern",
     onChange: function (data) {
     	clearTimeout(timeout_range);
     	timeout_range = setTimeout(function () {
