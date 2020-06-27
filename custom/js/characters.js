@@ -135,7 +135,7 @@ window.character = {
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ thù ở gần',
-			'extra_ability' : '70% cơ hội tránh sát thương liên hoàn (Ví dụ như doffy v2 có thể gây sát thương 4 lần liên tiếp, whitebread có thể block)',
+			'extra_ability' : '70% cơ hội tránh sát thương liên hoàn',
 		},
 		'pattern': 'Atk → Strong atk → Full',
 		'img' : {
@@ -360,7 +360,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_para_enemies, hiddenskill_speed_up, hiddenskill_speed_up_color_dex, hiddenskill_ct_up, hiddenskill_ct_up_color_dex, target_nearby, ability_heal',
 	},
 
-	'usopp' : {
+	'usopp_dex_v1_legend' : {
 		'title' : 'Usopp',
 		'color' : 'dex',
 		'class' : 'shooter',
@@ -632,7 +632,7 @@ window.character = {
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
-			'extra_ability' : '50% né khóa chiêu (silence)',
+			'extra_ability' : '50% tránh khóa hành động (bind)',
 		},
 		'pattern': 'Atk → Self healing lv2 → Strong atk → Atk',
 		'img' : {
@@ -1239,7 +1239,7 @@ window.character = {
 		},
 	},
 
-	'hancock_v2_psy' : {
+	'boa_hancock_v2_psy' : {
 		'title' : 'Hancock V2',
 		'color' : 'psy',
 		'class' : 'freespirit, shooter',
@@ -1453,7 +1453,7 @@ window.character = {
 		'tags': 'skill_cut_hp, skill_def_up, skill_def_up_class_fighter, skill_def_up_class_slasher, skill_def_up_class_striker, skill_def_up_class_shooter, hiddenskill_hp_up, hiddenskill_hp_up_class_fighter, hiddenskill_hp_up_class_slasher, hiddenskill_hp_up_class_striker, hiddenskill_hp_up_class_shooter, target_nearby, ability_prevent_para'
 	},
 
-	'garp' : {
+	'garp_psy_legend' : {
 		'title' : 'Garp',
 		'color' : 'psy',
 		'class' : 'powerhouse, freespirit',
@@ -1909,7 +1909,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_atk_up, hiddenskill_hp_up, hiddenskill_atk_up, target_nearby, ability_prevent_para'
 	},
 
-	'kuzan_v1' : {
+	'kuzan_v1_aokiji_qck_legend' : {
 		'title' : 'Kuzan V1',
 		'color' : 'qck',
 		'class' : 'shooter, striker',
@@ -1930,7 +1930,7 @@ window.character = {
 		'img' : {
 			'src' : 'kuzan_v1.png'
 		},
-		'tags': 'skill_fixed_dmg, skill_silence_enemies, hiddenskill_atk_up, target_nearby'
+		'tags': 'skill_fixed_dmg, skill_bind_enemies, hiddenskill_atk_up, target_nearby'
 	},
 
 	'shanks_v1' : {
@@ -2636,6 +2636,126 @@ window.character = {
 		'img' : {
 			'src' : 'luffy_boa_kizuna.png'
 		},
+	},
+
+	'smoker_qck_legend' : {
+		'title' : 'White Chase Smoker, Marine Who Carries Out His Own Justice',
+		'color' : 'qck',
+		'class' : 'striker, driven',
+		'stars' : 'legend',
+		'type' : 'Phá hoại',
+		'skill' : {
+			'note' : 'lv10 - 42 Giây',
+			'des' : 'Gây (2.5 x ATK) sát thương một vùng lớn phía trước, 100% tê liệt 2 kẻ địch trong 10 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP QCK lên 5 cấp. Khi còn dưới 50% HP, giảm độ chính xác đòn đánh kẻ địch đi 6 cấp (missing).'
+		},
+		'others' : {
+			'target' : 'Kẻ địch có ATK cao',
+			'extra_ability' : '70% tránh tê liệt',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'smoker_qck_legend.png'
+		},
+		'tags': 'skill_deal_dmg, skill_para_enemies, hiddenskill_hp_up_color_qck, hiddenskill_hp_up, hidden_skill_accuracy_enemy_down, target_highest_atk, ability_prevent_para'
+	},
+
+	'sugar_qck_legend' : {
+		'title' : 'Sugar, Queen of the Toys',
+		'color' : 'qck',
+		'class' : 'cerebral, driven',
+		'stars' : 'legend',
+		'type' : 'Phá hoại',
+		'skill' : {
+			'note' : 'lv10 - 35 Giây',
+			'des' : 'Giảm DEF toàn bộ kẻ địch đi 3 cấp trong 18 giây. Giảm ATK và SPEED 2 kẻ địch STR đi 9 cấp trong 24 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Trong 20 giây đầu, tăng tốc độ tích nộ của QCK lên 5 cấp và giảm tốc độ tích nộ của 2 kẻ địch STR đi 8 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : 'Hồi 250HP mỗi lượt',
+		},
+		'pattern': 'Normal Attack → Lv.1 Self Heal → Normal Attack → Lv.2 Self Heal',
+		'img' : {
+			'src' : 'sugar_qck_legend.png'
+		},
+		'tags': 'skill_def_down, skill_atk_down, skill_atk_down_color_str, skill_speed_down, skill_speed_down_color_str, hiddenskill_ct_up, hiddenskill_ct_up_color_qck, hiddenskill_ct_down, hiddenskill_ct_down_color_str, target_nearby, ability_heal'
+	},
+
+	'qck_caesar_rr' : {
+		'title' : 'Master Caesar, Gas-Gas Fruit User',
+		'color' : 'qck',
+		'class' : 'cerebral, slasher',
+		'stars' : 'Rare Recruit',
+		'type' : 'Phòng thủ',
+		'skill' : {
+			'note' : 'lv10 - 35 Giây',
+			'des' : 'Áp dụng tấn công liên hoàn lên 2 cấp cho STR và INT trong 25 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Nếu HP dưới 70%, tăng tốc tích nộ tất cả đồng mình lên 6 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : 'Không có',
+		},
+		'pattern': 'Normal Attack → Strong Attack → Lv.1 Short Range Heal → Normal Attack',
+		'img' : {
+			'src' : 'qck_caesar_rr.png'
+		},
+		'tags': 'skill_continuous_dmg_up, skill_continuous_dmg_up_color_str, skill_continuous_dmg_up_color_int, hiddenskill_ct_up, target_nearby'
+	},
+
+	'qck_bonney_rr_ver_2' : {
+		'title' : 'Big Eater Jewelry Bonney, Hidden Worst Generation',
+		'color' : 'qck',
+		'class' : 'freespirit, fighter',
+		'stars' : 'Rare Recruit',
+		'type' : 'Hồi phục',
+		'skill' : {
+			'note' : 'lv10 - 35 Giây',
+			'des' : 'Hồi (1.2 x RCV) cho đồng minh một vùng xung quanh và tăng ATK của FIGHTER/FREESPIRIT lên 3 cấp trong 20 giây, DEF của FIGHTER/FREESPIRIT lên 2 cấp trong 16 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP của FIGHTER/FREESPIRIT lên 5 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : 'Không có',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Lv.1 Short Range Heal',
+		'img' : {
+			'src' : 'qck_bonney_rr_ver_2.png'
+		},
+		'tags': 'skill_heal, skill_atk_up, skill_atk_up_class_fighter, skill_atk_up_class_fs, skill_def_up, skill_def_up_class_fighter, skill_def_up_class_fs, hiddenskill_hp_up, hiddenskill_hp_up_class_fighter, hiddenskill_hp_up_class_fs, target_nearby'
+	},
+
+	'qck_ivankov_rr_ver_2' : {
+		'title' : 'Emporio Ivankov, Miracle Person Engineer',
+		'color' : 'qck',
+		'class' : 'freespirit, fighter',
+		'stars' : 'Rare Recruit',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 35 Giây',
+			'des' : 'Gây (0.9 x ATK) sát thương một vùng rộng và tăng SPEED của FIGHTER/FREESPIRIT lên 5 cấp trong 16 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Nếu HP dưới 50%, tăng ATK bản thân lên 5 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : 'Không có',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'qck_ivankov_rr_ver_2.png'
+		},
+		'tags': 'skill_deal_dmg, skill_speed_up, skill_speed_up_class_fighter, skill_speed_up_class_fs, hiddenskill_atk_up, hiddenskill_atk_up_self, target_nearby'
 	},
 
 }
