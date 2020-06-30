@@ -667,26 +667,27 @@ window.character = {
 	},
 
 	'red_hair_pirates' : {
-		'title' : 'Red hair pirates',
+		'title' : 'Red hair pirates, Shanks',
 		'color' : 'psy, qck',
 		'class' : 'slasher, cerebral',
 		'stars' : 'legend',
 		'type' : 'Phòng thủ',
 		'skill' : {
 			'note' : 'lv10 - 24 Giây',
-			'des' : 'Giảm HP hàng ngang và hàng trung bình đi 21%, tăng DEF đồng đội lên 4 cấp (14 giây)',
+			'des' : 'Giảm HP vùng rộng theo hàng ngang đi 21%, tăng DEF đồng đội lên 4 cấp (14 giây)',
 		},
 		'hidden_skill' : {
 			'des' : 'Khi trận đấu còn 70s, đồng đội tăng DEF lên 5 cấp, ATK bản thân tăng 3 cấp'
 		},
 		'others' : {
 			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'extra_ability' : '50% tránh khóa chiêu',
 		},
-		'pattern': 'Đang cập nhật',
+		'pattern': 'Normal Atk → Strong Atk → Heal lv1',
 		'img' : {
 			'src' : 'red_hair_pirates.png'
 		},
+		'tags': 'skill_cut_hp, skill_def_up, hiddenskill_def_up, hiddenskill_atk_up, hiddenskill_atk_up_self, ability_prevent_silence'
 	},
 
 	'arlong_pirates' : {
