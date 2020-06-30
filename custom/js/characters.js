@@ -487,7 +487,7 @@ window.character = {
 		'type' : 'Phòng thủ',
 		'skill' : {
 			'note' : 'lv10 - 31 Giây',
-			'des' : 'Giảm 12% ATK kẻ địch trong phạm vi trung bình. Tăng ATK của FIGHTER, SLASHER và SHOOTER lên 4 cấp trong 19 giây',
+			'des' : 'Giảm 12% HP kẻ địch một vùng rộng. Tăng ATK của FIGHTER, SLASHER và SHOOTER lên 4 cấp trong 19 giây',
 		},
 		'hidden_skill' : {
 			'des' : 'Tăng ATK của STR, DEX, PSY lên 5 cấp, tăng DEF lên 1 cấp'
@@ -500,6 +500,7 @@ window.character = {
 		'img' : {
 			'src' : 'jinbe_v2.png'
 		},
+		'tags': 'skill_cut_hp, skill_atk_up, skill_atk_up_class_fighter, skill_atk_up_class_shooter, skill_atk_up_class_slasher, hiddenskill_atk_up, hiddenskill_atk_up_color_str, hiddenskill_atk_up_color_dex, hiddenskill_atk_up_color_psy, hiddenskill_def_up, target_nearby, ability_heal'
 	},
 
 	'dof_v2' : {
@@ -523,6 +524,7 @@ window.character = {
 		'img' : {
 			'src' : 'dof_v2.png'
 		},
+		'tags': 'skill_deal_dmg, hiddenskill_atk_up, hiddenskill_atk_up_class_cerebral, target_nearby, ability_heal'
 	},
 
 	'brook' : {
@@ -540,12 +542,13 @@ window.character = {
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ địch ở gần',
-			'extra_ability' : '50% cơ hội tránh ngăn chặn',
+			'extra_ability' : '50% tránh tê liệt',
 		},
 		'pattern': 'Atk → Heal lv1 (small) → Atk → Heal lv2 (small)',
 		'img' : {
 			'src' : 'brook.png'
 		},
+		'tags': 'skill_heal, skill_def_up, hiddenskill_atk_up, hiddenskill_def_up, hiddenskill_def_up_self, target_nearby, ability_prevent_para'
 	},
 
 	'blackbeard' : {
@@ -789,16 +792,17 @@ window.character = {
 			'des' : 'Tấn công một vùng rộng ở phía trước, gây (ATK x 0.9) sát thương và tăng ATK của STR, DEX, QCK lên 6 cấp (25 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'Trong 30 giây đầu, tăng SPEED của STR, DEX, QCK lên 2 cấp. Tăng SPEED của STR, DEX, QCK lên 2 cấp'
+			'des' : 'Trong 30 giây đầu, tăng SPEED của STR, DEX, QCK lên 3 cấp. Tăng SPEED của STR, DEX, QCK lên 6 cấp.'
 		},
 		'others' : {
-			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : '70% tránh khóa chiêu',
 		},
-		'pattern': 'Đang cập nhật',
+		'pattern': 'Normal Atk → Heavy Atk → Heal lv1 (Small range) -> Normal Atk',
 		'img' : {
 			'src' : 'sabo_v2.png'
 		},
+		'tags': 'skill_deal_dmg, skill_atk_up, skill_atk_up_color_str, skill_atk_up_color_qck, skill_atk_up_color_dex, hiddenskill_speed_up, hiddenskill_speed_up_color_qck, hiddenskill_speed_up_color_dex, hiddenskill_speed_up_color_str, target_nearby, ability_prevent_silence'
 	},
 
 	'sabo_v3' : {
@@ -1484,7 +1488,7 @@ window.character = {
 		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 30 Giây',
+			'note' : 'lv10 - 40 Giây',
 			'des' : 'Giảm DEF kẻ địch một vùng rộng đi 6 cấp trong 6 giây, gây (ATK x 2.15) sát thương',
 		},
 		'hidden_skill' : {
@@ -2016,7 +2020,7 @@ window.character = {
 			'des' : 'Giảm DEF kẻ địch có HP cao nhất đi 4 cấp trong 15 giây, gây (ATK x 0.6) sát thương, tăng ATK FREESPIRIT lên 5 cấp (24 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng SPEED FREESPIRIT lên 6 cấp. Tăng ATK SHOOTER/FREESPIRIT lên 2 cấp nếu tướng đó CRIT, cộng dồn 2 lần'
+			'des' : 'Tăng SPEED FREESPIRIT lên 6 cấp. Tăng ATK SHOOTER/FREESPIRIT lên 2 cấp nếu CRIT, cộng dồn 2 lần'
 		},
 		'others' : {
 			'target' : 'Kẻ địch có ATK cao',
