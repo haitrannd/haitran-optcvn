@@ -1021,19 +1021,20 @@ window.character = {
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 37 Giây',
-			'des' : 'Khi HP lớn hoặc bằng 50%, ATK bản thân tăng 10 cấp (15 giây). Gây (ATK x 1.95) sát thương cho địch ở hàng giữa',
+			'des' : 'Khi HP lớn hoặc bằng 50%, ATK bản thân tăng 10 cấp (15 giây). Gây (ATK x 1.95) sát thương một vùng',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK STR, DEX, PSY'
+			'des' : 'Tăng ATK STR, DEX, PSY lên 6 cấp'
 		},
 		'others' : {
-			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : '50% tránh tê liệt',
 		},
-		'pattern': 'Đang cập nhật',
+		'pattern': 'Normal Atk → Normal Atk → Strong Atk → Fullpower atk',
 		'img' : {
 			'src' : 'stampede_luffy.png'
 		},
+		'tags': 'skill_atk_up, skill_atk_up_self, skill_deal_dmg, hiddenskill_atk_up, hiddenskill_atk_up_color_str, hiddenskill_atk_up_color_dex, hiddenskill_atk_up_color_psy, target_nearby, ability_prevent_para'
 	},
 
 	'shira_sherry' : {
