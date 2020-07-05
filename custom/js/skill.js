@@ -22,9 +22,12 @@ window.skill = {
 		'skill_silence_down' : 'Giảm khóa chiêu',
 		'skill_silence_enemies' : 'Khóa chiêu',
 		'skill_bind_enemies' : 'Khóa hành động',
+		'skill_bind_down' : 'Giảm khóa hành động',
 		'skill_para_enemies' : 'Làm tê liệt',
+		'skill_para_down' : 'Giảm tê liệt (paralysis)',
 		'skill_lock_target' : 'Khóa mục tiêu',
 		'skill_continuous_dmg_up' : 'Tấn công liên hoàn +',
+		'skill_miss_up' : 'Tăng tỉ lệ đánh trượt',
 	},
 	'hidden_skill' : {
 		'hiddenskill_atk_up' : 'Tăng ATK',
@@ -49,6 +52,7 @@ window.skill = {
 		'hiddenskill_para_down' : 'Giảm tê liệt',
 		'hiddenskill_bind_down' : 'Giảm trói',
 		'hidden_skill_accuracy_enemy_down' : 'Giảm chính xác',
+		'hidden_skill_rcv_up' : 'Tăng RCV',
 	},
 	'ability' : {
 		'ability_prevent_para' : 'Ngăn tê liệt (paralysis)',
@@ -63,5 +67,6 @@ window.skill = {
 		'target_highest_atk' : 'ATK cao',
 		'target_highest_speed' : 'SPEED cao',
 		'target_highest_def' : 'DEF cao',
+		'target_low_hp' : 'DEF thấp',
 	},
 }

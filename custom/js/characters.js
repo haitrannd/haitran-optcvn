@@ -17,7 +17,7 @@ window.character = {
 			'target' : 'Nhắm vào kẻ thù ở gần',
 			'extra_ability' : 'Có 50% cơ hội tránh tê liệt (paralysis)'
 		},
-		'pattern': '',
+		'pattern': 'Strong Atk → Strong Atk → Heal lv1 → Strong Atk',
 		'img' : {
 			'src' : 'luffy_ace.png'
 		},
@@ -32,16 +32,16 @@ window.character = {
 		'type' : 'Phòng thủ',
 		'skill' : {
 			'note' : 'lv10 - 28 Giây',
-			'des' : 'Sát thương địch hàng dọc với lượng sát thương bằng (ATK x 0.8). Tăng tỉ lệ xuất hiện (guard – khiên chắn) của các đồng đội DRIVEN lên 7 cấp (21 giây). Tăng ATK của DRIVEN lên 7 cấp (21 giây).',
+			'des' : 'Gây (ATK x 0.8) sát thương cho một vùng rộng theo hàng ngang. Tăng tỉ lệ xuất hiện khiên chắn của DRIVEN lên 7 cấp (21 giây). Tăng ATK của DRIVEN lên 7 cấp (21 giây).',
 		},
 		'hidden_skill' : {
-			'des' : 'GUARD cho DRIVEN lên 3 cấp. Tăng ATK của bản thân lên 8 cấp.'
+			'des' : 'Tăng tỉ lệ xuất hiện khiên chắn cho DRIVEN lên 3 cấp. Tăng ATK của bản thân lên 8 cấp.'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ thù ở gần',
-			'extra_ability' : 'Hồi phục 50HP mỗi vòng',
+			'extra_ability' : 'Hồi 50HP mỗi vòng',
 		},
-		'pattern': '',
+		'pattern': 'Normal Atk → Normal Atk → Strong Atk',
 		'img' : {
 			'src' : 'barto_caven.png'
 		},
@@ -65,7 +65,7 @@ window.character = {
 			'target' : 'Tấn công địch có ATK cao nhất',
 			'extra_ability' : 'Có 50% cơ hội tránh khóa chiêu (silence)',
 		},
-		'pattern': '',
+		'pattern': 'Normal Atk → Strong Atk → Heal lv1 → Normal Atk',
 		'img' : {
 			'src' : 'sanji_judge.png'
 		},
@@ -89,7 +89,7 @@ window.character = {
 			'target' : 'Nhắm vào kẻ thù ở gần',
 			'extra_ability' : 'Hồi 100HP mỗi vòng',
 		},
-		'pattern': 'Atk → Atk → Strong → Full',
+		'pattern': 'Normal Atk → Normal Atk → Strong Atk → Fullpower Atk',
 		'img' : {
 			'src' : 'luffy_law.png'
 		},
@@ -137,7 +137,7 @@ window.character = {
 			'target' : 'Nhắm vào kẻ thù ở gần',
 			'extra_ability' : '70% cơ hội tránh sát thương liên hoàn',
 		},
-		'pattern': 'Atk → Strong atk → Full',
+		'pattern': 'Normal Atk → Strong Atk → Fullpower Atk',
 		'img' : {
 			'src' : 'whitebeard_v1.png'
 		},
@@ -161,7 +161,7 @@ window.character = {
 			'target' : 'Nhắm vào kẻ thù ở gần',
 			'extra_ability' : '70% cơ hội tránh tê liệt (paralysis)',
 		},
-		'pattern': 'Strong - Atk - Atk - Full',
+		'pattern': 'Strong Atk → Normal Atk → Normal Atk → Fullpower Atk',
 		'img' : {
 			'src' : 'lucci_v1.png'
 		},
@@ -185,7 +185,7 @@ window.character = {
 			'target' : 'Nhắm vào mục tiêu ở gần',
 			'extra_ability' : 'Hồi 150HP sau mỗi vòng',
 		},
-		'pattern': 'Atk → Atk → Strong → Full',
+		'pattern': 'Normal Atk → Normal Atk → Strong Atk → Fullpower Atk',
 		'img' : {
 			'src' : 'crocodile_v1.png'
 		},
@@ -209,7 +209,7 @@ window.character = {
 			'target' : 'Nhắm vào mục tiêu ở gần',
 			'extra_ability' : 'Hồi 150HP mỗi vòng nếu HP nhỏ hơn hoặc bằng 50%',
 		},
-		'pattern': 'Atk → Atk → Strong → Full',
+		'pattern': 'Normal Atk → Normal Atk → Strong Atk → Fullpower Atk',
 		'img' : {
 			'src' : 'akainu_v1.png'
 		},
@@ -233,7 +233,7 @@ window.character = {
 			'target' : 'Nhắm vào mục tiêu ở gần',
 			'extra_ability' : '70% cơ hội tránh khóa chiêu (silence)',
 		},
-		'pattern': 'Strong - Atk - Strong - Full',
+		'pattern': 'Strong Atk → Normal Atk → Strong Atk → Fullpower Atk',
 		'img' : {
 			'src' : 'inuarashi.png'
 		},
@@ -257,7 +257,7 @@ window.character = {
 			'target' : 'Nhắm vào mục tiêu ở gần',
 			'extra_ability' : '70% cơ hội chặn tê liệt (paralysis)',
 		},
-		'pattern': 'Atk → Atk → Atk → Full',
+		'pattern': 'Normal Atk →  Normal Atk → Normal Atk → Fullpower Atk',
 		'img' : {
 			'src' : 'bigmom_v1.png'
 		},
@@ -279,9 +279,9 @@ window.character = {
 		},
 		'others' : {
 			'target' : 'Nhắm vào mục tiêu ở gần',
-			'extra_ability' : '50% cơ hội tránh tê liệt (paralysis)',
+			'extra_ability' : '50% tránh tê liệt (paralysis)',
 		},
-		'pattern': '',
+		'pattern': 'Normal Atk → Strong Atk → Normal Atk → Strong Atk',
 		'img' : {
 			'src' : 'bullet.png'
 		},
@@ -305,7 +305,7 @@ window.character = {
 			'target' : 'Nhắm vào mục tiêu ở gần',
 			'extra_ability' : 'Khi HP nhỏ hơn hoặc bằng 50%, hồi 100HP mỗi vòng',
 		},
-		'pattern': '',
+		'pattern': 'Normal Atk → Normal Atk → Strong Atk → Fullpower Atk',
 		'img' : {
 			'src' : 'log_luffy.png'
 		},
@@ -329,7 +329,7 @@ window.character = {
 			'target' : 'Nhắm vào kẻ địch có ATK cao nhất',
 			'extra_ability' : '70% cơ hội tránh tê liệt',
 		},
-		'pattern': '',
+		'pattern': 'Normal Atk → Strong Atk → Fullpower Atk → Strong Atk',
 		'img' : {
 			'src' : 'zoro_v1.png'
 		},
@@ -353,7 +353,7 @@ window.character = {
 			'target' : 'Nhắm vào kẻ địch ở gần',
 			'extra_ability' : 'Hồi 150HP mỗi vòng',
 		},
-		'pattern': 'Atk → Self healing lv2 → Strong → Heal lv1 (small)',
+		'pattern': 'Normal Atk → Self healing lv2 → Strong Atk → Heal lv1 (small)',
 		'img' : {
 			'src' : 'nami_v1.png'
 		},
@@ -377,7 +377,7 @@ window.character = {
 			'target' : 'Nhắm vào kẻ địch có SPEED cao nhất',
 			'extra_ability' : '70% cơ hội tránh khóa chiêu',
 		},
-		'pattern': 'Atk → Self healing lv2 → Strong → Atk',
+		'pattern': 'Normal Atk → Self healing lv2 → Strong Atk → Normal Atk',
 		'img' : {
 			'src' : 'usopp.png'
 		},
@@ -398,10 +398,10 @@ window.character = {
 			'des' : 'Trong 40 giây đầu, tăng SPEED của SHOOTER lên 6 cấp, tăng ATK bản thân lên 6 cấp'
 		},
 		'others' : {
-			'target' : 'Nhắm vào kẻ địch có ATK cao nhất',
-			'extra_ability' : '70% tránh khóa tê liệt',
+			'target' : 'Kẻ địch có ATK cao nhất',
+			'extra_ability' : '70% tránh tê liệt',
 		},
-		'pattern': 'Atk → Atk → Strong → Full',
+		'pattern': 'Normal Atk → Normal Atk → Strong Atk → Fullpower Atk',
 		'img' : {
 			'src' : 'ace_v1.png'
 		},
@@ -425,7 +425,7 @@ window.character = {
 			'target' : 'Nhắm vào kẻ địch ở gần',
 			'extra_ability' : 'Khi HP bản thân nhỏ hơn hoặc bằng 50%, Hồi 200 HP mỗi vòng',
 		},
-		'pattern': 'Atk → Heal lv3 (small) → Atk → Heal lv2 (small)',
+		'pattern': 'Normal Atk → Heal lv3 (small) → Normal Atk → Heal lv2 (small)',
 		'img' : {
 			'src' : 'corazon.png'
 		},
@@ -449,7 +449,7 @@ window.character = {
 			'target' : 'Nhắm vào kẻ địch ở gần',
 			'extra_ability' : 'Hồi 150HP mỗi vòng',
 		},
-		'pattern': '',
+		'pattern': 'Normal Atk → Self Heal lv2 → Strong Atk → Normal Atk',
 		'img' : {
 			'src' : 'magellan.png'
 		},
@@ -497,7 +497,7 @@ window.character = {
 			'target' : 'Nhắm vào kẻ địch ở gần',
 			'extra_ability' : 'Hồi 100HP mỗi vòng',
 		},
-		'pattern': 'Atk → Atk → Self healing lv2',
+		'pattern': 'Normal Atk → Normal Atk → Self healing lv2',
 		'img' : {
 			'src' : 'jinbe_v2.png'
 		},
@@ -521,7 +521,7 @@ window.character = {
 			'target' : 'Nhắm vào kẻ địch ở gần',
 			'extra_ability' : 'Hồi 100HP mỗi vòng',
 		},
-		'pattern': 'Atk → Atk → Strong → Full',
+		'pattern': 'Normal Atk → Normal Atk → Strong Atk → Fullpower Atk',
 		'img' : {
 			'src' : 'dof_v2.png'
 		},
@@ -545,14 +545,14 @@ window.character = {
 			'target' : 'Nhắm vào kẻ địch ở gần',
 			'extra_ability' : '50% tránh tê liệt',
 		},
-		'pattern': 'Atk → Heal lv1 (small) → Atk → Heal lv2 (small)',
+		'pattern': 'Normal Atk → Heal lv1 (small) → Normal Atk → Heal lv2 (small)',
 		'img' : {
 			'src' : 'brook.png'
 		},
 		'tags': 'skill_heal, skill_def_up, hiddenskill_atk_up, hiddenskill_def_up, hiddenskill_def_up_self, target_nearby, ability_prevent_para'
 	},
 
-	'blackbeard' : {
+	'blackbeard_v1_dex' : {
 		'title' : 'Blackbeard',
 		'color' : 'dex',
 		'class' : 'driven, powerhouse',
@@ -567,12 +567,13 @@ window.character = {
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ địch ít máu nhất',
-			'extra_ability' : '50% cơ hội tránh CRIT',
+			'extra_ability' : '50% cơ hội tránh tê liệt',
 		},
-		'pattern': 'Atk → Atk → Strong → Full',
+		'pattern': 'Normal Atk → Normal Atk → Strong Atk → Fullpower Atk',
 		'img' : {
-			'src' : 'blackbeard.png'
+			'src' : 'blackbeard_v1_dex.png'
 		},
+		'tags': 'skill_cut_hp, skill_fixed_dmg, skill_fixed_dmg_color_str, skill_def_down, skill_def_down_color_str, hiddenskill_atk_up, hiddenskill_atk_up_self, target_low_hp, ability_prevent_para'
 	},
 
 	'kaido' : {
@@ -586,16 +587,17 @@ window.character = {
 			'des' : 'Giảm HP kẻ địch ở hàng trước đi 25%, và gây (ATK x 2.1) sát thương',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK của POWERHOUSE/STRIKER lên 6 cấp, ATK bản thân lên 7 cấp. Làm chậm CT bản thân đi 6 cấp (mé nó ngáo :3)'
+			'des' : 'Tăng ATK của POWERHOUSE/STRIKER lên 6 cấp, ATK bản thân lên 7 cấp. Làm chậm CT bản thân đi 6 cấp.'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ địch ít máu nhất',
 			'extra_ability' : 'Không có',
 		},
-		'pattern': '',
+		'pattern': 'Strong Atk → Strong Atk → Fullpower Atk',
 		'img' : {
 			'src' : 'kaido.png'
 		},
+		'tags': 'skill_cut_hp, skill_deal_dmg, hiddenskill_atk_up, hiddenskill_atk_up_class_ph, hiddenskill_atk_up_class_striker, hiddenskill_atk_up_self, hiddenskill_ct_down, target_low_hp'
 	},
 
 	'kuzan_v3' : {
@@ -606,19 +608,20 @@ window.character = {
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 33 Giây',
-			'des' : 'Gây (ATK x 1.4) sát thương cho một vùng lớn và có 70% cơ hội khóa skill của kẻ địch trong 6 giây',
+			'des' : 'Gây (ATK x 1.4) sát thương cho một vùng lớn và có 70% cơ hội khóa skill của kẻ địch có ATK cao nhất trong 6 giây',
 		},
 		'hidden_skill' : {
 			'des' : 'Tăng SPEED của STR, DEX, QCK lên 5 cấp, các đồng đội còn lại được tăng SPEED lên 2 cấp trong 15 giây'
 		},
 		'others' : {
 			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'extra_ability' : '50% tránh khóa chiêu',
 		},
-		'pattern': 'Đang cập nhật',
+		'pattern': 'Normal Atk → Fullpower Atk → Strong Atk → Normal Atk',
 		'img' : {
 			'src' : 'kuzan_v3.png'
 		},
+		'tags': 'skill_deal_dmg, skill_silence_enemies, hiddenskill_speed_up, hiddenskill_speed_up_color_str, hiddenskill_speed_up_color_dex, hiddenskill_speed_up_color_qck, ability_prevent_silence'
 	},
 
 	'mihawk_perona' : {
@@ -638,10 +641,11 @@ window.character = {
 			'target' : 'Kẻ địch ở gần',
 			'extra_ability' : '50% tránh khóa hành động (bind)',
 		},
-		'pattern': 'Atk → Self healing lv2 → Strong atk → Atk',
+		'pattern': 'Normal Atk → Self healing lv2 → Strong Atk → Normal Atk',
 		'img' : {
 			'src' : 'mihawk_perona.png'
 		},
+		'tags': 'skill_atk_down, skill_def_down, skill_cut_hp, hiddenskill_speed_up, hiddenskill_hp_up, target_nearby, ability_prevent_bind'
 	},
 
 	'marco' : {
@@ -652,19 +656,20 @@ window.character = {
 		'type' : 'Phòng thủ',
 		'skill' : {
 			'note' : 'lv10 - 23 Giây',
-			'des' : 'Tấn công kẻ địch tầm trung bình với lượng sát thường (ATK x 0.75), giảm ATK 6 cấp trong 15 giây, hồi phục HP một đồng đội bằng (2.7 x RCV)',
+			'des' : 'Tấn công một vùng với lượng sát thường (ATK x 0.55), giảm ATK 2 cấp trong 15 giây, hồi phục HP một đồng đội bằng (1.86 x RCV)',
 		},
 		'hidden_skill' : {
 			'des' : 'Khi HP lớn hơn hoặc bằng 50%, tăng tỉ lệ xuất hiện khiên của QCK và PSY lên 7 cấp. Tăng ATK bản thân lên 6 cấp'
 		},
 		'others' : {
 			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'extra_ability' : 'Khi HP dưới 50%, hồi  200HP mỗi lượt',
 		},
-		'pattern': 'Đang cập nhật',
+		'pattern': 'Normal Atk → Strong Atk → Self Heal lv2',
 		'img' : {
 			'src' : 'marco.png'
 		},
+		'tags': 'skill_deal_dmg, skill_atk_down, skill_heal, hidden_skill_guard_up, hidden_skill_guard_up_color_qck, hidden_skill_guard_up_color_psy, hiddenskill_atk_up, hiddenskill_atk_up_self, ability_heal'
 	},
 
 	'red_hair_pirates' : {
@@ -681,7 +686,7 @@ window.character = {
 			'des' : 'Khi trận đấu còn 70s, đồng đội tăng DEF lên 5 cấp, ATK bản thân tăng 3 cấp'
 		},
 		'others' : {
-			'target' : 'Đang cập nhật',
+			'target' : 'Đang cập nhâ',
 			'extra_ability' : '50% tránh khóa chiêu',
 		},
 		'pattern': 'Normal Atk → Strong Atk → Heal lv1',
@@ -705,16 +710,17 @@ window.character = {
 			'des' : 'Tăng ATK bản thân lên 5 cấp. Khi HP nhỏ hơn hoặc bằng 30%, ATK bản thân tăng 5 cấp, DEF bản thân tăng 4 cấp'
 		},
 		'others' : {
-			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : '50% tránh khóa hành động',
 		},
-		'pattern': 'Đang cập nhật',
+		'pattern': 'Normal Atk → Strong Atk → Strong Atk → Fullpower Atk',
 		'img' : {
 			'src' : 'arlong_pirates.png'
 		},
+		'tags': 'skill_atk_up, skill_deal_dmg, hiddenskill_atk_up, hiddenskill_atk_up_self, target_nearby, ability_prevent_bind'
 	},
 
-	'pudding' : {
+	'pudding_int_legend' : {
 		'title' : 'Pudding',
 		'color' : 'int',
 		'class' : 'cerebral, shooter',
@@ -722,19 +728,20 @@ window.character = {
 		'type' : 'Hỗ trợ',
 		'skill' : {
 			'note' : 'lv10 - 22 Giây',
-			'des' : 'Giảm thời gian dùng skill của INT đi 15%, tăng ATK INT lên 3 cấp (20 giây), tăng ATK của đồng đội INT có ATK cao nhất (20 giây) lên 8 cấp',
+			'des' : 'Giảm thời gian dùng skill của INT đi 15%, tăng ATK đồng minh lên 3 cấp (20 giây), tăng ATK của đồng minh có ATK cao nhất (20 giây) lên 8 cấp',
 		},
 		'hidden_skill' : {
 			'des' : 'Tăng HP INT lên 5 cấp, tăng ATK của INT có ATK cao nhất lên 2 cấp'
 		},
 		'others' : {
-			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : '50% tránh khóa chiêu',
 		},
-		'pattern': 'Đang cập nhật',
+		'pattern': 'Normal Atk → Strong Atk → Heal lv1 → Normal Atk',
 		'img' : {
 			'src' : 'pudding.png'
 		},
+		'tags': 'skill_ct_up, skill_atk_up, hiddenskill_hp_up, hiddenskill_hp_up_color_int, target_nearby, ability_prevent_silence'
 	},
 
 	'nami_robin' : {
@@ -745,19 +752,20 @@ window.character = {
 		'type' : 'Hỗ trợ',
 		'skill' : {
 			'note' : 'lv10 - 28 Giây',
-			'des' : 'Giảm HP kẻ địch tầm trung đi 30%, rút ngắn thời gian bị tê liệt của đồng đội đi 10 giây, tăng CRIT lên 3 cấp (24 giây)',
+			'des' : 'Giảm 30% HP một vùng rộng, rút ngắn thời gian bị tê liệt của đồng đội đi 10 giây, tăng CRIT lên 3 cấp (24 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng khả năng hồi phục của đồng đội lên 5 cấp, tăng tỉ lệ xuất hiện khiên lên 1 cấp'
+			'des' : 'Tăng RCV đồng minh lên 5 cấp, tăng tỉ lệ xuất hiện khiên lên 1 cấp'
 		},
 		'others' : {
-			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : '50% tránh tê liệt',
 		},
-		'pattern': 'Đang cập nhật',
+		'pattern': 'Normal Atk → Strong Atk → Heal lv1 → Normal Atk',
 		'img' : {
 			'src' : 'nami_robin.png'
 		},
+		'tags': 'skill_cut_hp, skill_para_down, skill_crit_up, hidden_skill_rcv_up hidden_skill_guard_up, target_nearby, ability_prevent_para'
 	},
 
 	'robin' : {
@@ -815,19 +823,20 @@ window.character = {
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 27 Giây',
-			'des' : 'Gây (ATK x 1.15) sát thương cho một vùng lớn ở phía trước. FIGHTER/SHOOTER/FREESPIRIT tăng ATK lên 2 cấp',
+			'des' : 'Gây (ATK x 1.15) sát thương cho một vùng lớn ở phía trước. FIGHTER/SHOOTER/FREESPIRIT tăng ATK lên 2 cấp trong 15 giây',
 		},
 		'hidden_skill' : {
-			'des' : 'FIGHTER/SHOOTER/FREESPIRIT tăng ATK lên 6 cấp (40 giây), ATK bản thân tăng 2 cấp (40 giây)'
+			'des' : 'Trong 40 giây đầu, FIGHTER/SHOOTER/FREESPIRIT tăng ATK lên 6 cấp, ATK bản thân tăng 2 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
-			'extra_ability' : '50% cơ hội né CRIT',
+			'extra_ability' : '50% cơ hội tránh khóa chiêu',
 		},
-		'pattern': 'Atk → Atk → Strong → Full',
+		'pattern': 'Normal Atk → Normal Atk → Strong Atk → Fullpower Atk',
 		'img' : {
 			'src' : 'sabo_v3.png'
 		},
+		'tags': 'skill_deal_dmg, skill_atk_up, skill_atk_up_class_shooter, skill_atk_up_class_fighter, skill_atk_up_class_fs, hiddenskill_atk_up, hiddenskill_atk_up_class_fighter, hiddenskill_atk_up_class_shooter, hiddenskill_atk_up_class_fs, target_nearby, ability_prevent_silence'
 	},
 
 	'sanji_v3' : {
@@ -845,12 +854,13 @@ window.character = {
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
-			'extra_ability' : '50% né CRIT',
+			'extra_ability' : '50% tránh khóa chiêu',
 		},
-		'pattern': 'Atk → Atk → Strong → Full',
+		'pattern': 'Normal Atk → Normal Atk → Strong Atk → Fullpower Atk',
 		'img' : {
 			'src' : 'sanji_v3.png'
 		},
+		'tags': 'skill_deal_dmg, skill_miss_up, hiddenskill_atk_up, hiddenskill_atk_up_self, target_nearby, ability_prevent_silence'
 	},
 
 	'luffy_zoro' : {
@@ -864,16 +874,17 @@ window.character = {
 			'des' : 'Gây (ATK x 1.35) sát thương cho một vùng lớn theo hàng ngang, tăng tỉ lệ CRIT cho FREESPIRIT và SLASHER lên 3 cấp (30 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'Khi FREESPIRIT/SLASHER CRIT, tăng ATK 6 cấp, có thể tăng tối đa 2 lần. Trong 30 giây đầu tăng CRIT FREESPIRIT/SLASHER lên 1 cấp'
+			'des' : 'Khi CRIT, tăng ATK FREESPIRIT/SLASHER lên 6 cấp, cộng dồn 2 lần. Trong 30 giây đầu tăng CRIT FREESPIRIT/SLASHER lên 1 cấp'
 		},
 		'others' : {
-			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : '50% tránh khóa hành động',
 		},
-		'pattern': 'Đang cập nhật',
+		'pattern': 'Normal Atk → Normal Atk → Strong Atk → Fullpower Atk',
 		'img' : {
 			'src' : 'luffy_zoro.png'
 		},
+		'tags': 'skill_deal_dmg, skill_crit_up, skill_crit_up_class_fs, skill_crit_up_class_slasher, hiddenskill_atk_up, hiddenskill_atk_up_class_fs, hiddenskill_atk_up_class_slasher, hiddenskill_crit_up, hiddenskill_crit_up_class_fs, hiddenskill_crit_up_class_slasher, target_nearby, ability_prevent_bind'
 	},
 
 	'chopper' : {
@@ -884,19 +895,20 @@ window.character = {
 		'type' : 'Hồi phục',
 		'skill' : {
 			'note' : 'lv10 - 38 Giây',
-			'des' : 'Hồi (0.6 x RCV) HP cho đồng đội trung tâm, giảm 7 giây trói, giảm 7 giây tê liệt, giảm 7 giây hiệu ứng bất lợi',
+			'des' : 'Hồi (0.6 x RCV) HP cho đồng đội trung tâm, giảm 7 giây trói, giảm 7 giây tê liệt, giảm 7 giây khóa chiêu',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng HP lên 6 cấp'
+			'des' : 'Tăng HP đồng minh lên 6 cấp'
 		},
 		'others' : {
-			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'target' : 'Kẻ địch ở gàn',
+			'extra_ability' : '50% tránh khóa chiêu',
 		},
-		'pattern': 'Đang cập nhật',
+		'pattern': 'Normal Atk → Heal lv2 → Normal Atk',
 		'img' : {
 			'src' : 'chopper.png'
 		},
+		'tags': 'skill_heal, skill_bind_down, skill_silence_down, skill_para_down, hiddenskill_hp_up, target_nearby, ability_prevent_silence'
 	},
 
 	'lucci_v2' : {
@@ -913,14 +925,14 @@ window.character = {
 			'des' : 'Tăng SPEED SHOOTER lên 7 cấp. Khi CRIT, ATK bản thân tăng 5 cấp, cộng dồn tối đa 3 lần'
 		},
 		'others' : {
-			'target' : 'Đang cập nhật',
+			'target' : 'Kẻ địch có ATK cao',
 			'extra_ability' : 'Khi máu dưới 50%, hồi 150HP mỗi lượt',
 		},
-		'pattern': 'Đang cập nhật',
+		'pattern': 'Normal Atk → Normal Atk → Strong Atk → Fullpower Atk',
 		'img' : {
 			'src' : 'lucci_v2.png'
 		},
-		'tags': ''
+		'tags': 'skill_def_down, skill_deal_dmg, hiddenskill_speed_up, hiddenskill_speed_up_class_shooter, hiddenskill_atk_up, hiddenskill_atk_up_self, target_highest_atk, ability_heal'
 	},
 
 	'komurasaki' : {
