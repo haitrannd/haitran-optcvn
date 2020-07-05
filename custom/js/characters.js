@@ -464,19 +464,20 @@ window.character = {
 		'type' : 'Phòng thủ',
 		'skill' : {
 			'note' : 'lv10 - 37 Giây',
-			'des' : 'Gây 600 sát thương chuẩn cho toàn bộ kẻ địch, tăng ATK của đồng đội lên 3 cấp (24 giây), tăng DEF lên 2 cấp (24 giây)',
+			'des' : 'Gây 1200 sát thương chuẩn một vùng lớn, tăng ATK của đồng đội lên 5 cấp (16 giây), tăng DEF lên 5 cấp (15 giây)',
 		},
 		'hidden_skill' : {
 			'des' : 'Tăng HP đồng mình lên 5 cấp, khi còn dưới 20% HP, tăng HP đồng minh lên 2 cấp'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ địch ở gần',
-			'extra_ability' : '50% cơ hội tránh ngăn chặn',
+			'extra_ability' : '80% tránh khóa hành động',
 		},
-		'pattern': 'Atk → Atk → Self healing lv2',
+		'pattern': 'Normal Attack → Normal Attack → Lv.2 Self Heal',
 		'img' : {
 			'src' : 'rayleigh_v2.png'
 		},
+		'tags': 'skill_fixed_dmg, skill_atk_up, skill_def_up, hiddenskill_hp_up, target_nearby, ability_prevent_bind'
 	},
 
 	'jinbe_v2' : {
@@ -2762,6 +2763,78 @@ window.character = {
 			'src' : 'qck_ivankov_rr_ver_2.png'
 		},
 		'tags': 'skill_deal_dmg, skill_speed_up, skill_speed_up_class_fighter, skill_speed_up_class_fs, hiddenskill_atk_up, hiddenskill_atk_up_self, target_nearby'
+	},
+
+	'int_reiju_tm' : {
+		'title' : 'Vinsmoke Reiju, True Force of the Science Military Force',
+		'color' : 'int',
+		'class' : 'powerhouse, fighter',
+		'stars' : 'TM',
+		'type' : 'Hỗ trợ',
+		'skill' : {
+			'note' : 'lv10 - 35 Giây',
+			'des' : 'Gây (1 x ATK) sát thương một vùng rộng, 100% làm tê liệt một kẻ địch trong 32 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Khi còn 70 giây, INT tăng SPEED lên 5 cấp và tăng ATK lên 5 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : 'Không có',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'int_reiju_tm.png'
+		},
+		'tags': 'skill_deal_dmg, skill_para_enemies, hiddenskill_speed_up, hiddenskill_speed_up_color_int, hiddenskill_atk_up, hiddenskill_atk_up_color_int, target_nearby'
+	},
+
+	'qck_blackbeard_pf' : {
+		'title' : "Blackbeard, Hell's Darkness",
+		'color' : 'qck',
+		'class' : 'powerhouse, fighter',
+		'stars' : 'Pirate Festival LRR',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 26 Giây',
+			'des' : 'Gây 2400 sát thương chuẩn cho kẻ địch có ATK, 60% cơ hội khóa chiêu trong 15 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK DRIVEN lên 5 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch có ATK cao',
+			'extra_ability' : 'Không có',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'qck_blackbeard_pf.png'
+		},
+		'tags': 'skill_fixed_dmg, skill_silence_enemies, hiddenskill_atk_up, hiddenskill_atk_up_class_driven, target_highest_atk'
+	},
+
+	'qck_stussy_pf' : {
+		'title' : "Stussy, Secret Justice from the Darkness",
+		'color' : 'qck',
+		'class' : 'shooter, freespirit',
+		'stars' : 'Pirate Festival LRR',
+		'type' : 'Hỗ trợ',
+		'skill' : {
+			'note' : 'lv10 - 30 Giây',
+			'des' : 'Gây (3 x ATK) sát thương cho 1 kẻ địch ở trong tầm, tăng ATK của QCK lên 4 cấp trong 24 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Trong 15 giây đầu, tăng SPEED QCK lên 5 cấp, DEF QCK lên 4 cấp, ATK QCK lên 4 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : 'Không có',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'qck_stussy_pf.png'
+		},
+		'tags': 'skill_deal_dmg, skill_atk_up, skill_atk_up_color_qck, hiddenskill_speed_up, hiddenskill_speed_up_color_qck, hiddenskill_def_up, hiddenskill_def_up_color_qck, hiddenskill_atk_up, hiddenskill_atk_up_color_qck, target_nearby'
 	},
 
 }
