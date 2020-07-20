@@ -385,6 +385,8 @@ body .page_wrapper .body {
   border-radius: 10px;
   padding: 10px;
   overflow: auto;
+  overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 .back_to_menu i {

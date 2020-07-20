@@ -2849,4 +2849,51 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_atk_up, skill_atk_up_color_qck, hiddenskill_speed_up, hiddenskill_speed_up_color_qck, hiddenskill_def_up, hiddenskill_def_up_color_qck, hiddenskill_atk_up, hiddenskill_atk_up_color_qck, target_nearby'
 	},
 
+	'qck_nekomamushi_pf' : {
+		'title' : "Nekomamushi, Misunderstanding King of Night",
+		'color' : 'qck',
+		'class' : 'striker, cerebral',
+		'stars' : 'Pirate Festival LRR',
+		'type' : 'Hỗ trợ',
+		'skill' : {
+			'note' : 'lv10 - 31 Giây',
+			'des' : 'Cắt 15% HP một vùng rộng trước mặt, tăng DEF STRIKER/CEREBRAL lên 2 cấp trong 10 giây, tăng ATK STRIKER/CEREBRAL lên 4 cấp trong 49 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Trong 40 giây đầu, tăng DEF STRIKER/CEREBRAL lên 4 cấp. Khi còn 60 giây, tăng ATK STRIKER/CEREBRAL lên 6 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : 'Không có',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Lv.2 Self Heal',
+		'img' : {
+			'src' : 'qck_nekomamushi_pf.png'
+		},
+		'tags': 'skill_ct_up, skill_def_up, skill_def_up_class_striker, skill_def_up_class_cerebral, skill_atk_up, skill_atk_up_class_striker, skill_atk_up_class_cerebral, hiddenskill_def_up, hiddenskill_def_up_class_striker, hiddenskill_def_up_class_cerebral, hiddenskill_atk_up, hiddenskill_atk_up_class_striker, hiddenskill_atk_up_class_cerebral, target_nearby'
+	},
+
+	'qck_whitebread_pf' : {
+		'title' : "Whitebeard, Unchallenged Pinnacle for the Throne",
+		'color' : 'qck',
+		'class' : 'striker, fighter',
+		'stars' : 'Pirate Festival LRR',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 33 Giây',
+			'des' : 'Giảm DEF toàn bộ kẻ địch đi 5 cấp trong 15 giây và gây (2 x ATK) sát thương cho một vùng rộng. 80% cơ hội khóa chiêu 2 kẻ địch có class POWERHOUSE trong 24 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Trong 50 giây đầu, tăng HP QCK lên 5 cấp. Khi còn 50 giây, tăng ATK bản thân lên 5 cấp, tăng tốc tích nộ lên 5 cấp, tăng SPEED lên 5 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch có HP thấp',
+			'extra_ability' : '80% tránh khóa chiêu',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'qck_whitebread_pf.png'
+		},
+		'tags': 'skill_def_down, skill_deal_dmg, skill_silence_enemies, hiddenskill_hp_up, hiddenskill_hp_up_color_qck, hiddenskill_atk_up, hiddenskill_atk_up_self, hiddenskill_ct_up, hiddenskill_ct_up_self, hiddenskill_speed_up, hiddenskill_speed_up_self, target_low_hp, ability_prevent_silence'
+	},
 }
