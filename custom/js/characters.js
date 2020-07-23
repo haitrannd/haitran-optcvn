@@ -2896,4 +2896,52 @@ window.character = {
 		},
 		'tags': 'skill_def_down, skill_deal_dmg, skill_silence_enemies, hiddenskill_hp_up, hiddenskill_hp_up_color_qck, hiddenskill_atk_up, hiddenskill_atk_up_self, hiddenskill_ct_up, hiddenskill_ct_up_self, hiddenskill_speed_up, hiddenskill_speed_up_self, target_low_hp, ability_prevent_silence'
 	},
+
+	'qck_kizuna_kaido' : {
+		'title' : "Kaido, Animal Kingdom Pirates",
+		'color' : 'qck',
+		'class' : 'striker, driven',
+		'stars' : 'Kizuna',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 40 Giây',
+			'des' : 'Gây (1.5 x ATK) sát thương một vùng lớn, giảm DEF kẻ địch có DEF cao nhất đi 6 cấp, giảm ATK kẻ địch có ATK cao nhất đi 6 cấp. Hồi phục (2 x RCV) HP cho bản thân và 100% tự khóa chiêu bản thân trong 50 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP STRIKER lên 6 cấp. Trong 30 giây đầu, Tăng ATK STRIKER lên 5 cấp. Khi còn 50 giây, tăng ATK và SPEED bản thân lên 7 cấp'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : 'Không có',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'qck_kizuna_kaido.png'
+		},
+		'tags': 'skill_deal_dmg, skill_def_down, skill_atk_down, skill_heal, skill_heal_self, skill_silence_self, hiddenskill_hp_up, hiddenskill_hp_up_class_striker, hiddenskill_atk_up, hiddenskill_atk_up_class_striker, hiddenskill_atk_up_self, hiddenskill_speed_up_self, hiddenskill_speed_up, target_nearby'
+	},
+
+	'psy_law_v3_legend' : {
+		'title' : "Kaido, Animal Kingdom Pirates",
+		'color' : 'qck',
+		'class' : 'striker, driven',
+		'stars' : 'Kizuna',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 35 Giây',
+			'des' : 'Gây 1100 sát thương chuẩn một vùng lớn, giảm khóa chiêu, trói và tê liệt đi 22 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng tốc tích nộ đồng minh PSY lên 6 cấp. Trong 40 giây đầu, giảm tích nộ, tỉ lệ bật khiên và SPEED của kẻ địch có class DRIVEN/POWERHOUSE đi 6 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : 'Khi HP nhỏ hoặc bằng 50%, hồi 250HP mỗi lượt',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'psy_law_v3_legend.png'
+		},
+		'tags': 'skill_fixed_dmg, skill_silence_down, skill_para_down, skill_bind_down, hiddenskill_ct_up, hiddenskill_ct_up_color_psy, hiddenskill_ct_down, hiddenskill_ct_down_class_driven, hiddenskill_ct_down_class_ph, hiddenskill_guard_down, hiddenskill_guard_down_class_driven, hiddenskill_guard_down_class_ph, hiddenskill_speed_down, hiddenskill_speed_down_class_driven, hidden_skill_speed_down_class_ph, target_nearby, ability_heal'
+	},
 }
