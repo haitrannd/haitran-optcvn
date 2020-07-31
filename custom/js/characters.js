@@ -2922,14 +2922,14 @@ window.character = {
 	},
 
 	'psy_law_v3_legend' : {
-		'title' : "Kaido, Animal Kingdom Pirates",
-		'color' : 'qck',
-		'class' : 'striker, driven',
-		'stars' : 'Kizuna',
+		'title' : "Trafalgar Law, Alliance to Liberate the Land of Wano",
+		'color' : 'psy',
+		'class' : 'freespirit, slasher',
+		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 35 Giây',
-			'des' : 'Gây 1100 sát thương chuẩn một vùng lớn, giảm khóa chiêu, trói và tê liệt đi 22 giây.',
+			'des' : 'Gây 2200 sát thương chuẩn một vùng lớn, giảm khóa chiêu, trói và tê liệt đi 22 giây.',
 		},
 		'hidden_skill' : {
 			'des' : 'Tăng tốc tích nộ đồng minh PSY lên 6 cấp. Trong 40 giây đầu, giảm tích nộ, tỉ lệ bật khiên và SPEED của kẻ địch có class DRIVEN/POWERHOUSE đi 6 cấp.'
@@ -2943,5 +2943,125 @@ window.character = {
 			'src' : 'psy_law_v3_legend.png'
 		},
 		'tags': 'skill_fixed_dmg, skill_silence_down, skill_para_down, skill_bind_down, hiddenskill_ct_up, hiddenskill_ct_up_color_psy, hiddenskill_ct_down, hiddenskill_ct_down_class_driven, hiddenskill_ct_down_class_ph, hiddenskill_guard_down, hiddenskill_guard_down_class_driven, hiddenskill_guard_down_class_ph, hiddenskill_speed_down, hiddenskill_speed_down_class_driven, hidden_skill_speed_down_class_ph, target_nearby, ability_heal'
+	},
+
+	'psy_enel_pf' : {
+		'title' : "Kami Enel, The God Seeking his Dream World",
+		'color' : 'psy',
+		'class' : 'shooter, driven',
+		'stars' : 'Pirate Festival Character',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 30 Giây',
+			'des' : 'Gây 1400 sát thương chuẩn cho toàn bộ địch, 30% làm tê liệt trong 20 giây, tăng ATK PSY lên 4 cấp trong 19 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Trong 30 giây đầu, tăng ATK PSY lên 5 cấp, SPEED PSY lên 3 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch có SPEED cao',
+			'extra_ability' : 'Miễn nhiễm tê liệt',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'psy_enel_pf.png'
+		},
+		'tags': 'skill_fixed_dmg, skill_para_enemies, skill_atk_up, skill_atk_up_color_psy, hiddenskill_atk_up, hiddenskill_atk_up_psy, hiddenskill_speed_up, hiddenskill_speed_up_color_qsy, target_highest_speed, ability_prevent_para'
+	},
+
+	'psy_boa_legend_v3_summer' : {
+		'title' : "Boa Hancock, Vacation on the Evening Beach",
+		'color' : 'psy',
+		'class' : 'shooter, freespirit',
+		'stars' : 'Legend',
+		'type' : 'Phá hoại',
+		'skill' : {
+			'note' : 'lv10 - 28 Giây',
+			'des' : 'Gây 4000 sát thương chuẩn cho kẻ địch có HP thấp, giảm ATK một vùng lớn đi 11 cấp trong 15 giây và tăng ATK PSY lên 6 cấp trong 15 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK PSY lên 5 cấp. Nếu HP dưới 50%, tăng DEF PSY lên 3 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : '70% tránh khóa chiêu',
+		},
+		'pattern': 'Normal Attack → Lv.2 Medium Range Heal → Strong Attack → Lv.2 Small Range Heal',
+		'img' : {
+			'src' : 'psy_boa_legend_v3_summer.png'
+		},
+		'tags': 'skill_fixed_dmg, skill_atk_down, skill_atk_up, skill_atk_up_color_psy, hiddenskill_atk_up, hiddenskill_atk_up_color_psy, hiddenskill_def_up, hiddenskill_def_up__color_psy, target_nearby, ability_prevent_silence'
+	},
+
+	'psy_nico_robin_summer_rr_2020' : {
+		'title' : "Nico Robin, Vacation on the Moonlit Beach",
+		'color' : 'psy',
+		'class' : 'fighter, cerebral',
+		'stars' : 'Rare Recruit',
+		'type' : 'Phá hoại',
+		'skill' : {
+			'note' : 'lv10 - 26 Giây',
+			'des' : 'Giảm DEF một vùng lớn đi 3 cấp trong 20 giây và giảm ATK DRIVEN đi 5 cấp trong 20 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng SPEED PSY lên 5 cấp, tăng tốc độ tích nộ PSY lên 2 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : 'Không có',
+		},
+		'pattern': 'Normal Attack → Lv.1 Self Heal → Normal Attack → Lv.2 Self Heal',
+		'img' : {
+			'src' : 'psy_nico_robin_summer_rr.png'
+		},
+		'tags': 'skill_def_down, skill_atk_down, skill_atk_down_class_driven, hiddenskill_speed_up, hiddenskill_speed_up_color_qsy, hiddenskill_ct_up, hiddenskill_ct_up_color_psy, target_nearby'
+	},
+
+	'rebecca_psy_rr_summer_2020' : {
+		'title' : "Rebecca, Royal Family Vacation",
+		'color' : 'psy',
+		'class' : 'freespirit, slasher',
+		'stars' : 'Rare Recruit',
+		'type' : 'Hỗ trợ',
+		'skill' : {
+			'note' : 'lv10 - 27 Giây',
+			'des' : 'Tăng CRIT tất cả đồng minh lên 4 cấp trong 25 giây và tăng ATK FREESPIRIT lên 4 cấp trong 25 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK PSY lên 5 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : 'Không có',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Lv.1 Small Range Heal → Strong Attack',
+		'img' : {
+			'src' : 'rebecca_psy_rr_summer_2020.png'
+		},
+		'tags': 'skill_crit_up, skill_atk_up, skill_atk_up_class_fs, hiddenskill_atk_up, hiddenskill_atk_up_color_psy, target_nearby'
+	},
+
+	'violet_psy_rr_summer_2020' : {
+		'title' : "Violet, Royal Family Vacation",
+		'color' : 'psy',
+		'class' : 'freespirit, cerebral',
+		'stars' : 'Rare Recruit',
+		'type' : 'Hồi phục',
+		'skill' : {
+			'note' : 'lv10 - 30 Giây',
+			'des' : 'Hồi HP bằng với (2.5 x RCV) một vùng lớn và giảm tê liệt cho đồng minh FREESPIRIT đi 6 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP PSY lên 5 cấp, DEF PSY lên 2 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : 'Không có',
+		},
+		'pattern': 'Normal Attack → Lv.2 Medium Range Heal → Normal Attack → Lv.2 Short Range Heal',
+		'img' : {
+			'src' : 'violet_psy_rr_summer_2020.png'
+		},
+		'tags': 'skill_heal, skill_para_down, hiddenskill_hp_up, hiddenskill_hp_up_color_psy, hiddenskill_def_up, hiddenskill_def_up__color_psy, target_nearby'
 	},
 }
