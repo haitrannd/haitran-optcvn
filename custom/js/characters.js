@@ -463,21 +463,21 @@ window.character = {
 		'stars' : 'legend',
 		'type' : 'Phòng thủ',
 		'skill' : {
-			'note' : 'lv10 - 37 Giây',
-			'des' : 'Gây 1200 sát thương chuẩn một vùng lớn, tăng ATK của đồng đội lên 5 cấp (16 giây), tăng DEF lên 5 cấp (15 giây)',
+			'note' : 'lv10 - 45 Giây',
+			'des' : 'Gây 1700 sát thương chuẩn một vùng lớn, tăng ATK của đồng đội lên 5 cấp (16 giây), tăng DEF lên 5 cấp (15 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng HP đồng mình lên 5 cấp, khi còn dưới 20% HP, tăng HP đồng minh lên 2 cấp'
+			'des' : 'Tăng HP đồng mình lên 5 cấp, khi còn dưới 60% HP, tăng DEF đồng minh lên 5 cấp, tăng tỉ lệ bật khiên lên 5 cấp'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ địch ở gần',
-			'extra_ability' : '80% tránh khóa hành động',
+			'extra_ability' : '80% tránh tê liệt',
 		},
 		'pattern': 'Normal Attack → Normal Attack → Lv.2 Self Heal',
 		'img' : {
 			'src' : 'rayleigh_v2.png'
 		},
-		'tags': 'skill_fixed_dmg, skill_atk_up, skill_def_up, hiddenskill_hp_up, target_nearby, ability_prevent_bind'
+		'tags': 'skill_fixed_dmg, skill_atk_up, skill_def_up, hiddenskill_hp_up, hiddenskill_def_up, hiddenskill_guard_up target_nearby, ability_prevent_bind'
 	},
 
 	'jinbe_v2' : {
