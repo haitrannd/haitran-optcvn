@@ -392,7 +392,8 @@ body .page_wrapper .body {
 }
 
 .back_to_menu i {
-	color: #333;
+	color: white;
+  text-shadow: 0 0 2px #333;
 }
 
 .bottom {

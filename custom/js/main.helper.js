@@ -183,7 +183,7 @@ function haitran_print_char (filter) {
 			modal_html    +=       '</div>';
 			modal_html    +=       '<div class="modal-body">';
 
-			modal_html    +=         '<div class="img_wrapper"><img data-src="images/' + row.img.src + '" /></div>';
+			modal_html    +=         '<div class="img_wrapper"><img data-src="images/' + row.img.src + '"/></div>';
 
 			modal_html    +=         '<div class="info_wrapper">';
 			modal_html    +=           '<div class="info class">';
@@ -296,6 +296,11 @@ function haitran_print_char (filter) {
 			target.attr('src', target.attr('data-src'));
 		});
 	}
+}
+
+function haitran_test (obj) {
+	var image = jQuery(obj);
+  console.log(image);
 }
 
 /* 
