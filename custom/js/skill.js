@@ -53,6 +53,7 @@ window.skill = {
 		'hiddenskill_bind_down' : 'Giảm trói',
 		'hidden_skill_accuracy_enemy_down' : 'Giảm chính xác',
 		'hidden_skill_rcv_up' : 'Tăng RCV',
+		'hiddenskill_miss_up' : 'Tăng tỉ lệ đánh trượt',
 	},
 	'ability' : {
 		'ability_prevent_para' : 'Ngăn tê liệt (paralysis)',

@@ -488,10 +488,10 @@ window.character = {
 		'type' : 'Phòng thủ',
 		'skill' : {
 			'note' : 'lv10 - 31 Giây',
-			'des' : 'Giảm 12% HP kẻ địch một vùng rộng. Tăng ATK của FIGHTER, SLASHER và SHOOTER lên 4 cấp trong 19 giây',
+			'des' : 'Giảm 32% HP kẻ địch một vùng rộng. Tăng ATK của FIGHTER, SLASHER và SHOOTER lên 4 cấp trong 25 giây. Tăng DEF của FIGHTER, SLASHER và SHOOTER lên 4 cấp trong 25 giây',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK của STR, DEX, PSY lên 5 cấp, tăng DEF lên 1 cấp'
+			'des' : 'Tăng HP của STR, DEX, PSY lên 6 cấp, tăng DEF lên 1 cấp. Tăng MISS của kẻ địch lên 1 cấp.'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ địch ở gần',
@@ -501,7 +501,7 @@ window.character = {
 		'img' : {
 			'src' : 'jinbe_v2.png'
 		},
-		'tags': 'skill_cut_hp, skill_atk_up, skill_atk_up_class_fighter, skill_atk_up_class_shooter, skill_atk_up_class_slasher, hiddenskill_atk_up, hiddenskill_atk_up_color_str, hiddenskill_atk_up_color_dex, hiddenskill_atk_up_color_psy, hiddenskill_def_up, target_nearby, ability_heal'
+		'tags': 'skill_cut_hp, skill_atk_up, skill_atk_up_class_fighter, skill_atk_up_class_shooter, skill_atk_up_class_slasher, skill_def_up, skill_def_up_class_fighter, skill_def_up_class_shooter, skill_def_up_class_slasher, hiddenskill_hp_up, hiddenskill_hp_up_color_str, hiddenskill_hp_up_color_dex, hiddenskill_hp_up_color_psy, hiddenskill_def_up, hiddenskill_miss_up, target_nearby, ability_heal'
 	},
 
 	'dof_v2' : {
