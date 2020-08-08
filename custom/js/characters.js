@@ -391,11 +391,11 @@ window.character = {
 		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 35 Giây',
-			'des' : 'Giảm 70% HP bản thân, gây (ATK x 1.9) sát thương cho kẻ địch ở tầm trung và tăng ATK của SHOOTER lên 3 cấp (30 giây)',
+			'note' : 'lv10 - 30 Giây',
+			'des' : 'Giảm 50% HP bản thân, gây (ATK x 2) sát thương cho toàn bộ địch và tăng ATK của SHOOTER lên 4 cấp (30 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'Trong 40 giây đầu, tăng SPEED của SHOOTER lên 6 cấp, tăng ATK bản thân lên 6 cấp'
+			'des' : 'Tăng SPEED của SHOOTER/FREESPIRIT lên 6 cấp. Trong 60 giây đầu tăng ATK bản thân lên 10 cấp'
 		},
 		'others' : {
 			'target' : 'Kẻ địch có ATK cao nhất',
@@ -405,7 +405,7 @@ window.character = {
 		'img' : {
 			'src' : 'ace_v1.png'
 		},
-		'tags': 'skill_cut_hp, skill_cut_hp_self, skill_deal_dmg, skill_atk_up, skill_atk_up_class_shooter, hiddenskill_speed_up, hiddenskill_speed_up_class_shooter, hiddenskill_atk_up, hiddenskill_atk_up_self, target_highest_atk, ability_prevent_para',
+		'tags': 'skill_cut_hp, skill_cut_hp_self, skill_deal_dmg, skill_atk_up, skill_atk_up_class_shooter, hiddenskill_speed_up, hiddenskill_speed_up_class_shooter, hiddenskill_speed_up_class_fs, hiddenskill_atk_up, hiddenskill_atk_up_self, target_highest_atk, ability_prevent_para',
 	},
 
 	'corazon' : {
@@ -416,10 +416,10 @@ window.character = {
 		'type' : 'Hồi phục',
 		'skill' : {
 			'note' : 'lv10 - 32 Giây',
-			'des' : 'Hồi (2.75 x RCV) HP cho đồng đội xung quanh và tăng DEF lên 7 cấp (10 giây)',
+			'des' : 'Hồi (2.75 x RCV) HP một vùng rộng và tăng DEF cho một vùng nhỏ lên 7 cấp (10 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'Khi HP lớn hơn hoặc bằng 70%, ATK của đồng đội tăng 10 cấp'
+			'des' : 'Khi HP lớn hơn hoặc bằng 70%, ATK của đồng đội tăng 10 cấp. Trong 40 giây đầu, giảm tốc độ tích nộ và SPEED của kẻ địch QCK đi 5 cấp.'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ địch ở gần',
@@ -429,7 +429,7 @@ window.character = {
 		'img' : {
 			'src' : 'corazon.png'
 		},
-		'tags': 'skill_heal, skill_def_up, hiddenskill_atk_up, target_nearby, ability_heal',
+		'tags': 'skill_heal, skill_def_up, hiddenskill_atk_up, target_nearby, ability_heal, hiddenskill_ct_down, hiddenskill_ct_down_color_qck, hiddenskill_speed_down, hiddenskill_speed_down_color_qck',
 	},
 
 	'magellan_dex' : {
@@ -439,11 +439,11 @@ window.character = {
 		'stars' : 'legend',
 		'type' : 'Phá hoại',
 		'skill' : {
-			'note' : 'lv10 - 31 Giây',
-			'des' : 'Giảm ATK một vùng lớn đi 3 cấp (47 giây). Làm chậm nộ của kẻ địch đi 4 cấp (34 giây).',
+			'note' : 'lv10 - 30 Giây',
+			'des' : 'Đầu độc một vùng lớn kẻ địch (cấp 3) trong 48 giây. Làm chậm nộ của kẻ địch đi 4 cấp (44 giây).',
 		},
 		'hidden_skill' : {
-			'des' : 'Khi có 5 hoặc nhiều hơn đồng minh ở trên sân, tăng HP đồng minh thêm 7 cấp'
+			'des' : 'Giảm DEF QCK đi 2 cấp. Khi có 5 hoặc nhiều hơn đồng minh ở trên sân, tăng HP đồng minh thêm 7 cấp'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ địch ở gần',
@@ -453,7 +453,7 @@ window.character = {
 		'img' : {
 			'src' : 'magellan.png'
 		},
-		'tags': 'skill_atk_down, skill_ct_down, hiddenskill_hp_up, target_nearby, ability_heal',
+		'tags': 'skill_atk_down, skill_ct_down, hiddenskill_hp_up, target_nearby, ability_heal, hiddenskill_def_down, hiddenskill_def_down_color_qck',
 	},
 
 	'rayleigh_v2' : {
@@ -728,10 +728,10 @@ window.character = {
 		'type' : 'Hỗ trợ',
 		'skill' : {
 			'note' : 'lv10 - 22 Giây',
-			'des' : 'Giảm thời gian dùng skill của INT đi 15%, tăng ATK đồng minh lên 3 cấp (20 giây), tăng ATK của đồng minh có ATK cao nhất (20 giây) lên 8 cấp',
+			'des' : 'Tăng nộ INT lên thêm 25%, tăng ATK đồng minh lên 4 cấp (25 giây), tăng ATK của đồng minh có ATK cao nhất lên 8 cấp (25 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng HP INT lên 5 cấp, tăng ATK của INT có ATK cao nhất lên 2 cấp'
+			'des' : 'Tăng HP INT lên 5 cấp, tăng ATK của INT có ATK cao nhất lên 3 cấp. Giảm ATK SLASHER/POWERHOUSE đi 5 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
@@ -741,7 +741,7 @@ window.character = {
 		'img' : {
 			'src' : 'pudding.png'
 		},
-		'tags': 'skill_ct_up, skill_atk_up, hiddenskill_hp_up, hiddenskill_hp_up_color_int, target_nearby, ability_prevent_silence'
+		'tags': 'skill_ct_up, skill_atk_up, hiddenskill_hp_up, hiddenskill_hp_up_color_int, target_nearby, ability_prevent_silence, hiddenskill_atk_down, hiddenskill_atk_down_class_slasher, hiddenskill_atk_down_class_ph'
 	},
 
 	'nami_robin' : {
@@ -1242,20 +1242,21 @@ window.character = {
 		'stars' : 'legend',
 		'type' : 'Phòng thủ',
 		'skill' : {
-			'note' : 'lv10 - 31 Giây',
-			'des' : 'Gây (ATK x 1.4) sát thương cho một kẻ địch, tăng DEF DRIVEN lên 5 cấp (19 giây).',
+			'note' : 'lv10 - 27 Giây',
+			'des' : 'Gây (ATK x 2) sát thương cho ba kẻ địch, tăng DEF lên 5 cấp và CRIT lên 6 cấp cho SLASHER/DRIVEN (19 giây).',
 		},
 		'hidden_skill' : {
-			'des' : 'DRIVEN tăng HP lên 6 cấp. DRIVEN tăng DEF 2 cấp trong 30 giây đầu'
+			'des' : 'SLASHER/DRIVEN tăng HP lên 6 cấp. Trong 30 giây đầu, Tăng DEF lên 3 cấp và ATK lên 6 cấp cho SLASHER/DRIVEN.'
 		},
 		'others' : {
-			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : 'Khi HP dưới 50%, hồi 150HP mỗi lượt',
 		},
-		'pattern': 'Đang cập nhật',
+		'pattern': 'Normal Atk → Normal Atk → Heal Lv2',
 		'img' : {
 			'src' : 'doflamingo_v1.png'
 		},
+		'tags': 'skill_deal_dmg, skill_def_up, skill_def_up_class_slasher, skill_def_up_class_driven, skill_crit_up, skill_crit_up_class_slasher, skill_crit_up_class_driven, hiddenskill_hp_up, hiddenskill_hp_up_class_driven, hiddenskill_hp_up_class_slasher, hiddenskill_def_up, hiddenskill_def_up_class_driven, hiddenskill_def_up_class_slasher, hiddenskill_atk_up, hiddenskill_atk_up_class_slasher, hiddenskill_atk_up_class_driven, target_nearby, ability_heal'
 	},
 
 	'boa_hancock_v2_psy' : {
@@ -1480,20 +1481,20 @@ window.character = {
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 30 Giây',
-			'des' : 'Cắt 45% HP một kẻ địch, rút ngắn trạng thái khóa chiêu đi 9 giây, tăng ATK lên 3 cấp trong 15 giây',
+			'des' : 'Cắt 45% HP hai kẻ địch, rút ngắn trạng thái khóa chiêu đi 20 giây, tăng ATK đồng minh lên 3 cấp trong 29 giây',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK bản thân lên 7 cấp. Khi còn 70 giây, tăng tỉ lệ xuất hiện khiên của đồng đội lên 4 cấp'
+			'des' : 'Tăng ATK bản thân lên 7 cấp. Khi còn 70 giây, tăng tỉ lệ xuất hiện khiên của đồng đội lên 5 cấp, tăng ATK đồng đội lên 5 cấp.'
 		},
 		'others' : {
-			'target' : 'Đang cập nhật',
+			'target' : 'Kẻ địch ở gần',
 			'extra_ability' : '50% tránh khóa chiêu',
 		},
-		'pattern': 'Đang cập nhật',
+		'pattern': 'Normal Atk → Normal Atk → Strong Atk → Fullpower Atk',
 		'img' : {
 			'src' : 'garp.png'
 		},
-		'tags': 'skill_cut_hp, skill_silence_down, skill_atk_up, hiddenskill_atk_up, hiddenskill_atk_up_self, hiddenskill_guard_up, ability_prevent_silence, missing'
+		'tags': 'skill_cut_hp, skill_silence_down, skill_atk_up, hiddenskill_atk_up, hiddenskill_guard_up, ability_prevent_silence, hiddenskill_atk_up, target_nearby'
 	},
 
 	'sanji_v1' : {
@@ -1719,11 +1720,11 @@ window.character = {
 		'stars' : 'legend',
 		'type' : 'Hỗ trợ',
 		'skill' : {
-			'note' : 'lv10 - 17 Giây',
-			'des' : 'Tấn công 4 kẻ địch với sát thương (ATK x 0.6). SLASHER/SHOOTER tăng ATK lên 7 cấp (10 giây)',
+			'note' : 'lv10 - 15 Giây',
+			'des' : 'Tấn công 4 kẻ địch với sát thương (ATK x 1). SLASHER/SHOOTER tăng ATK lên 7 cấp (24 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng SPEED của SLASHER/SHOOTER lên 6 cấp. Trong 30 giây đầu tăng tốc tích nộ của SLASHER/SHOOTER lên 2 cấp'
+			'des' : 'Tăng SPEED của SLASHER/SHOOTER lên 6 cấp. Trong 30 giây đầu tăng tốc tích nộ của SLASHER/SHOOTER lên 4 cấp'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
@@ -1744,10 +1745,10 @@ window.character = {
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 37 Giây',
-			'des' : 'Gây 1200 sát thương chuẩn lên toàn bộ địch và giảm DEF của STR/INT đi 2 cấp (28 giây)',
+			'des' : 'Gây 1400 sát thương chuẩn lên toàn bộ địch. Giảm DEF và tốc độ tích nộ của STR/INT đi 5 cấp (28 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'QCK/PSY SPEED tăng 6 cấp'
+			'des' : 'QCK/PSY SPEED tăng 6 cấp. QCK/PSY SPEED tăng lên 3 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
@@ -1757,7 +1758,7 @@ window.character = {
 		'img' : {
 			'src' : 'kuzan_v2.png'
 		},
-		'tags': 'skill_fixed_dmg, skill_def_down, skill_def_down_color_str, skill_def_down_color_int, hiddenskill_speed_up, hiddenskill_speed_up_color_qck, hiddenskill_speed_up_color_qsy, target_nearby, ability_prevent_para'
+		'tags': 'skill_fixed_dmg, skill_def_down, skill_def_down_color_str, skill_def_down_color_int, hiddenskill_speed_up, hiddenskill_speed_up_color_qck, hiddenskill_speed_up_color_qsy, target_nearby, ability_prevent_para, skill_ct_down, skill_ct_down_color_str, skill_ct_down_color_int, hiddenskill_speed_up, hiddenskill_speed_up_color_qsy, hiddenskill_speed_up_color_qck'
 	},
 
 	'akainu_v2' : {
@@ -1792,10 +1793,10 @@ window.character = {
 		'type' : 'Hỗ trợ',
 		'skill' : {
 			'note' : 'lv10 - 27 Giây',
-			'des' : 'Cắt 10% HP toàn bộ địch, giảm tỷ lệ xuất hiện khiên đi 4 cấp (25 giây), tăng CRIT của INT lên 5 cấp trong 14 giây',
+			'des' : 'Cắt 25% HP toàn bộ địch, giảm tỷ lệ xuất hiện khiên toàn bộ địch đi 6 cấp (25 giây), tăng CRIT của INT lên 6 cấp trong 22 giây',
 		},
 		'hidden_skill' : {
-			'des' : 'CRIT của INT tăng 5 cấp. Khi đồng đội INT CRIT, tăng ATK lên 1 cấp, cộng dồn 4 lần'
+			'des' : 'CRIT của INT tăng 7 cấp. Khi CRIT, tăng ATK INT lên 4 cấp, cộng dồn 4 lần'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
@@ -2174,10 +2175,10 @@ window.character = {
 		'type' : '?',
 		'skill' : {
 			'note' : 'lv10 - 25 Giây',
-			'des' : 'Tăng DEF bản thân lên 5 cấp trong 10 giây, tăng GUARD đồng đội lên 5 cấp trong 15 giây',
+			'des' : 'Gây (1.8 x ATK) sát thương một vùng rộng. Tăng DEF đồng minh lên 5 cấp trong 14 giây, tăng GUARD đồng đội lên 5 cấp trong 19 giây',
 		},
 		'hidden_skill' : {
-			'des' : 'Nếu còn 5 hoặc ít hơn đồng đội trên sân, tăng HP INT lên 5 cấp'
+			'des' : 'Nếu trên sân chỉ còn 6 hoặc ít hơn đồng đội trên sân, tăng HP INT lên 5 cấp, tăng SPEED INT lên 5 cấp, tăng DEF INT lên 3 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
@@ -2187,6 +2188,7 @@ window.character = {
 		'img' : {
 			'src' : 'Kami_Enel_Ruthless_Thunder.png'
 		},
+		'tags': 'skill_deal_dmg, skill_def_up, skill_guard_up, hiddenskill_hp_up, hiddenskill_hp_up_color_int, hiddenskill_speed_up, hiddenskill_speed_up_color_int, hiddenskill_def_up, hiddenskill_def_up_color_int, target_nearby',
 	},
 
 	'Trafalgar_Law_True_Desire_of_Life' : {
@@ -2219,11 +2221,11 @@ window.character = {
 		'stars' : 'Legend',
 		'type' : '?',
 		'skill' : {
-			'note' : 'lv10 - 31 Giây',
-			'des' : 'Giảm SPEED kẻ địch trong một vùng lớn 5 cấp trong 20 giây. Giảm tích nộ (CT charge) của kẻ địch thuộc FREESPIRIT đi 4 cấp trong 20 giây',
+			'note' : 'lv10 - 28 Giây',
+			'des' : 'Gây 2200 sát thương chuẩn cho toàn bộ địch. Giảm SPEED kẻ địch trong một vùng lớn 5 cấp trong 20 giây. Giảm tích nộ (CT charge) của kẻ địch thuộc FREESPIRIT đi 5 cấp trong 20 giây',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng SPEED INT lên 5 cấp'
+			'des' : 'Tăng SPEED INT lên 5 cấp. Giảm DEF đi 4 cấp và kéo dài thời gian tích nộ lên 5 cấp cho kẻ địch PSY.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
@@ -2233,7 +2235,7 @@ window.character = {
 		'img' : {
 			'src' : 'Charlotte_Katakuri_Haki_that_Conquers_the_Future.png'
 		},
-		'tags': 'skill_speed_down, skill_ct_down, skill_ct_down_class_fs, hiddenskill_speed_up, hiddenskill_speed_up_color_int, target_nearby, ability_prevent_para'
+		'tags': 'skill_speed_down, skill_ct_down, skill_ct_down_class_fs, hiddenskill_speed_up, hiddenskill_speed_up_color_int, target_nearby, ability_prevent_para, skill_fixed_dmg, hiddenskill_def_down, hiddenskill_def_down_color_psy, hiddenskill_ct_down, hiddenskill_ct_down_color_psy'
 	},
 
 	'blackbeard_v2' : {
@@ -2244,10 +2246,10 @@ window.character = {
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 20 Giây',
-			'des' : 'Gây (1.2 x ATK) sát thương một vùng lớn và tăng ATK bản thân lên 10 cấp trong 25 giây',
+			'des' : 'Gây (2 x ATK) sát thương một vùng rộng và tăng ATK bản thân lên 10 cấp và tốc độc tích nộ bản thân lên 3 cấp trong 25 giây',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng HP INT lên 1 cấp. Khi máu bằng hoặc nhỏ hơn 60%, Tăng tích nộ (CT charge) bản thân lên 5 cấp'
+			'des' : 'Tăng HP INT lên 5 cấp. Khi máu bằng hoặc nhỏ hơn 60%, Tăng tích nộ (CT charge) bản thân lên 5 cấp'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
@@ -2257,7 +2259,7 @@ window.character = {
 		'img' : {
 			'src' : 'blackbeard_v2.png'
 		},
-		'tags': 'skill_deal_dmg, skill_atk_up, skill_atk_up_self, hiddenskill_hp_up, hiddenskill_hp_up_color_int, hiddenskill_ct_up, hiddenskill_ct_up_self, target_nearby, ability_heal'
+		'tags': 'skill_deal_dmg, skill_atk_up, skill_atk_up_self, skill_ct_up, skill_ct_up_self, hiddenskill_hp_up, hiddenskill_hp_up_color_int, hiddenskill_ct_up, hiddenskill_ct_up_self, target_nearby, ability_heal'
 	},
 
 	'sabo_v4_str' : {
@@ -2339,11 +2341,11 @@ window.character = {
 		'stars' : 'Legend',
 		'type' : 'Hồi phục',
 		'skill' : {
-			'note' : 'lv10 - 39 Giây',
-			'des' : 'Hồi HP một vùng lớn đồng đội bằng (2.55 x RCV) HP. Tăng khả năng đánh lùi của đồng đội lên 5 cấp.',
+			'note' : 'lv10 - 36 Giây',
+			'des' : 'Hồi HP một vùng lớn đồng đội bằng (2.8 x RCV) HP. Tăng khả năng đánh lùi của đồng đội lên 5 cấp. Tăng ATK và DEF cho PSY lên 5 cấp trong 20 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Khi HP nhỏ hoặc bằng 50%, tăng RCV bản thân lên 29 cấp.'
+			'des' : 'Khi HP nhỏ hoặc bằng 50%, tăng RCV bản thân lên 29 cấp. Tăng CRIT PSY lên 7 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
@@ -2353,7 +2355,7 @@ window.character = {
 		'img' : {
 			'src' : 'shirahoshi.png'
 		},
-		'tags': 'skill_heal, skill_blow_up, hiddenskill_rcv_up, hiddenskill_rcv_up_self, target_nearby, ability_prevent_silence'
+		'tags': 'skill_heal, skill_blow_up, hiddenskill_rcv_up, hiddenskill_rcv_up_self, target_nearby, ability_prevent_silence, skill_atk_up, skill_atk_up_color_psy, skill_def_up, skill_def_up_color_psy, hiddenskill_crit_up, hiddenskill_crit_up_color_psy'
 	},
 
 	'jack' : {
@@ -2458,19 +2460,20 @@ window.character = {
 		'type' : '?',
 		'skill' : {
 			'note' : 'lv10 - 28 Giây',
-			'des' : 'Tăng DEF tất cả đồng minh lên 3 cấp trong 25 giây và gây (1.6 x ATK) sát thương cho kẻ địch có class POWERHOUSE',
+			'des' : 'Tăng DEF tất cả đồng minh lên 3 cấp trong 25 giây và gây (2 x ATK) sát thương một vùng lớn.',
 		},
 		'hidden_skill' : {
 			'des' : 'Tăng DEF của DEX lên 2 cấp, HP của DEX lên 5 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch có ATK cao',
-			'extra_ability' : '50% tránh sát thương liên hoàn',
+			'extra_ability' : '50% tránh sát thương theo thời gian (Độc)',
 		},
 		'pattern': 'Normal Attack → Normal Attack → Lv.2 Self Heal',
 		'img' : {
 			'src' : 'dex_kid_legend.png'
 		},
+		'tags': 'skill_def_up, skill_deal_dmg, hiddenskill_def_up, hiddenskill_def_up_color_dex, hiddenskill_hp_up, hiddenskill_hp_up_color_dex, target_highest_atk, ability_prevent_stack_dmg'
 	},
 
 	'dex_hawkins_legend' : {
@@ -2481,10 +2484,10 @@ window.character = {
 		'type' : '?',
 		'skill' : {
 			'note' : 'lv10 - 29 Giây',
-			'des' : 'Tăng DEF bản thân lên 5 cấp, ATK bản thân lên 6 cấp và giảm sát thương kẻ địch đối với bản thân trong 20 giây. Nếu HP dưới 40%, gây (0.7 x ATK) sát thương cho một vùng kẻ địch',
+			'des' : 'Tăng DEF bản thân lên 5 cấp, ATK bản thân lên 6 cấp và bật khóa mục tiêu trong 20 giây. Nếu HP dưới 40%, gây (1 x ATK) sát thương cho một vùng rộng. Nếu HP dưới 50%, gây (1.8 x ATK) sát thương',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng SPEED bản thân lên 5 cấp nếu máu dưới 50%.'
+			'des' : 'Tăng SPEED bản thân lên 5 cấp nếu máu dưới 50%. Tăng tỉ lệ xuất hiện khiên và CRIT của đồng minh DEX lên 5 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
@@ -2494,6 +2497,7 @@ window.character = {
 		'img' : {
 			'src' : 'dex_hawkins_legend.png'
 		},
+		'tags': 'skill_def_up, skill_def_up_self, skill_atk_up, skill_atk_up_self, skill_lock_target, skill_deal_dmg, hiddenskill_speed_up, hiddenskill_speed_up_self, hiddenskill_guard_up, hiddenskill_guard_up_color_dex, hiddenskill_crit_up, hiddenskill_crit_up_color_dex, target_nearby, ability_heal'
 	},
 
 	'mr0_int_raid' : {
@@ -2595,11 +2599,11 @@ window.character = {
 		'stars' : 'Pirate Festival LRR',
 		'type' : '?',
 		'skill' : {
-			'note' : 'lv10 - 28 Giây',
-			'des' : 'Gây (1 x ATK) sát thương cho 1 kẻ địch ở đổi diện, tăng ATK STR lên 4 cấp trong 25 giây.',
+			'note' : 'lv10 - 26 Giây',
+			'des' : 'Gây (2 x ATK) sát thương cho 2 kẻ địch ở gần, tăng ATK STR lên 5 cấp trong 25 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK STR lên 5 cấp.'
+			'des' : 'Tăng ATK STR lên 5 cấp, tăng SPEED STR lên 5 cấp. Trong 30 giây đầu tăng tốc độ tích nộ STR lên 3 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
@@ -2609,6 +2613,7 @@ window.character = {
 		'img' : {
 			'src' : 'sanji_str_rr_pf.png'
 		},
+		'tags': 'skill_deal_dmg, skill_atk_up, skill_atk_up_color_str, hiddenskill_atk_up, hiddenskill_atk_up_color_str, hiddenskill_speed_up, hiddenskill_speed_up_color_str, hiddenskill_ct_up, hiddenskill_ct_up_color_str'
 	},
 
 	'otama_str_lrr_pf' : {
@@ -2619,10 +2624,10 @@ window.character = {
 		'type' : '?',
 		'skill' : {
 			'note' : 'lv10 - 17 Giây',
-			'des' : 'Hồi (1.05 x RCV) HP cho đồng minh một vùng và (1.7 x RCV) HP cho đồng mình có HP thấp nhất.',
+			'des' : 'Hồi (1.8 x RCV) HP cho đồng minh một vùng lớn và (2.5 x RCV) HP cho đồng mình có HP thấp nhất.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng CRIT FIGHTER và FREESPIRIT lên 5 cấp.'
+			'des' : 'Tăng CRIT FIGHTER và FREESPIRIT lên 5 cấp. Trong 30 giây đầu, tăng tốc độ tích nộ FIGHTER/FREESPIRIT lên 6 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
@@ -2632,6 +2637,7 @@ window.character = {
 		'img' : {
 			'src' : 'otama_str_lrr_pf.png'
 		},
+		'tags': 'skill_heal, hiddenskill_ct_up, hiddenskill_ct_up_class_fs, hiddenskill_ct_up_class_fighter, hiddenskill_crit_up, hiddenskill_crit_up_class_fs, hiddenskill_crit_up_class_fighter'
 	},
 
 	'luffy_boa_kizuna' : {
@@ -2856,8 +2862,8 @@ window.character = {
 		'stars' : 'Pirate Festival LRR',
 		'type' : 'Hỗ trợ',
 		'skill' : {
-			'note' : 'lv10 - 31 Giây',
-			'des' : 'Cắt 15% HP một vùng rộng trước mặt, tăng DEF STRIKER/CEREBRAL lên 2 cấp trong 10 giây, tăng ATK STRIKER/CEREBRAL lên 4 cấp trong 49 giây.',
+			'note' : 'lv10 - 35 Giây',
+			'des' : 'Cắt 30% HP một vùng rộng trước mặt, tăng DEF STRIKER/CEREBRAL lên 3 cấp trong 10 giây, tăng ATK STRIKER/CEREBRAL lên 5 cấp trong 49 giây, tăng DEF bản thân lên 10 cấp trong 10 giây.',
 		},
 		'hidden_skill' : {
 			'des' : 'Trong 40 giây đầu, tăng DEF STRIKER/CEREBRAL lên 4 cấp. Khi còn 60 giây, tăng ATK STRIKER/CEREBRAL lên 6 cấp.'
@@ -2870,7 +2876,7 @@ window.character = {
 		'img' : {
 			'src' : 'qck_nekomamushi_pf.png'
 		},
-		'tags': 'skill_ct_up, skill_def_up, skill_def_up_class_striker, skill_def_up_class_cerebral, skill_atk_up, skill_atk_up_class_striker, skill_atk_up_class_cerebral, hiddenskill_def_up, hiddenskill_def_up_class_striker, hiddenskill_def_up_class_cerebral, hiddenskill_atk_up, hiddenskill_atk_up_class_striker, hiddenskill_atk_up_class_cerebral, target_nearby'
+		'tags': 'skill_ct_up, skill_def_up, skill_def_up_self, skill_def_up_class_striker, skill_def_up_class_cerebral, skill_atk_up, skill_atk_up_class_striker, skill_atk_up_class_cerebral, hiddenskill_def_up, hiddenskill_def_up_class_striker, hiddenskill_def_up_class_cerebral, hiddenskill_atk_up, hiddenskill_atk_up_class_striker, hiddenskill_atk_up_class_cerebral, target_nearby'
 	},
 
 	'qck_whitebread_pf' : {

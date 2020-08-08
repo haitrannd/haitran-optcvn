@@ -60,7 +60,7 @@ window.skill = {
 		'ability_prevent_silence': 'Ngăn khóa chiêu',
 		'ability_prevent_bind': 'Ngăn trói',
 		'ability_prevent_crit': 'Ngăn Crit',
-		'ability_prevent_stack_dmg': 'Ngăn dmg cộng dồn',
+		'ability_prevent_stack_dmg': 'Ngăn chặn sát thương theo thời gian (Độc)',
 		'ability_heal': 'Hồi máu',
 	},
 	'target' : {
