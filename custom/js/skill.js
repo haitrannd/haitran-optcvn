@@ -28,6 +28,7 @@ window.skill = {
 		'skill_lock_target' : 'Khóa mục tiêu',
 		'skill_continuous_dmg_up' : 'Tấn công liên hoàn +',
 		'skill_miss_up' : 'Tăng tỉ lệ đánh trượt',
+		'skill_accurate_down' : 'giảm tỉ lệ chính xác',
 	},
 	'hidden_skill' : {
 		'hiddenskill_atk_up' : 'Tăng ATK',
@@ -68,6 +69,7 @@ window.skill = {
 		'target_highest_atk' : 'ATK cao',
 		'target_highest_speed' : 'SPEED cao',
 		'target_highest_def' : 'DEF cao',
-		'target_low_hp' : 'DEF thấp',
+		'target_low_hp' : 'HP thấp',
+		'target_highest_hp' : 'HP cao',
 	},
 }

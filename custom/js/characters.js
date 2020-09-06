@@ -3070,4 +3070,268 @@ window.character = {
 		},
 		'tags': 'skill_heal, skill_para_down, hiddenskill_hp_up, hiddenskill_hp_up_color_psy, hiddenskill_def_up, hiddenskill_def_up__color_psy, target_nearby'
 	},
+
+	'calgara_noland_pf' : {
+		'title' : "Calgara & Noland, Bell Ring Promise",
+		'color' : 'psy',
+		'class' : 'striker, slasher',
+		'stars' : 'Pirate Festival',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 15 Giây',
+			'des' : 'Tăng ATK bản thân lên 7 cấp trong 35 giây, tăng SPEED toàn bộ đồng minh lên 7 cấp trong 35 giây, gây (2.5 x ATK) cho một kẻ địch.',
+		},
+		'hidden_skill' : {
+			'des' : 'Trong 40 giây đầu, tăng ATK bản thân lên 5 cấp. Khi còn dưới 40 giây, tăng ATK bản thân, tốc độ tích nộ toàn bộ đồng minh và SPEED toàn bộ đồng minh lên 6 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : 'Miễn nhiễm khóa hành động.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'calgara_noland_pf.png'
+		},
+		'tags': 'skill_atk_up, skill_atk_up_self, skill_speed_up, skill_deal_dmg, hiddenskill_atk_up, hiddenskill_atk_up_self, hiddenskill_ct_up, hiddenskill_speed_up, target_nearby, ability_prevent_bind'
+	},
+
+	'conis_pf_int' : {
+		'title' : "Conis, Young Girl Fighting Kami",
+		'color' : 'int',
+		'class' : 'freespirit, shooter',
+		'stars' : 'Pirate Festival',
+		'type' : 'Phá hoại',
+		'skill' : {
+			'note' : 'lv10 - 28 Giây',
+			'des' : 'Giảm DEF kẻ địch đi 2 cấp trong 23 giây, giảm SPEED và khiên của PSY đi 6 cấp trong 23 giây. 100% cơ hội tê liệt 2 kẻ địch PSY trong 20 giây và 100% khóa hành động 1 kẻ đich PSY trong 20 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Trong 40 giây đầu, giảm tốc độ tích nộ của kẻ địch PSY đi 6 cấp và tăng DEF cho INT lên 2 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : 'Miễn nhiễm khóa chiêu.',
+		},
+		'pattern': 'Normal Attack → Lv.2 Medium Range Heal → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'conis_pf_int.png'
+		},
+		'tags': 'skill_def_down, skill_speed_down, skill_speed_down_color_psy, skill_guard_down, skill_guard_down_color_psy, skill_para_enemies, skill_para_enemies_color_psy, skill_bind_enemies, skill_bind_enemies_color_psy, hiddenskill_ct_down, hiddenskill_ct_down_color_psy, hiddenskill_def_up, hiddenskill_def_up__color_int, target_nearby, ability_prevent_silence'
+	},
+
+	'kaku_pf_str' : {
+		'title' : "Kaku, Cipher Pol 'Aegis' Zero",
+		'color' : 'str',
+		'class' : 'slasher, powerhouse',
+		'stars' : 'Pirate Festival',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 25 Giây',
+			'des' : 'Giảm DEF kẻ địch DEX đi 5 cấp trong 20 giây, gây (2.2 x ATK) sát thương một vùng rộng.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP STR lên 5 cấp. Trong 40 giây đầu, giảm tốc độ tích nộ của kẻ địch DEX đi 6 cấp và DEF toàn bộ địch đi 2 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : '50% tránh tê liệt.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'kaku_pf_str.png'
+		},
+		'tags': 'skill_def_down, skill_deal_dmg, hiddenskill_hp_up, hiddenskill_hp_up_color_str, hiddenskill_ct_down, hiddenskill_ct_down_color_dex, hiddenskill_def_down, target_nearby, ability_prevent_para'
+	},
+
+	'luffy_sanji_legend_str_psy' : {
+		'title' : "Luffy & Sanji, Faithful Friends at the Battlefront",
+		'color' : 'str,psy',
+		'class' : 'freespirit, fighter',
+		'stars' : 'Legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 32 Giây',
+			'des' : 'Gây (3.5 x ATK) cho 2 kẻ địch. Tăng ATK toàn bộ đồng minh lên 5 cấp và SPEED toàn bộ đồng minh lên 7 cấp trong 20 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK đồng minh lên 6 cấp và SPEED đồng minh lên 3 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch có HP cao',
+			'extra_ability' : 'Miễn nhiễm khóa chiêu.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'luffy_sanji_legend_str_psy.png'
+		},
+		'tags': 'skill_deal_dmg, skill_atk_upm skill_speed_up, hiddenskill_atk_up, hiddenskill_speed_up, target_highest_hp, ability_prevent_silence'
+	},
+
+	'nami_int_wci_welcoming_hug' : {
+		'title' : "Nami, Welcoming Hug",
+		'color' : 'psy',
+		'class' : 'cerebral, striker',
+		'stars' : 'Rare Recruit',
+		'type' : 'Hồi phục',
+		'skill' : {
+			'note' : 'lv10 - 30 Giây',
+			'des' : 'Gây 1300 sát thương chuẩn toàn bộ địch. Hồi (2 x RCV) HP cho đồng minh trong một vùng nhỏ.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP đồng mình lên 4 cấp và SPEED đồng minh lên 5 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch có HP thấp',
+			'extra_ability' : 'Không có.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'nami_int_wci_welcoming_hug.png'
+		},
+		'tags': 'skill_fixed_dmg, skill_heal, hiddenskill_hp_up, hiddenskill_speed_up, target_low_hp'
+	},
+
+	'bege_str_rr_Assassination_Plan' : {
+		'title' : "Capone Gang Bege, Assassination Plan at the Tea Party",
+		'color' : 'str',
+		'class' : 'driven, shooter',
+		'stars' : 'Rare Recruit',
+		'type' : 'Phòng thủ',
+		'skill' : {
+			'note' : 'lv10 - 25 Giây',
+			'des' : 'Gây (1.5 x ATK) sát thương một vùng rộng và tăng DEF STR lên 2 cấp.',		
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng tỉ lệ khiên đồng minh lên 5 cấp và DEF đồng minh lên 2 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch có HP thấp',
+			'extra_ability' : 'Không có.',
+		},
+		'pattern': 'Normal Attack → Lv.2 Medium Range Heal → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'bege_str_rr_Assassination_Plan.png'
+		},
+		'tags': 'skill_deal_dmg, skill_def_up, skill_def_up_color_str, hiddenskill_guard_up, hiddenskill_def_up, target_low_hp'
+	},
+
+	'germa_66_crew_legend_psy' : {
+		'title' : "Germa 66, Retaliation of the Science Military Force",
+		'color' : 'psy',
+		'class' : 'driven, powerhouse',
+		'stars' : 'Legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 30 Giây',
+			'des' : 'Gây 2500 sát thương chuẩn cho 3 kẻ địch và 100% làm tê liệt 2 kẻ địch INT trong 16 giây.',		
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng DEF PSY lên 2 cấp, HP PSY lên 5 cấp và giảm DEF kẻ địch INT đi 2 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch có SPEED cao',
+			'extra_ability' : 'Miễn nhiễm khóa hành động.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'germa_66_crew_legend_psy.png'
+		},
+		'tags': 'skill_fixed_dmg, skill_para_enemies, skill_para_enemies_color_int, hiddenskill_def_up, hiddenskill_def_up_color_psy, hiddenskill_hp_up, hiddenskill_hp_up_color_psy, hiddenskill_def_down, hiddenskill_def_down_color_inrt, target_highest_speed, ability_prevent_bind'
+	},
+
+	'3_commanders_big_mom_str_legend' : {
+		'title' : "Sweet 3 Commanders, Big Mom's Strong Children",
+		'color' : 'str',
+		'class' : 'slasher, powerhouse',
+		'stars' : 'Legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 28 Giây',
+			'des' : 'Gây (2 x ATK) sát thương một vùng lớn và tăng tốc độ tích nộ STR lên 15%.',		
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK STR lên 6 cấp, HP STR lên 3 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : 'Miễn nhiễm sát thương theo thời gian.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : '3_commanders_big_mom_str_legend.png'
+		},
+		'tags': 'skill_deal_dmg, skill_ct_up, skill_ct_up_color_str, hiddenskill_atk_up, hiddenskill_atk_up_color_str, hiddenskill_hp_up, hiddenskill_hp_up_color_str, target_nearby, ability_prevent_stack_dmg'
+	},
+
+	'psy_soul_king_wci_raid_The_Musician_Fighting' : {
+		'title' : "Soul King Brook, The Musician Fighting with the Soul",
+		'color' : 'psy',
+		'class' : 'slasher, freespirit',
+		'stars' : 'raid',
+		'type' : 'Hỗ trợ',
+		'skill' : {
+			'note' : 'lv10 - 35 Giây',
+			'des' : 'Gây (1.5 x ATK) sát thương một vùng rộng. Giảm thời gian khóa chiêu và khóa hành động của đồng minh PSY đi 24 giây.',		
+		},
+		'hidden_skill' : {
+			'des' : 'Trong 40 giây đầu, tăng ATK PSY lên 6 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch có SPEED cao.',
+			'extra_ability' : 'Hồi 150HP mỗi lượt.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'psy_soul_king_wci_raid_The_Musician_Fighting.png'
+		},
+		'tags': 'skill_deal_dmg, skill_silence_down, skill_bind_down, skill_silence_down_color_psy, skill_bind_down_color_psy, hiddenskill_atk_up, hiddenskill_atk_up_color_psy, target_highest_speed, ability_heal'
+	},
+
+	'str_perospero_Path_Blocking_Candy' : {
+		'title' : "Perospero, Path-Blocking Candy",
+		'color' : 'str',
+		'class' : 'driven, cerebral',
+		'stars' : 'Rare Recruit',
+		'type' : 'Phá hoại',
+		'skill' : {
+			'note' : 'lv10 - 25 Giây',
+			'des' : 'Gây (1.8 x ATK) sát thương một vùng rộng. Giảm ATK địch đi 6 cấp và DEF địch đi 2 cấp.',		
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK đồng minh lên 5 cấp và tốc độ tích nộ lên 2 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch có HP thấp.',
+			'extra_ability' : 'Không có.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'str_perospero_Path_Blocking_Candy.png'
+		},
+		'tags': 'skill_deal_dmg, skill_atk_down, skill_def_down, hiddenskill_atk_up, hiddenskill_ct_up, target_low_hp'
+	},
+
+	'str_usoland_Snipers_Flower_Arangement' : {
+		'title' : "Usoland, Sniper's Flower Arangement",
+		'color' : 'str',
+		'class' : 'freespirit, shooter',
+		'stars' : 'Pirate Festival Gift',
+		'type' : 'Phá hoại',
+		'skill' : {
+			'note' : 'lv10 - 24 Giây',
+			'des' : 'Gây (1.8 x ATK) sát thương một vùng rộng. Giảm độ chính xác và tỉ lệ xuất hiện khiên của kẻ địch DEX đi 5 cấp.',		
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK và SPEED của SHOOTER/FREESPIRIT lên 6 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : '70% tránh khóa chiêu.',
+		},
+		'pattern': 'Normal Attack → Lv.2 Medium Range Heal → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'str_usoland_Snipers_Flower_Arangement.png'
+		},
+		'tags': 'skill_deal_dmg, skill_accurate_down, skill_guard_down, hiddenskill_atk_up, hiddenskill_atk_up_class_shooter, hiddenskill_atk_up_class_fs, hiddenskill_speed_up, hiddenskill_speed_up_class_shooter, hiddenskill_speed_up_class_fs, target_nearby, ability_prevent_silence'
+	},
 }
