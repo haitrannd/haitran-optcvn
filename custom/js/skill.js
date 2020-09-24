@@ -33,6 +33,8 @@ window.skill = {
 	'hidden_skill' : {
 		'hiddenskill_atk_up' : 'Tăng ATK',
 		'hiddenskill_atk_down' : 'Giảm ATK',
+		'hiddenskill_hp_up' : 'Tăng HP',
+		'hiddenskill_hp_down' : 'Giảm HP',
 		'hiddenskill_def_up' : 'Tăng DEF',
 		'hiddenskill_def_down' : 'Giảm DEF',
 		'hiddenskill_ct_up' : 'Tăng tốc CT',

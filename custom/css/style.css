@@ -332,9 +332,32 @@ body .page_wrapper .body {
 .pirate_festival_page .filter_block .filter_item {
   display: flex;
   flex-wrap: wrap;
-  margin: 10px;
   justify-content: center;
-  margin-bottom: 20px;
+  margin: 20px 0;
+}
+
+.pirate_festival_page .filter_block .filter_item .fake_color_filter {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fake_color_filter > div {
+  flex-grow: 1;
+  text-align: center;
+  padding: 5px 10px;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+}
+
+.fake_color_filter > div.psy {
+  border-right: 0;
+}
+
+.filter_item.color_filter span.title, 
+.filter_item.color_filter select[name="color"] {
+  display: none !important;
 }
 
 .pirate_festival_page .filter_block .filter_item.effect {
