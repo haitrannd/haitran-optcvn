@@ -355,11 +355,6 @@ body .page_wrapper .body {
   border-right: 0;
 }
 
-.filter_item.color_filter span.title, 
-.filter_item.color_filter select[name="color"] {
-  display: none !important;
-}
-
 .pirate_festival_page .filter_block .filter_item.effect {
   margin: 0 -15px;
   border-top: 1px solid #333;
@@ -398,7 +393,7 @@ body .page_wrapper .body {
 }
 
 .pirate_festival_page .filter_block .filter_item select {
-  width: 100px;
+  width: 150px;
   height: 30px;
   border-radius: 5px;
 }
