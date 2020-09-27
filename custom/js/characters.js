@@ -1425,22 +1425,22 @@ window.character = {
 		'tags': 'skill_cut_hp, skill_fixed_dmg, hiddenskill_atk_up, hiddenskill_atk_up_class_shooter, hiddenskill_atk_up_self, target_nearby, ability_prevent_para'
 	},
 
-	'bege_capone_int' : {
-		'title' : 'Bege',
+	'bege_capone_int_legend' : {
+		'title' : 'Capone "Gang" Bege, Immovable Fortress',
 		'color' : 'int',
 		'class' : 'shooter, driven',
 		'stars' : 'legend',
 		'type' : 'Phòng thủ',
 		'skill' : {
 			'note' : 'lv10 - 32 Giây',
-			'des' : 'Bật trạng thái khiêu khích (30 giây). Khi ở trong trạng thái khiêu khích và máu nhỏ hoặc bằng 50%, hồi 50% máu và tăng DEF SHOOTER lên 5 cấp (30 giây)',
+			'des' : 'Cắt 30% HP một kẻ địch. Khóa mục tiêu vào bản thân trong 30 giây và tăng DEF SHOOTER lên 5 cấp trong 30 giây. Nếu HP dưới 50%, hồi phục 50% lượng máu tối đa.',
 		},
 		'hidden_skill' : {
 			'des' : 'SHOOTER tăng HP lên 5 cấp. Khi còn 70 giây, tăng DEF bản thân lên 5 cấp'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
-			'extra_ability' : '50% tránh khóa chiêu',
+			'extra_ability' : '80% tránh khóa chiêu',
 		},
 		'pattern': 'Normal Atk → Strong Atk → Self Heal lv2',
 		'img' : {
@@ -3333,5 +3333,221 @@ window.character = {
 			'src' : 'str_usoland_Snipers_Flower_Arangement.png'
 		},
 		'tags': 'skill_deal_dmg, skill_accurate_down, skill_guard_down, hiddenskill_atk_up, hiddenskill_atk_up_class_shooter, hiddenskill_atk_up_class_fs, hiddenskill_speed_up, hiddenskill_speed_up_class_shooter, hiddenskill_speed_up_class_fs, target_nearby, ability_prevent_silence'
+	},
+
+	'dex_pvp_franky_lrr' : {
+		'title' : "Franky, Unprecedented Model Change",
+		'color' : 'dex',
+		'class' : 'freespirit, powerhouse',
+		'stars' : 'Pirate Festival',
+		'type' : 'Phá hoại',
+		'skill' : {
+			'note' : 'lv10 - 35 Giây',
+			'des' : 'Khiến một vùng lớn kẻ địch mất máu mỗi khi tấn công trong 44 giây (cấp 3). Giảm DEF QCK đi 2 cấp trong 24 giây và SPEED QCK giảm đi 7 cấp trong 24 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK DEX lên 5 cấp. Tăng SPEED DEX lên 6 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch có SPEED cao.',
+			'extra_ability' : 'Miễn nhiễm khóa chiêu.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'dex_pvp_franky_lrr.png'
+		},
+		'tags': 'skill_continuous_dmg_up, skill_def_down, skill_def_down_color_qck, skill_speed_down, skill_speed_down_color_qck, hiddenskill_atk_up, hiddenskill_atk_up_color_dex, hiddenskill_speed_up, hiddenskill_speed_up_color_dex, target_highest_speed, ability_prevent_silence'
+	},
+
+	'qck_leo_wicca_cub_pvp' : {
+		'title' : "Leo & Wicca & Cub",
+		'color' : 'qck',
+		'class' : 'freespirit, striker',
+		'stars' : 'Pirate Festival',
+		'type' : 'Phá hoại',
+		'skill' : {
+			'note' : 'lv10 - 30 Giây',
+			'des' : '60% cơ hội gây tê liệt toàn bộ kẻ đich trong 23 giây, giảm DEF kẻ địch có DEF cao nhất đi 10 cấp trong 29 giây, tăng ATK đồng minh có ATK cao nhất lên 7 cấp trong 29 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP và CRIT của QCK lên 5 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch có ATK cao.',
+			'extra_ability' : 'Miễn nhiễm khóa chiêu.',
+		},
+		'pattern': 'Normal Attack → Lv.2 heal surrounding allies (medium range) → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'qck_leo_wicca_cub_pvp.png'
+		},
+		'tags': 'skill_para_enemies, skill_def_down, skill_atk_up, hiddenskill_hp_up, hiddenskill_hp_up_color_qck, hiddenskill_crit_up, hiddenskill_crit_up_color_qck, target_highest_atk, ability_prevent_silence'
+	},
+
+	'dual_sakazuki_kizaru_akainu_pvp' : {
+		'title' : "Sakazuki & Borsalino, Highest Strength of the Marines",
+		'color' : 'str, psy',
+		'class' : 'driven, slasher',
+		'stars' : 'Pirate Festival',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 33 Giây',
+			'des' : 'Gây (2 x ATK) sát thương một vùng rộng trước mặt, tăng ATK SLASHER/DRIVEN lên 5 cấp trong 24 giây và tăng SPEED SLASHER/DRIVEN lên 7 cấp trong 24 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP lên 5 cấp và ATK lên 5 cấp cho SLASHER/DRIVEN.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : '60% tránh khóa hành động.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'dual_sakazuki_kizaru_akainu_pvp.png'
+		},
+		'tags': 'skill_deal_dmg, skill_atk_up, skill_atk_up_class_slasher, skill_atk_up_class_driven, skill_speed_up, hiddenskill_hp_up, hiddenskill_atk_up, target_nearby, ability_prevent_bind'
+	},
+
+	'halloween_mihawk_int' : {
+		'title' : "Mihawk: Deep Night Dark Road, Happy Scary Halloween",
+		'color' : 'int',
+		'class' : 'cerebral, slasher',
+		'stars' : 'Legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 45 Giây',
+			'des' : 'Tăng ATK bản thân lên 5 cấp trong 10 giây, gây (3 x ATK) sát thương một vùng lớn phía trước.',
+		},
+		'hidden_skill' : {
+			'des' : 'Khi CRIT, giảm DEF toàn bộ địch đi 2 cấp (Cộng dồn 4 lần).'
+		},
+		'others' : {
+			'target' : 'Kẻ địch có ATK cao.',
+			'extra_ability' : 'Miễn nhiễm tê liệt.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'halloween_mihawk_int.png'
+		},
+		'tags': 'skill_deal_dmg, skill_atk_up, hiddenskill_def_down, target_highest_atk, ability_prevent_para'
+	},
+
+	'halloween_law_int_legend' : {
+		'title' : "Law: Road Midnight Street, Happy Scary Halloween",
+		'color' : 'int',
+		'class' : 'cerebral, slasher',
+		'stars' : 'Legend',
+		'type' : 'Phá hoại',
+		'skill' : {
+			'note' : 'lv10 - 25 Giây',
+			'des' : '100% khóa chiêu toàn bộ địch trong 8 giây, gây (1.5 x ATK) sát thương một vùng rộng phía trước.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng SPEED INT lên 8 cấp, giảm DEF toàn bộ địch đi 1 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch có SPEED cao.',
+			'extra_ability' : 'Miễn nhiễm sát thương liên hoàn.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'halloween_law_int_legend.png'
+		},
+		'tags': 'skill_deal_dmg, skill_silence_enemies, hiddenskill_speed_up, hiddenskill_def_down'
+	},
+
+	'int_hancock_halloween_2020_rr' : {
+		'title' : "Hancock: Midnight Party Queen, Happy Scary Halloween",
+		'color' : 'int',
+		'class' : 'cerebral, shooter',
+		'stars' : 'Rare Recruit',
+		'type' : 'Hỗ trợ',
+		'skill' : {
+			'note' : 'lv10 - 32 Giây',
+			'des' : 'Gây (2 x ATK) sát thương một vùng nhỏ, tăng ATK đồng minh lên 5 cấp trong 15 giây',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng CRIT INT lên 3 cấp, ATK INT lên 1 cấp. Khi CRIT, tăng DEF INT lên 1 cấp (Cộng dồn 3 lần).'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : '60% tránh tê liệt.',
+		},
+		'pattern': 'Normal Attack → Lv.2 heal allies (medium range) → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'int_hancock_halloween_2020.png'
+		},
+		'tags': 'skill_deal_dmg, skill_atk_up, hiddenskill_crit_up, hiddenskill_atk_up, hiddenskill_def_up, target_nearby, ability_prevent_para'
+	},
+
+	'int_buggy_halloween_2020_rr' : {
+		'title' : "Buggy: Terrifying Prank Clown, Happy Scary Halloween",
+		'color' : 'int',
+		'class' : 'driven, shooter',
+		'stars' : 'Rare Recruit',
+		'type' : 'Phá hoại',
+		'skill' : {
+			'note' : 'lv10 - 35 Giây',
+			'des' : '100% khóa chiêu 2 kẻ đich trong 19 giây, giảm ATK địch đi 5 cấp trong 24 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng DEF INT lên 3 cấp trong 40 giây đầu.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : '60% tránh tê liệt.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'int_buggy_halloween_2020.png'
+		},
+		'tags': 'skill_silence_enemies, skill_atk_down, hiddenskill_def_up, target_nearby, ability_prevent_para'
+	},
+
+	'int_crocodile_halloween_2020_raid' : {
+		'title' : "Crocodile: Ruler of the Night, Happy Scary Halloween",
+		'color' : 'int',
+		'class' : 'driven, cerebral',
+		'stars' : 'Raid',
+		'type' : 'Phá hoại',
+		'skill' : {
+			'note' : 'lv10 - 34 Giây',
+			'des' : 'Gây (1.5 x ATK) một vùng rộng, 100% trói 1 kẻ địch trong 7 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK INT lên 3 cấp, tăng tỉ lệ chặn đòn INT lên 5 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : '60% tránh khóa hành động.',
+		},
+		'pattern': 'Normal Attack → Lv.2 heal himself → Strong Attack → Strong Attack',
+		'img' : {
+			'src' : 'int_crocodile_halloween_2020_raid.png'
+		},
+		'tags': 'skill_deal_dmg, skill_bind_enemies, hiddenskill_atk_up, hiddenskill_guard_up, target_nearby, ability_prevent_bind'
+	},
+
+	'int_moria_perona_pvp' : {
+		'title' : "Moria & Perona, The Beginning of a Nightmare",
+		'color' : 'int',
+		'class' : 'slasher, shooter',
+		'stars' : 'Pirate Festival',
+		'type' : 'Phòng thủ',
+		'skill' : {
+			'note' : 'lv10 - 35 Giây',
+			'des' : 'Cắt 15% HP một vùng rộng, 100% khóa chiêu 1 kẻ địch ATK cao trong 29 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP đồng minh lên 5 cấp. Trong 30 giây đầu, tăng DEF bản thân lên 2 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : '60% tránh khóa chiêu.',
+		},
+		'pattern': 'Normal Attack → Lv.2 heal allies (medium range) → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'int_moria_perona_pvp.png'
+		},
+		'tags': 'skill_cut_hp, skill_silence_enemies, hiddenskill_hp_up, hiddenskill_def_up, target_nearby, ability_prevent_silence'
 	},
 }
