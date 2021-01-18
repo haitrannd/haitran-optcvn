@@ -1600,21 +1600,21 @@ window.character = {
 		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 37 Giây',
-			'des' : 'Khi còn trên 80% HP, tăng ATK bản thân 12 cấp (15 giây), tấn công kẻ địch có ATK cao nhất 3 lần với sát thương bằng với (ATK x 0.95)',
+			'note' : 'lv10 - 33 Giây',
+			'des' : 'Khi còn trên 50% HP, tăng ATK bản thân 12 cấp (15 giây), tấn công kẻ địch có ATK cao nhất 3 lần với sát thương bằng với (1.5 x ATK)',
 		},
 		'hidden_skill' : {
-			'des' : 'FIGHTER tăng SPEED lên 6 cấp'
+			'des' : 'FIGHTER tăng SPEED lên 6 cấp. FIGHTER tăng ATK lên 5 cấp.'
 		},
 		'others' : {
-			'target' : 'Kẻ địch có ATK cao',
-			'extra_ability' : '50% tránh tê liệt',
+			'target' : 'Kẻ địch có HP cao',
+			'extra_ability' : 'Miễn nhiễm tê liệt',
 		},
 		'pattern': 'Normal Atk → Strong Atk → Fullpower Atk',
 		'img' : {
 			'src' : 'sanji_v2.png'
 		},
-		'tags': 'skill_atk_up, skill_atk_up_self, skill_deal_dmg, hiddenskill_speed_up, hiddenskill_speed_up_class_fighter, target_nearby, ability_prevent_para'
+		'tags': 'skill_atk_up, skill_atk_up_self, skill_deal_dmg, hiddenskill_speed_up, hiddenskill_atk_up, hiddenskill_speed_up_class_fighter, target_nearby, ability_prevent_para'
 	},
 
 	'judge' : {
