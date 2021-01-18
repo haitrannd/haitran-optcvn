@@ -432,7 +432,7 @@ window.character = {
 		'tags': 'skill_heal, skill_def_up, hiddenskill_atk_up, target_nearby, ability_heal, hiddenskill_ct_down, hiddenskill_ct_down_color_qck, hiddenskill_speed_down, hiddenskill_speed_down_color_qck',
 	},
 
-	'magellan_dex' : {
+	'magellan_dex_legend' : {
 		'title' : 'Magellan',
 		'color' : 'dex',
 		'class' : 'striker, shooter',
@@ -440,7 +440,7 @@ window.character = {
 		'type' : 'Phá hoại',
 		'skill' : {
 			'note' : 'lv10 - 30 Giây',
-			'des' : 'Đầu độc một vùng lớn kẻ địch (cấp 3) trong 48 giây. Làm chậm nộ của kẻ địch đi 4 cấp (44 giây).',
+			'des' : 'Gây sát thương theo thời gian (cấp 3) lên một vùng lớn kẻ địch trong 48 giây. Làm chậm nộ của kẻ địch đi 4 cấp (44 giây).',
 		},
 		'hidden_skill' : {
 			'des' : 'Giảm DEF QCK đi 2 cấp. Khi có 5 hoặc nhiều hơn đồng minh ở trên sân, tăng HP đồng minh thêm 7 cấp'
@@ -1553,7 +1553,7 @@ window.character = {
 		'type' : 'Phá hoại',
 		'skill' : {
 			'note' : 'lv10 - 38 Giây',
-			'des' : 'Gây 1450 sát thương chuẩn một vùng rộng theo hàng ngang, giảm DEF đi 2 cấp trong 24 giây, và có 51% khả năng tê liệt kẻ địch trong 6 giây',
+			'des' : 'Gây 1450 sát thương chuẩn một vùng rộng, giảm DEF đi 2 cấp trong 24 giây, và có 51% khả năng tê liệt kẻ địch trong 6 giây',
 		},
 		'hidden_skill' : {
 			'des' : 'DEX/QCK/INT tăng HP lên 5 cấp. Khi còn 80 giây, tăng ATK toàn bộ đồng đội lên 5 cấp.'
