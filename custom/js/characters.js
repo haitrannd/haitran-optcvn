@@ -3550,4 +3550,76 @@ window.character = {
 		},
 		'tags': 'skill_cut_hp, skill_silence_enemies, hiddenskill_hp_up, hiddenskill_def_up, target_nearby, ability_prevent_silence'
 	},
+
+	'psy_legend_gold_d_roger' : {
+		'title' : "Gol D. Roger, Captain of the Roger Pirates",
+		'color' : 'psy',
+		'class' : 'slasher, freespirit',
+		'stars' : 'Legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 30 Giây',
+			'des' : 'Gây 2000 sát thương chuẩn lên toàn bộ kẻ địch. Giảm ATK vùng lớn kẻ địch đi 7 cấp, giảm DEF vùng lớn kẻ địch đi 5 cấp, giảm SPEED vùng lớn kẻ địch đi 10 cấp trong 15 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Trong 30 giây đầu, tăng DEF đồng minh lên 3 cấp. Trong 60 giây đầu, tăng ATK và SPEED đồng minh lên 5 cấp. Khi còn 40 giây, tăng tốc tích nộ đồng minh lên 6 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : 'Miễn nhiễm khóa kỹ năng.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'psy_legend_gold_d_roger.png'
+		},
+		'tags': 'skill_fixed_dmg, skill_def_down, skill_atk_down, skill_speed_down, hiddenskill_def_up, hiddenskill_atk_up, hiddenskill_speed_up, hiddenskill_ct_up, target_nearby, ability_prevent_silence'
+	},
+
+	'str_legend_oden' : {
+		'title' : "Kozuki Oden, Heir to the Shogun of Wano",
+		'color' : 'str',
+		'class' : 'slasher, freespirit',
+		'stars' : 'Legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 32 Giây',
+			'des' : 'Gây 1500 sát thương chuẩn lên toàn bộ kẻ địch. Gây (2 x ATK) sát thương một vùng lớn. Tăng ATK SLASHER lên 7 cấp trong 20 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng tốc tích nộ và ATK của SLASHER lên 5 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch có SPEED cao.',
+			'extra_ability' : 'Miễn nhiễm khóa hành động.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'str_legend_oden.png'
+		},
+		'tags': 'skill_fixed_dmg, skill_deal_dmg, skill_atk_up, skill_atk_up_class_slasher, hiddenskill_ct_up, hiddenskill_ct_up_class_slasher, hiddenskill_atk_up, hiddenskill_atk_up_class_slasher, target_highest_speed, ability_prevent_bind'
+	},
+
+	'onami_orobi_kizuna_dex' : {
+		'title' : "Onami & Orobi, Heroine Dancers of Wano Country",
+		'color' : 'dex',
+		'class' : 'cerebral, freespirit',
+		'stars' : 'Kizuna',
+		'type' : 'Hỗ trợ',
+		'skill' : {
+			'note' : 'lv10 - 30 Giây',
+			'des' : 'Gây sát thương theo thời gian cấp 2 lên toàn bộ kẻ địch trong 30 giây. Tăng ATK của DEX lên 5 cấp trong 20 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng SPEED DEX lên 5 cấp. Tăng ATK DEX lên 5 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch có HP cao.',
+			'extra_ability' : '60% tránh khóa kỹ năng.',
+		},
+		'pattern': 'Normal Attack → Level 2 Medium Range Heal → Normal Attack → Level 2 Small Range Heal',
+		'img' : {
+			'src' : 'onami_orobi_kizuna_dex.png'
+		},
+		'tags': 'skill_continuous_dmg_up, skill_atk_up, hiddenskill_speed_up, hiddenskill_atk_up, target_highest_hp, ability_prevent_silence'
+	},
 }

@@ -26,7 +26,7 @@ window.skill = {
 		'skill_para_enemies' : 'Làm tê liệt',
 		'skill_para_down' : 'Giảm tê liệt (paralysis)',
 		'skill_lock_target' : 'Khóa mục tiêu',
-		'skill_continuous_dmg_up' : 'Gây sát thương liện tục',
+		'skill_continuous_dmg_up' : 'Sát thương theo thời gian',
 		'skill_miss_up' : 'Tăng tỉ lệ đánh trượt',
 		'skill_accurate_down' : 'giảm tỉ lệ chính xác',
 	},
