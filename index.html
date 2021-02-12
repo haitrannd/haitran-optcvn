@@ -67,6 +67,7 @@
 								<option value="int">INT</option>
 								<option value="psy">PSY</option>
 							</select>
+							<div class="fa_filter color_filter" _open="color_filter_panel">Hệ</div>
 						</div>
 						<div class="filter_item class">
 							<select name="class">
@@ -80,6 +81,7 @@
 								<option value="driven">Driven</option>
 								<option value="cerebral">Cerebral</option>
 							</select>
+							<div class="fa_filter class_filter" _open="class_filter_panel">Class</div>
 						</div>
 						<div class="filter_item type">
 							<select name="type">
@@ -90,6 +92,7 @@
 								<option value="Hồi phục">Hồi phục</option>
 								<option value="Phá hoại">Phá hoại</option>
 							</select>
+							<div class="fa_filter attr_filter" _open="attr_filter_panel">Thuộc tính</div>
 						</div>
 						<div class="filter_item effect">
 							<ul class="nav nav-tabs">
@@ -113,6 +116,36 @@
 							<div class="tail_block block"><input type="text" name="tail" inputmode="numeric" pattern="[0-9]*" value="100"></div>
 						</div>
 						<span class="reset_filter"></span>
+						<div class="fa_filter_panel">
+							<div class="filter_panel color_filter_panel active">
+								<div class="str_btn" target="color" value="str"><img src="icons/filter_attr/filter_attr_str.png" alt=""></div>
+								<div class="qck_btn" target="color" value="qck"><img src="icons/filter_attr/filter_attr_qck.png" alt=""></div>
+								<div class="dex_btn" target="color" value="dex"><img src="icons/filter_attr/filter_attr_dex.png" alt=""></div>
+								<div class="int_btn" target="color" value="int"><img src="icons/filter_attr/filter_attr_int.png" alt=""></div>
+								<div class="psy_btn" target="color" value="psy"><img src="icons/filter_attr/filter_attr_psy.png" alt=""></div>
+								<div class="dual_btn" target="color" value="dual"><img src="icons/filter_attr/filter_attr_dual.png" alt=""></div>
+							</div>
+							<div class="filter_panel class_filter_panel">
+								<div class="cere_btn" target="class" value="cerebral"><img src="icons/filter_type/filter_type_cere.png" alt=""></div>
+								<div class="driven_btn" target="class" value="driven"><img src="icons/filter_type/filter_type_driven.png" alt=""></div>
+								<div class="fighter_btn"  target="class" value="fighter"><img src="icons/filter_type/filter_type_fighter.png" alt=""></div>
+								<div class="fs_btn" target="class" value="freespirit"><img src="icons/filter_type/filter_type_fs.png" alt=""></div>
+								<div class="ph_btn" target="class" value="powerhouse"><img src="icons/filter_type/filter_type_ph.png" alt=""></div>
+								<div class="shooter_btn" target="class" value="shooter"><img src="icons/filter_type/filter_type_shooter.png" alt=""></div>
+								<div class="slasher_btn" target="class" value="slasher"><img src="icons/filter_type/filter_type_slasher.png" alt=""></div>
+								<div class="striker_btn" target="class" value="striker"><img src="icons/filter_type/filter_type_striker.png" alt=""></div>
+							</div>
+							<div class="filter_panel attr_filter_panel">
+								<div class="atkS_btn" target="type" value="Tấn công"><img src="icons/filter_style/filter_style_icon_01.png" alt=""></div>
+								<div class="defS_btn" target="type" value="Phòng thủ"><img src="icons/filter_style/filter_style_icon_02.png" alt=""></div>
+								<div class="healS_btn" target="type" value="Hồi phục"><img src="icons/filter_style/filter_style_icon_03.png" alt=""></div>
+								<div class="supS_btn" target="type" value="Hỗ trợ"><img src="icons/filter_style/filter_style_icon_04.png" alt=""></div>
+								<div class="deactivateS_btn" target="type" value="Phá hoại"><img src="icons/filter_style/filter_style_icon_05.png" alt=""></div>
+							</div>
+							<div class="close_panel">
+								<i class="fa fa-angle-left" aria-hidden="true"></i>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

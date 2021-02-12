@@ -137,6 +137,7 @@ function haitran_reset_filter () {
 	$('input[name="tail"]').val(100);
 	$('.filter_wrapper input[type="checkbox"]').prop('checked', false);
 	$('.pirate_festival_page .filter_block .filter_item .item').removeClass('active');
+	$('.fa_filter_panel .filter_panel > div').removeClass('active');
 	haitran_print_char('');
 	$('.search span.filter').trigger('click');
 }
@@ -396,6 +397,33 @@ function haitran_handle_filter () {
 		haitran_print_char(filter);
 		$(this).parents('.filter_block').fadeToggle(300);
 		$('.pirate_festival_page .search span.filter').toggleClass('active');
+	});
+
+	// Fake select click
+	$('.fa_filter').on('click', function(event) {
+		$('.fa_filter_panel').addClass('active');
+		$('.' + $(this).attr('_open')).siblings('.filter_panel').removeClass('active');
+		$('.' + $(this).attr('_open')).addClass('active');
+	});
+
+	// Fake filter - Handle option-click
+	$('.fa_filter_panel .filter_panel > div').on('click', function(event) {
+		let target = $('select[name="' + $(this).attr('target') + '"]');
+		let val = $(this).attr('value');
+		if ($(this).hasClass('active')) {
+			val = 'all';
+			$(this).removeClass('active');
+		} else {
+			$(this).addClass('active');
+		  $(this).siblings().removeClass('active');
+		}
+		target.val(val);
+		target.trigger('change');
+	});
+
+	// Close panel
+	$('.close_panel').click(function(event) {
+		$('.fa_filter_panel').removeClass('active');
 	});
 
 	// Add "effect filter" options

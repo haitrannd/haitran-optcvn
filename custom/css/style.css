@@ -256,6 +256,7 @@ body .page_wrapper .body {
   margin: 0 auto;
   box-shadow: 1px 1px 4px #333;
   position: relative;
+  overflow: hidden;
 }
 
 .pirate_festival_page .filter_block .filter_item.effect .tab-content .tab-pane {
@@ -396,6 +397,121 @@ body .page_wrapper .body {
   width: 150px;
   height: 30px;
   border-radius: 5px;
+  display: none;
+}
+
+.pirate_festival_page .filter_block .filter_item .fa_filter {
+	background-color: #ffffff;
+  padding: 5px;
+  width: 150px;
+  text-align: center;
+  border-radius: 3px;
+  color: #333;
+  font-weight: 500;
+  border: 1px solid #333;
+}
+
+.fa_filter_panel {
+	position: absolute;
+  top: 0;
+  left: -150%;
+  width: 100%;
+  -webkit-transition: 0.3s;
+     -moz-transition: 0.3s;
+      -ms-transition: 0.3s;
+       -o-transition: 0.3s;
+          transition: 0.3s;
+}
+
+.fa_filter_panel.active {
+	left: 0;
+}
+
+.fa_filter_panel > div:not(.close_panel) {
+	display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(100% - 30px);
+}
+
+.color_filter_panel {
+	visibility: hidden;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 190px;
+  background-color: #ffffff;
+  width: calc(100% - 30px);
+}
+
+.filter_panel {
+	visibility: hidden;
+	position: absolute;
+  width: 100%;
+  height: 190px;
+  background-color: #ffffff;
+  top: 0;
+  left: 0;
+}
+
+.class_filter_panel {
+	padding: 20px 0;
+}
+
+.class_filter_panel > div {
+	width: calc(100% / 4);
+  padding: 5px;
+  text-align: center;
+}
+
+.filter_panel > div {
+	position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter_panel > div.active::before {
+	content: "";
+  position: absolute;
+  top: -10px;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #333;
+}
+
+.filter_panel > div img {
+	height: 50px;
+  width: auto;
+}
+
+.color_filter_panel.active,
+.filter_panel.active {
+	visibility: visible;
+}
+
+.color_filter_panel > div {
+	width: calc(100% / 3);
+  text-align: center;
+}
+
+.close_panel {
+	position: absolute;
+  top: 0;
+  right: 0;
+  height: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #cccccc;
+  color: #ffffff;
+  padding: 0 15px;
+  width: 20px;
 }
 
 .pirate_festival_page .body_page {
@@ -523,6 +639,8 @@ body .page_wrapper .body {
 .modal .modal-dialog .modal-content .modal-body .info_wrapper {
   max-height: 270px;
   overflow: auto;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch; /* iphone */
 }
 
 .modal .img_wrapper {
