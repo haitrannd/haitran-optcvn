@@ -180,7 +180,7 @@ function haitran_print_char (filter) {
 			modal_html    +=   '<div class="modal-dialog">';
 			modal_html    +=     '<div class="modal-content">';
 			modal_html    +=       '<div class="modal-header">';
-			modal_html    +=         '<button type="button" class="close" data-dismiss="modal">&times;</button><h4 class="modal-title">' + row.title + ' ( ' + row.stars + ' )</h4>';
+			modal_html    +=         '<button type="button" class="close" data-dismiss="modal">&times;</button><h4 class="modal-title">' + row.title + ' (' + row.stars + ')</h4>';
 			modal_html    +=       '</div>';
 			modal_html    +=       '<div class="modal-body">';
 
@@ -195,11 +195,23 @@ function haitran_print_char (filter) {
 			modal_html    +=           '</div>';
 			modal_html    +=           '<div class="info skill">';
 			modal_html    +=             '<span class="skill_title"><b>Kỹ năng (' + row.skill.note + '):</b> </span>';
-			modal_html    +=             '<span class="skill_des">' + row.skill.des + '</span>';
+			modal_html    +=             '<span class="skill_des">';
+			let des_arr = row.skill.des.split(". ");
+			for (let des in des_arr) {
+				let des_row = des_arr[des];
+				modal_html += '<p>- ' + des_row + '</p>';
+			}
+			modal_html    +=             '</span>';
 			modal_html    +=           '</div>';
 			modal_html    +=           '<div class="info hidden_skill">';
 			modal_html    +=             '<span class="hidden_skill_title"><b>Kỹ năng bị động:</b> </span>';
-			modal_html    +=             '<span class="skill_des">' + row.hidden_skill.des + '</span>';
+			modal_html    +=             '<span class="skill_des">';
+			let h_des_arr = row.hidden_skill.des.split(". ");
+			for (let des in h_des_arr) {
+				let des_row = h_des_arr[des];
+				modal_html += '<p>- ' + des_row + '</p>';
+			}
+			modal_html    +=             '</span>';
 			modal_html    +=           '</div>';
 			modal_html    +=           '<div class="info target">';
 			modal_html    +=             '<span class="target_title"><b>Mục tiêu:</b> ' + row.others.target + '</span>';
@@ -266,11 +278,23 @@ function haitran_print_char (filter) {
 				modal_html    +=           '</div>';
 				modal_html    +=           '<div class="info skill">';
 				modal_html    +=             '<span class="skill_title"><b>Kỹ năng (' + row.skill.note + '):</b> </span>';
-				modal_html    +=             '<span class="skill_des">' + row.skill.des + '</span>';
+				modal_html    +=             '<span class="skill_des">';
+				let des_arr = row.skill.des.split(". ");
+				for (let des in des_arr) {
+					let des_row = des_arr[des];
+					modal_html += '<p>- ' + des_row + '</p>';
+				}
+				modal_html    +=             '</span>';
 				modal_html    +=           '</div>';
 				modal_html    +=           '<div class="info hidden_skill">';
 				modal_html    +=             '<span class="hidden_skill_title"><b>Kỹ năng bị động:</b> </span>';
-				modal_html    +=             '<span class="skill_des">' + row.hidden_skill.des + '</span>';
+				modal_html    +=             '<span class="skill_des">';
+				let h_des_arr = row.hidden_skill.des.split(". ");
+				for (let des in h_des_arr) {
+					let des_row = h_des_arr[des];
+					modal_html += '<p>- ' + des_row + '</p>';
+				}
+				modal_html    +=             '</span>';
 				modal_html    +=           '</div>';
 				modal_html    +=           '<div class="info target">';
 				modal_html    +=             '<span class="target_title"><b>Mục tiêu:</b> ' + row.others.target + '</span>';

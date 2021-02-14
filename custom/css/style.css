@@ -698,6 +698,10 @@ body .page_wrapper .body {
   flex-direction: column;
 }
 
+.modal .modal-body .info_wrapper .info > span.skill_des > p:last-child {
+  margin-bottom: 0;
+}
+
 .modal .modal-body .info_wrapper .info.class {
 	padding-top: 14px;
 }

@@ -3815,4 +3815,124 @@ window.character = {
 		},
 		'tags': 'skill_def_down, skill_deal_dmg, hiddenskill_atk_up, hiddenskill_hp_up, target_nearby, ability_prevent_bind'
 	},
+
+	'str_law_pf_rr' : {
+		'title' : "Trafalgar Law, Captive Heart",
+		'color' : 'str',
+		'class' : 'slasher, freespirit',
+		'stars' : 'Pirate Festival',
+		'type' : 'Hỗ trợ',
+		'skill' : {
+			'note' : 'lv10 - 27 Giây',
+			'des' : 'Gây (ATK x 2) sát thương một vùng lớn kẻ địch. Tăng ATK lên 6 cấp và SPEED lên 6 cấp cho đồng minh STR trong 20 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Trong 40 giây đầu, tăng HP lên 5 cấp và DEF lên 3 cấp cho đồng minh STR. Tăng ATK lên 5 cấp cho đồng minh SLASHER.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ít máu.',
+			'extra_ability' : 'Miễn nhiễm khóa skill.',
+		},
+		'pattern': 'Normal Attack → Lv.2 heal allies (medium range) → Normal Attack → Lv.2 heal allies (medium range)',
+		'img' : {
+			'src' : 'str_law_pf_rr.png'
+		},
+		'tags': 'skill_deal_dmg, skill_atk_up, skill_speed_up, hiddenskill_hp_up, hiddenskill_def_up, target_low_hp, ability_prevent_silence'
+	},
+
+	'psy_luffytaro_raid' : {
+		'title' : "Luffytaro, Facing Death",
+		'color' : 'psy',
+		'class' : 'fighter, freespirit',
+		'stars' : 'Raid',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 14 Giây',
+			'des' : 'Gây (ATK x 2) sát thương một kẻ địch.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK lên 5 cấp và SPEED lên 3 cấp toàn bộ đồng minh.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ít máu.',
+			'extra_ability' : '60% chặn khóa hành động.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Fullpower Attack',
+		'img' : {
+			'src' : 'psy_luffytaro_raid.png'
+		},
+		'tags': 'skill_deal_dmg, hiddenskill_atk_up, hiddenskill_speed_up, target_low_hp, ability_prevent_bind'
+	},
+
+	'str_hawkins_pf_gift' : {
+		'title' : "Hawkins, Plan-Thwarting Headliner",
+		'color' : 'str',
+		'class' : 'slasher, cerebral',
+		'stars' : 'Pirate Festival',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 25 Giây',
+			'des' : 'Gây 1200 sát thương chuẩn cho toàn bộ địch. Khi còn 40 giây, gây 1500 sát thương chuẩn.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP lên 5 cấp và DEF lên 2 cấp cho đồng minh STR.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ATK cao.',
+			'extra_ability' : '60% chặn khóa skill.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Fullpower Attack',
+		'img' : {
+			'src' : 'str_hawkins_pf_gift.png'
+		},
+		'tags': 'skill_fixed_dmg, hiddenskill_hp_up, hiddenskill_def_up, target_highest_atk, ability_prevent_silence'
+	},
+
+	'dex_cavendish_pf_rr' : {
+		'title' : "Cavendish, Affectionate Nobleman",
+		'color' : 'dex',
+		'class' : 'slasher, driven',
+		'stars' : 'Pirate Festival',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 28 Giây',
+			'des' : 'Tăng DEF lên 4 cấp cho đồng minh có DEF thấp nhất trong 20 giây. Gây (ATK x 3) sát thương cho kẻ địch có DEF thấp nhất.',
+		},
+		'hidden_skill' : {
+			'des' : 'Trong 40 giây đầu, giảm CRIT kẻ địch đi 7 cấp. Tăng DEF lên 4 cấp và GUARD lên 5 cấp cho đồng mình DEX.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : 'Miễn nhiễm tê liệt.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Fullpower Attack',
+		'img' : {
+			'src' : 'dex_cavendish_pf_rr.png'
+		},
+		'tags': 'skill_def_up, skill_deal_dmg, hiddenskill_crit_down, hiddenskill_def_up, hiddenskill_guard_up, target_nearby, ability_prevent_para'
+	},
+
+	'dex_bege_pez_kizuna' : {
+		'title' : "Bege & Pez, Enjoying the Evening With My Son",
+		'color' : 'dex',
+		'class' : 'shooter, driven',
+		'stars' : 'Kizuna',
+		'type' : 'Phòng thủ',
+		'skill' : {
+			'note' : 'lv10 - 36 Giây',
+			'des' : 'Gây (ATK x 2) sát thương cho 2 kẻ địch. Tăng DEF lên 4 cấp cho toàn bộ đồng minh trong 10 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP lên 5 cấp và DEF lên 1 cấp cho toàn bộ đồng minh.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : 'Hồi 250HP mỗi lượt.',
+		},
+		'pattern': 'Normal Attack → Lv.2 heal allies (medium range)  → Normal Attack → Lv.2 heal allies (small range)',
+		'img' : {
+			'src' : 'dex_bege_pez_kizuna.png'
+		},
+		'tags': 'skill_deal_dmg, skill_def_up, hiddenskill_hp_up, hiddenskill_def_up, target_nearby, ability_heal'
+	},
 }
