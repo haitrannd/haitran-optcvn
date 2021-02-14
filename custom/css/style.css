@@ -687,7 +687,11 @@ body .page_wrapper .body {
 	margin-bottom: 10px;
 }
 
-.modal .modal-body .info_wrapper .info > span {
+.modal .modal-body .info_wrapper .info b {
+  text-transform: uppercase;
+}
+
+.modal .modal-body .info_wrapper .info > span:first-child {
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid #cccccc;
