@@ -255,7 +255,7 @@ body .page_wrapper .body {
 
 .pirate_festival_page .filter_block .filter_wrapper {
   z-index: 10;
-  /* background-color: #fff; */
+  background-color: #7d634c;
   background-size: 100% 100%;
   background-image: url('../../icons/bg/bg5.png');
   padding: 15px 5px;

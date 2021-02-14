@@ -3671,4 +3671,148 @@ window.character = {
 		},
 		'tags': 'skill_deal_dmg, hiddenskill_ct_up, hiddenskill_atk_up, hiddenskill_speed_up, ability_prevent_silence, ability_dmg_reduce'
 	},
+
+	'kaido_qck_legend' : {
+		'title' : "Kaido, Kanabo Bashful-Beatdown",
+		'color' : 'qck',
+		'class' : 'powerhouse, driven',
+		'stars' : 'Legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 26 Giây',
+			'des' : 'Giảm DEF vùng lớn kẻ địch đi 3 cấp trong 5 giây. Gây (ATK x 2) sát thương vùng lớn kẻ địch. 50% cơ hội làm tê liệt toàn bộ kẻ địch trong 20 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Trong 40 giây đầu, Tăng ATK và SPEED bản thân lên 10 cấp. Tăng HP lên 5 cấp và DEF lên 3 cấp đối với đồng minh QCK.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : 'Miễn nhiễm khóa skill. Giảm sát thương từ kẻ địch STR đi 30%.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Fullpower Attack',
+		'img' : {
+			'src' : 'kaido_qck_legend.png'
+		},
+		'tags': 'skill_def_down, skill_deal_dmg, skill_para_enemies, hiddenskill_atk_up, hiddenskill_speed_up, hiddenskill_hp_up, hiddenskill_def_up, target_nearby, ability_prevent_silence, ability_dmg_reduce'
+	},
+
+	'qck_kamazo_rr' : {
+		'title' : "Kamazo the Manslayer, Orochi's Assassin",
+		'color' : 'qck',
+		'class' : 'slasher, driven',
+		'stars' : 'Rare Recruit',
+		'type' : 'Phá hoại',
+		'skill' : {
+			'note' : 'lv10 - 28 Giây',
+			'des' : 'Giảm ATK toàn bộ kẻ địch đi 5 cấp trong 20 giây. Gây (ATK x 1.7) sát thương một vùng kẻ địch.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK lên 5 cấp và CRIT lên 5 cấp đối với đồng minh QCK.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : '60% cơ hội chặn khóa hành động.',
+		},
+		'pattern': 'Normal Attack → Lv.2 heal allies (medium range) → Normal Attack → Lv.2 heal allies (small range)',
+		'img' : {
+			'src' : 'qck_kamazo_rr.png'
+		},
+		'tags': 'skill_atk_down, skill_deal_dmg, hiddenskill_atk_up, skill_crit_up, target_nearby, ability_prevent_bind'
+	},
+
+	'dex_gyukimaru_rr' : {
+		'title' : "Gyukimaru, Contemplating Warrior Monk",
+		'color' : 'dex',
+		'class' : 'slasher, striker',
+		'stars' : 'Rare Recruit',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 35 Giây',
+			'des' : 'Tăng DEF đồng minh DEX lên 2 cấp trong 15 giây. Gây (ATK x 2) sát thương lên 3 kẻ địch.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK lên 5 cấp và CRIT lên 5 cấp đối với đồng minh DEX.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : '80% cơ hội chặn tê liệt.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Fullpower Attack',
+		'img' : {
+			'src' : 'dex_gyukimaru_rr.png'
+		},
+		'tags': 'skill_def_up, skill_deal_dmg, hiddenskill_atk_up, skill_crit_up, target_nearby, ability_prevent_para'
+	},
+
+	'dex_hiyori_event' : {
+		'title' : "Hiyori, Mysterious Beauty",
+		'color' : 'dex',
+		'class' : 'cerebral, freespirit',
+		'stars' : 'Event Character',
+		'type' : 'Hồi phục',
+		'skill' : {
+			'note' : 'lv10 - 33 Giây',
+			'des' : 'Gây (ATK x 1.5) sát thương một vùng kẻ địch. Hồi 1800HP cho đồng minh DEX. Tăng DEF đồng minh DEX lên 2 cấp trong 15 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK lên 5 cấp và GUARD lên 5 cấp cho đồng minh DEX.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch DEF cao.',
+			'extra_ability' : 'Hồi 250HP mỗi lượt.',
+		},
+		'pattern': 'Normal Attack → Lv.2 heal allies (medium range) → Normal Attack → Lv.2 heal allies (small range)',
+		'img' : {
+			'src' : 'dex_hiyori_event.png'
+		},
+		'tags': 'skill_def_up, skill_deal_dmg, skill_heal, hiddenskill_atk_up, hiddenskill_guard_up, target_highest_def, ability_heal'
+	},
+
+	'dex_otoko_event' : {
+		'title' : "Otoko, Girl Being Followed",
+		'color' : 'dex',
+		'class' : 'shooter, freespirit',
+		'stars' : 'Event Character',
+		'type' : 'Hỗ trợ',
+		'skill' : {
+			'note' : 'lv10 - 25 Giây',
+			'des' : 'Gây sát thương theo thời gian (cấp 2) cho 1 kẻ địch trong 50 giây. Tăng GUARD đồng minh DEX lên 5 cấp trong 50 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng SPEED lên 5 cấp và HP lên 3 cấp cho đồng minh DEX.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : '60% cơ hộ chặn khóa hành động.',
+		},
+		'pattern': 'Normal Attack → Lv.2 heal allies (medium range) → Normal Attack → Lv.2 heal allies (small range)',
+		'img' : {
+			'src' : 'dex_otoko_event.png'
+		},
+		'tags': 'skill_continuous_dmg_up, skill_guard_up, hiddenskill_speed_up, hiddenskill_hp_up, target_nearby, ability_prevent_bind'
+	},
+
+	'qck_lucy_pf_gift' : {
+		'title' : "Lucy, A Dark-Horse Champion Attaining Victory",
+		'color' : 'qck',
+		'class' : 'striker, freespirit',
+		'stars' : 'Pirate Festival',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 25 Giây',
+			'des' : 'Giảm DEF kẻ địch STR đi 3 cấp trong 5 giây. Gây (ATK x 2) sát thương một vùng kẻ địch.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK lên 5 cấp và HP lên 5 cấp cho đồng minh QCK.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : '80% cơ hộ chặn khóa hành động.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Fullpower Attack',
+		'img' : {
+			'src' : 'qck_lucy_pf_gift.png'
+		},
+		'tags': 'skill_def_down, skill_deal_dmg, hiddenskill_atk_up, hiddenskill_hp_up, target_nearby, ability_prevent_bind'
+	},
 }
