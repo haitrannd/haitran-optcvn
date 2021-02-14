@@ -65,6 +65,7 @@ window.skill = {
 		'ability_prevent_crit': 'Ngăn Crit',
 		'ability_prevent_stack_dmg': 'Ngăn chặn sát thương theo thời gian (Độc)',
 		'ability_heal': 'Hồi máu',
+		'ability_dmg_reduce': 'Giảm sát thương',
 	},
 	'target' : {
 		'target_nearby' : 'Ở gần',

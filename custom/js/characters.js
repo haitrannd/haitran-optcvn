@@ -1197,19 +1197,20 @@ window.character = {
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 15 Giây',
-			'des' : 'Khi còn trên 70 giây, cắt 15% HP một vùng lớn kẻ địch. Khi nhở hoặc bằng 70 giây, cắt 30% HP một vùng lớn kẻ địch',
+			'des' : 'Trong 30 giây đầu, cắt 15% HP một vùng lớn kẻ địch. Khi còn 70 giây, cắt 30% HP vùng lớn kẻ địch. Tăng ATK DEX lên 7 cấp trong 20 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'SLASHER tăng SPEED 5 cấp, ATK bản thân tăng 8 cấp trong 30 giây'
+			'des' : 'SLASHER tăng SPEED 7 cấp. Tăng HP SLASHER lên 2 cấp. Trong 40 giây đầu, tăng ATK bản thân lên 10 cấp và CRIT bản thân lên 5 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch có ATK cao nhất',
-			'extra_ability' : '50% tránh CRIT',
+			'extra_ability' : 'Miễn nhiễm khóa skill. Giảm 30% sát thương nhận từ kẻ địch QCK.',
 		},
-		'pattern': 'Strong - Full - Atk - Strong',
+		'pattern': 'Strong Attack → Normal Atk → Fullpower Atk → Strong Atk',
 		'img' : {
 			'src' : 'mihawk_v2.png'
 		},
+		'tags': 'skill_cut_hp, skill_atk_up, hiddenskill_speed_up, hiddenskill_hp_up, hiddenskill_atk_up, hiddenskill_crit_up, ability_prevent_silence, ability_dmg_reduce'
 	},
 
 	'cracker' : {
@@ -3621,5 +3622,53 @@ window.character = {
 			'src' : 'onami_orobi_kizuna_dex.png'
 		},
 		'tags': 'skill_continuous_dmg_up, skill_atk_up, hiddenskill_speed_up, hiddenskill_atk_up, target_highest_hp, ability_prevent_silence'
+	},
+
+	'tm_qck_queen' : {
+		'title' : "Queen, Brachiosaurus Rampage",
+		'color' : 'qck',
+		'class' : 'powerhouse, driven',
+		'stars' : 'Treasure Map',
+		'type' : 'Phòng thủ',
+		'skill' : {
+			'note' : 'lv10 - 27 Giây',
+			'des' : 'Tăng ATK và DEF bản thân lên 5 cấp trong 15 giây. Gây (ATK x 1.7) sát thương lên 2 kẻ địch.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP đồng minh QCK lên 5 cấp và DEF đồng minh QCK lên 2 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : 'Hồi 250HP mỗi lượt.',
+		},
+		'pattern': 'Normal Attack → Lv.2 heal allies (medium range) → Normal Attack → Lv.2 heal allies (small range)',
+		'img' : {
+			'src' : 'tm_qck_queen.png'
+		},
+		'tags': 'skill_atk_up, skill_def_up, skill_deal_dmg, hiddenskill_hp_up, hiddenskill_def_up, target_nearby, ability_heal'
+	},
+
+	'zorojuro_dex_legend' : {
+		'title' : "Zorojuro, A Bloodlust-Eldritch Ronin",
+		'color' : 'dex',
+		'class' : 'slasher, driven',
+		'stars' : 'Legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 28 Giây',
+			'des' : 'Gây (ATK x 1) sát thương lên vùng lớn kẻ địch trên một đường thẳng. Khi còn 50 giây, gây (ATK x 2) sát thương lên toàn bộ kẻ địch. Khi còn 30 giây, gây (ATK x 2) sát thương lên toàn bộ kẻ địch.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng tốc tích nộ bản thân lên 3 cấp. Tăng ATK bản thên lên 5 cấp. Tăng ATK lên 5 cấp và SPEED lên 3 cấp đối với đồng minh DEX.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : 'Miễn nhiễm khóa skill. Giảm sát thương từ kẻ địch QCK đi 30%.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Fullpower Attack',
+		'img' : {
+			'src' : 'zorojuro_dex_legend.png'
+		},
+		'tags': 'skill_deal_dmg, hiddenskill_ct_up, hiddenskill_atk_up, hiddenskill_speed_up, ability_prevent_silence, ability_dmg_reduce'
 	},
 }
