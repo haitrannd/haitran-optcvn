@@ -401,14 +401,25 @@ body .page_wrapper .body {
 }
 
 .pirate_festival_page .filter_block .filter_item .fa_filter {
-	background-color: #ffffff;
-  padding: 5px;
-  width: 150px;
-  text-align: center;
-  border-radius: 3px;
-  color: #333;
-  font-weight: 500;
-  border: 1px solid #333;
+	padding: 11px 5px;
+	width: 150px;
+	text-align: center;
+	border-radius: 3px;
+	color: #ffffff;
+	font-weight: 500;
+	position: relative;
+}
+
+.pirate_festival_page .filter_block .filter_item .fa_filter::before {
+  content: "";
+  background: url('../../icons/bg/bg4.png') no-repeat;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 .fa_filter_panel {
@@ -677,3 +688,6 @@ body .page_wrapper .body {
   top: 9px;
   right: 9px;
 }
+
+@keyframes merry{from{background-position:0 0}to{background-position:0 -3600px}}
+@keyframes sunny{from{background-position:0 0}to{background-position:0 -3720px}}
