@@ -687,6 +687,13 @@ body .page_wrapper .body {
 	margin-bottom: 10px;
 }
 
+.modal .modal-body .info_wrapper .info > span {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 10px;
+}
+
 .modal .modal-body .info_wrapper .info.class {
 	padding-top: 14px;
 }
