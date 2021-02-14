@@ -28,10 +28,16 @@ button, a {
   margin: 0 !important;
   margin-top: 20px !important;
   justify-content: space-between !important;
+  padding: 0 10px;
 }
 
 .filter_item.ct > p {
   font-weight: bold;
+  color: #ffffff;
+}
+
+.irs--modern .irs-grid-text {
+	color: #ffffff !important;
 }
 
 .filter_item.ct input {
@@ -249,8 +255,10 @@ body .page_wrapper .body {
 
 .pirate_festival_page .filter_block .filter_wrapper {
   z-index: 10;
-  background-color: #fff;
-  padding: 15px;
+  /* background-color: #fff; */
+  background-size: 100% 100%;
+  background-image: url('../../icons/bg/bg5.png');
+  padding: 15px 5px;
   border-radius: 5px;
   width: 320px;
   margin: 0 auto;
@@ -357,8 +365,9 @@ body .page_wrapper .body {
 }
 
 .pirate_festival_page .filter_block .filter_item.effect {
-  margin: 0 -15px;
+  /* margin: 0 -15px; */
   border-top: 1px solid #333;
+  background-color: rgb(255 255 255 / 30%);
 }
 
 .pirate_festival_page .filter_block .filter_item .item {
