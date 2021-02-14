@@ -685,6 +685,8 @@ body .page_wrapper .body {
 
 .modal .modal-body .info_wrapper .info {
 	margin-bottom: 10px;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 10px;
 }
 
 .modal .modal-body .info_wrapper .info b {
@@ -694,8 +696,6 @@ body .page_wrapper .body {
 .modal .modal-body .info_wrapper .info > span:first-child {
   display: flex;
   flex-direction: column;
-  border-bottom: 1px solid #cccccc;
-  padding-bottom: 10px;
 }
 
 .modal .modal-body .info_wrapper .info.class {
