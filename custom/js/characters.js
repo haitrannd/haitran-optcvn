@@ -552,28 +552,28 @@ window.character = {
 		'tags': 'skill_heal, skill_def_up, hiddenskill_atk_up, hiddenskill_def_up, hiddenskill_def_up_self, target_nearby, ability_prevent_para'
 	},
 
-	'blackbeard_v1_dex' : {
-		'title' : 'Blackbeard',
+	'blackbeard_v1_dex_legend' : {
+		'title' : 'Blackbeard, Power to Plunder the World Asunder',
 		'color' : 'dex',
 		'class' : 'driven, powerhouse',
 		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 42 Giây',
-			'des' : 'Giảm HP địch đi 25%, gây 1750 sát thương chuẩn cho kẻ địch STR và giảm DEF đi 4 cấp (25 giây)',
+			'note' : 'lv10 - 33 Giây',
+			'des' : 'Giảm HP địch đi 35% toàn bộ địch. Gây 2000 sát thương chuẩn cho kẻ địch STR/QCK và giảm DEF của chúng đi 4 cấp trong 25 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK đồng minh lên 5 cấp, ATK bản thân 3 cấp'
+			'des' : 'Tăng ATK toàn bộ đồng minh lên 7 cấp. Tăng ATK bản thân lên 3 cấp. Tăng HP đồng minh DEX lên 2 cấp.'
 		},
 		'others' : {
-			'target' : 'Nhắm vào kẻ địch ít máu nhất',
-			'extra_ability' : '50% cơ hội tránh tê liệt',
+			'target' : 'Kẻ địch thấp máu.',
+			'extra_ability' : 'Miễn nhiễm tê liệt.',
 		},
 		'pattern': 'Normal Atk → Normal Atk → Strong Atk → Fullpower Atk',
 		'img' : {
 			'src' : 'blackbeard_v1_dex.png'
 		},
-		'tags': 'skill_cut_hp, skill_fixed_dmg, skill_fixed_dmg_color_str, skill_def_down, skill_def_down_color_str, hiddenskill_atk_up, hiddenskill_atk_up_self, target_low_hp, ability_prevent_para'
+		'tags': 'skill_cut_hp, skill_fixed_dmg, skill_def_down, hiddenskill_atk_up, hiddenskill_hp_up, target_low_hp, ability_prevent_para'
 	},
 
 	'kaido' : {
@@ -785,7 +785,7 @@ window.character = {
 			'target' : 'Kẻ địch ở gần',
 			'extra_ability' : 'Khi máu dưới 50%, Hồi phục 150HP mỗi lượt',
 		},
-		'pattern': 'heal lv1 → Atk -> heal lv2',
+		'pattern': 'heal lv1 → Atk → heal lv2',
 		'img' : {
 			'src' : 'robin.png'
 		},
@@ -808,7 +808,7 @@ window.character = {
 			'target' : 'Kẻ địch ở gần',
 			'extra_ability' : '70% tránh khóa chiêu',
 		},
-		'pattern': 'Normal Atk → Heavy Atk → Heal lv1 (Small range) -> Normal Atk',
+		'pattern': 'Normal Atk → Heavy Atk → Heal lv1 (Small range) → Normal Atk',
 		'img' : {
 			'src' : 'sabo_v2.png'
 		},
@@ -3934,5 +3934,341 @@ window.character = {
 			'src' : 'dex_bege_pez_kizuna.png'
 		},
 		'tags': 'skill_deal_dmg, skill_def_up, hiddenskill_hp_up, hiddenskill_def_up, target_nearby, ability_heal'
+	},
+
+	'psy_garp_tm' : {
+		'title' : "Monkey D. Garp, A Substance over Style Christmas",
+		'color' : 'psy',
+		'class' : 'freespirit, fighter',
+		'stars' : 'Treasure Map',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 27 Giây',
+			'des' : 'Gây 3000 sát thương chuẩn cho 1 kẻ địch. Gây 1200 sát thương chuẩn cho kẻ địch INT.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng SPEED lên 5 cấp và DEF lên 2 cấp cho đồng minh FREESPIRIT.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch thấp máu.',
+			'extra_ability' : '60% cơ hội chặn sát thương theo thời gian.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Fullpower Attack',
+		'img' : {
+			'src' : 'psy_garp_tm.png'
+		},
+		'tags': 'skill_fixed_dmg, hiddenskill_speed_up, hiddenskill_def_up, target_low_hp, ability_prevent_stack_dmg'
+	},
+
+	'qck_dex_vivi_rebecca_legend_v2' : {
+		'title' : "Vivi & Rebecca, Happy White Christmas",
+		'color' : 'dual',
+		'class' : 'cerebral, striker',
+		'stars' : 'Legend',
+		'type' : 'Hỗ trợ',
+		'skill' : {
+			'note' : 'lv10 - 25 Giây',
+			'des' : 'Gây 3000 sát thương chuẩn cho 1 kẻ địch. Tăng ATK lên 7 cấp và CRIT lên 7 cấp cho toàn bộ đồng minh trong 20 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK lên 5 cấp, CRIT lên 5 cấp và tăng tốc tích nộ lên 1 cấp cho toàn bộ đồng minh.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch SPEED cao.',
+			'extra_ability' : 'Miễn nhiễm khóa hành động.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Lv.3 heal allies (forward large range) → Fullpower Attack',
+		'img' : {
+			'src' : 'qck_dex_vivi_rebecca_legend_v2.png'
+		},
+		'tags': 'skill_fixed_dmg, skill_atk_up, skill_crit_up, hiddenskill_atk_up, hiddenskill_crit_up, hiddenskill_ct_up, target_highest_speed, ability_prevent_bind'
+	},
+
+	'qck_psy_shira_mansherry_legend_v2' : {
+		'title' : "Shirahoshi & Mansherry, Two People Decorating the Christmas Tree",
+		'color' : 'dual',
+		'class' : 'cerebral, striker',
+		'stars' : 'Legend',
+		'type' : 'Hồi phục',
+		'skill' : {
+			'note' : 'lv10 - 35 Giây',
+			'des' : 'Hồi phục (RCV x 3) HP cho toàn bộ đồng minh. Tăng DEF toàn bộ đồng minh lên 3 cấp.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP lên 5 cấp và GUARD lên 5 cấp cho toàn bộ đồng minh.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : 'Miễn nhiễm khóa skill.',
+		},
+		'pattern': 'Normal Attack → Lv.2 heal allies (medium range) → Normal Attack → Lv.2 heal allies (medium range)',
+		'img' : {
+			'src' : 'qck_psy_shira_mansherry_legend_v2.png'
+		},
+		'tags': 'skill_heal, skill_def_up, hiddenskill_hp_up, hiddenskill_guard_up, target_nearby, ability_prevent_silence'
+	},
+
+	'qck_neptune_rr_xmas_2020' : {
+		'title' : "Neptune, Prepared Santa Claus",
+		'color' : 'qck',
+		'class' : 'cerebral, freespirit',
+		'stars' : 'Rare Recruit',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 35 Giây',
+			'des' : 'Gây (ATK x 2) sát thương một vùng lớn kẻ địch. Hồi (RCV x 1.5) HP cho đồng minh FREESPIRIT/CEREBRAL.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP đồng minh CEREBRAL lên 5 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ít máu.',
+			'extra_ability' : '60% chặn khóa skill.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Fullpower Attack',
+		'img' : {
+			'src' : 'qck_neptune_rr_xmas_2020.png'
+		},
+		'tags': 'skill_heal, skill_deal_dmg, hiddenskill_hp_up, target_low_hp, ability_prevent_silence'
+	},
+
+	'dex_leo_rr_xmas_2020' : {
+		'title' : "Neptune, Prepared Santa Claus",
+		'color' : 'dex',
+		'class' : 'cerebral, freespirit',
+		'stars' : 'Rare Recruit',
+		'type' : 'Phá hoại',
+		'skill' : {
+			'note' : 'lv10 - 30 Giây',
+			'des' : 'Giảm DEF đi 2 cấp và SPEED đi 5 cấp một vùng kẻ địch trong 20 giây. Đồng minh FREESPIRIT/CEREBRAL tăng DEF lên 2 cấp trong 15 giây. Gây (ATK x 2) sát thương cho 1 kẻ địch.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng GUARD lên 5 cấp cho đồng mình CEREBRAL. Tăng tỉ lệ đánh trượt của kẻ địch lên 5 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ít máu.',
+			'extra_ability' : '60% chặn khóa hành động.',
+		},
+		'pattern': 'Normal Attack → Lv.2 heal allies (medium range) → Normal Attack → Lv.2 heal allies (short range)',
+		'img' : {
+			'src' : 'dex_leo_rr_xmas_2020.png'
+		},
+		'tags': 'skill_deal_dmg, skill_def_down, skill_speed_down, skill_def_up, hiddenskill_guard_up, hiddenskill_miss_up, target_low_hp, ability_prevent_bind'
+	},
+
+	'dex_coby_raid_xmas_2020' : {
+		'title' : "Coby, White Night Christmas",
+		'color' : 'dex',
+		'class' : 'cerebral, fighter',
+		'stars' : 'Raid',
+		'type' : 'Hồi phục',
+		'skill' : {
+			'note' : 'lv10 - 17 Giây',
+			'des' : 'Hồi máu bản thân bằng với (RCV x 3) HP. Tăng ATK lên 5 cấp cho đồng minh CEREBRAL trong 15 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP lên 5 cấp cho đồng minh CEREBRAL.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : '50% chặn khóa skill.',
+		},
+		'pattern': 'Normal Attack → Lv.2 heal allies (medium range) → Normal Attack → Lv.2 heal allies (short range)',
+		'img' : {
+			'src' : 'dex_coby_raid_xmas_2020.png'
+		},
+		'tags': 'skill_heal, skill_atk_up, hiddenskill_hp_up, target_nearby, ability_prevent_silence'
+	},
+
+	'qck_hina_ambush_xmas_2020' : {
+		'title' : "Hina, Glittering Night",
+		'color' : 'qck',
+		'class' : 'cerebral, striker',
+		'stars' : 'Ambush',
+		'type' : 'Phá hoại',
+		'skill' : {
+			'note' : 'lv10 - 30 Giây',
+			'des' : 'Cắt 50% HP kẻ địch có DEF cao nhất. Giảm DEF 3 kẻ địch bất kì đi 4 cấp trong 15 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP lên 5 cấp và ATK lên 2 cấp cho đồng minh CEREBRAL.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : '60% chặn sát thương theo thời gian.',
+		},
+		'pattern': 'Normal Attack → Strong Attack → Lv.1 heal allies (short range) → Normal Attack',
+		'img' : {
+			'src' : 'qck_hina_ambush_xmas_2020.png'
+		},
+		'tags': 'skill_cut_hp, skill_def_down, hiddenskill_hp_up, hiddenskill_atk_up, target_nearby, ability_prevent_stack_dmg'
+	},
+
+	'dex_bartolomeo_pf_gift' : {
+		'title' : "Bartolomeo, Betting on a Life's Worth",
+		'color' : 'dex',
+		'class' : 'driven, striker',
+		'stars' : 'Pirate Festival',
+		'type' : 'Phòng thủ',
+		'skill' : {
+			'note' : 'lv10 - 28 Giây',
+			'des' : 'Gây (ATK x 1.7) sát thương một vùng kẻ địch. Tăng DEF đồng mình DEX lên 3 cấp.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP lên 5 cấp và DEF lên 2 cấp cho đồng minh DEX.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch thấp máu.',
+			'extra_ability' : '60% chặn khóa hành động.',
+		},
+		'pattern': 'Normal Attack → Lv.2 Heal allies (medium range) → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'dex_bartolomeo_pf_gift.png'
+		},
+		'tags': 'skill_deal_dmg, skill_def_up, hiddenskill_hp_up, hiddenskill_def_up, target_low_hp, ability_prevent_bind'
+	},
+
+	'dex_osoba_mask_pf_rr' : {
+		'title' : "Sobamask, Transparent Warrior",
+		'color' : 'dex',
+		'class' : 'fighter, powerhouse',
+		'stars' : 'Pirate Festival',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 24 Giây',
+			'des' : 'Gây (ATK x 2) sát thương lên một vùng kẻ địch. Khi còn 40 giây, gây tiếp (ATK x 2) sát thương lên một vùng kẻ địch.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK lên 5 cấp và SPEED lên 5 cấp cho đồng minh DEX. Giảm DEF kẻ địch QCK đi 2 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : 'Miễn nhiễm khóa skill.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'dex_osoba_mask_pf_rr.png'
+		},
+		'tags': 'skill_deal_dmg, hiddenskill_atk_up, hiddenskill_speed_up, hiddenskill_def_down, target_nearby, ability_prevent_silence'
+	},
+
+	'str_sakazuki_legend_v3' : {
+		'title' : "Sakazuki - Akainu, Uncompromised Determination and Justice",
+		'color' : 'str',
+		'class' : 'fighter, shooter',
+		'stars' : 'Legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 38 Giây',
+			'des' : 'Giảm DEF kẻ địch có RCV cao nhất đi 5 cấp trong 15 giây. Gây (ATK x 5) sát thương lên kẻ địch có RCV cao nhất. Gây sát thương theo thời gian (Cấp 2) lên một vùng lớn kẻ địch trong 30 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK lên 5 cấp cho đồng minh STR/QCK/DEX. Trong 50 giây đầu, tăng ATK bản thân lên 5 cấp. Khi còn 40 giây, giảm DEF toàn bộ địch đi 3 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : 'Không có.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'str_sakazuki_legend_v3.png'
+		},
+		'tags': 'skill_deal_dmg, hiddenskill_atk_up, hiddenskill_speed_up, hiddenskill_def_down, target_nearby, ability_prevent_silence'
+	},
+
+	'psy_hawkins_kizuna' : {
+		'title' : "Basil Hawkins, Fortune-Telling Future",
+		'color' : 'psy',
+		'class' : 'cerebral, striker',
+		'stars' : 'Kizuna',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 33 Giây',
+			'des' : 'gây (ATK x 1.7) sát thương một vùng kẻ địch. Giảm khóa skill đồng minh PSY đi 30 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK lên 5 cấp và HP lên 3 cấp cho đồng minh PSY.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch có HP cao nhất.',
+			'extra_ability' : '80% cơ hội chặn khóa skill.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'psy_hawkins_kizuna.png'
+		},
+		'tags': 'skill_deal_dmg, skill_silence_down, hiddenskill_atk_up, hiddenskill_hp_up, target_highest_hp, ability_prevent_silence'
+	},
+
+	'str_kid_tm' : {
+		'title' : "Eustass Kid, Unyielding Prisoner",
+		'color' : 'str',
+		'class' : 'fighter, driven',
+		'stars' : 'Treasure Map',
+		'type' : 'Phá hoại',
+		'skill' : {
+			'note' : 'lv10 - 28 Giây',
+			'des' : 'gây (ATK x 1.5) sát thương một vùng kẻ địch. Giảm DEF và SPEED toàn bộ kẻ địch đi 5 cấp trong 20 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK lên 5 cấp và HP lên 2 cấp cho đồng minh STR.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch thấp máu.',
+			'extra_ability' : '60% cơ hội chặn khóa skill.',
+		},
+		'pattern': 'Normal Attack → Strong Attack → Lv.1 heal allies (small range) → Normal Attack',
+		'img' : {
+			'src' : 'str_kid_tm.png'
+		},
+		'tags': 'skill_deal_dmg, skill_def_down, skill_speed_down, hiddenskill_atk_up, hiddenskill_hp_up, target_low_hp, ability_prevent_silence'
+	},
+
+	'str_int_bigmom_kaido_vs_legend_kaido' : {
+		'title' : "Kaido VS Big Mom, Two Menacing Emperors",
+		'color' : 'str',
+		'class' : 'powerhouse, driven',
+		'stars' : 'Legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 25 Giây',
+			'des' : 'Cắt 90% HP một kẻ địch. Giảm tốc tích nộ bản thân đi 10 cấp.',
+		},
+		'hidden_skill' : {
+			'des' : 'Trong 40 giây đầu, tăng ATK lên 10 cấp và DEF lên 3 cấp cho bản thân. Khi còn 60 giây, Tăng SPEED lên 5 cấp và ATK lên 5 cấp cho bản thân.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : 'Miễn nhiễm khóa hành động.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'str_int_bigmom_kaido_vs_legend.png'
+		},
+		'tags': 'skill_cut_hp, skill_ct_down, hiddenskill_atk_up, hiddenskill_def_up, hiddenskill_speed_up, target_nearby, ability_prevent_bind'
+	},
+
+	'str_int_bigmom_kaido_vs_legend_bigmom' : {
+		'title' : "Kaido VS Big Mom, Two Menacing Emperors",
+		'color' : 'int',
+		'class' : 'powerhouse, driven',
+		'stars' : 'Legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 35 Giây',
+			'des' : 'Gây (ATK x 1.5) sát thương một vùng kẻ địch. Khi còn 50 giây, gây thêm (ATK x 2) sát thương một vùng kẻ địch. Khi còn 30 giây, gây thêm (ATK x 3) sát thương một vùng kẻ địch.',
+		},
+		'hidden_skill' : {
+			'des' : 'Trong 40 giây đầu, tăng tốc tích nộ đồng minh INT lên 5 cấp. Khi còn 60 giây, tăng SPEED bản thân lên 8 cấp. Khi còn 30 giây, tăng tốc tích nộ bản thân lên 10 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : 'Miễn nhiễm khóa skill.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'str_int_bigmom_kaido_vs_legend.png'
+		},
+		'tags': 'skill_deal_dmg, hiddenskill_ct_up, hiddenskill_speed_up, target_nearby, ability_prevent_silence'
 	},
 }
