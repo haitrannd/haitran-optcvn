@@ -19,6 +19,11 @@ button, a {
 	        transition: 0.3s;
 }
 
+.filter_block.init {
+  display: block !important;
+  opacity: 0;
+}
+
 .pirate_festival_page .filter_block .filter_item > span.irs {
   width: 100%;
   margin-bottom: 15px;

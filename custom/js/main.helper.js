@@ -356,6 +356,8 @@ function haitran_check_obj_exist_in_obj (obj_1, obj_2) {
  * Handle navigations and actions in user interface
  */
 function haitran_handle_navigation_and_action_ui () {
+  $('.filter_block').removeClass('init');
+
 	$('.menu .button_wrapper button.btn').click(function(event) {
 		$('.menu').slideUp(300);
 		$('.page.' + $(this).attr('target')).toggleClass('active');

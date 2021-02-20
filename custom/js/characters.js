@@ -2,7 +2,7 @@ window.character = {
 
 	'luffy_ace' : {
 		'title' : 'Luffy/Ace',
-		'color' : 'str, qck',
+		'color' : 'dual',
 		'class' : 'freespirit, fighter',
 		'stars' : 'legend',
 		'type' : 'Hỗ trợ',
@@ -50,7 +50,7 @@ window.character = {
 
 	'sanji_judge' : {
 		'title' : 'Sanji/Judge',
-		'color' : 'psy',
+		'color' : 'dual',
 		'class' : 'powerhouse, fighter',
 		'stars' : 'legend',
 		'type' : 'Phòng thủ',
@@ -74,7 +74,7 @@ window.character = {
 
 	'luffy_law' : {
 		'title' : 'Luffy/Law',
-		'color' : 'dex, qck',
+		'color' : 'dual',
 		'class' : 'fighter, freespirit, slasher',
 		'stars' : 'legend',
 		'type' : 'Tấn công',
@@ -135,7 +135,7 @@ window.character = {
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ thù ở gần',
-			'extra_ability' : '70% cơ hội tránh sát thương liên hoàn',
+			'extra_ability' : '70% cơ hội chặn sát thương theo thời gian',
 		},
 		'pattern': 'Normal Atk → Strong Atk → Fullpower Atk',
 		'img' : {
@@ -601,27 +601,27 @@ window.character = {
 	},
 
 	'kuzan_v3' : {
-		'title' : 'Kuzan V3',
+		'title' : 'Kuzan, Unfaithful Beliefs of Justice',
 		'color' : 'qck',
 		'class' : 'freespirit, shooter',
 		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 33 Giây',
-			'des' : 'Gây (ATK x 1.4) sát thương cho một vùng lớn và có 70% cơ hội khóa skill của kẻ địch có ATK cao nhất trong 6 giây',
+			'note' : 'lv10 - 25 Giây',
+			'des' : 'Gây (ATK x 2) sát thương cho một vùng lớn. 70% cơ hội khóa skill của kẻ địch có ATK cao nhất trong 6 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng SPEED của STR, DEX, QCK lên 5 cấp, các đồng đội còn lại được tăng SPEED lên 2 cấp trong 15 giây'
+			'des' : 'Tăng SPEED đồng minh STR/DEX/QCK lên 5 cấp. Trong 15 giây đầu, tăng SPEED đồng mình STR/DEX/QCK lên thêm 2 cấp.'
 		},
 		'others' : {
-			'target' : 'Đang cập nhật',
-			'extra_ability' : '50% tránh khóa chiêu',
+			'target' : 'Kẻ địch có SPEED cao.',
+			'extra_ability' : '50% tránh khóa skill',
 		},
 		'pattern': 'Normal Atk → Fullpower Atk → Strong Atk → Normal Atk',
 		'img' : {
 			'src' : 'kuzan_v3.png'
 		},
-		'tags': 'skill_deal_dmg, skill_silence_enemies, hiddenskill_speed_up, hiddenskill_speed_up_color_str, hiddenskill_speed_up_color_dex, hiddenskill_speed_up_color_qck, ability_prevent_silence'
+		'tags': 'skill_deal_dmg, skill_silence_enemies, hiddenskill_speed_up, hiddenskill_speed_up_color_str, hiddenskill_speed_up_color_dex, hiddenskill_speed_up_color_qck, ability_prevent_silence, target_highest_speed'
 	},
 
 	'mihawk_perona' : {
@@ -649,7 +649,7 @@ window.character = {
 	},
 
 	'marco' : {
-		'title' : 'Marco',
+		'title' : 'Marco the Phoenix, Illusion Flame Beast',
 		'color' : 'qck',
 		'class' : 'fighter, powerhouse',
 		'stars' : 'legend',
@@ -673,32 +673,32 @@ window.character = {
 	},
 
 	'red_hair_pirates' : {
-		'title' : 'Red hair pirates, Shanks',
-		'color' : 'psy, qck',
+		'title' : 'Red Hair Pirates, Pirates Fighting for the Sake of their Friend',
+		'color' : 'dual',
 		'class' : 'slasher, cerebral',
 		'stars' : 'legend',
 		'type' : 'Phòng thủ',
 		'skill' : {
 			'note' : 'lv10 - 24 Giây',
-			'des' : 'Giảm HP vùng rộng theo hàng ngang đi 21%, tăng DEF đồng đội lên 4 cấp (14 giây)',
+			'des' : 'Giảm HP vùng rộng theo hàng ngang đi 21%. Tăng DEF đồng đội lên 4 cấp (14 giây).',
 		},
 		'hidden_skill' : {
-			'des' : 'Khi trận đấu còn 70s, đồng đội tăng DEF lên 5 cấp, ATK bản thân tăng 3 cấp'
+			'des' : 'Khi trận đấu còn 70s, đồng đội tăng DEF lên 5 cấp, ATK bản thân tăng 3 cấp.'
 		},
 		'others' : {
-			'target' : 'Đang cập nhâ',
-			'extra_ability' : '50% tránh khóa chiêu',
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : '50% tránh khóa skill',
 		},
 		'pattern': 'Normal Atk → Strong Atk → Heal lv1',
 		'img' : {
 			'src' : 'red_hair_pirates.png'
 		},
-		'tags': 'skill_cut_hp, skill_def_up, hiddenskill_def_up, hiddenskill_atk_up, hiddenskill_atk_up_self, ability_prevent_silence'
+		'tags': 'skill_cut_hp, skill_def_up, hiddenskill_def_up, hiddenskill_atk_up, hiddenskill_atk_up_self, ability_prevent_silence, target_nearby'
 	},
 
 	'arlong_pirates' : {
 		'title' : 'Arlong pirates',
-		'color' : 'str',
+		'color' : 'dual',
 		'class' : 'slasher, powerhouse',
 		'stars' : 'legend',
 		'type' : 'Tấn công',
@@ -865,7 +865,7 @@ window.character = {
 
 	'luffy_zoro' : {
 		'title' : 'Luffy & Zoro',
-		'color' : 'str, dex',
+		'color' : 'dual',
 		'class' : 'slasher, freespirit',
 		'stars' : 'legend',
 		'type' : 'Tấn công',
@@ -1053,7 +1053,7 @@ window.character = {
 
 	'shira_sherry' : {
 		'title' : 'Shirahoshi & Mansherry',
-		'color' : 'psy, int',
+		'color' : 'dual',
 		'class' : 'cerebral, striker',
 		'stars' : 'legend',
 		'type' : 'Hồi phục',
@@ -1572,7 +1572,7 @@ window.character = {
 
 	'whitebeard_marco' : {
 		'title' : 'Whitebeard & Marco',
-		'color' : 'qck',
+		'color' : 'dual',
 		'class' : 'powerhouse, striker',
 		'stars' : 'legend',
 		'type' : 'Phòng thủ',
@@ -1585,7 +1585,7 @@ window.character = {
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
-			'extra_ability' : '50% tránh khóa chiêu',
+			'extra_ability' : '50% tránh khóa skill',
 		},
 		'pattern': 'Atk → Atk → Self healing lv2',
 		'img' : {
@@ -1811,17 +1811,17 @@ window.character = {
 	},
 
 	'law_v1' : {
-		'title' : 'Law V1',
+		'title' : 'Trafalgar Law, Former Warlord of the Sea',
 		'color' : 'psy',
 		'class' : 'freespirit, slasher',
 		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 30 Giây',
-			'des' : 'Gây 1300 sát thương chuẩn cho một vùng nhỏ, tăng sát thương liên hoàn lên 3 cấp (40 giây), giảm DEF 4 cấp (20 giây)',
+			'des' : 'Gây 1300 sát thương chuẩn một vùng nhỏ. Gây sát thương theo thời gian (lv3) cho kẻ địch vùng đó trong 40 giây, giảm DEF đi 4 cấp (20 giây).',
 		},
 		'hidden_skill' : {
-			'des' : 'HP SLASHER/FREESPIRIT tăng 6 cấp. Khi còn 70 giây, Tăng RCV SLASHER/FREESPIRIT lên 2 cấp'
+			'des' : 'HP đồng minh SLASHER/FREESPIRIT tăng 6 cấp. Khi còn 70 giây, Tăng RCV đồng minh SLASHER/FREESPIRIT lên 2 cấp'
 		},
 		'others' : {
 			'target' : 'Kẻ địch có DEF cao',
@@ -2458,7 +2458,7 @@ window.character = {
 		'color' : 'dex',
 		'class' : 'driven, striker',
 		'stars' : 'legend',
-		'type' : '?',
+		'type' : 'Phòng thủ',
 		'skill' : {
 			'note' : 'lv10 - 28 Giây',
 			'des' : 'Tăng DEF tất cả đồng minh lên 3 cấp trong 25 giây và gây (2 x ATK) sát thương một vùng lớn.',
@@ -2468,7 +2468,7 @@ window.character = {
 		},
 		'others' : {
 			'target' : 'Kẻ địch có ATK cao',
-			'extra_ability' : '50% tránh sát thương theo thời gian (Độc)',
+			'extra_ability' : '50% cơ hội chặn sát thương theo thời gian.',
 		},
 		'pattern': 'Normal Attack → Normal Attack → Lv.2 Self Heal',
 		'img' : {
@@ -2482,7 +2482,7 @@ window.character = {
 		'color' : 'dex',
 		'class' : 'cerebral, slasher',
 		'stars' : 'legend',
-		'type' : '?',
+		'type' : 'Phòng thủ',
 		'skill' : {
 			'note' : 'lv10 - 29 Giây',
 			'des' : 'Tăng DEF bản thân lên 5 cấp, ATK bản thân lên 6 cấp và bật khóa mục tiêu trong 20 giây. Nếu HP dưới 40%, gây (1 x ATK) sát thương cho một vùng rộng. Nếu HP dưới 50%, gây (1.8 x ATK) sát thương',
@@ -2643,7 +2643,7 @@ window.character = {
 
 	'luffy_boa_kizuna' : {
 		'title' : 'Luffy & Hancock, Joint Front for Training',
-		'color' : 'psy, int',
+		'color' : 'dual',
 		'class' : 'freespirit, fighter, shooter',
 		'stars' : 'Kizuna',
 		'type' : 'Tấn công',
@@ -3146,7 +3146,7 @@ window.character = {
 
 	'luffy_sanji_legend_str_psy' : {
 		'title' : "Luffy & Sanji, Faithful Friends at the Battlefront",
-		'color' : 'str,psy',
+		'color' : 'dual',
 		'class' : 'freespirit, fighter',
 		'stars' : 'Legend',
 		'type' : 'Tấn công',
@@ -4270,5 +4270,197 @@ window.character = {
 			'src' : 'str_int_bigmom_kaido_vs_legend.png'
 		},
 		'tags': 'skill_deal_dmg, hiddenskill_ct_up, hiddenskill_speed_up, target_nearby, ability_prevent_silence'
+	},
+
+	'str_king_rr' : {
+		'title' : "King the Wildfire, Beast Pirates All-Star",
+		'color' : 'str',
+		'class' : 'powerhouse, driven',
+		'stars' : 'Rare Recruit',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 30 Giây',
+			'des' : 'Gây (ATK x 1.5) sát thương một vùng lớn. Giảm DEF 3 kẻ địch đi 2 cấp trong 20 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK đồng minh STR/DEX/INT lên 6 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : '60% tránh khóa skill.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'str_king_rr.png'
+		},
+		'tags': 'skill_deal_dmg, skill_def_down, hiddenskill_atk_up, target_nearby, ability_prevent_silence'
+	},
+
+	'psy_queen_rr' : {
+		'title' : "Queen the Plague, Beast Pirates All-Star",
+		'color' : 'psy',
+		'class' : 'powerhouse, driven',
+		'stars' : 'Rare Recruit',
+		'type' : 'Hồi phục',
+		'skill' : {
+			'note' : 'lv10 - 35 Giây',
+			'des' : 'Gây 1500 sát thương chuẩn cho 3 kẻ địch. Hồi (RCV x 1.5) HP cho đồng minh STR/PSY/INT.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng GUARD lên 6 cấp và HP lên 3 cấp cho đồng minh STR/PSY/INT.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : '60% tránh khóa skill.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'psy_queen_rr.png'
+		},
+		'tags': 'skill_fixed_dmg, skill_heal, hiddenskill_guard_up, hiddenskill_hp_up, target_nearby, ability_prevent_silence'
+	},
+
+	'int_jack_rr' : {
+		'title' : "Jack the Drought, Beast Pirates All-Star",
+		'color' : 'int',
+		'class' : 'powerhouse, driven',
+		'stars' : 'Rare Recruit',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 35 Giây',
+			'des' : 'Gây (ATK x 3) sát thương lên một vùng nhỏ và có 60% cơ hội khóa skill 2 kẻ địch trong 15 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng SPEED đồng minh STR/PSY/INT lên 7 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : '60% tránh khóa skill.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'int_jack_rr.png'
+		},
+		'tags': 'skill_deal_dmg, skill_silence_enemies, hiddenskill_speed_up, target_nearby, ability_prevent_silence'
+	},
+
+	'int_onami_shinobu_raid' : {
+		'title' : "Onami & Shinobu, Two Pretty Flowering Female Ninjas",
+		'color' : 'int',
+		'class' : 'freespirit, cerebral',
+		'stars' : 'Raid',
+		'type' : 'Hồi phục',
+		'skill' : {
+			'note' : 'lv10 - 25 Giây',
+			'des' : '50% cơ hội khóa skill 2 kẻ địch trong 10 giây. Hồi (RCV x 1.5) HP cho đồng minh INT.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP lên 2 cấp và GUARD lên 5 cấp cho đồng minh INT.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : 'Hồi 250HP mỗi lượt.',
+		},
+		'pattern': 'Normal Attack → Lv.2 heal allies (medium range) → Normal Attack → Lv.2 heal allies (small range)',
+		'img' : {
+			'src' : 'int_onami_shinobu_raid.png'
+		},
+		'tags': 'skill_silence_enemies, skill_heal, hiddenskill_hp_up, hiddenskill_guard_up, target_nearby, ability_heal'
+	},
+
+	'str_xdrake_pf_gift' : {
+		'title' : "Drake, Ancient Menace",
+		'color' : 'str',
+		'class' : 'striker, powerhouse',
+		'stars' : 'Pirate Festival',
+		'type' : 'Hỗ trợ',
+		'skill' : {
+			'note' : 'lv10 - 25 Giây',
+			'des' : 'Gây (ATK x 1.8) sát thương toàn bộ kẻ địch trong một vùng. Tăng ATK đồng minh có ATK cao nhất lên 10 cấp trong 20 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng tốc độ tích nộ lên 2 cấp và ATK lên 5 cấp cho đồng minh STR.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : '60% cơ hội tránh khóa hành động.',
+		},
+		'pattern': 'Normal Attack → Lv.2 heal himself → Strong Attack → Strong Attack',
+		'img' : {
+			'src' : 'str_xdrake_pf_gift.png'
+		},
+		'tags': 'skill_deal_dmg, skill_atk_up, hiddenskill_ct_up, hiddenskill_atk_up, target_nearby, ability_prevent_bind'
+	},
+
+	'int_jozu_pf_rr' : {
+		'title' : 'Diamond" Jozu, Right Fist Ice Crusher',
+		'color' : 'int',
+		'class' : 'fighter, powerhouse',
+		'stars' : 'Pirate Festival',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 31 Giây',
+			'des' : 'Gây 2100 sát thương chuẩn cho kẻ địch vùng nhỏ theo chiều dọc. Tăng CRIT đồng mình INT lên 3 cấp trong 15 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng SPEED đồng minh INT lên 5 cấp. Khi còn 70 giây, tăng DEF đồng minh INT lên 1 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : 'Không có.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'int_jozu_pf_rr.png'
+		},
+		'tags': 'skill_fixed_dmg, skill_crit_up, hiddenskill_speed_up, hiddenskill_def_up, target_nearby'
+	},
+
+	'psy_enel_legend' : {
+		'title' : "God Enel, Divine-God's Desperate Ability",
+		'color' : 'psy',
+		'class' : 'driven, striker',
+		'stars' : 'Legend',
+		'type' : 'Hỗ trợ',
+		'skill' : {
+			'note' : 'lv10 - 17 Giây',
+			'des' : 'Gây (ATK x 1.1) sát thương cho toàn bộ địch. Tăng DEF lên 3 cấp và SPEED lên 5 cấp cho đồng minh PSY trong 17 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng SPEED lên 5 cấp và DEF lên 5 cấp cho đồng minh PSY. Trong 40 giây đầu, giảm tốc độ tích nộ kẻ địch slasher đi 5 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : 'Miễn nhiễm khóa skill. Giảm 30% sát thương từ kẻ địch INT.',
+		},
+		'pattern': 'Normal Attack → Level 2 Medium Range Heal → Normal Attack → Level 2 Medium Range Heal',
+		'img' : {
+			'src' : 'psy_enel_legend.png'
+		},
+		'tags': 'skill_deal_dmg, skill_def_up, skill_speed_up, hiddenskill_def_up, hiddenskill_speed_up, hiddenskill_ct_down, target_nearby, ability_prevent_silence, ability_dmg_reduce'
+	},
+
+	'psy_toy_solider_rebecca_pf_rr' : {
+		'title' : "Soldier & Rebecca",
+		'color' : 'psy',
+		'class' : 'freespirit, shooter',
+		'stars' : 'Pirate Festival',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 22 Giây',
+			'des' : 'Gây (ATK x 2) sát thương cho 2 kẻ địch. Giảm DEF đi 3 cấp một vùng lớn kẻ địch trong 20 giây. Tăng DEF đồng minh SLASHER lên 5 cấp trong 20 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK lên 6 cấp, DEF lên 2 cấp và HP lên 5 cấp cho đồng minh PSY.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : 'Miễn nhiễm khóa skill. Giảm 30% sát thương từ kẻ địch INT.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'psy_toy_solider_rebecca_pf_rr.png'
+		},
+		'tags': 'skill_deal_dmg, skill_def_down, skill_def_up, hiddenskill_atk_up, hiddenskill_def_up, hiddenskill_hp_up, target_nearby, ability_prevent_silence, ability_dmg_reduce'
 	},
 }
