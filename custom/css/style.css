@@ -607,9 +607,24 @@ body .page_wrapper .body {
   padding-bottom: 10px;
   border-bottom: 1px solid #fff;
   cursor: pointer;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+}
+
+.pirate_festival_page .char .sm_img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+  background-color: rgb(128 128 128 / 50%);
+}
+
+.pirate_festival_page .char .info_wrapper {
+  width: calc(100% - 80px);
+}
+
+.pirate_festival_page .char .sm_img img {
+  width: 80px;
 }
 
 .pirate_festival_page .color span {

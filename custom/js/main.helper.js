@@ -156,6 +156,7 @@ function haitran_print_char (filter) {
 	if (filter == '') {
 		for (let i in char) {
 			let row = char[i];
+			console.log(row.img.src);
 			let type = row.color;
 			type = type.split(',');
 			let type_html = '';
@@ -164,13 +165,23 @@ function haitran_print_char (filter) {
 			}
 
 			let html = '<div class="open_modal char ' + i + '" data-toggle="modal" data-target="#' + i + '">';
+      
+      // if (row.img.sm == null || row.img.sm == undefined) {
+      // 	html      += '<div class="sm_img no_img"></div>';
+      // } else {
+        html      += '<div class="sm_img">';
+        html      +=   '<img src="sm_img/' + row.img.src + '" onerror="this.style.display=\'none\'" />';
+        html      += '</div>';
+      // }
+      
+      html      += '<div class="info_wrapper">';
+			html      +=   '<div class="name">';
+			html      +=     '<span><i class="fas fa-anchor"></i> ' + row.title + '</span>';
+			html      +=   '</div>';
 
-			html      += '<div class="name">';
-			html      +=   '<span><i class="fas fa-anchor"></i> ' + row.title + '</span>';
-			html      += '</div>';
-
-			html      += '<div class="color">';
-			html      +=   type_html + ' - <span class="stars">' + row.stars + '</span>';
+			html      +=   '<div class="color">';
+			html      +=     type_html + ' - <span class="stars">' + row.stars + '</span>';
+			html      +=   '</div>';
 			html      += '</div>';
 
 			html    += '</div>';

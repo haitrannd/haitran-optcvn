@@ -1167,23 +1167,23 @@ window.character = {
 	},
 
 	'zoro_v2' : {
-		'title' : 'Zoro V2',
+		'title' : 'Roronoa Zoro, Breaking Out of the Cage',
 		'color' : 'int',
 		'class' : 'driven, slasher',
 		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 36 Giây',
-			'des' : 'Tấn công địch ở giữa phía trước, gây (ATK x 1.7) sát thương và SLASHER ATK tăng 4 cấp (8 giây)',
+			'des' : 'Tăng ATK đồng minh SLASHER lên 6 cấp trong 20 giây. Gây (ATK x 2) sát thương một vùng lớn kẻ địch phía trước.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng tỉ lệ đẩy lùi của SLASHER lên 6 cấp. Tăng DEF bản thân lên 2 cấp'
+			'des' : 'Tăng tỉ lệ đánh lui lên 6 cấp đối với đồng minh slasher. Tăng ATK đồng mình SLASHER lên 5 cấp. Tăng DEF bản thân lên 2 cấp.'
 		},
 		'others' : {
-			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'target' : 'Kẻ địch có DEF cao.',
+			'extra_ability' : 'Miễn nhiễm tê liệt.',
 		},
-		'pattern': 'Đang cập nhật',
+		'pattern': 'Normal Atk → Normal Atk → Strong Atk → Fullpower Atk',
 		'img' : {
 			'src' : 'zoro_v2.png'
 		},
@@ -4435,7 +4435,8 @@ window.character = {
 		},
 		'pattern': 'Normal Attack → Level 2 Medium Range Heal → Normal Attack → Level 2 Medium Range Heal',
 		'img' : {
-			'src' : 'psy_enel_legend.png'
+			'src' : 'psy_enel_legend.png',
+			'sm' : 'sm_psy_enel_legend.png'
 		},
 		'tags': 'skill_deal_dmg, skill_def_up, skill_speed_up, hiddenskill_def_up, hiddenskill_speed_up, hiddenskill_ct_down, target_nearby, ability_prevent_silence, ability_dmg_reduce'
 	},
