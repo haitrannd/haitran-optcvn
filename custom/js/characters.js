@@ -1076,7 +1076,7 @@ window.character = {
 
 	'vivi_rebecca' : {
 		'title' : 'Vivi & Rebecca',
-		'color' : 'dex, str',
+		'color' : 'dual',
 		'class' : 'cerebral, striker, freespirit',
 		'stars' : 'legend',
 		'type' : 'Hỗ trợ',
@@ -1099,7 +1099,7 @@ window.character = {
 
 	'inu_neko' : {
 		'title' : 'Inuarashi & Nekomamushi',
-		'color' : 'psy, str',
+		'color' : 'dual',
 		'class' : 'cerebral, striker, slasher',
 		'stars' : 'legend',
 		'type' : 'Hỗ trợ',
@@ -1122,7 +1122,7 @@ window.character = {
 
 	'zeus_prometheus_bm' : {
 		'title' : 'Zeus & Prometheus & Bigmom',
-		'color' : 'int',
+		'color' : 'dual',
 		'class' : 'powerhouse, striker, slasher',
 		'stars' : 'legend',
 		'type' : 'Tấn công',
@@ -4033,7 +4033,7 @@ window.character = {
 	},
 
 	'dex_leo_rr_xmas_2020' : {
-		'title' : "Neptune, Prepared Santa Claus",
+		'title' : "Leo, Warrior Overlooking the Party",
 		'color' : 'dex',
 		'class' : 'cerebral, freespirit',
 		'stars' : 'Rare Recruit',
