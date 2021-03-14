@@ -619,6 +619,10 @@ body .page_wrapper .body {
   background-color: rgb(128 128 128 / 50%);
 }
 
+.pirate_festival_page .char .sm_img.no_img {
+  background-color: transparent;
+}
+
 .pirate_festival_page .char .info_wrapper {
   width: calc(100% - 80px);
 }

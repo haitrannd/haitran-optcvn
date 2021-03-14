@@ -166,7 +166,8 @@ function haitran_print_char (filter) {
 			let html = '<div class="open_modal char ' + i + '" data-toggle="modal" data-target="#' + i + '">';
       
       html      += '<div class="sm_img">';
-      html      +=   '<img src="sm_img/' + row.img.src + '" onerror="this.style.display=\'none\'" />';
+      // html      +=   '<img src="sm_img/' + row.img.src + '" onerror="this.style.display=\'none\'" />';
+      html      +=   '<img src="sm_img/' + row.img.src + '" onerror="no_img(this);" />';
       html      += '</div>';
       
       html      += '<div class="info_wrapper">';
@@ -255,7 +256,8 @@ function haitran_print_char (filter) {
 				let html = '<div class="open_modal char ' + i + '" data-toggle="modal" data-target="#' + i + '">';
 
 				html      += '<div class="sm_img">';
-	      html      +=   '<img src="sm_img/' + row.img.src + '" onerror="this.style.display=\'none\'" />';
+	      // html      +=   '<img src="sm_img/' + row.img.src + '" onerror="this.style.display=\'none\'" />';
+	      html      +=   '<img src="sm_img/' + row.img.src + '" onerror="no_img(this);" />';
 	      html      += '</div>';
         
         html      += '<div class="info_wrapper">';
@@ -333,6 +335,12 @@ function haitran_print_char (filter) {
 			target.attr('src', target.attr('data-src'));
 		});
 	}
+}
+
+// Default sm img
+function no_img(obj) {
+	jQuery(obj).parent().addClass('no_img');
+	jQuery(obj).attr('src', 'icons/bg/flag_staw_hat.png');
 }
 
 function haitran_test (obj) {

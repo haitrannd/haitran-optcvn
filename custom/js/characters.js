@@ -2288,27 +2288,27 @@ window.character = {
 	},
 
 	'nami_v2' : {
-		'title' : 'O-Nami, Novice Kunoichi',
+		'title' : 'Onami, Charming Female Ninja',
 		'color' : 'qck',
 		'class' : 'striker, cerebral',
 		'stars' : 'Legend',
 		'type' : 'Hồi Phục',
 		'skill' : {
 			'note' : 'lv10 - 28 Giây',
-			'des' : 'Khi HP lớn hoặc bằng 70%, giảm DEF toàn bộ địch đi 4 cấp trong 19 giây. CRIT của đồng đội tăng 1 cấp (19 giây). Nếu HP nhỏ hơn 70%, hồi (2.15 x RCV) HP cho đồng đội',
+			'des' : 'Khi HP lớn hoặc bằng 70%, giảm DEF toàn bộ địch đi 4 cấp trong 19 giây. CRIT và ATK của đồng minh tăng 6 cấp (19 giây). Nếu HP nhỏ hơn 70%, hồi (2.5 x RCV) HP cho đồng minh và giảm def toàn bộ địch đi 5 cấp trong 19 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng HP đồng đội lên 5 cấp, tăng CT đồng đội lên 1 cấp'
+			'des' : 'Tăng HP đồng minh lên 5 cấp. Tăng tốc độ tích nộ của đồng minh lên 1 cấp. Tăng chính xác đòn đánh thường của đồng minh lên 7 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
-			'extra_ability' : 'Hồi 100HP mỗi lượt',
+			'extra_ability' : 'Hồi 250HP mỗi lượt. Giảm 30% sát thương từ kẻ địch STR',
 		},
 		'pattern': 'Normal Attack → Lv.1 Small Range Heal → Lv.2 Small Range Heal',
 		'img' : {
 			'src' : 'nami_v2.png'
 		},
-		'tags': 'skill_def_down, skill_crit_up, skill_heal, hiddenskill_hp_up, hiddenskill_ct_up, target_nearby, ability_heal'
+		'tags': 'skill_def_down, skill_crit_up, skill_atk_up, skill_heal, hiddenskill_hp_up, hiddenskill_ct_up, hiddenskill_miss_up, target_nearby, ability_heal, ability_dmg_reduce'
 	},
 
 	'Hody' : {
@@ -4463,5 +4463,221 @@ window.character = {
 			'src' : 'psy_toy_solider_rebecca_pf_rr.png'
 		},
 		'tags': 'skill_deal_dmg, skill_def_down, skill_def_up, hiddenskill_atk_up, hiddenskill_def_up, hiddenskill_hp_up, target_nearby, ability_prevent_silence, ability_dmg_reduce'
+	},
+
+	'vs_legend_akainu_ace_str_ace' : {
+		'title' : "Ace VS Akainu, Flame and Magma  - Ace",
+		'color' : 'str',
+		'class' : 'freespirit, shooter',
+		'stars' : 'Legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 25 Giây',
+			'des' : 'Tăng ATK bản thân lên 7 cấp trong 20 giây. Gây (ATK x 2) sát thương một vùng lớn. Khi HP dưới 60%, gây thêm (ATK x 2) sát thương lên toàn bộ kẻ địch.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK đồng minh STR lên 5 cấp. Tăng DEF đồng minh STR lên 3 cấp. Trong 40 giây đầu, tăng ATK bản thân lên 5 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : 'Miễn nhiễm khóa hành động. Giảm 30% sát thương từ kẻ địch DEX.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'vs_legend_akainu_ace.png'
+		},
+		'tags': 'skill_deal_dmg, skill_atk_up, hiddenskill_atk_up, hiddenskill_def_up, target_nearby, ability_dmg_reduce, ability_prevent_bind'
+	},
+
+	'vs_legend_akainu_ace_qck_akainu' : {
+		'title' : "Ace VS Akainu, Flame and Magma  - Akainu",
+		'color' : 'qck',
+		'class' : 'driven, powerhouse',
+		'stars' : 'Legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 25 Giây',
+			'des' : 'Gây (ATK x 2) sát thương một vùng lớn. Gây thêm (ATK x 1.5) sát thương cho kẻ địch STR. Trong 40 giây đầu, giảm thêm 30% HP một vùng lớn kẻ địch.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK đồng minh QCK lên 5 cấp. Tăng DEF đồng minh QCK lên 3 cấp. Trong 20 giây đầu, tăng tốc tích nộ bản thân lên 5 cấp và ATK bản thân lên 5 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : 'Miễn nhiễm khóa hành động. Giảm 30% sát thương từ kẻ địch STR.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'vs_legend_akainu_ace.png'
+		},
+		'tags': 'skill_deal_dmg, skill_cut_hp, hiddenskill_atk_up, hiddenskill_def_up, hiddenskill_ct_up, target_nearby, ability_dmg_reduce, ability_prevent_bind'
+	},
+
+	'vs_akai_ace_batch_rr_str_luffy' : {
+		'title' : "Monkey D. Luffy, Younger Brother Rescuing His Older Brother",
+		'color' : 'str',
+		'class' : 'freespirit, fighter',
+		'stars' : 'Rare Recruit',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 24 Giây',
+			'des' : 'Gây (ATK x 2) sát thương một kẻ địch. Tăng ATK đồng minh có ATK cao nhất lên 5 cấp trong 10 giây. Khi HP dưới 50%, tăng ATK thêm 4 cấp trong 10 giây cho đồng minh có ATK cao nhất.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP đồng minh STR lên 5 cấp. Tăng ATK bản thân lên 5 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : '60% thoát trạng thái khóa hành động.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'vs_akai_ace_batch_rr_str_luffy.png'
+		},
+		'tags': 'skill_deal_dmg, skill_atk_up, hiddenskill_hp_up, hiddenskill_atk_up, target_nearby, ability_prevent_bind'
+	},
+
+	'vs_akai_ace_batch_rr_str_jozu' : {
+		'title' : "Diamond Jozu, Body that Deflected the Worlds Strongest Slash",
+		'color' : 'str',
+		'class' : 'powerhouse, fighter',
+		'stars' : 'Rare Recruit',
+		'type' : 'Phòng thủ',
+		'skill' : {
+			'note' : 'lv10 - 31 Giây',
+			'des' : 'Gây (ATK x 2) sát thương một kẻ địch. Tăng DEF đồng minh STR lên 2 cấp. Hồi 1000HP cho đồng minh STR.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP đồng minh STR lên 5 cấp. Tăng DEF đồng minh STR lên 2 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch có DEF cao.',
+			'extra_ability' : '60% thoát trạng thái khóa hành động.',
+		},
+		'pattern': 'Normal Attack → Lv.2 heal allies (medium range)  → Normal Attack → Lv.2 heal allies(small range)',
+		'img' : {
+			'src' : 'vs_akai_ace_batch_rr_str_jozu.png'
+		},
+		'tags': 'skill_deal_dmg, skill_def_up, skill_heal, hiddenskill_hp_up, hiddenskill_def_up, target_highest_def, ability_prevent_bind'
+	},
+
+	'vs_akai_ace_batch_rr_qck_aokiji' : {
+		'title' : "Kuzan, Ice Blocking Earthquake",
+		'color' : 'qck',
+		'class' : 'shooter, freespirit',
+		'stars' : 'Rare Recruit',
+		'type' : 'Phá hoạt',
+		'skill' : {
+			'note' : 'lv10 - 26 Giây',
+			'des' : 'Gây (ATK x 1.5) sát thương một vùng kẻ địch. Giảm DEF những kẻ địch đó đi 2 cấp.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK lên 5 cấp, và HP lên 2 cấp cho đồng minh SHOOTER/FREESPIRIT.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch có DEF cao.',
+			'extra_ability' : '60% thoát trạng thái khóa skill.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'vs_akai_ace_batch_rr_qck_aokiji.png'
+		},
+		'tags': 'skill_deal_dmg, skill_def_down, hiddenskill_hp_up, hiddenskill_atk_up, target_nearby, ability_prevent_silence'
+	},
+
+	'vs_akai_ace_batch_rr_qck_sengoku' : {
+		'title' : "Sengoku the Buddha, Resourceful General's Move",
+		'color' : 'qck',
+		'class' : 'powerhouse, cerebral',
+		'stars' : 'Rare Recruit',
+		'type' : 'Hỗ trợ',
+		'skill' : {
+			'note' : 'lv10 - 40 Giây',
+			'des' : 'Gây 3500 sát thương chuẩn cho 2 kẻ địch. Tăng SPEED đồng minh QCK lên 4 cấp trong 20 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK lên 5 cấp, và HP lên 2 cấp cho đồng minh QCK.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : '60% thoát trạng thái khóa skill.',
+		},
+		'pattern': 'Normal Attack → Lv.2 heal allies (medium range)  → Normal Attack → Lv.2 heal allies(small range)',
+		'img' : {
+			'src' : 'vs_akai_ace_batch_rr_qck_sengoku.png'
+		},
+		'tags': 'skill_fixed_dmg, skill_speed_up, hiddenskill_hp_up, hiddenskill_atk_up, target_nearby, ability_prevent_silence'
+	},
+
+	'pf_gift_qck_hannyabal' : {
+		'title' : "Hannyabal, Pride of the Vice Warden",
+		'color' : 'qck',
+		'class' : 'driven, striker',
+		'stars' : 'Pirate Festival',
+		'type' : 'Hỗ trợ',
+		'skill' : {
+			'note' : 'lv10 - 22 Giây',
+			'des' : 'Tăng ATK cho đồng minh QCK lên 10 cấp trong 5 giây. Gây (ATK x 1.5) sát thương cho 2 kẻ địch.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK lên 5 cấp, và CRIT lên 5 cấp cho đồng minh QCK.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : '60% thoát trạng thái khóa skill.',
+		},
+		'pattern': 'Normal Attack → Lv.2 heal allies (medium range)  → Normal Attack → Lv.2 heal allies(small range)',
+		'img' : {
+			'src' : 'pf_gift_qck_hannyabal.png'
+		},
+		'tags': 'skill_deal_dmg, skill_atk_up, hiddenskill_crit_up, hiddenskill_atk_up, target_nearby, ability_prevent_silence'
+	},
+
+	'tm_dex_luffy_ace' : {
+		'title' : "Luffy & Ace, Brothers Joint Struggle",
+		'color' : 'dex',
+		'class' : 'freespirit, shooter',
+		'stars' : 'Treasure Map',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 24 Giây',
+			'des' : 'Gây (ATK x 2) sát thương một vùng kẻ địch. Tăng ATK cho đồng minh DEX lên 6 cấp trong 20 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK lên 5 cấp, và SPEED lên 5 cấp cho đồng minh DEX.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : '80% thoát trạng thái tê liệt.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'tm_dex_luffy_ace.png'
+		},
+		'tags': 'skill_deal_dmg, skill_atk_up, hiddenskill_speed_up, hiddenskill_atk_up, target_nearby, ability_prevent_para'
+	},
+
+	'kizuna_qck_dofflamingo' : {
+		'title' : "Doflamingo, The Man Who Enjoys the Changing Times",
+		'color' : 'qck',
+		'class' : 'driven, slasher',
+		'stars' : 'Kizuna',
+		'type' : 'Phá hoại',
+		'skill' : {
+			'note' : 'lv10 - 26 Giây',
+			'des' : '100% tê liệt 2 kẻ địch trong 20 giây. Giảm DEF đi 3 cấp và SPEED đi 4 cấp trong 20 giây toàn bộ địch. Giảm DEF kẻ địch STR thêm 5 cấp trong 20 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK lên 5 cấp, và DEF lên 2 cấp cho đồng minh QCK.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch có SPEED cao.',
+			'extra_ability' : '60% thoát trạng thái khóa skill.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'kizuna_qck_dofflamingo.png'
+		},
+		'tags': 'skill_para_enemies, skill_def_down, skill_speed_down, hiddenskill_def_up, hiddenskill_atk_up, target_highest_speed, ability_prevent_silence'
 	},
 }
