@@ -4680,4 +4680,28 @@ window.character = {
 		},
 		'tags': 'skill_para_enemies, skill_def_down, skill_speed_down, hiddenskill_def_up, hiddenskill_atk_up, target_highest_speed, ability_prevent_silence'
 	},
+
+	'qck_legend_magellan_strong_type' : {
+		'title' : "Magellan QCK legend - V2",
+		'color' : 'qck',
+		'class' : 'driven, shooter',
+		'stars' : 'Legend',
+		'type' : 'Phá hoại',
+		'skill' : {
+			'note' : 'lv10 - 27 Giây',
+			'des' : 'Giảm DEF một vùng kẻ địch đi 3 cấp trong 20 giây, và gây (ATK x 1.7) sát thương. 100% to put haste on himself, 50% chance to put haste on 1 QCK ally. Trong 40 giây đầu, giảm DEF toàn bộ địch đi 3 cấp.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK lên 5 cấp, và HP lên 5 cấp cho đồng minh QCK. Trong 30 giây đầu, tăng tốc tích nộ bản thân lên 2 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : 'Miễn nhiễm trạng thái khóa skill. Giảm 30% sát thương từ kẻ địch STR.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'qck_legend_magellan_strong_type.png'
+		},
+		'tags': 'skill_def_down, skill_deal_dmg, hiddenskill_atk_up, hiddenskill_hp_up, hiddenskill_ct_up, target_nearby, ability_prevent_silence, ability_dmg_reduce'
+	},
 }
