@@ -29,6 +29,7 @@ window.skill = {
 		'skill_continuous_dmg_up' : 'Sát thương theo thời gian',
 		'skill_miss_up' : 'Tăng tỉ lệ đánh trượt',
 		'skill_accurate_down' : 'giảm tỉ lệ chính xác',
+		'skill_stat_down' : 'giảm chỉ số',
 	},
 	'hidden_skill' : {
 		'hiddenskill_atk_up' : 'Tăng ATK',

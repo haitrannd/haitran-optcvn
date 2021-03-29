@@ -4682,7 +4682,7 @@ window.character = {
 	},
 
 	'qck_legend_magellan_strong_type' : {
-		'title' : "Magellan QCK legend - V2",
+		'title' : "Magellan, Despair-Inducing Poison",
 		'color' : 'qck',
 		'class' : 'driven, shooter',
 		'stars' : 'Legend',
@@ -4703,5 +4703,149 @@ window.character = {
 			'src' : 'qck_legend_magellan_strong_type.png'
 		},
 		'tags': 'skill_def_down, skill_deal_dmg, hiddenskill_atk_up, hiddenskill_hp_up, hiddenskill_ct_up, target_nearby, ability_prevent_silence, ability_dmg_reduce'
+	},
+
+	'int_legend_moria_strong_type' : {
+		'title' : "Moria INT legend - V1",
+		'color' : 'int',
+		'class' : 'driven, powerhouse',
+		'stars' : 'Legend',
+		'type' : 'Phá hoại',
+		'skill' : {
+			'note' : 'lv10 - 26 Giây',
+			'des' : 'Gây 1700 sát thương chuẩn lên một vùng lớn kẻ địch. 100% giảm một nửa chỉ số của 3 kẻ địch trong 20 giây. (Chỉ số ở đây là ATK, DEF, v.v.).',
+		},
+		'hidden_skill' : {
+			'des' : 'Đồng minh INT tăng HP lên 5 cấp và DEF lên 3 cấp. Trong 30 giây đầu, tăng tốc tích nộ đồng minh INT lên 3 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : 'Miễn nhiễm khóa skill. Giảm 30% sát thương từ kẻ địch PSY.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'int_legend_moria_strong_type.png'
+		},
+		'tags': 'skill_fixed_dmg, skill_stat_down, hiddenskill_hp_up, hiddenskill_def_up, hiddenskill_ct_up, target_nearby, ability_prevent_silence, ability_dmg_reduce'
+	},
+
+	'int_legend_blackbeard_dual' : {
+		'title' : "Blackbeard DUAL legend",
+		'color' : 'dual',
+		'class' : 'driven, powerhouse',
+		'stars' : 'Legend',
+		'type' : 'Phá hoại',
+		'skill' : {
+			'note' : 'lv10 - 28 Giây',
+			'des' : 'Gây (ATK x 2) sát thương một vùng lớn. Toàn bộ kẻ địch giảm SPEED đi 5 cấp. 100% khóa skill 2 kẻ địch có CT lớn hơn hoặc bằng 80%.',
+		},
+		'hidden_skill' : {
+			'des' : 'Đồng minh DRIVEN/POWERHOUSE tăng ATK lên 5 cấp, HP lên 5 cấp. Toàn bộ đồng minh tăng SPEED lên 3 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : 'Miễn nhiễm khóa skill và khóa hành động.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'int_legend_blackbeard_dual.png'
+		},
+		'tags': 'skill_deal_dmg, skill_speed_down, skill_silence_enemies, hiddenskill_atk_up, hiddenskill_hp_up, hiddenskill_speed_up, target_nearby, ability_prevent_bind, ability_prevent_silence'
+	},
+
+	'int_jesus_burgess_2021_rr_v2' : {
+		'title' : "Jesus Burgess",
+		'color' : 'int',
+		'class' : 'driven, powerhouse',
+		'stars' : 'Rare Recruit',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 27 Giây',
+			'des' : 'Gây (ATK x 3) cho 1 kẻ địch.',
+		},
+		'hidden_skill' : {
+			'des' : 'Trong 30 giây đầu, tăng ATK bản thân lên 7 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : '60% tránh khóa kĩ năng.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'int_jesus_burgess_2021_rr_v2.png'
+		},
+		'tags': 'skill_deal_dmg, hiddenskill_atk_up, target_nearby, ability_prevent_silence'
+	},
+
+	'int_rr_vasco_shot' : {
+		'title' : "Vasco Shot",
+		'color' : 'int',
+		'class' : 'driven, shooter',
+		'stars' : 'Rare Recruit',
+		'type' : 'Hỗ trợ',
+		'skill' : {
+			'note' : 'lv10 - 26 Giây',
+			'des' : 'Tăng CRIT đồng minh lên 5 cấp. Giảm DEF kẻ địch trong một vùng rộng đi 3 cấp trong 15 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Đồng minh INT tăng ATK lên 5 cấp. Đồng minh INT tăng HP lên 5 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : '60% tránh khóa kĩ năng.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'int_rr_vasco_shot.png'
+		},
+		'tags': 'skill_crit_up, skill_def_down, hiddenskill_atk_up, hiddenskill_hp_up, target_nearby, ability_prevent_silence'
+	},
+
+	'psy_rr_avalo_pizarro' : {
+		'title' : "Avalo Pizarro",
+		'color' : 'psy',
+		'class' : 'driven, powerhouse',
+		'stars' : 'Rare Recruit',
+		'type' : 'Hồi phục',
+		'skill' : {
+			'note' : 'lv10 - 30 Giây',
+			'des' : 'Đồng minh trong một vùng nhỏ hồi phục (RCV x 3) HP đồng thời tăng GUARD những đồng minh này lên 5 cấp trong 15 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Đồng minh PSY tăng ATK lên 5 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : '60% tránh khóa kĩ năng.',
+		},
+		'pattern': 'Normal Attack → Lv.2 heal allies (medium range) → Normal Attack → Lv.2 heal allies (small range)',
+		'img' : {
+			'src' : 'psy_rr_avalo_pizarro.png'
+		},
+		'tags': 'skill_heal, skill_guard_up, hiddenskill_atk_up, target_nearby, ability_prevent_silence'
+	},
+
+	'int_rr_catarina_devon' : {
+		'title' : "Catarina Devon",
+		'color' : 'int',
+		'class' : 'driven, slasher',
+		'stars' : 'Rare Recruit',
+		'type' : 'Phá hoại',
+		'skill' : {
+			'note' : 'lv10 - 25 Giây',
+			'des' : 'Gây (ATK x 1.5) sát thương một vùng kẻ địch. 70% làm tê liệt một kẻ địch trong 15 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Trong 40 giây đầu, INT tăng ATK và SPEED lên 5 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : '60% tránh tê liệt.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'int_rr_catarina_devon.png'
+		},
+		'tags': 'skill_deal_dmg, skill_para_enemies, hiddenskill_atk_up, hiddenskill_speed_up, target_nearby, ability_prevent_para'
 	},
 }
