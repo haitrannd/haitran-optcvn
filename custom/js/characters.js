@@ -4757,7 +4757,7 @@ window.character = {
 		'title' : "Jesus Burgess",
 		'color' : 'int',
 		'class' : 'driven, powerhouse',
-		'stars' : 'Rare Recruit',
+		'stars' : 'Event',
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 27 Giây',
@@ -4781,7 +4781,7 @@ window.character = {
 		'title' : "Vasco Shot",
 		'color' : 'int',
 		'class' : 'driven, shooter',
-		'stars' : 'Rare Recruit',
+		'stars' : 'Raid',
 		'type' : 'Hỗ trợ',
 		'skill' : {
 			'note' : 'lv10 - 26 Giây',
