@@ -150,7 +150,7 @@ function haitran_print_char (filter) {
 	var modal_html = '';
 
 	// Reset
-	$('.pirate_festival_page .body_page').html("");
+	$('.pirate_festival_page .body_page .char_wrapper').html("");
 	$('.page_wrapper .modal').remove();
 
 	if (filter == '') {
@@ -181,7 +181,7 @@ function haitran_print_char (filter) {
 			html      += '</div>';
 
 			html    += '</div>';
-			$('.pirate_festival_page .body_page').append(html);
+			$('.pirate_festival_page .body_page .char_wrapper').append(html);
 
 			modal_html    += '<div class="modal fade" id="' + i + '" role="dialog">';
 			modal_html    +=   '<div class="modal-dialog">';
@@ -271,7 +271,7 @@ function haitran_print_char (filter) {
 				html      += '</div>';
 
 				html    += '</div>';
-				$('.pirate_festival_page .body_page').append(html);
+				$('.pirate_festival_page .body_page .char_wrapper').append(html);
 
 				modal_html    += '<div class="modal fade" id="' + i + '" role="dialog">';
 				modal_html    +=   '<div class="modal-dialog">';
@@ -524,4 +524,19 @@ function haitran_handle_all () {
 	haitran_handle_navigation_and_action_ui();
 	haitran_print_char('');
 	haitran_handle_filter();
+}
+
+/* 
+ * Scroll-to function
+ */
+function ht_to(pos) {
+	console.log(1);
+	var body = jQuery('.body_page');
+	var target = jQuery('.body_page .char_wrapper');
+	if (pos == 'bottom') {
+		var height = target.height();
+		body.animate({scrollTop:height}, '500');
+	} else if (pos == 'top') {
+		body.animate({scrollTop:0}, '500');
+	}
 }
