@@ -830,6 +830,9 @@ span.nt_color.int {
     position: absolute;
     -webkit-transform: rotate(35deg);
     transform: rotate(35deg);
+  }
+
+  .modal.in .ht_mirror:after {
     animation-name: ht_mirror;
     animation-duration: 4s;
     animation-direction: normal;
