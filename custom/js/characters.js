@@ -26,7 +26,7 @@ window.character = {
 
 	'barto_caven' : {
 		'title' : 'Bartolomeo/Cavendish',
-		'color' : 'dex, qck',
+		'color' : 'dual',
 		'class' : 'driven, striker, slasher',
 		'stars' : 'legend',
 		'type' : 'Phòng thủ',
@@ -98,7 +98,7 @@ window.character = {
 
 	'sabo_koala' : {
 		'title' : 'Sabo/Koala',
-		'color' : 'str, int',
+		'color' : 'dual',
 		'class' : 'freespirit, cerebral',
 		'stars' : 'legend',
 		'type' : 'Hỗ trợ',
@@ -746,7 +746,7 @@ window.character = {
 
 	'nami_robin' : {
 		'title' : 'Nami & Robin',
-		'color' : 'int, dex',
+		'color' : 'dual',
 		'class' : 'cerebral, striker, freespirit',
 		'stars' : 'legend',
 		'type' : 'Hỗ trợ',
@@ -2904,9 +2904,9 @@ window.character = {
 		'tags': 'skill_def_down, skill_deal_dmg, skill_silence_enemies, hiddenskill_hp_up, hiddenskill_hp_up_color_qck, hiddenskill_atk_up, hiddenskill_atk_up_self, hiddenskill_ct_up, hiddenskill_ct_up_self, hiddenskill_speed_up, hiddenskill_speed_up_self, target_low_hp, ability_prevent_silence'
 	},
 
-	'qck_kizuna_kaido' : {
+	'str_kizuna_kaido' : {
 		'title' : "Kaido, Animal Kingdom Pirates",
-		'color' : 'qck',
+		'color' : 'str',
 		'class' : 'striker, driven',
 		'stars' : 'Kizuna',
 		'type' : 'Tấn công',
@@ -4847,5 +4847,77 @@ window.character = {
 			'src' : 'int_rr_catarina_devon.png'
 		},
 		'tags': 'skill_deal_dmg, skill_para_enemies, hiddenskill_atk_up, hiddenskill_speed_up, target_nearby, ability_prevent_para'
+	},
+
+	'qck_rr_bellamy' : {
+		'title' : "Bellamy the Hyena, Bullet of Dressrosa",
+		'color' : 'qck',
+		'class' : 'driven, fighter',
+		'stars' : 'Rare Recruit',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 15 Giây',
+			'des' : 'Cắt HP một vùng rộng đi 15%. Giảm DEF kẻ địch vùng đó đi 4 cấp trong 23 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Giảm DEF bản thân đi 2 cấp. Tăng ATK bản thân lên 5 cấp. Tăng HP đồng minh lên 5 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : 'Không có.',
+		},
+		'pattern': 'Normal Attack → Strong Attack → Full Power Attack → Normal Attack',
+		'img' : {
+			'src' : 'qck_rr_bellamy.png'
+		},
+		'tags': 'skill_cut_hp, skill_def_down, hiddenskill_def_down, hiddenskill_hp_up, hiddenskill_atk_up, target_nearby'
+	},
+
+	'qck_rr_pf_shiryu' : {
+		'title' : "Shiryu, Chief's Betrayal",
+		'color' : 'qck',
+		'class' : 'driven, slasher',
+		'stars' : 'Pirate Festival',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 28 Giây',
+			'des' : 'Gây (ATK x 2) sát thương lên một vùng kẻ địch. Trong 30 giây đầu, gây thêm 2000 sát thương chuẩn cho kẻ địch STR.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK đồng minh QCK lên 6 cấp. Tăng HP đồng minh QCK lên 6 cấp. Trong 30 giây đầu, tăng tốc độ tích nộ đồng minh QCK lên 3 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : '60% miễn nhiễm khóa skill. Giảm 30% sát thương đến từ kẻ địch STR.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : 'qck_rr_pf_shiryu.png'
+		},
+		'tags': 'skill_deal_dmg, skill_fixed_dmg, hiddenskill_atk_up, hiddenskill_hp_up, hiddenskill_ct_up, target_nearby, ability_prevent_silence, ability_dmg_reduce'
+	},
+
+	'int_tm_shiryu' : {
+		'title' : "Shiryu, Blackbeard Pirates 2nd Titanic Captain",
+		'color' : 'int',
+		'class' : 'driven, slasher',
+		'stars' : 'Treasure Map',
+		'type' : 'Phá hoại',
+		'skill' : {
+			'note' : 'lv10 - 26 Giây',
+			'des' : 'Gây (ATK x 1.7) sát thương lên một vùng kẻ địch theo đường thẳng. Giảm ATK toàn bộ địch đi 5 cấp trong 20 giây.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng SPEED đồng minh INT lên 5 cấp. Tăng CRIT đồng minh INT lên 5 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : '80% miễn nhiễm sát thương theo thời gian.',
+		},
+		'pattern': 'Normal Attack → Level 2 Medium Range Heal → Normal Attack → Level 2 Small Range Heal',
+		'img' : {
+			'src' : 'int_tm_shiryu.png'
+		},
+		'tags': 'skill_deal_dmg, skill_fixed_dmg, hiddenskill_atk_up, hiddenskill_hp_up, hiddenskill_ct_up, target_nearby, ability_prevent_silence, ability_dmg_reduce'
 	},
 }

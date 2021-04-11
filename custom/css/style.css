@@ -691,6 +691,7 @@ body .page_wrapper .body {
   overflow: auto;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch; /* iphone */
+  line-height: 24px;
 }
 
 .modal .img_wrapper {
@@ -716,11 +717,12 @@ body .page_wrapper .body {
 
 .modal .modal-body .info_wrapper .info b {
   text-transform: uppercase;
+  width: 100%;
 }
 
 .modal .modal-body .info_wrapper .info > span:first-child {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .modal .modal-body .info_wrapper .info > span.skill_des > p:last-child {
@@ -770,3 +772,92 @@ body .page_wrapper .body {
 .scroll_wrapper i:first-child {
   margin-bottom: 2px;
 }
+
+span.nt_class img {
+  width: 20px;
+  margin-right: 5px;
+  margin-top: -3px;
+}
+
+span.nt_color {
+  color: #ffffff !important;
+  border-radius: 14px;
+  padding: 2px 6px;
+  font-weight: bold;
+}
+
+span.nt_color.qck {
+  background: lightskyblue;
+}
+
+span.nt_color.str {
+  background: salmon;
+}
+
+span.nt_color.dex {
+  background: lightgreen;
+}
+
+span.nt_color.psy {
+  background: gold;
+}
+
+span.nt_color.int {
+  background: orchid;
+}
+
+/* Mirror button hover */
+  .ht_mirror {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+  }
+
+  .ht_mirror:after {
+    background: #fff;
+    height: calc(100% + 50px);
+    left: -40px;
+    top: -25px;
+    width: 20px;
+    z-index: 1;
+    content: "";
+    opacity: .2;
+    position: absolute;
+    -webkit-transform: rotate(35deg);
+    transform: rotate(35deg);
+    animation-name: ht_mirror;
+    animation-duration: 4s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(.14, .75, .2, 1.01);
+    animation-iteration-count: infinite;
+  }
+
+  /* .ht_mirror:hover:after {
+    left: 145%;
+    transition: all 3000ms cubic-bezier(0.19,1,0.22,1);
+  } */
+
+  @keyframes ht_mirror {
+    from {
+      left: -40px;
+    }
+
+    to {
+      left: 300%;
+    }
+  }
+/* End Flash button hover */
+
+/* Responsive */
+  @media (max-width: 480px) {
+    .modal .img_wrapper {
+      width: 100%;
+    }
+  }
+/* End Responsive */

@@ -146,195 +146,142 @@ function haitran_reset_filter () {
  * Show data
  */
 function haitran_print_char (filter) {
-	var char = window.character;
-	var modal_html = '';
-
 	// Reset
 	$('.pirate_festival_page .body_page .char_wrapper').html("");
 	$('.page_wrapper .modal').remove();
 
 	if (filter == '') {
-		for (let i in char) {
-			let row = char[i];
-			let type = row.color;
-			type = type.split(',');
-			let type_html = '';
-			for (let j in type) {
-				type_html += '<span class="color ' + type[j].trim() + '">' + type[j].trim() + '</span>';
-			}
-
-			let html = '<div class="open_modal char ' + i + '" data-toggle="modal" data-target="#' + i + '">';
-      
-      html      += '<div class="sm_img">';
-      // html      +=   '<img src="sm_img/' + row.img.src + '" onerror="this.style.display=\'none\'" />';
-      html      +=   '<img src="sm_img/' + row.img.src + '" onerror="no_img(this);" />';
-      html      += '</div>';
-      
-      html      += '<div class="info_wrapper">';
-			html      +=   '<div class="name">';
-			html      +=     '<span><i class="fas fa-anchor"></i> ' + row.title + '</span>';
-			html      +=   '</div>';
-
-			html      +=   '<div class="color">';
-			html      +=     type_html + ' - <span class="stars">' + row.stars + '</span>';
-			html      +=   '</div>';
-			html      += '</div>';
-
-			html    += '</div>';
-			$('.pirate_festival_page .body_page .char_wrapper').append(html);
-
-			modal_html    += '<div class="modal fade" id="' + i + '" role="dialog">';
-			modal_html    +=   '<div class="modal-dialog">';
-			modal_html    +=     '<div class="modal-content">';
-			modal_html    +=       '<div class="modal-header">';
-			modal_html    +=         '<button type="button" class="close" data-dismiss="modal">&times;</button><h4 class="modal-title">' + row.title + ' (' + row.stars + ')</h4>';
-			modal_html    +=       '</div>';
-			modal_html    +=       '<div class="modal-body">';
-
-			modal_html    +=         '<div class="img_wrapper"><img data-src="images/' + row.img.src + '"/></div>';
-
-			modal_html    +=         '<div class="info_wrapper">';
-			modal_html    +=           '<div class="info class">';
-			modal_html    +=             '<span><b>Class:</b> ' + row.class + '</span>';
-			modal_html    +=           '</div>';
-			modal_html    +=           '<div class="info type">';
-			modal_html    +=             '<span><b>Loại:</b> ' + row.type + '</span>';
-			modal_html    +=           '</div>';
-			modal_html    +=           '<div class="info skill">';
-			modal_html    +=             '<span class="skill_title"><b>Kỹ năng (' + row.skill.note + '):</b> </span>';
-			modal_html    +=             '<span class="skill_des">';
-			let des_arr = row.skill.des.split(". ");
-			for (let des in des_arr) {
-				let des_row = des_arr[des];
-				modal_html += '<p>- ' + des_row + '</p>';
-			}
-			modal_html    +=             '</span>';
-			modal_html    +=           '</div>';
-			modal_html    +=           '<div class="info hidden_skill">';
-			modal_html    +=             '<span class="hidden_skill_title"><b>Kỹ năng bị động:</b> </span>';
-			modal_html    +=             '<span class="skill_des">';
-			let h_des_arr = row.hidden_skill.des.split(". ");
-			for (let des in h_des_arr) {
-				let des_row = h_des_arr[des];
-				modal_html += '<p>- ' + des_row + '</p>';
-			}
-			modal_html    +=             '</span>';
-			modal_html    +=           '</div>';
-			modal_html    +=           '<div class="info target">';
-			modal_html    +=             '<span class="target_title"><b>Mục tiêu:</b> ' + row.others.target + '</span>';
-			modal_html    +=           '</div>';
-			modal_html    +=           '<div class="info extra_ablility">';
-			modal_html    +=             '<span class="extra_ablility_title"><b>Khả năng:</b> ' + row.others.extra_ability + '</span>';
-			modal_html    +=           '</div>';
-			modal_html    +=           '<div class="info pattern">';
-			modal_html    +=             '<span class="pattern_title"><b>Thứ tự tấn công: </b> ' + row.pattern + '</span>';
-			modal_html    +=           '</div>';
-			modal_html    +=         '</div>';
-
-			modal_html    +=       '</div>';
-			modal_html    +=     '</div>';
-			modal_html    +=   '</div>';
-			modal_html    += '</div>';
-		}
-		$('.page_wrapper').append(modal_html);
-
-		$('.open_modal').click((event) => {
-			let target = $($(event.currentTarget).attr('data-target')).find('img');
-			target.attr('src', target.attr('data-src'));
-		});
+		ht_build_html();
 	} else {
-		for (let i in char) {
-			if (haitran_filter(char[i], filter)) {
-				let row = char[i];
-				let type = row.color;
-				type = type.split(',');
-				let type_html = '';
-				for (let j in type) {
-					type_html += '<span class="color ' + type[j].trim() + '">' + type[j].trim() + '</span>';
-				}
+		ht_build_html(filter);
+	}
+}
 
-				let html = '<div class="open_modal char ' + i + '" data-toggle="modal" data-target="#' + i + '">';
+function ht_build_html(filter = null) {
+  function ht_rewrite(data) {
+  	data = data.replace(/FREESPIRIT/g, '<span class="nt_class">FREESPIRIT <img src="icons/filter_type/filter_type_fs.png" alt=""></span>');
+  	data = data.replace(/FREE SPIRIT/g, '<span class="nt_class">FREESPIRIT <img src="icons/filter_type/filter_type_fs.png" alt=""></span>');
+  	data = data.replace(/FIGHTER/g, '<span class="nt_class">FIGHTER <img src="icons/filter_type/filter_type_fighter.png" alt=""></span>');
+  	data = data.replace(/DRIVEN/g, '<span class="nt_class">DRIVEN <img src="icons/filter_type/filter_type_driven.png" alt=""></span>');
+  	data = data.replace(/CEREBRAL/g, '<span class="nt_class">CEREBRAL <img src="icons/filter_type/filter_type_cere.png" alt=""></span>');
+  	data = data.replace(/SLASHER/g, '<span class="nt_class">SLASHER <img src="icons/filter_type/filter_type_slasher.png" alt=""></span>');
+  	data = data.replace(/STRIKER/g, '<span class="nt_class">STRIKER <img src="icons/filter_type/filter_type_striker.png" alt=""></span>');
+  	data = data.replace(/SHOOTER/g, '<span class="nt_class">SHOOTER <img src="icons/filter_type/filter_type_shooter.png" alt=""></span>');
+  	data = data.replace(/POWERHOUSE/g, '<span class="nt_class">SHOOTER <img src="icons/filter_type/filter_type_ph.png" alt=""></span>');
 
-				html      += '<div class="sm_img">';
-	      // html      +=   '<img src="sm_img/' + row.img.src + '" onerror="this.style.display=\'none\'" />';
-	      html      +=   '<img src="sm_img/' + row.img.src + '" onerror="no_img(this);" />';
-	      html      += '</div>';
-        
-        html      += '<div class="info_wrapper">';
-				html      +=   '<div class="name">';
-				html      +=     '<span><i class="fas fa-anchor"></i> ' + row.title + '</span>';
-				html      +=   '</div>';
+  	data = data.replace(/ QCK/g, '<span class="nt_color qck">QCK</span>');
+  	data = data.replace(/ STR/g, '<span class="nt_color str">STR</span>');
+  	data = data.replace(/ DEX/g, '<span class="nt_color dex">DEX</span>');
+  	data = data.replace(/ PSY/g, '<span class="nt_color psy">PSY</span>');
+  	data = data.replace(/ INT/g, '<span class="nt_color int">INT</span>');
 
-				html      +=   '<div class="color">';
-				html      +=     type_html + ' - <span class="stars">' + row.stars + '</span>';
-				html      +=   '</div>';
-				html      += '</div>';
+  	data = data.replace(/QCK /g, '<span class="nt_color qck">QCK</span>');
+  	data = data.replace(/STR /g, '<span class="nt_color str">STR</span>');
+  	data = data.replace(/DEX /g, '<span class="nt_color dex">DEX</span>');
+  	data = data.replace(/PSY /g, '<span class="nt_color psy">PSY</span>');
+  	data = data.replace(/INT /g, '<span class="nt_color int">INT</span>');
 
-				html    += '</div>';
-				$('.pirate_festival_page .body_page .char_wrapper').append(html);
+  	return data;
+  }
 
-				modal_html    += '<div class="modal fade" id="' + i + '" role="dialog">';
-				modal_html    +=   '<div class="modal-dialog">';
-				modal_html    +=     '<div class="modal-content">';
-				modal_html    +=       '<div class="modal-header">';
-				modal_html    +=         '<button type="button" class="close" data-dismiss="modal">&times;</button><h4 class="modal-title">' + row.title + '( ' + row.stars + ' )</h4>';
-				modal_html    +=       '</div>';
-				modal_html    +=       '<div class="modal-body">';
+  var char = window.character;
+	var modal_html = '';
 
-				modal_html    +=         '<div class="img_wrapper"><img src="images/' + row.img.src + '" /></div>';
+	for (let i in char) {
+    if (filter != null) {
+    	if (!haitran_filter(char[i], filter)) {
+    		continue;
+    	}
+    }
 
-				modal_html    +=         '<div class="info_wrapper">';
-				modal_html    +=           '<div class="info class">';
-				modal_html    +=             '<span><b>Class:</b> ' + row.class + '</span>';
-				modal_html    +=           '</div>';
-				modal_html    +=           '<div class="info type">';
-				modal_html    +=             '<span><b>Loại:</b> ' + row.type + '</span>';
-				modal_html    +=           '</div>';
-				modal_html    +=           '<div class="info skill">';
-				modal_html    +=             '<span class="skill_title"><b>Kỹ năng (' + row.skill.note + '):</b> </span>';
-				modal_html    +=             '<span class="skill_des">';
-				let des_arr = row.skill.des.split(". ");
-				for (let des in des_arr) {
-					let des_row = des_arr[des];
-					modal_html += '<p>- ' + des_row + '</p>';
-				}
-				modal_html    +=             '</span>';
-				modal_html    +=           '</div>';
-				modal_html    +=           '<div class="info hidden_skill">';
-				modal_html    +=             '<span class="hidden_skill_title"><b>Kỹ năng bị động:</b> </span>';
-				modal_html    +=             '<span class="skill_des">';
-				let h_des_arr = row.hidden_skill.des.split(". ");
-				for (let des in h_des_arr) {
-					let des_row = h_des_arr[des];
-					modal_html += '<p>- ' + des_row + '</p>';
-				}
-				modal_html    +=             '</span>';
-				modal_html    +=           '</div>';
-				modal_html    +=           '<div class="info target">';
-				modal_html    +=             '<span class="target_title"><b>Mục tiêu:</b> ' + row.others.target + '</span>';
-				modal_html    +=           '</div>';
-				modal_html    +=           '<div class="info extra_ablility">';
-				modal_html    +=             '<span class="extra_ablility_title"><b>Khả năng:</b> ' + row.others.extra_ability + '</span>';
-				modal_html    +=           '</div>';
-				modal_html    +=           '<div class="info pattern">';
-				modal_html    +=             '<span class="pattern_title"><b>Thứ tự tấn công: </b> ' + row.pattern + '</span>';
-				modal_html    +=           '</div>';
-				modal_html    +=         '</div>';
-
-				modal_html    +=       '</div>';
-				modal_html    +=     '</div>';
-				modal_html    +=   '</div>';
-				modal_html    += '</div>';
-			}
+		let row = char[i];
+		let type = row.color;
+		type = type.split(',');
+		let type_html = '';
+		for (let j in type) {
+			type_html += '<span class="color ' + type[j].trim() + '">' + type[j].trim() + '</span>';
 		}
 
-		$('.page_wrapper').append(modal_html);
+		let html = '<div class="open_modal char ' + i + '" data-toggle="modal" data-target="#' + i + '">';
+    
+    html      += '<div class="sm_img">';
+    // html      +=   '<img src="sm_img/' + row.img.src + '" onerror="this.style.display=\'none\'" />';
+    html      +=   '<img src="sm_img/' + row.img.src + '" onerror="no_img(this);" />';
+    html      += '</div>';
+    
+    html      += '<div class="info_wrapper">';
+		html      +=   '<div class="name">';
+		html      +=     '<span><i class="fas fa-anchor"></i> ' + row.title + '</span>';
+		html      +=   '</div>';
 
-		$('.open_modal').click((event) => {
-			let target = $($(event.currentTarget).attr('data-target')).find('img');
-			target.attr('src', target.attr('data-src'));
-		});
+		html      +=   '<div class="color">';
+		html      +=     type_html + ' - <span class="stars">' + row.stars + '</span>';
+		html      +=   '</div>';
+		html      += '</div>';
+
+		html    += '</div>';
+		$('.pirate_festival_page .body_page .char_wrapper').append(html);
+
+		modal_html    += '<div class="modal fade" id="' + i + '" role="dialog">';
+		modal_html    +=   '<div class="modal-dialog">';
+		modal_html    +=     '<div class="modal-content">';
+		modal_html    +=       '<div class="modal-header">';
+		modal_html    +=         '<button type="button" class="close" data-dismiss="modal">&times;</button><h4 class="modal-title">' + row.title + ' (' + row.stars + ')</h4>';
+		modal_html    +=       '</div>';
+		modal_html    +=       '<div class="modal-body">';
+
+		modal_html    +=         '<div class="img_wrapper ht_mirror"><img data-src="images/' + row.img.src + '"/></div>';
+
+		modal_html    +=         '<div class="info_wrapper">';
+		modal_html    +=           '<div class="info class">';
+		modal_html    +=             '<span><b>Class:</b> ' + row.class.toUpperCase() + '</span>';
+		modal_html    +=           '</div>';
+		modal_html    +=           '<div class="info type">';
+		modal_html    +=             '<span><b>Loại:</b> ' + row.type + '</span>';
+		modal_html    +=           '</div>';
+		modal_html    +=           '<div class="info skill">';
+		modal_html    +=             '<span class="skill_title"><b>Kỹ năng (' + row.skill.note + '):</b> </span>';
+		modal_html    +=             '<span class="skill_des">';
+		let des_arr = row.skill.des.split(". ");
+		for (let des in des_arr) {
+			let des_row = des_arr[des];
+			modal_html += '<p>- ' + des_row + '</p>';
+		}
+		modal_html    +=             '</span>';
+		modal_html    +=           '</div>';
+		modal_html    +=           '<div class="info hidden_skill">';
+		modal_html    +=             '<span class="hidden_skill_title"><b>Kỹ năng bị động:</b> </span>';
+		modal_html    +=             '<span class="skill_des">';
+		let h_des_arr = row.hidden_skill.des.split(". ");
+		for (let des in h_des_arr) {
+			let des_row = h_des_arr[des];
+			modal_html += '<p>- ' + des_row + '</p>';
+		}
+		modal_html    +=             '</span>';
+		modal_html    +=           '</div>';
+		modal_html    +=           '<div class="info target">';
+		modal_html    +=             '<span class="target_title"><b>Mục tiêu:</b> ' + row.others.target + '</span>';
+		modal_html    +=           '</div>';
+		modal_html    +=           '<div class="info extra_ablility">';
+		modal_html    +=             '<span class="extra_ablility_title"><b>Khả năng:</b> <p>' + row.others.extra_ability + '</p></span>';
+		modal_html    +=           '</div>';
+		modal_html    +=           '<div class="info pattern">';
+		modal_html    +=             '<span class="pattern_title"><b>Thứ tự tấn công: </b> <p>' + row.pattern + '</p></span>';
+		modal_html    +=           '</div>';
+		modal_html    +=         '</div>';
+
+		modal_html    +=       '</div>';
+		modal_html    +=     '</div>';
+		modal_html    +=   '</div>';
+		modal_html    += '</div>';
 	}
+	modal_html = ht_rewrite(modal_html);
+	$('.page_wrapper').append(modal_html);
+
+	$('.open_modal').click((event) => {
+		let target = $($(event.currentTarget).attr('data-target')).find('.img_wrapper img');
+		target.attr('src', target.attr('data-src'));
+	});
 }
 
 // Default sm img
@@ -530,7 +477,6 @@ function haitran_handle_all () {
  * Scroll-to function
  */
 function ht_to(pos) {
-	console.log(1);
 	var body = jQuery('.body_page');
 	var target = jQuery('.body_page .char_wrapper');
 	if (pos == 'bottom') {
