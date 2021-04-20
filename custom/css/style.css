@@ -257,7 +257,7 @@ body .page_wrapper .body {
 
 .pirate_festival_page .filter_block {
   position: absolute;
-  top: 20px;
+  top: 80px;
   display: none;
   width: 100vw;
 }
@@ -351,7 +351,7 @@ body .page_wrapper .body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .pirate_festival_page .filter_block .filter_item .fake_color_filter {
