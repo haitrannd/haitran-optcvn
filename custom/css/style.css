@@ -204,6 +204,7 @@ body .page_wrapper .body {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
+  position: relative;
 }
 
 .pirate_festival_page .search {
