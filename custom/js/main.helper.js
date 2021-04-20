@@ -1,6 +1,19 @@
 
 /* Helper Functions */
 
+function onLoad() {
+  document.addEventListener("deviceready", onDeviceReady, false);
+}
+
+function onDeviceReady() {
+  // Register the event listener
+  document.addEventListener("backbutton", onBackKeyDown, false);
+}
+
+function onBackKeyDown() {
+	alert(1);
+}
+
 /* 
  * Create filter
  */
@@ -167,7 +180,7 @@ function ht_build_html(filter = null) {
   	data = data.replace(/SLASHER/g, '<span class="nt_class">SLASHER <img src="icons/filter_type/filter_type_slasher.png" alt=""></span>');
   	data = data.replace(/STRIKER/g, '<span class="nt_class">STRIKER <img src="icons/filter_type/filter_type_striker.png" alt=""></span>');
   	data = data.replace(/SHOOTER/g, '<span class="nt_class">SHOOTER <img src="icons/filter_type/filter_type_shooter.png" alt=""></span>');
-  	data = data.replace(/POWERHOUSE/g, '<span class="nt_class">SHOOTER <img src="icons/filter_type/filter_type_ph.png" alt=""></span>');
+  	data = data.replace(/POWERHOUSE/g, '<span class="nt_class">POWERHOUSE <img src="icons/filter_type/filter_type_ph.png" alt=""></span>');
 
   	data = data.replace(/ QCK/g, '<span class="nt_color qck">QCK</span>');
   	data = data.replace(/ STR/g, '<span class="nt_color str">STR</span>');
@@ -234,7 +247,7 @@ function ht_build_html(filter = null) {
 
 		modal_html    +=         '<div class="info_wrapper">';
 		modal_html    +=           '<div class="info class">';
-		modal_html    +=             '<span><b>Class:</b> ' + row.class.toUpperCase() + '</span>';
+		modal_html    +=             '<span><b>Class:</b> ' + ht_rewrite(row.class.toUpperCase()) + '</span>';
 		modal_html    +=           '</div>';
 		modal_html    +=           '<div class="info type">';
 		modal_html    +=             '<span><b>Loại:</b> ' + row.type + '</span>';
@@ -244,7 +257,7 @@ function ht_build_html(filter = null) {
 		modal_html    +=             '<span class="skill_des">';
 		let des_arr = row.skill.des.split(". ");
 		for (let des in des_arr) {
-			let des_row = des_arr[des];
+			let des_row = ht_rewrite(des_arr[des]);
 			modal_html += '<p>- ' + des_row + '</p>';
 		}
 		modal_html    +=             '</span>';
@@ -254,7 +267,7 @@ function ht_build_html(filter = null) {
 		modal_html    +=             '<span class="skill_des">';
 		let h_des_arr = row.hidden_skill.des.split(". ");
 		for (let des in h_des_arr) {
-			let des_row = h_des_arr[des];
+			let des_row = ht_rewrite(h_des_arr[des]);
 			modal_html += '<p>- ' + des_row + '</p>';
 		}
 		modal_html    +=             '</span>';
@@ -275,7 +288,6 @@ function ht_build_html(filter = null) {
 		modal_html    +=   '</div>';
 		modal_html    += '</div>';
 	}
-	modal_html = ht_rewrite(modal_html);
 	$('.page_wrapper').append(modal_html);
 
 	$('.open_modal').click((event) => {
@@ -288,11 +300,6 @@ function ht_build_html(filter = null) {
 function no_img(obj) {
 	jQuery(obj).parent().addClass('no_img');
 	jQuery(obj).attr('src', 'icons/bg/flag_staw_hat.png');
-}
-
-function haitran_test (obj) {
-	var image = jQuery(obj);
-  console.log(image);
 }
 
 /* 

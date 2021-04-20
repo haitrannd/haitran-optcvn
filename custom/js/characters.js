@@ -626,7 +626,7 @@ window.character = {
 
 	'mihawk_perona' : {
 		'title' : 'Mihawk & Perona',
-		'color' : 'str, psy',
+		'color' : 'dual',
 		'class' : 'cerebral, slasher, driven',
 		'stars' : 'legend',
 		'type' : 'Phá hoại',
@@ -1213,27 +1213,28 @@ window.character = {
 		'tags': 'skill_cut_hp, skill_atk_up, hiddenskill_speed_up, hiddenskill_hp_up, hiddenskill_atk_up, hiddenskill_crit_up, ability_prevent_silence, ability_dmg_reduce'
 	},
 
-	'cracker' : {
-		'title' : 'Cracker',
+	'legend_cracker_qck' : {
+		'title' : 'Charlotte Cracker, Fear of the Infinite Biscuits',
 		'color' : 'qck',
 		'class' : 'powerhouse, slasher',
 		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
-			'note' : 'lv10 - 37 Giây',
-			'des' : 'Gây (ATK x 1.3) sát thương lên kẻ địch ở vùng trung tâm, tăng CRIT SLASHER/POWERHOUSE lên 5 cấp (15 giây). Khi HP nhỏ hoặc bằng 50%, giảm thời gian dùng skill đi 25%.',
+			'note' : 'lv10 - 34 Giây',
+			'des' : 'Gây (ATK x 1.8) sát thương cho kẻ địch một vùng rộng. Tăng CRIT SLASHER/POWERHOUSE lên 7 cấp (15 giây). Khi HP nhỏ hoặc bằng 50%, tăng nộ bản thân lên 25%.',
 		},
 		'hidden_skill' : {
-			'des' : 'SLASHER/POWERHOUSE giảm thời gian dùng skill đi 6 giây'
+			'des' : 'Tăng tốc độ tích nộ đồng minh SLASHER/POWERHOUSE lên 6 cấp. Tăng SPEED đồng minh SLASHER/POWERHOUSE lên 3 cấp.'
 		},
 		'others' : {
-			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : 'Miễn nhiễm khóa hành động. Giảm sát thương đến từ kẻ địch STR đi 30%.',
 		},
-		'pattern': 'Đang cập nhật',
+		'pattern': 'Normal Attack → Normal Atk → Strong Atk → Fullpower Atk',
 		'img' : {
-			'src' : 'cracker.png'
+			'src' : 'legend_cracker_qck.png'
 		},
+		'tags': 'skill_deal_dmg, skill_crit_up, skill_ct_up, hiddenskill_ct_up, hiddenskill_speed_up, target_nearby, ability_prevent_bind, ability_dmg_reduce'
 	},
 
 	'doflamingo_v1' : {
@@ -4919,5 +4920,53 @@ window.character = {
 			'src' : 'int_tm_shiryu.png'
 		},
 		'tags': 'skill_deal_dmg, skill_fixed_dmg, hiddenskill_atk_up, hiddenskill_hp_up, hiddenskill_ct_up, target_nearby, ability_prevent_silence, ability_dmg_reduce'
+	},
+
+	'legend_fire_tank_pirates' : {
+		'title' : "Fire Tank Pirates, Family Protection Gang - Capone Gang Bege.",
+		'color' : 'dual',
+		'class' : 'driven, shooter',
+		'stars' : 'Legend',
+		'type' : 'Phòng thủ',
+		'skill' : {
+			'note' : 'lv10 - 30 Giây',
+			'des' : 'Gây 1500 sát thương chuẩn cho kẻ địch trong một vùng rộng. Tăng tỉ lệ đánh lui của đồng minh lên 5 cấp. Khi HP nhỏ hơn hoặc bằng 50%, hồi HP tương đương (RCV x 2.5) trong một phạm vi nhỏ.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP đồng minh SHOOTER/DRIVEN lên 5 cấp. Tăng DEF đồng minh SHOOTER/DRIVEN lên 3 cấp. Tăng DEF bản thân lên 5 cấp. Tăng tỉ lệ đánh lui của đồng minh lên 5 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch có DEF cao.',
+			'extra_ability' : 'Miễn nhiễm khóa hành động. Hồi 250HP mỗi lượt.',
+		},
+		'pattern': 'Normal Attack → Lv.2 heal allies (small range) → Normal Attack → Lv.2 heal allies (small range)',
+		'img' : {
+			'src' : 'legend_fire_tank_pirates.png'
+		},
+		'tags': 'skill_fixed_dmg, skill_blow_up, skill_heal, hiddenskill_def_up, hiddenskill_hp_up, hiddenskill_blow_up, target_highest_def, ability_dmg_reduce, ability_prevent_bind'
+	},
+
+	'kizuna_psy_katakuri' : {
+		'title' : "Charlotte Katakuri, Overwhelmingly Powerful Mochi",
+		'color' : 'psy',
+		'class' : 'powerhouse, shooter',
+		'stars' : 'Kizuna',
+		'type' : 'Phá hoại',
+		'skill' : {
+			'note' : 'lv10 - 24 Giây',
+			'des' : 'Gây (ATK x 1.5) sát thương cho 3 kẻ địch. Giảm SPEED kẻ địch INT đi 5 cấp.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng tỉ lệ đánh trượt của kẻ địch lên 5 cấp. Giảm tốc độ tích nộ của kẻ địch INT đi 4 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch có ATK cao.',
+			'extra_ability' : '60% thoát trạng thái khóa hành động.',
+		},
+		'pattern': 'Normal Attack → Lv.4 heal himself → Strong Attack → Strong Attack',
+		'img' : {
+			'src' : 'kizuna_psy_katakuri.png'
+		},
+		'tags': 'skill_deal_dmg, skill_speed_down, hiddenskill_miss_up, hiddenskill_ct_down, target_highest_atk, ability_prevent_bind'
 	},
 }

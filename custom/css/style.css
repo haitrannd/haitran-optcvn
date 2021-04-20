@@ -784,6 +784,7 @@ span.nt_color {
   border-radius: 14px;
   padding: 2px 6px;
   font-weight: bold;
+  margin-left: 4px;
 }
 
 span.nt_color.qck {
