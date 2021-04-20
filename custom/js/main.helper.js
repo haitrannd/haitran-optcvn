@@ -11,7 +11,7 @@ function onDeviceReady() {
 }
 
 function onBackKeyDown() {
-	alert(1);
+	// alert(1);
 }
 
 /* 
@@ -332,14 +332,37 @@ function haitran_check_obj_exist_in_obj (obj_1, obj_2) {
 function haitran_handle_navigation_and_action_ui () {
   $('.filter_block').removeClass('init');
 
-	$('.menu .button_wrapper button.btn').click(function(event) {
-		$('.menu').slideUp(300);
-		$('.page.' + $(this).attr('target')).toggleClass('active');
-	});
+  window.location.href = '#';
+
+  window.onhashchange = function(e) {
+		let new_url = e.newURL;
+		let hash = new_url.split('#')[1];
+
+		switch(hash) {
+			case '/pirate_festival_page':
+			  $('.menu').slideUp(300);
+			  $('.page.pirate_festival_page').toggleClass('active');
+			  break;
+
+			case '/event_page':
+			  $('.menu').slideUp(300);
+			  $('.page.event_page').toggleClass('active');
+			  break;
+
+			case '/contact_page':
+			  $('.menu').slideUp(300);
+			  $('.page.contact_page').toggleClass('active');
+			  break;
+
+			case '':
+			  $('.page').removeClass('active');
+		    $('.menu').slideDown(300);
+			  break;
+		}
+	}
 
 	$('.back_to_menu i').click(function(event) {
-		$('.page').removeClass('active');
-		$('.menu').slideDown(300);
+		window.location.href = '#';
 	});
 
 	$('.pirate_festival_page span.filter').click(function(event) {
@@ -358,7 +381,7 @@ function haitran_handle_navigation_and_action_ui () {
     min: 0,
     max: 100,
     from: 0,
-    to: 100,
+    to: 70,
     grid: true,
     postfix: " CT",
     skin: "modern",
