@@ -211,7 +211,7 @@ body .page_wrapper .body {
   margin: 0 auto;
   text-align: center;
   height: 40px;
-  margin-bottom: 85px;
+  margin-bottom: 50px;
   display: flex;
   -webkit-align-items: center;
           align-items: center;
@@ -753,19 +753,17 @@ body .page_wrapper .body {
 
 .scroll_wrapper {
   position: absolute;
-  display: flex;
-  justify-content: space-between;
-  bottom: 20px;
-  width: 84px;
+  bottom: 110px;
+  right: 30px;
 }
 
 .scroll_wrapper i {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 30px;
+  font-size: 20px;
   background-color: rgb(10 84 10 / 80%);
   color: #ffffff;
 }
