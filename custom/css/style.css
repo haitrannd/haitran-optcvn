@@ -257,9 +257,10 @@ body .page_wrapper .body {
 
 .pirate_festival_page .filter_block {
   position: absolute;
-  top: 80px;
+  bottom: 110px;
   display: none;
   width: 100vw;
+  z-index: 5;
 }
 
 .pirate_festival_page .filter_block .filter_wrapper {
