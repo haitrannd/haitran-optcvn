@@ -368,6 +368,7 @@ function haitran_handle_navigation_and_action_ui () {
 	$('.pirate_festival_page span.filter').click(function(event) {
 		$('.pirate_festival_page .filter_block').fadeToggle(300);
 		$(this).toggleClass('active');
+		$('.back_to_menu i').toggleClass('hidden');
 	});
 
 	$('.reset_filter').on('click', function(event) {
