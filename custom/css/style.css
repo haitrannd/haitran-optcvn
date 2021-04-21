@@ -183,6 +183,9 @@ body .page_wrapper .body {
 .page.event_page {
   padding: 15px;
   overflow: auto;
+  background-image: url('../../event/7th_anni.jpg');
+  background-position: center;
+  background-size: contain;
 }
 
 .md.wiki {
