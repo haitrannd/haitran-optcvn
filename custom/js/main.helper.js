@@ -172,6 +172,9 @@ function haitran_print_char (filter) {
 
 function ht_build_html(filter = null) {
   function ht_rewrite(data) {
+    data = data.replace(/STRc/g, '<span class="nt_color str">STR</span>');
+    data = data.replace(/DEXc/g, '<span class="nt_color dex">DEX</span>');
+
   	data = data.replace(/FREESPIRIT/g, '<span class="nt_class">FREESPIRIT <img src="icons/filter_type/filter_type_fs.png" alt=""></span>');
   	data = data.replace(/FREE SPIRIT/g, '<span class="nt_class">FREESPIRIT <img src="icons/filter_type/filter_type_fs.png" alt=""></span>');
   	data = data.replace(/FIGHTER/g, '<span class="nt_class">FIGHTER <img src="icons/filter_type/filter_type_fighter.png" alt=""></span>');
@@ -183,16 +186,22 @@ function ht_build_html(filter = null) {
   	data = data.replace(/POWERHOUSE/g, '<span class="nt_class">POWERHOUSE <img src="icons/filter_type/filter_type_ph.png" alt=""></span>');
 
   	data = data.replace(/ QCK/g, '<span class="nt_color qck">QCK</span>');
-  	data = data.replace(/ STR/g, '<span class="nt_color str">STR</span>');
-  	data = data.replace(/ DEX/g, '<span class="nt_color dex">DEX</span>');
+  	// data = data.replace(/ STR/g, '<span class="nt_color str">STR</span>');
+  	// data = data.replace(/ DEX/g, '<span class="nt_color dex">DEX</span>');
   	data = data.replace(/ PSY/g, '<span class="nt_color psy">PSY</span>');
   	data = data.replace(/ INT/g, '<span class="nt_color int">INT</span>');
 
   	data = data.replace(/QCK /g, '<span class="nt_color qck">QCK</span>');
-  	data = data.replace(/STR /g, '<span class="nt_color str">STR</span>');
-  	data = data.replace(/DEX /g, '<span class="nt_color dex">DEX</span>');
+  	// data = data.replace(/STR /g, '<span class="nt_color str">STR</span>');
+  	// data = data.replace(/DEX /g, '<span class="nt_color dex">DEX</span>');
   	data = data.replace(/PSY /g, '<span class="nt_color psy">PSY</span>');
   	data = data.replace(/INT /g, '<span class="nt_color int">INT</span>');
+
+  	data = data.replace(/QCK\//g, '<span class="nt_color qck">QCK</span>');
+  	// data = data.replace(/STR\//g, '<span class="nt_color str">STR</span>');
+  	// data = data.replace(/DEX\//g, '<span class="nt_color dex">DEX</span>');
+  	data = data.replace(/PSY\//g, '<span class="nt_color psy">PSY</span>');
+  	data = data.replace(/INT\//g, '<span class="nt_color int">INT</span>');
 
   	return data;
   }
@@ -288,7 +297,7 @@ function ht_build_html(filter = null) {
 		modal_html    +=   '</div>';
 		modal_html    += '</div>';
 	}
-	$('.page_wrapper').append(modal_html);
+	$('.page_wrapper .modals').append(modal_html);
 
 	$('.open_modal').click((event) => {
 		let target = $($(event.currentTarget).attr('data-target')).find('.img_wrapper img');

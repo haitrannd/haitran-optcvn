@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html translate="no">
+<html translate="no" class="notranslate">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="google" content="notranslate" />
 	<title>PIRATE FESTIVAL</title>
 	
 	<!-- Custome -->
@@ -54,102 +55,121 @@
 			<div class="back_to_menu"><i class="fas fa-times"></i></div>
 
 			<div class="page pirate_festival_page bottom">
-				<div class="search"><input type="text" name="char_name" placeholder="Tên tướng"><span class="filter"><i class="fas fa-list"></i><i class="fas fa-times"></i></span></div>
-				<div class="body_page"><div class="char_wrapper"></div></div>
-				<div class="filter_block">
-					<div class="filter_wrapper">
-						<div class="filter_item color_filter">
-							<select name="color">
-								<option value="all"> - Chọn Hệ - </option>
-								<option value="dex">DEX</option>
-								<option value="str">STR</option>
-								<option value="qck">QCK</option>
-								<option value="int">INT</option>
-								<option value="psy">PSY</option>
-								<option value="dual">DUAL</option>
-							</select>
-							<div class="fa_filter color_filter" _open="color_filter_panel">Hệ</div>
-						</div>
-						<div class="filter_item class">
-							<select name="class">
-								<option value="all"> - Chọn Class - </option>
-								<option value="fighter">Fighter</option>
-								<option value="freespirit">Freespirit</option>
-								<option value="striker">Striker</option>
-								<option value="powerhouse">Powerhouse</option>
-								<option value="slasher">Slasher</option>
-								<option value="shooter">Shooter</option>
-								<option value="driven">Driven</option>
-								<option value="cerebral">Cerebral</option>
-							</select>
-							<div class="fa_filter class_filter" _open="class_filter_panel">Class</div>
-						</div>
-						<div class="filter_item type">
-							<select name="type">
-								<option value="all"> - Chọn thuộc tính - </option>
-								<option value="Tấn công">Tấn công</option>
-								<option value="Phòng thủ">Phòng thủ</option>
-								<option value="Hỗ trợ">Hỗ trợ</option>
-								<option value="Hồi phục">Hồi phục</option>
-								<option value="Phá hoại">Phá hoại</option>
-							</select>
-							<div class="fa_filter attr_filter" _open="attr_filter_panel">Thuộc tính</div>
-						</div>
-						<div class="filter_item effect">
-							<ul class="nav nav-tabs">
-						    <li class="active"><a data-toggle="tab" href="#skill">Kỹ năng chính <i class="fa fa-anchor" aria-hidden="true"></i></a></li>
-						    <li><a data-toggle="tab" href="#hidden_skill">Kỹ năng bị động <i class="fa fa-anchor" aria-hidden="true"></i></a></li>
-						    <li><a data-toggle="tab" href="#ability">Khả năng <i class="fa fa-anchor" aria-hidden="true"></i></a></li>
-						    <li><a data-toggle="tab" href="#target">Mục tiêu <i class="fa fa-anchor" aria-hidden="true"></i></a></li>
-						  </ul>
-							
-							<div class="tab-content">
-						    <div id="skill" class="tab-pane fade in active"></div>
-						    <div id="hidden_skill" class="tab-pane fade"></div>
-						    <div id="ability" class="tab-pane fade"></div>
-						    <div id="target" class="tab-pane fade"></div>
-						  </div>
-						</div>
-						<div class="filter_item ct">
-							<p>Lọc theo CT</p>
-							<input type="text" class="js-range-slider" name="my_range" value="" />
-						</div>
-						<span class="reset_filter"></span>
-						<div class="fa_filter_panel">
-							<div class="filter_panel color_filter_panel active">
-								<div class="str_btn" target="color" value="str"><img src="icons/filter_attr/filter_attr_str.png" alt=""></div>
-								<div class="qck_btn" target="color" value="qck"><img src="icons/filter_attr/filter_attr_qck.png" alt=""></div>
-								<div class="dex_btn" target="color" value="dex"><img src="icons/filter_attr/filter_attr_dex.png" alt=""></div>
-								<div class="int_btn" target="color" value="int"><img src="icons/filter_attr/filter_attr_int.png" alt=""></div>
-								<div class="psy_btn" target="color" value="psy"><img src="icons/filter_attr/filter_attr_psy.png" alt=""></div>
-								<div class="dual_btn" target="color" value="dual"><img src="icons/filter_attr/filter_attr_dual.png" alt=""></div>
+				<div class="inside_wrapper">
+					<!-- Search Block -->
+					<div class="search">
+						<input type="text" name="char_name" placeholder="Tên tướng">
+						<span class="filter">
+							<i class="fas fa-list"></i>
+							<i class="fas fa-times"></i>
+						</span>
+					</div>
+					<!-- End Search Block -->
+
+					<!-- Body -->
+					<div class="body_page"><div class="char_wrapper"></div></div>
+					<!-- End Body -->
+
+					<!-- Filter Block -->
+					<div class="filter_block">
+						<div class="filter_wrapper">
+							<div class="filter_item color_filter">
+								<select name="color">
+									<option value="all"> - Chọn Hệ - </option>
+									<option value="dex">DEX</option>
+									<option value="str">STR</option>
+									<option value="qck">QCK</option>
+									<option value="int">INT</option>
+									<option value="psy">PSY</option>
+									<option value="dual">DUAL</option>
+								</select>
+								<div class="fa_filter color_filter" _open="color_filter_panel">Hệ</div>
 							</div>
-							<div class="filter_panel class_filter_panel">
-								<div class="cere_btn" target="class" value="cerebral"><img src="icons/filter_type/filter_type_cere.png" alt=""></div>
-								<div class="driven_btn" target="class" value="driven"><img src="icons/filter_type/filter_type_driven.png" alt=""></div>
-								<div class="fighter_btn"  target="class" value="fighter"><img src="icons/filter_type/filter_type_fighter.png" alt=""></div>
-								<div class="fs_btn" target="class" value="freespirit"><img src="icons/filter_type/filter_type_fs.png" alt=""></div>
-								<div class="ph_btn" target="class" value="powerhouse"><img src="icons/filter_type/filter_type_ph.png" alt=""></div>
-								<div class="shooter_btn" target="class" value="shooter"><img src="icons/filter_type/filter_type_shooter.png" alt=""></div>
-								<div class="slasher_btn" target="class" value="slasher"><img src="icons/filter_type/filter_type_slasher.png" alt=""></div>
-								<div class="striker_btn" target="class" value="striker"><img src="icons/filter_type/filter_type_striker.png" alt=""></div>
+							<div class="filter_item class">
+								<select name="class">
+									<option value="all"> - Chọn Class - </option>
+									<option value="fighter">Fighter</option>
+									<option value="freespirit">Freespirit</option>
+									<option value="striker">Striker</option>
+									<option value="powerhouse">Powerhouse</option>
+									<option value="slasher">Slasher</option>
+									<option value="shooter">Shooter</option>
+									<option value="driven">Driven</option>
+									<option value="cerebral">Cerebral</option>
+								</select>
+								<div class="fa_filter class_filter" _open="class_filter_panel">Class</div>
 							</div>
-							<div class="filter_panel attr_filter_panel">
-								<div class="atkS_btn" target="type" value="Tấn công"><img src="icons/filter_style/filter_style_icon_01.png" alt=""></div>
-								<div class="defS_btn" target="type" value="Phòng thủ"><img src="icons/filter_style/filter_style_icon_02.png" alt=""></div>
-								<div class="healS_btn" target="type" value="Hồi phục"><img src="icons/filter_style/filter_style_icon_03.png" alt=""></div>
-								<div class="supS_btn" target="type" value="Hỗ trợ"><img src="icons/filter_style/filter_style_icon_04.png" alt=""></div>
-								<div class="deactivateS_btn" target="type" value="Phá hoại"><img src="icons/filter_style/filter_style_icon_05.png" alt=""></div>
+							<div class="filter_item type">
+								<select name="type">
+									<option value="all"> - Chọn thuộc tính - </option>
+									<option value="Tấn công">Tấn công</option>
+									<option value="Phòng thủ">Phòng thủ</option>
+									<option value="Hỗ trợ">Hỗ trợ</option>
+									<option value="Hồi phục">Hồi phục</option>
+									<option value="Phá hoại">Phá hoại</option>
+								</select>
+								<div class="fa_filter attr_filter" _open="attr_filter_panel">Thuộc tính</div>
 							</div>
-							<div class="close_panel">
-								<i class="fa fa-angle-left" aria-hidden="true"></i>
+							<div class="filter_item effect">
+								<ul class="nav nav-tabs">
+							    <li class="active"><a data-toggle="tab" href="#skill">Kỹ năng chính <i class="fa fa-anchor" aria-hidden="true"></i></a></li>
+							    <li><a data-toggle="tab" href="#hidden_skill">Kỹ năng bị động <i class="fa fa-anchor" aria-hidden="true"></i></a></li>
+							    <li><a data-toggle="tab" href="#ability">Khả năng <i class="fa fa-anchor" aria-hidden="true"></i></a></li>
+							    <li><a data-toggle="tab" href="#target">Mục tiêu <i class="fa fa-anchor" aria-hidden="true"></i></a></li>
+							  </ul>
+								
+								<div class="tab-content">
+							    <div id="skill" class="tab-pane fade in active"></div>
+							    <div id="hidden_skill" class="tab-pane fade"></div>
+							    <div id="ability" class="tab-pane fade"></div>
+							    <div id="target" class="tab-pane fade"></div>
+							  </div>
+							</div>
+							<div class="filter_item ct">
+								<p>Lọc theo CT</p>
+								<input type="text" class="js-range-slider" name="my_range" value="" />
+							</div>
+							<span class="reset_filter"></span>
+							<div class="fa_filter_panel">
+								<div class="filter_panel color_filter_panel active">
+									<div class="str_btn" target="color" value="str"><img src="icons/filter_attr/filter_attr_str.png" alt=""></div>
+									<div class="qck_btn" target="color" value="qck"><img src="icons/filter_attr/filter_attr_qck.png" alt=""></div>
+									<div class="dex_btn" target="color" value="dex"><img src="icons/filter_attr/filter_attr_dex.png" alt=""></div>
+									<div class="int_btn" target="color" value="int"><img src="icons/filter_attr/filter_attr_int.png" alt=""></div>
+									<div class="psy_btn" target="color" value="psy"><img src="icons/filter_attr/filter_attr_psy.png" alt=""></div>
+									<div class="dual_btn" target="color" value="dual"><img src="icons/filter_attr/filter_attr_dual.png" alt=""></div>
+								</div>
+								<div class="filter_panel class_filter_panel">
+									<div class="cere_btn" target="class" value="cerebral"><img src="icons/filter_type/filter_type_cere.png" alt=""></div>
+									<div class="driven_btn" target="class" value="driven"><img src="icons/filter_type/filter_type_driven.png" alt=""></div>
+									<div class="fighter_btn"  target="class" value="fighter"><img src="icons/filter_type/filter_type_fighter.png" alt=""></div>
+									<div class="fs_btn" target="class" value="freespirit"><img src="icons/filter_type/filter_type_fs.png" alt=""></div>
+									<div class="ph_btn" target="class" value="powerhouse"><img src="icons/filter_type/filter_type_ph.png" alt=""></div>
+									<div class="shooter_btn" target="class" value="shooter"><img src="icons/filter_type/filter_type_shooter.png" alt=""></div>
+									<div class="slasher_btn" target="class" value="slasher"><img src="icons/filter_type/filter_type_slasher.png" alt=""></div>
+									<div class="striker_btn" target="class" value="striker"><img src="icons/filter_type/filter_type_striker.png" alt=""></div>
+								</div>
+								<div class="filter_panel attr_filter_panel">
+									<div class="atkS_btn" target="type" value="Tấn công"><img src="icons/filter_style/filter_style_icon_01.png" alt=""></div>
+									<div class="defS_btn" target="type" value="Phòng thủ"><img src="icons/filter_style/filter_style_icon_02.png" alt=""></div>
+									<div class="healS_btn" target="type" value="Hồi phục"><img src="icons/filter_style/filter_style_icon_03.png" alt=""></div>
+									<div class="supS_btn" target="type" value="Hỗ trợ"><img src="icons/filter_style/filter_style_icon_04.png" alt=""></div>
+									<div class="deactivateS_btn" target="type" value="Phá hoại"><img src="icons/filter_style/filter_style_icon_05.png" alt=""></div>
+								</div>
+								<div class="close_panel">
+									<i class="fa fa-angle-left" aria-hidden="true"></i>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="scroll_wrapper">
-					<i class="fa fa-angle-up" aria-hidden="true" onclick="ht_to('top');"></i>
-					<i class="fa fa-angle-down" aria-hidden="true" onclick="ht_to('bottom');"></i>
+					<!-- End Filter Block -->
+
+					<!-- Scroll to top -->
+					<div class="scroll_wrapper">
+						<i class="fa fa-angle-up" aria-hidden="true" onclick="ht_to('top');"></i>
+						<i class="fa fa-angle-down" aria-hidden="true" onclick="ht_to('bottom');"></i>
+					</div>
+					<!-- End Scroll to top -->
 				</div>
 			</div>
 
@@ -162,6 +182,10 @@
 				</div>
 			</div>
 		</div>
+
+		<!-- Mobal -->
+		<div class="modals"></div>
+		<!-- End Mobal -->
 	</div>
 </body>
 </html>
