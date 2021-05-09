@@ -251,7 +251,7 @@ window.character = {
 			'des' : 'Tấn công kẻ địch ở hàng ngang phía trước với sát thương bằng (ATK x 0.95), tấn công kẻ địch ở hàng giữa theo chiều dọc với sát thương bằng (ATK x 1.2), tấn công toàn bộ kẻ địch với sát thương bằng (ATK x 0.9). Tăng ATK bản thân lên 16 cấp trong 30 giây',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng HP của STRc, QCK, DEXc lên 7 cấp'
+			'des' : 'Tăng HP của STRc, QCKc, DEXc lên 7 cấp'
 		},
 		'others' : {
 			'target' : 'Nhắm vào mục tiêu ở gần',
@@ -275,7 +275,7 @@ window.character = {
 			'des' : 'Tăng ATK bản thân lên 11 cấp (15 giây), tăng DEF bản thân lên 8 leves (15 giây), bật trạng thái khiêu khích (sẽ bị kẻ địch nhắm vào). Giảm 20% máu của kẻ địch.',
 		},
 		'hidden_skill' : {
-			'des' : 'STRc, QCK, INT tăng ATK lên 6 cấp. Các đồng đội khác tăng ATK lên 5 cấp'
+			'des' : 'STRc, QCKc, INTc tăng ATK lên 6 cấp. Các đồng đội khác tăng ATK lên 5 cấp'
 		},
 		'others' : {
 			'target' : 'Nhắm vào mục tiêu ở gần',
@@ -419,7 +419,7 @@ window.character = {
 			'des' : 'Hồi (2.75 x RCV) HP một vùng rộng và tăng DEF cho một vùng nhỏ lên 7 cấp (10 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'Khi HP lớn hơn hoặc bằng 70%, ATK của đồng đội tăng 10 cấp. Trong 40 giây đầu, giảm tốc độ tích nộ và SPEED của kẻ địch QCK đi 5 cấp.'
+			'des' : 'Khi HP lớn hơn hoặc bằng 70%, ATK của đồng đội tăng 10 cấp. Trong 40 giây đầu, giảm tốc độ tích nộ và SPEED của kẻ địch QCKc đi 5 cấp.'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ địch ở gần',
@@ -443,7 +443,7 @@ window.character = {
 			'des' : 'Gây sát thương theo thời gian (cấp 3) lên một vùng lớn kẻ địch trong 48 giây. Làm chậm nộ của kẻ địch đi 4 cấp (44 giây).',
 		},
 		'hidden_skill' : {
-			'des' : 'Giảm DEF QCK đi 2 cấp. Khi có 5 hoặc nhiều hơn đồng minh ở trên sân, tăng HP đồng minh thêm 7 cấp'
+			'des' : 'Giảm DEF QCKc đi 2 cấp. Khi có 5 hoặc nhiều hơn đồng minh ở trên sân, tăng HP đồng minh thêm 7 cấp'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ địch ở gần',
@@ -491,7 +491,7 @@ window.character = {
 			'des' : 'Giảm 32% HP kẻ địch một vùng rộng. Tăng ATK của FIGHTER, SLASHER và SHOOTER lên 4 cấp trong 25 giây. Tăng DEF của FIGHTER, SLASHER và SHOOTER lên 4 cấp trong 25 giây',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng HP của STRc, DEXc, PSY lên 6 cấp, tăng DEF lên 1 cấp. Tăng MISS của kẻ địch lên 1 cấp.'
+			'des' : 'Tăng HP của STRc, DEXc, PSYc lên 6 cấp, tăng DEF lên 1 cấp. Tăng MISS của kẻ địch lên 1 cấp.'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ địch ở gần',
@@ -560,7 +560,7 @@ window.character = {
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 33 Giây',
-			'des' : 'Giảm HP địch đi 35% toàn bộ địch. Gây 2000 sát thương chuẩn cho kẻ địch STRc/QCK và giảm DEF của chúng đi 4 cấp trong 25 giây.',
+			'des' : 'Giảm HP địch đi 35% toàn bộ địch. Gây 2000 sát thương chuẩn cho kẻ địch STRc/QCKc và giảm DEF của chúng đi 4 cấp trong 25 giây.',
 		},
 		'hidden_skill' : {
 			'des' : 'Tăng ATK toàn bộ đồng minh lên 7 cấp. Tăng ATK bản thân lên 3 cấp. Tăng HP đồng minh DEXc lên 2 cấp.'
@@ -611,7 +611,7 @@ window.character = {
 			'des' : 'Gây (ATK x 2) sát thương cho một vùng lớn. 70% cơ hội khóa skill của kẻ địch có ATK cao nhất trong 6 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng SPEED đồng minh STRc/DEXc/QCK lên 5 cấp. Trong 15 giây đầu, tăng SPEED đồng mình STRc/DEXc/QCK lên thêm 2 cấp.'
+			'des' : 'Tăng SPEED đồng minh STRc/DEXc/QCKc lên 5 cấp. Trong 15 giây đầu, tăng SPEED đồng mình STRc/DEXc/QCKc lên thêm 2 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch có SPEED cao.',
@@ -659,7 +659,7 @@ window.character = {
 			'des' : 'Tấn công một vùng với lượng sát thường (ATK x 0.55), giảm ATK 2 cấp trong 15 giây, hồi phục HP một đồng đội bằng (1.86 x RCV)',
 		},
 		'hidden_skill' : {
-			'des' : 'Khi HP lớn hơn hoặc bằng 50%, tăng tỉ lệ xuất hiện khiên của QCK và PSY lên 7 cấp. Tăng ATK bản thân lên 6 cấp'
+			'des' : 'Khi HP lớn hơn hoặc bằng 50%, tăng tỉ lệ xuất hiện khiên của QCKc và PSYc lên 7 cấp. Tăng ATK bản thân lên 6 cấp'
 		},
 		'others' : {
 			'target' : 'Đang cập nhật',
@@ -728,10 +728,10 @@ window.character = {
 		'type' : 'Hỗ trợ',
 		'skill' : {
 			'note' : 'lv10 - 22 Giây',
-			'des' : 'Tăng nộ INT lên thêm 25%, tăng ATK đồng minh lên 4 cấp (25 giây), tăng ATK của đồng minh có ATK cao nhất lên 8 cấp (25 giây)',
+			'des' : 'Tăng nộ INTc lên thêm 25%, tăng ATK đồng minh lên 4 cấp (25 giây), tăng ATK của đồng minh có ATK cao nhất lên 8 cấp (25 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng HP INT lên 5 cấp, tăng ATK của INT có ATK cao nhất lên 3 cấp. Giảm ATK SLASHER/POWERHOUSE đi 5 cấp.'
+			'des' : 'Tăng HP INTc lên 5 cấp, tăng ATK của INTc có ATK cao nhất lên 3 cấp. Giảm ATK SLASHER/POWERHOUSE đi 5 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
@@ -799,10 +799,10 @@ window.character = {
 		'type' : 'Hỗ trợ',
 		'skill' : {
 			'note' : 'lv10 - 30 Giây',
-			'des' : 'Tấn công một vùng rộng ở phía trước, gây (ATK x 0.9) sát thương và tăng ATK của STRc, DEXc, QCK lên 6 cấp (25 giây)',
+			'des' : 'Tấn công một vùng rộng ở phía trước, gây (ATK x 0.9) sát thương và tăng ATK của STRc, DEXc, QCKc lên 6 cấp (25 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'Trong 30 giây đầu, tăng SPEED của STRc, DEXc, QCK lên 3 cấp. Tăng SPEED của STRc, DEXc, QCK lên 6 cấp.'
+			'des' : 'Trong 30 giây đầu, tăng SPEED của STRc, DEXc, QCKc lên 3 cấp. Tăng SPEED của STRc, DEXc, QCKc lên 6 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
@@ -943,10 +943,10 @@ window.character = {
 		'type' : 'Hồi phục',
 		'skill' : {
 			'note' : 'lv10 - 30 Giây',
-			'des' : 'Hồi (1.45 x RCV) HP cho một vùng lớn. Khi máu lớn hơn hoặc bằng 50% tăng CRIT của QCK và INT lên 2 cấp (15 giây). ATK tăng thêm 4 cấp (15 giây) khi HP trên 80%',
+			'des' : 'Hồi (1.45 x RCV) HP cho một vùng lớn. Khi máu lớn hơn hoặc bằng 50% tăng CRIT của QCKc và INTc lên 2 cấp (15 giây). ATK tăng thêm 4 cấp (15 giây) khi HP trên 80%',
 		},
 		'hidden_skill' : {
-			'des' : 'QCK, INT tăng HP lên 5 cấp, DEF lên 1 cấp'
+			'des' : 'QCKc, INTc tăng HP lên 5 cấp, DEF lên 1 cấp'
 		},
 		'others' : {
 			'target' : 'Đang cập nhật',
@@ -1038,7 +1038,7 @@ window.character = {
 			'des' : 'Khi HP lớn hoặc bằng 50%, ATK bản thân tăng 10 cấp (15 giây). Gây (ATK x 1.95) sát thương một vùng',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK STRc, DEXc, PSY lên 6 cấp'
+			'des' : 'Tăng ATK STRc, DEXc, PSYc lên 6 cấp'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
@@ -1204,7 +1204,7 @@ window.character = {
 		},
 		'others' : {
 			'target' : 'Kẻ địch có ATK cao nhất',
-			'extra_ability' : 'Miễn nhiễm khóa skill. Giảm 30% sát thương nhận từ kẻ địch QCK.',
+			'extra_ability' : 'Miễn nhiễm khóa skill. Giảm 30% sát thương nhận từ kẻ địch QCKc.',
 		},
 		'pattern': 'Strong Attack → Normal Atk → Fullpower Atk → Strong Atk',
 		'img' : {
@@ -1366,7 +1366,7 @@ window.character = {
 			'des' : 'Gây (ATK x 0.6) sát thương cho vùng lớn kẻ địch, tăng ATK bản thân lên 20 cấp (30 giây), DEF lên 14 cấp (30 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'Khi còn 70 giây, tăng SPEED STRc/DEXc/QCK lên 8 cấp'
+			'des' : 'Khi còn 70 giây, tăng SPEED STRc/DEXc/QCKc lên 8 cấp'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
@@ -1510,7 +1510,7 @@ window.character = {
 			'des' : 'Giảm DEF kẻ địch một vùng rộng đi 6 cấp trong 6 giây, gây (ATK x 2.15) sát thương',
 		},
 		'hidden_skill' : {
-			'des' : 'INT tăng ATK lên 6 cấp, tăng ATK bản thân lên 8 cấp khi trận đấu còn 50 giây'
+			'des' : 'INTc tăng ATK lên 6 cấp, tăng ATK bản thân lên 8 cấp khi trận đấu còn 50 giây'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
@@ -1558,7 +1558,7 @@ window.character = {
 			'des' : 'Gây 1450 sát thương chuẩn một vùng rộng, giảm DEF đi 2 cấp trong 24 giây, và có 51% khả năng tê liệt kẻ địch trong 6 giây',
 		},
 		'hidden_skill' : {
-			'des' : 'DEXc/QCK/INT tăng HP lên 5 cấp. Khi còn 80 giây, tăng ATK toàn bộ đồng đội lên 5 cấp.'
+			'des' : 'DEXc/QCKc/INTc tăng HP lên 5 cấp. Khi còn 80 giây, tăng ATK toàn bộ đồng đội lên 5 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch có SPEED cao',
@@ -1747,10 +1747,10 @@ window.character = {
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 37 Giây',
-			'des' : 'Gây 1400 sát thương chuẩn lên toàn bộ địch. Giảm DEF và tốc độ tích nộ của STRc/INT đi 5 cấp (28 giây)',
+			'des' : 'Gây 1400 sát thương chuẩn lên toàn bộ địch. Giảm DEF và tốc độ tích nộ của STRc/INTc đi 5 cấp (28 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'QCK/PSY SPEED tăng 6 cấp. QCK/PSY SPEED tăng lên 3 cấp.'
+			'des' : 'QCKc/PSYc SPEED tăng 6 cấp. QCKc/PSYc SPEED tăng lên 3 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
@@ -1771,10 +1771,10 @@ window.character = {
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 37 Giây',
-			'des' : 'Cắt 16% HP toàn bộ địch, DEF của QCK/PSY giảm 4 cấp (40 giây)',
+			'des' : 'Cắt 16% HP toàn bộ địch, DEF của QCKc/PSYc giảm 4 cấp (40 giây)',
 		},
 		'hidden_skill' : {
-			'des' : 'STRc/INT ATK tăng 6 cấp'
+			'des' : 'STRc/INTc ATK tăng 6 cấp'
 		},
 		'others' : {
 			'target' : 'Kẻ địch có ATK cao',
@@ -1795,10 +1795,10 @@ window.character = {
 		'type' : 'Hỗ trợ',
 		'skill' : {
 			'note' : 'lv10 - 27 Giây',
-			'des' : 'Cắt 25% HP toàn bộ địch, giảm tỷ lệ xuất hiện khiên toàn bộ địch đi 6 cấp (25 giây), tăng CRIT của INT lên 6 cấp trong 22 giây',
+			'des' : 'Cắt 25% HP toàn bộ địch, giảm tỷ lệ xuất hiện khiên toàn bộ địch đi 6 cấp (25 giây), tăng CRIT của INTc lên 6 cấp trong 22 giây',
 		},
 		'hidden_skill' : {
-			'des' : 'CRIT của INT tăng 7 cấp. Khi CRIT, tăng ATK INT lên 4 cấp, cộng dồn 4 lần'
+			'des' : 'CRIT của INTc tăng 7 cấp. Khi CRIT, tăng ATK INTc lên 4 cấp, cộng dồn 4 lần'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
@@ -1966,7 +1966,7 @@ window.character = {
 			'des' : 'Cắt 23% HP toàn bộ địch. Nếu còn 30 giây, gây 2150 sát thương chuẩn và DEF giảm 7 cấp trong 10 giây',
 		},
 		'hidden_skill' : {
-			'des' : 'Khi còn 30 giây PSY tăng ATK lên 9 cấp'
+			'des' : 'Khi còn 30 giây PSYc tăng ATK lên 9 cấp'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
@@ -2062,7 +2062,7 @@ window.character = {
 			'des' : 'Gây 1000 sát thương chuẩn lên 1 kẻ địch. Giảm DEF đi 4 cấp trong 20 giây một vùng lớn. Hồi HP đồng đội bằng (RCV x 1.25)',
 		},
 		'hidden_skill' : {
-			'des' : 'Khi HP lớn hoặc bằng 50%, QCK/PSY tăng ATK lên 9 cấp. Khi HP nhỏ hơn 50%, QCK/PSY tăng RCV lên 9 cấp'
+			'des' : 'Khi HP lớn hoặc bằng 50%, QCKc/PSYc tăng ATK lên 9 cấp. Khi HP nhỏ hơn 50%, QCKc/PSYc tăng RCV lên 9 cấp'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
@@ -2157,7 +2157,7 @@ window.character = {
 			'des' : 'Gây 2000 sát thương chuẩn cho kẻ địch ở vùng trung tâm',
 		},
 		'hidden_skill' : {
-			'des' : 'Trong 30 giây đầu, Tăng CRIT PSY lên 5 cấp'
+			'des' : 'Trong 30 giây đầu, Tăng CRIT PSYc lên 5 cấp'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
@@ -2180,7 +2180,7 @@ window.character = {
 			'des' : 'Gây (1.8 x ATK) sát thương một vùng rộng. Tăng DEF đồng minh lên 5 cấp trong 14 giây, tăng GUARD đồng đội lên 5 cấp trong 19 giây',
 		},
 		'hidden_skill' : {
-			'des' : 'Nếu trên sân chỉ còn 6 hoặc ít hơn đồng đội trên sân, tăng HP INT lên 5 cấp, tăng SPEED INT lên 5 cấp, tăng DEF INT lên 3 cấp.'
+			'des' : 'Nếu trên sân chỉ còn 6 hoặc ít hơn đồng đội trên sân, tăng HP INTc lên 5 cấp, tăng SPEED INTc lên 5 cấp, tăng DEF INTc lên 3 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
@@ -2227,7 +2227,7 @@ window.character = {
 			'des' : 'Gây 2200 sát thương chuẩn cho toàn bộ địch. Giảm SPEED kẻ địch trong một vùng lớn 5 cấp trong 20 giây. Giảm tích nộ (CT charge) của kẻ địch thuộc FREESPIRIT đi 5 cấp trong 20 giây',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng SPEED INT lên 5 cấp. Giảm DEF đi 4 cấp và kéo dài thời gian tích nộ lên 5 cấp cho kẻ địch PSY.'
+			'des' : 'Tăng SPEED INTc lên 5 cấp. Giảm DEF đi 4 cấp và kéo dài thời gian tích nộ lên 5 cấp cho kẻ địch PSYc.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
@@ -2251,7 +2251,7 @@ window.character = {
 			'des' : 'Gây (2 x ATK) sát thương một vùng rộng và tăng ATK bản thân lên 10 cấp và tốc độc tích nộ bản thân lên 3 cấp trong 25 giây',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng HP INT lên 5 cấp. Khi máu bằng hoặc nhỏ hơn 60%, Tăng tích nộ (CT charge) bản thân lên 5 cấp'
+			'des' : 'Tăng HP INTc lên 5 cấp. Khi máu bằng hoặc nhỏ hơn 60%, Tăng tích nộ (CT charge) bản thân lên 5 cấp'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
@@ -2344,10 +2344,10 @@ window.character = {
 		'type' : 'Hồi phục',
 		'skill' : {
 			'note' : 'lv10 - 36 Giây',
-			'des' : 'Hồi HP một vùng lớn đồng đội bằng (2.8 x RCV) HP. Tăng khả năng đánh lùi của đồng đội lên 5 cấp. Tăng ATK và DEF cho PSY lên 5 cấp trong 20 giây.',
+			'des' : 'Hồi HP một vùng lớn đồng đội bằng (2.8 x RCV) HP. Tăng khả năng đánh lùi của đồng đội lên 5 cấp. Tăng ATK và DEF cho PSYc lên 5 cấp trong 20 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Khi HP nhỏ hoặc bằng 50%, tăng RCV bản thân lên 29 cấp. Tăng CRIT PSY lên 7 cấp.'
+			'des' : 'Khi HP nhỏ hoặc bằng 50%, tăng RCV bản thân lên 29 cấp. Tăng CRIT PSYc lên 7 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
@@ -2676,7 +2676,7 @@ window.character = {
 			'des' : 'Gây (2.5 x ATK) sát thương một vùng lớn phía trước, 100% tê liệt 2 kẻ địch trong 10 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng HP QCK lên 5 cấp. Khi còn dưới 50% HP, giảm độ chính xác đòn đánh kẻ địch đi 6 cấp (missing).'
+			'des' : 'Tăng HP QCKc lên 5 cấp. Khi còn dưới 50% HP, giảm độ chính xác đòn đánh kẻ địch đi 6 cấp (missing).'
 		},
 		'others' : {
 			'target' : 'Kẻ địch có ATK cao',
@@ -2700,7 +2700,7 @@ window.character = {
 			'des' : 'Giảm DEF toàn bộ kẻ địch đi 3 cấp trong 18 giây. Giảm ATK và SPEED 2 kẻ địch STRc đi 9 cấp trong 24 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Trong 20 giây đầu, tăng tốc độ tích nộ của QCK lên 5 cấp và giảm tốc độ tích nộ của 2 kẻ địch STRc đi 8 cấp.'
+			'des' : 'Trong 20 giây đầu, tăng tốc độ tích nộ của QCKc lên 5 cấp và giảm tốc độ tích nộ của 2 kẻ địch STRc đi 8 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
@@ -2721,7 +2721,7 @@ window.character = {
 		'type' : 'Phòng thủ',
 		'skill' : {
 			'note' : 'lv10 - 35 Giây',
-			'des' : 'Áp dụng tấn công liên hoàn lên 2 cấp cho STRc và INT trong 25 giây.',
+			'des' : 'Áp dụng tấn công liên hoàn lên 2 cấp cho STRc và INTc trong 25 giây.',
 		},
 		'hidden_skill' : {
 			'des' : 'Nếu HP dưới 70%, tăng tốc tích nộ tất cả đồng mình lên 6 cấp.'
@@ -2796,7 +2796,7 @@ window.character = {
 			'des' : 'Gây (1 x ATK) sát thương một vùng rộng, 100% làm tê liệt một kẻ địch trong 32 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Khi còn 70 giây, INT tăng SPEED lên 5 cấp và tăng ATK lên 5 cấp.'
+			'des' : 'Khi còn 70 giây, INTc tăng SPEED lên 5 cấp và tăng ATK lên 5 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
@@ -2841,10 +2841,10 @@ window.character = {
 		'type' : 'Hỗ trợ',
 		'skill' : {
 			'note' : 'lv10 - 30 Giây',
-			'des' : 'Gây (3 x ATK) sát thương cho 1 kẻ địch ở trong tầm, tăng ATK của QCK lên 4 cấp trong 24 giây.',
+			'des' : 'Gây (3 x ATK) sát thương cho 1 kẻ địch ở trong tầm, tăng ATK của QCKc lên 4 cấp trong 24 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Trong 15 giây đầu, tăng SPEED QCK lên 5 cấp, DEF QCK lên 4 cấp, ATK QCK lên 4 cấp.'
+			'des' : 'Trong 15 giây đầu, tăng SPEED QCKc lên 5 cấp, DEF QCKc lên 4 cấp, ATK QCKc lên 4 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
@@ -2892,7 +2892,7 @@ window.character = {
 			'des' : 'Giảm DEF toàn bộ kẻ địch đi 5 cấp trong 15 giây và gây (2 x ATK) sát thương cho một vùng rộng. 80% cơ hội khóa chiêu 2 kẻ địch có class POWERHOUSE trong 24 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Trong 50 giây đầu, tăng HP QCK lên 5 cấp. Khi còn 50 giây, tăng ATK bản thân lên 5 cấp, tăng tốc tích nộ lên 5 cấp, tăng SPEED lên 5 cấp.'
+			'des' : 'Trong 50 giây đầu, tăng HP QCKc lên 5 cấp. Khi còn 50 giây, tăng ATK bản thân lên 5 cấp, tăng tốc tích nộ lên 5 cấp, tăng SPEED lên 5 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch có HP thấp',
@@ -2940,7 +2940,7 @@ window.character = {
 			'des' : 'Gây 2200 sát thương chuẩn một vùng lớn, giảm khóa chiêu, trói và tê liệt đi 22 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng tốc tích nộ đồng minh PSY lên 6 cấp. Trong 40 giây đầu, giảm tích nộ, tỉ lệ bật khiên và SPEED của kẻ địch có class DRIVEN/POWERHOUSE đi 6 cấp.'
+			'des' : 'Tăng tốc tích nộ đồng minh PSYc lên 6 cấp. Trong 40 giây đầu, giảm tích nộ, tỉ lệ bật khiên và SPEED của kẻ địch có class DRIVEN/POWERHOUSE đi 6 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
@@ -2961,10 +2961,10 @@ window.character = {
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 30 Giây',
-			'des' : 'Gây 1400 sát thương chuẩn cho toàn bộ địch, 30% làm tê liệt trong 20 giây, tăng ATK PSY lên 4 cấp trong 19 giây.',
+			'des' : 'Gây 1400 sát thương chuẩn cho toàn bộ địch, 30% làm tê liệt trong 20 giây, tăng ATK PSYc lên 4 cấp trong 19 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Trong 30 giây đầu, tăng ATK PSY lên 5 cấp, SPEED PSY lên 3 cấp.'
+			'des' : 'Trong 30 giây đầu, tăng ATK PSYc lên 5 cấp, SPEED PSYc lên 3 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch có SPEED cao',
@@ -2985,10 +2985,10 @@ window.character = {
 		'type' : 'Phá hoại',
 		'skill' : {
 			'note' : 'lv10 - 28 Giây',
-			'des' : 'Gây 4000 sát thương chuẩn cho kẻ địch có HP thấp, giảm ATK một vùng lớn đi 11 cấp trong 15 giây và tăng ATK PSY lên 6 cấp trong 15 giây.',
+			'des' : 'Gây 4000 sát thương chuẩn cho kẻ địch có HP thấp, giảm ATK một vùng lớn đi 11 cấp trong 15 giây và tăng ATK PSYc lên 6 cấp trong 15 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK PSY lên 5 cấp. Nếu HP dưới 50%, tăng DEF PSY lên 3 cấp.'
+			'des' : 'Tăng ATK PSYc lên 5 cấp. Nếu HP dưới 50%, tăng DEF PSYc lên 3 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
@@ -3012,7 +3012,7 @@ window.character = {
 			'des' : 'Giảm DEF một vùng lớn đi 3 cấp trong 20 giây và giảm ATK DRIVEN đi 5 cấp trong 20 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng SPEED PSY lên 5 cấp, tăng tốc độ tích nộ PSY lên 2 cấp.'
+			'des' : 'Tăng SPEED PSYc lên 5 cấp, tăng tốc độ tích nộ PSYc lên 2 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
@@ -3036,7 +3036,7 @@ window.character = {
 			'des' : 'Tăng CRIT tất cả đồng minh lên 4 cấp trong 25 giây và tăng ATK FREESPIRIT lên 4 cấp trong 25 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK PSY lên 5 cấp.'
+			'des' : 'Tăng ATK PSYc lên 5 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
@@ -3060,7 +3060,7 @@ window.character = {
 			'des' : 'Hồi HP bằng với (2.5 x RCV) một vùng lớn và giảm tê liệt cho đồng minh FREESPIRIT đi 6 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng HP PSY lên 5 cấp, DEF PSY lên 2 cấp.'
+			'des' : 'Tăng HP PSYc lên 5 cấp, DEF PSYc lên 2 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
@@ -3105,10 +3105,10 @@ window.character = {
 		'type' : 'Phá hoại',
 		'skill' : {
 			'note' : 'lv10 - 28 Giây',
-			'des' : 'Giảm DEF kẻ địch đi 2 cấp trong 23 giây, giảm SPEED và khiên của PSY đi 6 cấp trong 23 giây. 100% cơ hội tê liệt 2 kẻ địch PSY trong 20 giây và 100% khóa hành động 1 kẻ đich PSY trong 20 giây.',
+			'des' : 'Giảm DEF kẻ địch đi 2 cấp trong 23 giây, giảm SPEED và khiên của PSYc đi 6 cấp trong 23 giây. 100% cơ hội tê liệt 2 kẻ địch PSYc trong 20 giây và 100% khóa hành động 1 kẻ đich PSYc trong 20 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Trong 40 giây đầu, giảm tốc độ tích nộ của kẻ địch PSY đi 6 cấp và tăng DEF cho INT lên 2 cấp.'
+			'des' : 'Trong 40 giây đầu, giảm tốc độ tích nộ của kẻ địch PSYc đi 6 cấp và tăng DEF cho INTc lên 2 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần',
@@ -3225,10 +3225,10 @@ window.character = {
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 30 Giây',
-			'des' : 'Gây 2500 sát thương chuẩn cho 3 kẻ địch và 100% làm tê liệt 2 kẻ địch INT trong 16 giây.',		
+			'des' : 'Gây 2500 sát thương chuẩn cho 3 kẻ địch và 100% làm tê liệt 2 kẻ địch INTc trong 16 giây.',		
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng DEF PSY lên 2 cấp, HP PSY lên 5 cấp và giảm DEF kẻ địch INT đi 2 cấp.'
+			'des' : 'Tăng DEF PSYc lên 2 cấp, HP PSYc lên 5 cấp và giảm DEF kẻ địch INTc đi 2 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch có SPEED cao',
@@ -3273,10 +3273,10 @@ window.character = {
 		'type' : 'Hỗ trợ',
 		'skill' : {
 			'note' : 'lv10 - 35 Giây',
-			'des' : 'Gây (1.5 x ATK) sát thương một vùng rộng. Giảm thời gian khóa chiêu và khóa hành động của đồng minh PSY đi 24 giây.',		
+			'des' : 'Gây (1.5 x ATK) sát thương một vùng rộng. Giảm thời gian khóa chiêu và khóa hành động của đồng minh PSYc đi 24 giây.',		
 		},
 		'hidden_skill' : {
-			'des' : 'Trong 40 giây đầu, tăng ATK PSY lên 6 cấp.'
+			'des' : 'Trong 40 giây đầu, tăng ATK PSYc lên 6 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch có SPEED cao.',
@@ -3345,7 +3345,7 @@ window.character = {
 		'type' : 'Phá hoại',
 		'skill' : {
 			'note' : 'lv10 - 35 Giây',
-			'des' : 'Khiến một vùng lớn kẻ địch mất máu mỗi khi tấn công trong 44 giây (cấp 3). Giảm DEF QCK đi 2 cấp trong 24 giây và SPEED QCK giảm đi 7 cấp trong 24 giây.',
+			'des' : 'Khiến một vùng lớn kẻ địch mất máu mỗi khi tấn công trong 44 giây (cấp 3). Giảm DEF QCKc đi 2 cấp trong 24 giây và SPEED QCKc giảm đi 7 cấp trong 24 giây.',
 		},
 		'hidden_skill' : {
 			'des' : 'Tăng ATK DEXc lên 5 cấp. Tăng SPEED DEXc lên 6 cấp.'
@@ -3372,7 +3372,7 @@ window.character = {
 			'des' : '60% cơ hội gây tê liệt toàn bộ kẻ đich trong 23 giây, giảm DEF kẻ địch có DEF cao nhất đi 10 cấp trong 29 giây, tăng ATK đồng minh có ATK cao nhất lên 7 cấp trong 29 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng HP và CRIT của QCK lên 5 cấp.'
+			'des' : 'Tăng HP và CRIT của QCKc lên 5 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch có ATK cao.',
@@ -3444,7 +3444,7 @@ window.character = {
 			'des' : '100% khóa chiêu toàn bộ địch trong 8 giây, gây (1.5 x ATK) sát thương một vùng rộng phía trước.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng SPEED INT lên 8 cấp, giảm DEF toàn bộ địch đi 1 cấp.'
+			'des' : 'Tăng SPEED INTc lên 8 cấp, giảm DEF toàn bộ địch đi 1 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch có SPEED cao.',
@@ -3468,7 +3468,7 @@ window.character = {
 			'des' : 'Gây (2 x ATK) sát thương một vùng nhỏ, tăng ATK đồng minh lên 5 cấp trong 15 giây',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng CRIT INT lên 3 cấp, ATK INT lên 1 cấp. Khi CRIT, tăng DEF INT lên 1 cấp (Cộng dồn 3 lần).'
+			'des' : 'Tăng CRIT INTc lên 3 cấp, ATK INTc lên 1 cấp. Khi CRIT, tăng DEF INTc lên 1 cấp (Cộng dồn 3 lần).'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần.',
@@ -3492,7 +3492,7 @@ window.character = {
 			'des' : '100% khóa chiêu 2 kẻ đich trong 19 giây, giảm ATK địch đi 5 cấp trong 24 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng DEF INT lên 3 cấp trong 40 giây đầu.'
+			'des' : 'Tăng DEF INTc lên 3 cấp trong 40 giây đầu.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần.',
@@ -3516,7 +3516,7 @@ window.character = {
 			'des' : 'Gây (1.5 x ATK) một vùng rộng, 100% trói 1 kẻ địch trong 7 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK INT lên 3 cấp, tăng tỉ lệ chặn đòn INT lên 5 cấp.'
+			'des' : 'Tăng ATK INTc lên 3 cấp, tăng tỉ lệ chặn đòn INTc lên 5 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần.',
@@ -3636,7 +3636,7 @@ window.character = {
 			'des' : 'Tăng ATK và DEF bản thân lên 5 cấp trong 15 giây. Gây (ATK x 1.7) sát thương lên 2 kẻ địch.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng HP đồng minh QCK lên 5 cấp và DEF đồng minh QCK lên 2 cấp.'
+			'des' : 'Tăng HP đồng minh QCKc lên 5 cấp và DEF đồng minh QCKc lên 2 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần.',
@@ -3664,7 +3664,7 @@ window.character = {
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần.',
-			'extra_ability' : 'Miễn nhiễm khóa skill. Giảm sát thương từ kẻ địch QCK đi 30%.',
+			'extra_ability' : 'Miễn nhiễm khóa skill. Giảm sát thương từ kẻ địch QCKc đi 30%.',
 		},
 		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Fullpower Attack',
 		'img' : {
@@ -3684,7 +3684,7 @@ window.character = {
 			'des' : 'Giảm DEF vùng lớn kẻ địch đi 3 cấp trong 5 giây. Gây (ATK x 2) sát thương vùng lớn kẻ địch. 50% cơ hội làm tê liệt toàn bộ kẻ địch trong 20 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Trong 40 giây đầu, Tăng ATK và SPEED bản thân lên 10 cấp. Tăng HP lên 5 cấp và DEF lên 3 cấp đối với đồng minh QCK.'
+			'des' : 'Trong 40 giây đầu, Tăng ATK và SPEED bản thân lên 10 cấp. Tăng HP lên 5 cấp và DEF lên 3 cấp đối với đồng minh QCKc.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần.',
@@ -3708,7 +3708,7 @@ window.character = {
 			'des' : 'Giảm ATK toàn bộ kẻ địch đi 5 cấp trong 20 giây. Gây (ATK x 1.7) sát thương một vùng kẻ địch.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK lên 5 cấp và CRIT lên 5 cấp đối với đồng minh QCK.'
+			'des' : 'Tăng ATK lên 5 cấp và CRIT lên 5 cấp đối với đồng minh QCKc.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần.',
@@ -3804,7 +3804,7 @@ window.character = {
 			'des' : 'Giảm DEF kẻ địch STRc đi 3 cấp trong 5 giây. Gây (ATK x 2) sát thương một vùng kẻ địch.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK lên 5 cấp và HP lên 5 cấp cho đồng minh QCK.'
+			'des' : 'Tăng ATK lên 5 cấp và HP lên 5 cấp cho đồng minh QCKc.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần.',
@@ -3945,7 +3945,7 @@ window.character = {
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 27 Giây',
-			'des' : 'Gây 3000 sát thương chuẩn cho 1 kẻ địch. Gây 1200 sát thương chuẩn cho kẻ địch INT.',
+			'des' : 'Gây 3000 sát thương chuẩn cho 1 kẻ địch. Gây 1200 sát thương chuẩn cho kẻ địch INTc.',
 		},
 		'hidden_skill' : {
 			'des' : 'Tăng SPEED lên 5 cấp và DEF lên 2 cấp cho đồng minh FREESPIRIT.'
@@ -4140,7 +4140,7 @@ window.character = {
 			'des' : 'Gây (ATK x 2) sát thương lên một vùng kẻ địch. Khi còn 40 giây, gây tiếp (ATK x 2) sát thương lên một vùng kẻ địch.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK lên 5 cấp và SPEED lên 5 cấp cho đồng minh DEXc. Giảm DEF kẻ địch QCK đi 2 cấp.'
+			'des' : 'Tăng ATK lên 5 cấp và SPEED lên 5 cấp cho đồng minh DEXc. Giảm DEF kẻ địch QCKc đi 2 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần.',
@@ -4164,7 +4164,7 @@ window.character = {
 			'des' : 'Giảm DEF kẻ địch có RCV cao nhất đi 5 cấp trong 15 giây. Gây (ATK x 5) sát thương lên kẻ địch có RCV cao nhất. Gây sát thương theo thời gian (Cấp 2) lên một vùng lớn kẻ địch trong 30 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK lên 5 cấp cho đồng minh STRc/QCK/DEXc. Trong 50 giây đầu, tăng ATK bản thân lên 5 cấp. Khi còn 40 giây, giảm DEF toàn bộ địch đi 3 cấp.'
+			'des' : 'Tăng ATK lên 5 cấp cho đồng minh STRc/QCKc/DEXc. Trong 50 giây đầu, tăng ATK bản thân lên 5 cấp. Khi còn 40 giây, giảm DEF toàn bộ địch đi 3 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần.',
@@ -4185,10 +4185,10 @@ window.character = {
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 33 Giây',
-			'des' : 'gây (ATK x 1.7) sát thương một vùng kẻ địch. Giảm khóa skill đồng minh PSY đi 30 giây.',
+			'des' : 'gây (ATK x 1.7) sát thương một vùng kẻ địch. Giảm khóa skill đồng minh PSYc đi 30 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK lên 5 cấp và HP lên 3 cấp cho đồng minh PSY.'
+			'des' : 'Tăng ATK lên 5 cấp và HP lên 3 cấp cho đồng minh PSYc.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch có HP cao nhất.',
@@ -4260,7 +4260,7 @@ window.character = {
 			'des' : 'Gây (ATK x 1.5) sát thương một vùng kẻ địch. Khi còn 50 giây, gây thêm (ATK x 2) sát thương một vùng kẻ địch. Khi còn 30 giây, gây thêm (ATK x 3) sát thương một vùng kẻ địch.',
 		},
 		'hidden_skill' : {
-			'des' : 'Trong 40 giây đầu, tăng tốc tích nộ đồng minh INT lên 5 cấp. Khi còn 60 giây, tăng SPEED bản thân lên 8 cấp. Khi còn 30 giây, tăng tốc tích nộ bản thân lên 10 cấp.'
+			'des' : 'Trong 40 giây đầu, tăng tốc tích nộ đồng minh INTc lên 5 cấp. Khi còn 60 giây, tăng SPEED bản thân lên 8 cấp. Khi còn 30 giây, tăng tốc tích nộ bản thân lên 10 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần.',
@@ -4284,7 +4284,7 @@ window.character = {
 			'des' : 'Gây (ATK x 1.5) sát thương một vùng lớn. Giảm DEF 3 kẻ địch đi 2 cấp trong 20 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK đồng minh STRc/DEXc/INT lên 6 cấp.'
+			'des' : 'Tăng ATK đồng minh STRc/DEXc/INTc lên 6 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần.',
@@ -4305,10 +4305,10 @@ window.character = {
 		'type' : 'Hồi phục',
 		'skill' : {
 			'note' : 'lv10 - 35 Giây',
-			'des' : 'Gây 1500 sát thương chuẩn cho 3 kẻ địch. Hồi (RCV x 1.5) HP cho đồng minh STRc/PSY/INT.',
+			'des' : 'Gây 1500 sát thương chuẩn cho 3 kẻ địch. Hồi (RCV x 1.5) HP cho đồng minh STRc/PSYc/INTc.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng GUARD lên 6 cấp và HP lên 3 cấp cho đồng minh STRc/PSY/INT.'
+			'des' : 'Tăng GUARD lên 6 cấp và HP lên 3 cấp cho đồng minh STRc/PSYc/INTc.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần.',
@@ -4332,7 +4332,7 @@ window.character = {
 			'des' : 'Gây (ATK x 3) sát thương lên một vùng nhỏ và có 60% cơ hội khóa skill 2 kẻ địch trong 15 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng SPEED đồng minh STRc/PSY/INT lên 7 cấp.'
+			'des' : 'Tăng SPEED đồng minh STRc/PSYc/INTc lên 7 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần.',
@@ -4353,10 +4353,10 @@ window.character = {
 		'type' : 'Hồi phục',
 		'skill' : {
 			'note' : 'lv10 - 25 Giây',
-			'des' : '50% cơ hội khóa skill 2 kẻ địch trong 10 giây. Hồi (RCV x 1.5) HP cho đồng minh INT.',
+			'des' : '50% cơ hội khóa skill 2 kẻ địch trong 10 giây. Hồi (RCV x 1.5) HP cho đồng minh INTc.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng HP lên 2 cấp và GUARD lên 5 cấp cho đồng minh INT.'
+			'des' : 'Tăng HP lên 2 cấp và GUARD lên 5 cấp cho đồng minh INTc.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần.',
@@ -4401,10 +4401,10 @@ window.character = {
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 31 Giây',
-			'des' : 'Gây 2100 sát thương chuẩn cho kẻ địch vùng nhỏ theo chiều dọc. Tăng CRIT đồng mình INT lên 3 cấp trong 15 giây.',
+			'des' : 'Gây 2100 sát thương chuẩn cho kẻ địch vùng nhỏ theo chiều dọc. Tăng CRIT đồng mình INTc lên 3 cấp trong 15 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng SPEED đồng minh INT lên 5 cấp. Khi còn 70 giây, tăng DEF đồng minh INT lên 1 cấp.'
+			'des' : 'Tăng SPEED đồng minh INTc lên 5 cấp. Khi còn 70 giây, tăng DEF đồng minh INTc lên 1 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần.',
@@ -4425,14 +4425,14 @@ window.character = {
 		'type' : 'Hỗ trợ',
 		'skill' : {
 			'note' : 'lv10 - 17 Giây',
-			'des' : 'Gây (ATK x 1.1) sát thương cho toàn bộ địch. Tăng DEF lên 3 cấp và SPEED lên 5 cấp cho đồng minh PSY trong 17 giây.',
+			'des' : 'Gây (ATK x 1.1) sát thương cho toàn bộ địch. Tăng DEF lên 3 cấp và SPEED lên 5 cấp cho đồng minh PSYc trong 17 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng SPEED lên 5 cấp và DEF lên 5 cấp cho đồng minh PSY. Trong 40 giây đầu, giảm tốc độ tích nộ kẻ địch slasher đi 5 cấp.'
+			'des' : 'Tăng SPEED lên 5 cấp và DEF lên 5 cấp cho đồng minh PSYc. Trong 40 giây đầu, giảm tốc độ tích nộ kẻ địch slasher đi 5 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần.',
-			'extra_ability' : 'Miễn nhiễm khóa skill. Giảm 30% sát thương từ kẻ địch INT.',
+			'extra_ability' : 'Miễn nhiễm khóa skill. Giảm 30% sát thương từ kẻ địch INTc.',
 		},
 		'pattern': 'Normal Attack → Level 2 Medium Range Heal → Normal Attack → Level 2 Medium Range Heal',
 		'img' : {
@@ -4453,11 +4453,11 @@ window.character = {
 			'des' : 'Gây (ATK x 2) sát thương cho 2 kẻ địch. Giảm DEF đi 3 cấp một vùng lớn kẻ địch trong 20 giây. Tăng DEF đồng minh SLASHER lên 5 cấp trong 20 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK lên 6 cấp, DEF lên 2 cấp và HP lên 5 cấp cho đồng minh PSY.'
+			'des' : 'Tăng ATK lên 6 cấp, DEF lên 2 cấp và HP lên 5 cấp cho đồng minh PSYc.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần.',
-			'extra_ability' : 'Miễn nhiễm khóa skill. Giảm 30% sát thương từ kẻ địch INT.',
+			'extra_ability' : 'Miễn nhiễm khóa skill. Giảm 30% sát thương từ kẻ địch INTc.',
 		},
 		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
 		'img' : {
@@ -4501,7 +4501,7 @@ window.character = {
 			'des' : 'Gây (ATK x 2) sát thương một vùng lớn. Gây thêm (ATK x 1.5) sát thương cho kẻ địch STRc. Trong 40 giây đầu, giảm thêm 30% HP một vùng lớn kẻ địch.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK đồng minh QCK lên 5 cấp. Tăng DEF đồng minh QCK lên 3 cấp. Trong 20 giây đầu, tăng tốc tích nộ bản thân lên 5 cấp và ATK bản thân lên 5 cấp.'
+			'des' : 'Tăng ATK đồng minh QCKc lên 5 cấp. Tăng DEF đồng minh QCKc lên 3 cấp. Trong 20 giây đầu, tăng tốc tích nộ bản thân lên 5 cấp và ATK bản thân lên 5 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần.',
@@ -4594,10 +4594,10 @@ window.character = {
 		'type' : 'Hỗ trợ',
 		'skill' : {
 			'note' : 'lv10 - 40 Giây',
-			'des' : 'Gây 3500 sát thương chuẩn cho 2 kẻ địch. Tăng SPEED đồng minh QCK lên 4 cấp trong 20 giây.',
+			'des' : 'Gây 3500 sát thương chuẩn cho 2 kẻ địch. Tăng SPEED đồng minh QCKc lên 4 cấp trong 20 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK lên 5 cấp, và HP lên 2 cấp cho đồng minh QCK.'
+			'des' : 'Tăng ATK lên 5 cấp, và HP lên 2 cấp cho đồng minh QCKc.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần.',
@@ -4618,10 +4618,10 @@ window.character = {
 		'type' : 'Hỗ trợ',
 		'skill' : {
 			'note' : 'lv10 - 22 Giây',
-			'des' : 'Tăng ATK cho đồng minh QCK lên 10 cấp trong 5 giây. Gây (ATK x 1.5) sát thương cho 2 kẻ địch.',
+			'des' : 'Tăng ATK cho đồng minh QCKc lên 10 cấp trong 5 giây. Gây (ATK x 1.5) sát thương cho 2 kẻ địch.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK lên 5 cấp, và CRIT lên 5 cấp cho đồng minh QCK.'
+			'des' : 'Tăng ATK lên 5 cấp, và CRIT lên 5 cấp cho đồng minh QCKc.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần.',
@@ -4669,7 +4669,7 @@ window.character = {
 			'des' : '100% tê liệt 2 kẻ địch trong 20 giây. Giảm DEF đi 3 cấp và SPEED đi 4 cấp trong 20 giây toàn bộ địch. Giảm DEF kẻ địch STRc thêm 5 cấp trong 20 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK lên 5 cấp, và DEF lên 2 cấp cho đồng minh QCK.'
+			'des' : 'Tăng ATK lên 5 cấp, và DEF lên 2 cấp cho đồng minh QCKc.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch có SPEED cao.',
@@ -4690,10 +4690,10 @@ window.character = {
 		'type' : 'Phá hoại',
 		'skill' : {
 			'note' : 'lv10 - 27 Giây',
-			'des' : 'Giảm DEF một vùng kẻ địch đi 3 cấp trong 20 giây, và gây (ATK x 1.7) sát thương. 100% to put haste on himself, 50% chance to put haste on 1 QCK ally. Trong 40 giây đầu, giảm DEF toàn bộ địch đi 3 cấp.',
+			'des' : 'Giảm DEF một vùng kẻ địch đi 3 cấp trong 20 giây, và gây (ATK x 1.7) sát thương. 100% to put haste on himself, 50% chance to put haste on 1 QCKc ally. Trong 40 giây đầu, giảm DEF toàn bộ địch đi 3 cấp.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK lên 5 cấp, và HP lên 5 cấp cho đồng minh QCK. Trong 30 giây đầu, tăng tốc tích nộ bản thân lên 2 cấp.'
+			'des' : 'Tăng ATK lên 5 cấp, và HP lên 5 cấp cho đồng minh QCKc. Trong 30 giây đầu, tăng tốc tích nộ bản thân lên 2 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần.',
@@ -4717,11 +4717,11 @@ window.character = {
 			'des' : 'Gây 1700 sát thương chuẩn lên một vùng lớn kẻ địch. 100% giảm một nửa chỉ số của 3 kẻ địch trong 20 giây. (Chỉ số ở đây là ATK, DEF, v.v.).',
 		},
 		'hidden_skill' : {
-			'des' : 'Đồng minh INT tăng HP lên 5 cấp và DEF lên 3 cấp. Trong 30 giây đầu, tăng tốc tích nộ đồng minh INT lên 3 cấp.'
+			'des' : 'Đồng minh INTc tăng HP lên 5 cấp và DEF lên 3 cấp. Trong 30 giây đầu, tăng tốc tích nộ đồng minh INTc lên 3 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần.',
-			'extra_ability' : 'Miễn nhiễm khóa skill. Giảm 30% sát thương từ kẻ địch PSY.',
+			'extra_ability' : 'Miễn nhiễm khóa skill. Giảm 30% sát thương từ kẻ địch PSYc.',
 		},
 		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
 		'img' : {
@@ -4789,7 +4789,7 @@ window.character = {
 			'des' : 'Tăng CRIT đồng minh lên 5 cấp. Giảm DEF kẻ địch trong một vùng rộng đi 3 cấp trong 15 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Đồng minh INT tăng ATK lên 5 cấp. Đồng minh INT tăng HP lên 5 cấp.'
+			'des' : 'Đồng minh INTc tăng ATK lên 5 cấp. Đồng minh INTc tăng HP lên 5 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần.',
@@ -4813,7 +4813,7 @@ window.character = {
 			'des' : 'Đồng minh trong một vùng nhỏ hồi phục (RCV x 3) HP đồng thời tăng GUARD những đồng minh này lên 5 cấp trong 15 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Đồng minh PSY tăng ATK lên 5 cấp.'
+			'des' : 'Đồng minh PSYc tăng ATK lên 5 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần.',
@@ -4837,7 +4837,7 @@ window.character = {
 			'des' : 'Gây (ATK x 1.5) sát thương một vùng kẻ địch. 70% làm tê liệt một kẻ địch trong 15 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Trong 40 giây đầu, INT tăng ATK và SPEED lên 5 cấp.'
+			'des' : 'Trong 40 giây đầu, INTc tăng ATK và SPEED lên 5 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần.',
@@ -4885,7 +4885,7 @@ window.character = {
 			'des' : 'Gây (ATK x 2) sát thương lên một vùng kẻ địch. Trong 30 giây đầu, gây thêm 2000 sát thương chuẩn cho kẻ địch STRc.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK đồng minh QCK lên 6 cấp. Tăng HP đồng minh QCK lên 6 cấp. Trong 30 giây đầu, tăng tốc độ tích nộ đồng minh QCK lên 3 cấp.'
+			'des' : 'Tăng ATK đồng minh QCKc lên 6 cấp. Tăng HP đồng minh QCKc lên 6 cấp. Trong 30 giây đầu, tăng tốc độ tích nộ đồng minh QCKc lên 3 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần.',
@@ -4909,7 +4909,7 @@ window.character = {
 			'des' : 'Gây (ATK x 1.7) sát thương lên một vùng kẻ địch theo đường thẳng. Giảm ATK toàn bộ địch đi 5 cấp trong 20 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng SPEED đồng minh INT lên 5 cấp. Tăng CRIT đồng minh INT lên 5 cấp.'
+			'des' : 'Tăng SPEED đồng minh INTc lên 5 cấp. Tăng CRIT đồng minh INTc lên 5 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần.',
@@ -4954,10 +4954,10 @@ window.character = {
 		'type' : 'Phá hoại',
 		'skill' : {
 			'note' : 'lv10 - 24 Giây',
-			'des' : 'Gây (ATK x 1.5) sát thương cho 3 kẻ địch. Giảm SPEED kẻ địch INT đi 5 cấp.',
+			'des' : 'Gây (ATK x 1.5) sát thương cho 3 kẻ địch. Giảm SPEED kẻ địch INTc đi 5 cấp.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng tỉ lệ đánh trượt của kẻ địch lên 5 cấp. Giảm tốc độ tích nộ của kẻ địch INT đi 4 cấp.'
+			'des' : 'Tăng tỉ lệ đánh trượt của kẻ địch lên 5 cấp. Giảm tốc độ tích nộ của kẻ địch INTc đi 4 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch có ATK cao.',
@@ -4978,14 +4978,14 @@ window.character = {
 		'type' : 'Phá hoại',
 		'skill' : {
 			'note' : 'lv10 - 27 Giây',
-			'des' : 'Giảm ATK kẻ địch trong một vùng rộng đi 5 cấp trong 15 giây. Tăng ATK đồng minh INT lên 5 cấp trong 15 giây. Giảm thanh nộ đi 25% đối với 2 kẻ địch đang có thanh nộ lớn hơn hoặc bằng 80%.',
+			'des' : 'Giảm ATK kẻ địch trong một vùng rộng đi 5 cấp trong 15 giây. Tăng ATK đồng minh INTc lên 5 cấp trong 15 giây. Giảm thanh nộ đi 25% đối với 2 kẻ địch đang có thanh nộ lớn hơn hoặc bằng 80%.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK đồng minh INT lên 5 cấp. Giảm DEF toàn bộ địch đi 3 cấp.'
+			'des' : 'Tăng ATK đồng minh INTc lên 5 cấp. Giảm DEF toàn bộ địch đi 3 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần.',
-			'extra_ability' : 'Miễn nhiễm khóa hành động. Giảm 30% sát thương tới từ kẻ địch PSY.',
+			'extra_ability' : 'Miễn nhiễm khóa hành động. Giảm 30% sát thương tới từ kẻ địch PSYc.',
 		},
 		'pattern': 'Normal Attack → Lv.2 heal herself → Strong Attack → Full Power Attack',
 		'img' : {
@@ -5005,7 +5005,7 @@ window.character = {
 			'des' : 'Gây (ATK x 1.5) sát thương một vùng lớn kẻ địch. Và giảm SPEED những kẻ địch trong vùng đó đi 3 cấp.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng ATK lên 5 cấp cho đồng minh DEXc/PSY/INT. Tăng HP lên 3 cấp cho đồng minh DEXc/PSY/INT.'
+			'des' : 'Tăng ATK lên 5 cấp cho đồng minh DEXc/PSYc/INTc. Tăng HP lên 3 cấp cho đồng minh DEXc/PSYc/INTc.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần.',
@@ -5026,10 +5026,10 @@ window.character = {
 		'type' : 'Phòng thủ',
 		'skill' : {
 			'note' : 'lv10 - 24 Giây',
-			'des' : 'Bật trạng thái khiêu khích trong 20 giây. Tăng tỉ lệ chặn đòn của đồng minh INT lên 5 cấp trong 20 giây. Cắt 10% HP kẻ địch trong một vùng nhỏ.',
+			'des' : 'Bật trạng thái khiêu khích trong 20 giây. Tăng tỉ lệ chặn đòn của đồng minh INTc lên 5 cấp trong 20 giây. Cắt 10% HP kẻ địch trong một vùng nhỏ.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng chặn đòn đồng minh INT lên 5 cấp. Tăng DEF bản thân lên 2 cấp.'
+			'des' : 'Tăng chặn đòn đồng minh INTc lên 5 cấp. Tăng DEF bản thân lên 2 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần.',
@@ -5050,10 +5050,10 @@ window.character = {
 		'type' : 'Hỗ trợ',
 		'skill' : {
 			'note' : 'lv10 - 25 Giây',
-			'des' : 'Gây (ATK x 1.5) sát thương cho một vùng kẻ địch phía trước. Tăng CRIT đồng minh INT lên 3 cấp trong 15 giây. Tăng SPEED đồng minh INT lên 3 cấp trong 15 giây.',
+			'des' : 'Gây (ATK x 1.5) sát thương cho một vùng kẻ địch phía trước. Tăng CRIT đồng minh INTc lên 3 cấp trong 15 giây. Tăng SPEED đồng minh INTc lên 3 cấp trong 15 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Giảm tỉ lệ chặn đồng toàn bộ địch đi 5 cấp. Đồng minh INT tăng ATK lên 5 cấp.'
+			'des' : 'Giảm tỉ lệ chặn đồng toàn bộ địch đi 5 cấp. Đồng minh INTc tăng ATK lên 5 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần.',
@@ -5077,7 +5077,7 @@ window.character = {
 			'des' : 'Gây (ATK x 1) sát thương cho một vùng lớn kẻ địch. Tăng ATK bản thân lên 5 cấp trong 20 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Đồng minh STRc/DEXc/QCK tăng SPEED lên 5 cấp.'
+			'des' : 'Đồng minh STRc/DEXc/QCKc tăng SPEED lên 5 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch ở gần.',
@@ -5101,7 +5101,7 @@ window.character = {
 			'des' : 'Gây (ATK x 1) sát thương cho một vùng lớn kẻ địch. Tăng DEF bản thân lên 2 cấp trong 20 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Đồng minh STRc/DEXc/QCK tăng HP lên 5 cấp.'
+			'des' : 'Đồng minh STRc/DEXc/QCKc tăng HP lên 5 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch có HP thấp.',
@@ -5125,11 +5125,11 @@ window.character = {
 			'des' : 'Gây (ATK x 2) sát thương cho một vùng lớn kẻ địch. 100% khóa skill 2 kẻ địch trong 20 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Đồng minh INT tăng ATK lên 7 cấp. Toàn bộ kẻ địch giảm chính xác đòn đánh đi 10 cấp.'
+			'des' : 'Đồng minh INTc tăng ATK lên 7 cấp. Toàn bộ kẻ địch giảm chính xác đòn đánh đi 10 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch có SPEED cao.',
-			'extra_ability' : 'Miễn nhiễm khóa hành động. Giảm 30% sát thương từ kẻ địch PSY.',
+			'extra_ability' : 'Miễn nhiễm khóa hành động. Giảm 30% sát thương từ kẻ địch PSYc.',
 		},
 		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
 		'img' : {
