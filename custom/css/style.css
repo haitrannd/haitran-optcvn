@@ -153,7 +153,7 @@ body .page_wrapper .body {
 	bottom: -100vh;
 	position: fixed;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   max-width: 700px;
   background-color: #fff;
   -webkit-transition: 0.3s;
@@ -559,7 +559,7 @@ body .page_wrapper .body {
 }
 
 .pirate_festival_page .body_page {
-	/* height: calc(100vh - 210px); */
+	height: calc(100% - 60px);
   background-color: rgba(51, 51, 51, 0.9);
   margin: 20px;
   border-radius: 10px;
