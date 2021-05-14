@@ -5133,7 +5133,7 @@ window.character = {
 		},
 		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
 		'img' : {
-			'src' : '3328.png'
+			'src' : '215.png'
 		},
 		'tags': 'skill_deal_dmg, skill_silence_enemies, hs_atk_up, hs_miss_up, target_highest_speed, ability_prevent_bind, ability_dmg_reduce'
 	},
@@ -5157,7 +5157,7 @@ window.character = {
 		},
 		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
 		'img' : {
-			'src' : '3332.png'
+			'src' : '216.png'
 		},
 		'tags': 'skill_deal_dmg, skill_atk_up, hs_atk_up, hs_def_up, target_nearby, ability_prevent_bind'
 	},
