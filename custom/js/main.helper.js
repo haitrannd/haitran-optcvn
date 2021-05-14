@@ -270,7 +270,13 @@ function ht_build_html(filter = null) {
 		modal_html    +=             '<span class="target_title"><b>Mục tiêu:</b> ' + row.others.target + '</span>';
 		modal_html    +=           '</div>';
 		modal_html    +=           '<div class="info extra_ablility">';
-		modal_html    +=             '<span class="extra_ablility_title"><b>Khả năng:</b> <p>' + row.others.extra_ability + '</p></span>';
+		modal_html    +=             '<span class="extra_ablility_title"><b>Khả năng:</b>';
+		let extra_ability_arr = row.others.extra_ability.split(". ");
+		for (let extra_ability in extra_ability_arr) {
+			let extra_ability_row = ht_rewrite(extra_ability_arr[extra_ability]);
+			modal_html += '<p>- ' + extra_ability_row + '</p>';
+		}
+		modal_html    +=             '</span>';
 		modal_html    +=           '</div>';
 		modal_html    +=           '<div class="info pattern">';
 		modal_html    +=             '<span class="pattern_title"><b>Thứ tự tấn công: </b> <p>' + row.pattern + '</p></span>';

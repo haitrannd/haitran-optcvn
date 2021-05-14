@@ -31,6 +31,9 @@ window.skill = {
 		'skill_miss_up' : 'Tăng tỉ lệ đánh trượt',
 		'skill_accurate_down' : 'giảm tỉ lệ chính xác',
 		'skill_stat_down' : 'giảm chỉ số',
+		'skill_haste' : 'Bứt tốc tức thời',
+		'skill_counter' : 'Phản đòn',
+		'skill_immu_def' : 'Xuyên giáp',
 	},
 	'hidden_skill' : {
 		'hs_atk_up' : 'Tăng ATK',

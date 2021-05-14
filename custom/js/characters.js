@@ -5114,9 +5114,9 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_def_up, hs_hp_up, target_low_hp, ability_prevent_silence'
 	},
 
-	'char_3328' : {
+	'char_215' : {
 		'title' : "Smoker, Strike on the Shichibukai",
-		'color' : 'str',
+		'color' : 'int',
 		'class' : 'driven, striker',
 		'stars' : 'Pirate Festival',
 		'type' : 'Phá hoại',
@@ -5138,7 +5138,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_silence_enemies, hs_atk_up, hs_miss_up, target_highest_speed, ability_prevent_bind, ability_dmg_reduce'
 	},
 
-	'char_3330' : {
+	'char_216' : {
 		'title' : "Urouge",
 		'color' : 'dex',
 		'class' : 'fighter, powerhouse',
@@ -5157,8 +5157,200 @@ window.character = {
 		},
 		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
 		'img' : {
-			'src' : '3330.png'
+			'src' : '3332.png'
 		},
 		'tags': 'skill_deal_dmg, skill_atk_up, hs_atk_up, hs_def_up, target_nearby, ability_prevent_bind'
+	},
+
+	'char_217' : {
+		'title' : "Gear 4, monkey D luffy - 7th Anniversary",
+		'color' : 'qck',
+		'class' : 'fighter, freespirit',
+		'stars' : 'Legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 26 Giây',
+			'des' : 'Tăng ATK bản thân lên 7 cấp trong 5 giây. Gây (ATK x 2) sát thương một vùng lớn. 70% cơ hội bứt tốc tức thời cho 2 đồng minh QCKc.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP đồng minh QCKc lên 5 cấp. Tăng HP bản thân lên 5 cấp. Khi một đồng minh bị hạ gục, tăng ATK bản thân lên 5 cấp. Khi trận đấu còn 70 giây, tăng SPEED đông minh QCKc lên 7 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : 'Miễn nhiễm khóa skill. Giảm 30% sát thương đến từ kẻ địch STRc.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : '217.png'
+		},
+		'tags': 'skill_deal_dmg, skill_atk_up, skill_haste, hs_hp_up, hs_atk_up, hs_speed_up, target_nearby, ability_dmg_reduce, ability_prevent_silence'
+	},
+
+	'char_218' : {
+		'title' : "Trafalgar Law - 7th Anniversary",
+		'color' : 'dex',
+		'class' : 'slasher, cerebral',
+		'stars' : 'Legend',
+		'type' : 'Phòng thủ',
+		'skill' : {
+			'note' : 'lv10 - 25 Giây',
+			'des' : 'Đặt bản thân và 2 đồng minh DEXc vào trạng thái "Phản đòn", sát thương phản đòn bằng (ATK x 1.5) trong 30 giây. Gây (ATK x 1.5) sát thương một vùng kẻ địch.',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP đồng minh DEXc lên 5 cấp. Khi trận đấu còn 70 giây, tăng DEF đồng mình DEXc lên 5 cấp'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : 'Miễn nhiễm tê liệt. Giảm 30% sát thương đến từ kẻ địch QCKc.',
+		},
+		'pattern': 'Normal Attack → Strong Attack → Lv.1 heal allies (small range) → Normal Attack',
+		'img' : {
+			'src' : '218.png'
+		},
+		'tags': 'skill_deal_dmg, skill_counter, hs_hp_up, hs_def_up, target_nearby, ability_prevent_para, ability_dmg_reduce'
+	},
+
+	'char_219' : {
+		'title' : "Captain Kid - 7th Anniversary",
+		'color' : 'str',
+		'class' : 'striker, driven',
+		'stars' : 'Legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 32 Giây',
+			'des' : 'Gây (ATK x 1.5) sát thương cho một vùng kẻ địch phía trước, đòn đánh này bỏ qua chỉ số DEF của kẻ địch. Tăng DEF đồng minh STRc lên 3 cấp trong 10 giây',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK đồng minh STRc lên 7 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : 'Miễn nhiễm khóa hành động. Giảm 30% sát thương đến từ kẻ địch DEXc.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : '219.png'
+		},
+		'tags': 'skill_deal_dmg, skill_immu_def, skill_def_up, hs_atk_up, target_nearby, ability_prevent_bind, ability_dmg_reduce'
+	},
+
+	'char_220' : {
+		'title' : "Killer - 7th Anniversary",
+		'color' : 'qck',
+		'class' : 'striker, slasher',
+		'stars' : 'Rare Recruit',
+		'type' : 'Phá hoại',
+		'skill' : {
+			'note' : 'lv10 - 17 Giây',
+			'des' : 'Gây (ATK x 1.3) sát thương cho 2 kẻ địch. 70% làm tê liệt 2 kẻ địch trong 20 giây',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng SPEED đồng minh STRc/DEXc/QCKc lên 7 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : '60% thoát khỏi trạng thái khóa hành động.',
+		},
+		'pattern': 'Normal Attack → Lv.2 heal allies (medium range) → Normal Attack → Lv.2 heal allies (small range)',
+		'img' : {
+			'src' : '220.png'
+		},
+		'tags': 'skill_deal_dmg, skill_para_enemies, hs_speed_up, target_nearby, ability_prevent_bind'
+	},
+
+	'char_221' : {
+		'title' : "Roronoa Zoro - 7th Anniversary",
+		'color' : 'qck',
+		'class' : 'driven, slasher',
+		'stars' : 'Rare Recruit',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 26 Giây',
+			'des' : 'Gây (ATK x 1.5) sát thương cho những kẻ địch trước mặt theo đường thẳng. Tăng ATK đồng minh lên 5 cấp',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP toàn bộ đồng minh lên 7 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : '60% thoát khỏi trạng thái khóa skill.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : '221.png'
+		},
+		'tags': 'skill_deal_dmg, skill_atk_up, hs_hp_up, target_nearby, ability_prevent_silence'
+	},
+
+	'char_222' : {
+		'title' : "Jinbe - 7th Anniversary",
+		'color' : 'str',
+		'class' : 'fighter, cerebral',
+		'stars' : 'Rare Recruit',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 24 Giây',
+			'des' : 'Gây ATK đồng minh STRc/DEXc/QCKc lên 5 cấp trong 10 giây. Gây (ATK x 1.8) sát thương một vùng kẻ địch',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK đồng minh STRc/DEXc/QCKc lên 7 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : '60% thoát khỏi trạng thái khóa skill.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : '222.png'
+		},
+		'tags': 'skill_deal_dmg, skill_atk_up, hs_atk_up, target_nearby, ability_prevent_silence'
+	},
+
+	'char_223' : {
+		'title' : "Kaido & Bigmom - 7th Anniversary Event",
+		'color' : 'str',
+		'class' : 'driven, powerhouse',
+		'stars' : 'Event',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 30 Giây',
+			'des' : 'Gây (ATK x 2.5) sát thương cho 2 kẻ địch. Tăng ATK đồng minh DRIVEN/POWERHOUSE lên 5 cấp trong 20 giây',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK đồng minh DRIVEN/POWERHOUSE lên 7 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : '70% thoát khỏi trạng thái khóa skill.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : '223.png'
+		},
+		'tags': 'skill_deal_dmg, skill_atk_up, hs_atk_up, target_nearby, ability_prevent_silence'
+	},
+
+	'char_224' : {
+		'title' : "Koala - Treasure Map",
+		'color' : 'dex',
+		'class' : 'fighter, freespirit',
+		'stars' : 'Treasure Map',
+		'type' : 'Hồi phục',
+		'skill' : {
+			'note' : 'lv10 - 27 Giây',
+			'des' : 'Gây (ATK x 2.5) sát thương một vùng nhỏ kẻ địch. Tăng CRIT đồng minh DEXc lên 5 cấp trong 20 giây. Hồi (RCV x 5) HP cho bản thân',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK đồng minh DEXc lên 5 cấp. Tăng DEF đồng minh DEXc lên 2 cấp'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : '80% thoát khỏi trạng thái tê liệt.',
+		},
+		'pattern': 'Normal Attack → Lv.1 heal allies (medium range) → Normal Attack → Lv.2 heal allies (small range)',
+		'img' : {
+			'src' : '224.png'
+		},
+		'tags': 'skill_deal_dmg, skill_crit_up, skill_heal, hs_atk_up, hs_def_up, target_nearby, ability_prevent_para'
 	},
 }
