@@ -115,7 +115,7 @@ function haitran_filter (obj, filter) {
 	}
 
 	// CT
-	let ct = parseInt(obj.skill.note.replace('lv10 - ', '').replace(' Giây'));
+	let ct = parseInt(obj.skill.note.replace('lv10 - ', '').replace(' Giây', ''));
 	if (ct < filter.head_ct || ct > filter.tail_ct) {
 		check = 0;
 		return check;
@@ -194,16 +194,13 @@ function ht_build_html(filter = null) {
   // Main variables
   var char = window.character;
 	var modal_html = '';
-	const timer = ms => new Promise(res => setTimeout(res, ms));
-	async function load () { // We need to wrap the loop into an async function for this to work
-	  for (var i = 0; i < 3; i++) {
-	    console.log(i);
-	    await timer(3000); // then the created Promise can be awaited
-	  }
-	}
-
-	load();
-  
+	// const timer = ms => new Promise(res => setTimeout(res, ms));
+	// async function load () { // We need to wrap the loop into an async function for this to work
+	//   for (var i = 0; i < 3; i++) {
+	//     await timer(3000); // then the created Promise can be awaited
+	//   }
+	// }
+	// load();
 	for (let i in char) {
     if (filter != null) {
     	if (!haitran_filter(char[i], filter)) {
@@ -476,7 +473,6 @@ function haitran_handle_filter () {
 			$(this).parent().removeClass('active');
 		}
 		let filter = haitran_create_filter();
-		console.log(filter);
 		haitran_print_char(filter);
 	});
 
@@ -485,7 +481,6 @@ function haitran_handle_filter () {
   	if ($(this).attr('name') == 'head') {
   		if (parseInt($(this).val()) < parseInt($(this).parent().siblings('.block').find('input').val())) {
   			let filter = haitran_create_filter();
-  			console.log(filter);
 				haitran_print_char(filter);
   		} else {
   			$('input[name="head"]').val(0);
