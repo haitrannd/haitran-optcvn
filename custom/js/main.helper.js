@@ -171,6 +171,7 @@ function haitran_print_char (filter) {
 }
 
 function ht_build_html(filter = null) {
+	// Rewrite the color
   function ht_rewrite(data) {
     data = data.replace(/STRc/g, '<span class="nt_color str">STR</span>');
     data = data.replace(/DEXc/g, '<span class="nt_color dex">DEX</span>');
@@ -190,10 +191,19 @@ function ht_build_html(filter = null) {
 
   	return data;
   }
-
+  // Main variables
   var char = window.character;
 	var modal_html = '';
+	const timer = ms => new Promise(res => setTimeout(res, ms));
+	async function load () { // We need to wrap the loop into an async function for this to work
+	  for (var i = 0; i < 3; i++) {
+	    console.log(i);
+	    await timer(3000); // then the created Promise can be awaited
+	  }
+	}
 
+	load();
+  
 	for (let i in char) {
     if (filter != null) {
     	if (!haitran_filter(char[i], filter)) {

@@ -1,6 +1,6 @@
 window.character = {
 
-	'luffy_ace' : {
+	'1' : {
 		'title' : 'Luffy/Ace',
 		'color' : 'dual',
 		'class' : 'freespirit, fighter',
@@ -24,7 +24,7 @@ window.character = {
 		'tags': 'skill_atk_up, skill_atk_up_class_fs, skill_def_up, skill_def_up_class_fs, skill_deal_dmg, hs_atk_up, hs_atk_up_class_fs, hs_crit_up, hs_crit_up_class_fs, target_nearby, ability_prevent_para',
 	},
 
-	'barto_caven' : {
+	'2' : {
 		'title' : 'Bartolomeo/Cavendish',
 		'color' : 'dual',
 		'class' : 'driven, striker, slasher',
@@ -48,7 +48,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_guard_up, skill_guard_up_class_driven, skill_atk_up, skill_atk_up_class_driven, hs_guard_up, hs_atk_up, hs_atk_up_self, target_nearby, ability_heal',
 	},
 
-	'sanji_judge' : {
+	'3' : {
 		'title' : 'Sanji/Judge',
 		'color' : 'dual',
 		'class' : 'powerhouse, fighter',
@@ -72,7 +72,7 @@ window.character = {
 		'tags': 'skill_fixed_dmg, skill_atk_up, skill_atk_up_class_ph, hs_hp_up, hs_hp_up_class_ph, hs_atk_up, hs_atk_up_self, target_highest_atk, ability_prevent_silence',
 	},
 
-	'luffy_law' : {
+	'4' : {
 		'title' : 'Luffy/Law',
 		'color' : 'dual',
 		'class' : 'fighter, freespirit, slasher',
@@ -96,7 +96,7 @@ window.character = {
 		'tags': 'skill_fixed_dmg, skill_deal_dmg, skill_atk_up, skill_atk_up_all, hs_atk_up, hs_atk_up_all, target_nearby, ability_heal',
 	},
 
-	'sabo_koala' : {
+	'5' : {
 		'title' : 'Sabo/Koala',
 		'color' : 'dual',
 		'class' : 'freespirit, cerebral',
@@ -120,7 +120,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_def_down, skill_def_down_all, hs_crit_up, hs_crit_up_class_cerebral, hs_crit_up_class_fs, hs_speed_up, hs_speed_up_class_cerebral, hs_speed_up_class_fs, target_nearby, ability_prevent_crit',
 	},
 
-	'whitebeard_v1' : {
+	'6' : {
 		'title' : 'Whitebeard V1',
 		'color' : 'str',
 		'class' : 'striker, powerhouse',
@@ -144,7 +144,7 @@ window.character = {
 		'tags': 'skill_cut_hp, skill_cut_hp_all, hs_atk_up, hs_atk_up_all, hs_def_up, hs_def_up_self, target_nearby, ability_prevent_stack_dmg',
 	},
 
-	'Lucci_v1' : {
+	'7' : {
 		'title' : 'Lucci V1',
 		'color' : 'str',
 		'class' : 'powerhouse, fighter',
@@ -168,7 +168,7 @@ window.character = {
 		'tags': 'skill_fixed_dmg, skill_atk_up, skill_atk_up_class_ph, hs_def_down, hs_def_down_ally, hs_atk_up, hs_atk_up_self, target_nearby, ability_prevent_para',
 	},
 
-	'crocodile_v1' : {
+	'8' : {
 		'title' : 'Crocodile V1',
 		'color' : 'str',
 		'class' : 'cerebral, driven',
@@ -192,7 +192,7 @@ window.character = {
 		'tags': 'skill_cut_hp, skill_cut_hp_all, skill_crit_up, skill_crit_up_all, hs_atk_up, hs_atk_up_class_cerebral, hs_atk_up_self',
 	},
 
-	'akai_v1' : {
+	'9' : {
 		'title' : 'Akainu V1',
 		'color' : 'str',
 		'class' : 'fighter, powerhouse',
@@ -216,7 +216,7 @@ window.character = {
 		'tags': 'skill_fixed_dmg, hs_atk_up, hs_atk_up_color_str, target_nearby, ability_heal',
 	},
 
-	'inuarashi' : {
+	'10' : {
 		'title' : 'Inuarashi',
 		'color' : 'str',
 		'class' : 'cerebral, slasher',
@@ -240,7 +240,7 @@ window.character = {
 		'tags': 'skill_cut_hp, skill_cut_hp_self, skill_deal_dmg, hs_speed_up, hs_atk_up, hs_atk_up_self',
 	},
 
-	'bigmom_v1' : {
+	'11' : {
 		'title' : 'Bigmom V1',
 		'color' : 'str',
 		'class' : 'powerhouse, driven',
@@ -264,7 +264,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_atk_up, skill_atk_up_self, hs_hp_up, hs_hp_up_self, target_nearby, ability_prevent_para',
 	},
 
-	'bullet' : {
+	'12' : {
 		'title' : 'Bullet',
 		'color' : 'str',
 		'class' : 'fighter, driven',
@@ -288,7 +288,7 @@ window.character = {
 		'tags': 'skill_atk_up, skill_atk_up_self, skill_def_up, skill_def_up_self, skill_lock_target, skill_cut_hp, hs_atk_up, hs_atk_up_color_str, hs_atk_up_color_qck, hs_atk_up_color_int, hs_atk_up_all, target_nearby, ability_prevent_para',
 	},
 
-	'log_luffy' : {
+	'13' : {
 		'title' : 'Log Luffy',
 		'color' : 'str',
 		'class' : 'fighter, freespirit',
@@ -312,7 +312,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_speed_up, skill_speed_up_all, target_nearby, ability_heal',
 	},
 
-	'zoro_v1' : {
+	'14' : {
 		'title' : 'Zoro V1',
 		'color' : 'dex',
 		'class' : 'slasher, driven',
@@ -336,7 +336,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_def_down, hs_crit_up_class_slasher, hs_crit_up, hs_atk_up, hs_atk_up_self, target_nearby, ability_prevent_para',
 	},
 
-	'nami_v1' : {
+	'15' : {
 		'title' : 'Nami V1',
 		'color' : 'dex',
 		'class' : 'cerebral, striker',
@@ -360,7 +360,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_para_enemies, hs_speed_up, hs_speed_up_color_dex, hs_ct_up, hs_ct_up_color_dex, target_nearby, ability_heal',
 	},
 
-	'usopp_dex_v1_legend' : {
+	'16' : {
 		'title' : 'Usopp',
 		'color' : 'dex',
 		'class' : 'shooter',
@@ -384,7 +384,7 @@ window.character = {
 		'tags': 'skill_cut_hp, skill_silence_enemies, hs_speed_up, hs_speed_up_class_shooter, hs_atk_up, hs_atk_up_self',
 	},
 
-	'ace_v1' : {
+	'17' : {
 		'title' : 'Ace V1',
 		'color' : 'dex',
 		'class' : 'shooter, freespirit',
@@ -408,7 +408,7 @@ window.character = {
 		'tags': 'skill_cut_hp, skill_cut_hp_self, skill_deal_dmg, skill_atk_up, skill_atk_up_class_shooter, hs_speed_up, hs_speed_up_class_shooter, hs_speed_up_class_fs, hs_atk_up, hs_atk_up_self, target_highest_atk, ability_prevent_para',
 	},
 
-	'corazon' : {
+	'18' : {
 		'title' : 'Corazon',
 		'color' : 'dex',
 		'class' : 'cerebral, freespirit',
@@ -432,7 +432,7 @@ window.character = {
 		'tags': 'skill_heal, skill_def_up, hs_atk_up, target_nearby, ability_heal, hs_ct_down, hs_ct_down_color_qck, hs_speed_down, hs_speed_down_color_qck',
 	},
 
-	'magellan_dex_legend' : {
+	'19' : {
 		'title' : 'Magellan',
 		'color' : 'dex',
 		'class' : 'striker, shooter',
@@ -456,7 +456,7 @@ window.character = {
 		'tags': 'skill_atk_down, skill_ct_down, hs_hp_up, target_nearby, ability_heal, hs_def_down, hs_def_down_color_qck',
 	},
 
-	'rayleigh_v2' : {
+	'20' : {
 		'title' : 'Rayleigh V2',
 		'color' : 'dex',
 		'class' : 'cerebral, freespirit',
@@ -480,7 +480,7 @@ window.character = {
 		'tags': 'skill_fixed_dmg, skill_atk_up, skill_def_up, hs_hp_up, hs_def_up, hs_guard_up target_nearby, ability_prevent_bind'
 	},
 
-	'jinbe_v2' : {
+	'21' : {
 		'title' : 'Jinbe V2',
 		'color' : 'dex',
 		'class' : 'powerhouse, fighter',
@@ -504,7 +504,7 @@ window.character = {
 		'tags': 'skill_cut_hp, skill_atk_up, skill_atk_up_class_fighter, skill_atk_up_class_shooter, skill_atk_up_class_slasher, skill_def_up, skill_def_up_class_fighter, skill_def_up_class_shooter, skill_def_up_class_slasher, hs_hp_up, hs_hp_up_color_str, hs_hp_up_color_dex, hs_hp_up_color_psy, hs_def_up, hs_miss_up, target_nearby, ability_heal'
 	},
 
-	'dof_v2' : {
+	'22' : {
 		'title' : 'Doflamingo V2',
 		'color' : 'dex',
 		'class' : 'driven, cerebral',
@@ -528,7 +528,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, hs_atk_up, hs_atk_up_class_cerebral, target_nearby, ability_heal'
 	},
 
-	'brook' : {
+	'23' : {
 		'title' : 'Brook',
 		'color' : 'dex',
 		'class' : 'slasher, freespirit',
@@ -552,7 +552,7 @@ window.character = {
 		'tags': 'skill_heal, skill_def_up, hs_atk_up, hs_def_up, hs_def_up_self, target_nearby, ability_prevent_para'
 	},
 
-	'blackbeard_v1_dex_legend' : {
+	'24' : {
 		'title' : 'Blackbeard, Power to Plunder the World Asunder',
 		'color' : 'dex',
 		'class' : 'driven, powerhouse',
@@ -576,7 +576,7 @@ window.character = {
 		'tags': 'skill_cut_hp, skill_fixed_dmg, skill_def_down, hs_atk_up, hs_hp_up, target_low_hp, ability_prevent_para'
 	},
 
-	'kaido' : {
+	'25' : {
 		'title' : 'Kaido',
 		'color' : 'dex',
 		'class' : 'striker, powerhouse',
@@ -600,7 +600,7 @@ window.character = {
 		'tags': 'skill_cut_hp, skill_deal_dmg, hs_atk_up, hs_atk_up_class_ph, hs_atk_up_class_striker, hs_atk_up_self, hs_ct_down, target_low_hp'
 	},
 
-	'kuzan_v3' : {
+	'26' : {
 		'title' : 'Kuzan, Unfaithful Beliefs of Justice',
 		'color' : 'qck',
 		'class' : 'freespirit, shooter',
@@ -624,7 +624,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_silence_enemies, hs_speed_up, hs_speed_up_color_str, hs_speed_up_color_dex, hs_speed_up_color_qck, ability_prevent_silence, target_highest_speed'
 	},
 
-	'mihawk_perona' : {
+	'27' : {
 		'title' : 'Mihawk & Perona',
 		'color' : 'dual',
 		'class' : 'cerebral, slasher, driven',
@@ -648,7 +648,7 @@ window.character = {
 		'tags': 'skill_atk_down, skill_def_down, skill_cut_hp, hs_speed_up, hs_hp_up, target_nearby, ability_prevent_bind'
 	},
 
-	'marco' : {
+	'28' : {
 		'title' : 'Marco the Phoenix, Illusion Flame Beast',
 		'color' : 'qck',
 		'class' : 'fighter, powerhouse',
@@ -672,7 +672,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_atk_down, skill_heal, hidden_skill_guard_up, hidden_skill_guard_up_color_qck, hidden_skill_guard_up_color_psy, hs_atk_up, hs_atk_up_self, ability_heal'
 	},
 
-	'red_hair_pirates' : {
+	'29' : {
 		'title' : 'Red Hair Pirates, Pirates Fighting for the Sake of their Friend',
 		'color' : 'dual',
 		'class' : 'slasher, cerebral',
@@ -696,7 +696,7 @@ window.character = {
 		'tags': 'skill_cut_hp, skill_def_up, hs_def_up, hs_atk_up, hs_atk_up_self, ability_prevent_silence, target_nearby'
 	},
 
-	'arlong_pirates' : {
+	'30' : {
 		'title' : 'Arlong pirates',
 		'color' : 'dual',
 		'class' : 'slasher, powerhouse',
@@ -720,7 +720,7 @@ window.character = {
 		'tags': 'skill_atk_up, skill_deal_dmg, hs_atk_up, hs_atk_up_self, target_nearby, ability_prevent_bind'
 	},
 
-	'pudding_int_legend' : {
+	'31' : {
 		'title' : 'Pudding',
 		'color' : 'int',
 		'class' : 'cerebral, shooter',
@@ -744,7 +744,7 @@ window.character = {
 		'tags': 'skill_ct_up, skill_atk_up, hs_hp_up, hs_hp_up_color_int, target_nearby, ability_prevent_silence, hs_atk_down, hs_atk_down_class_slasher, hs_atk_down_class_ph'
 	},
 
-	'nami_robin' : {
+	'32' : {
 		'title' : 'Nami & Robin',
 		'color' : 'dual',
 		'class' : 'cerebral, striker, freespirit',
@@ -768,7 +768,7 @@ window.character = {
 		'tags': 'skill_cut_hp, skill_para_down, skill_crit_up, hidden_skill_rcv_up hidden_skill_guard_up, target_nearby, ability_prevent_para'
 	},
 
-	'robin' : {
+	'33' : {
 		'title' : 'Robin',
 		'color' : 'int',
 		'class' : 'cerebral, fighter',
@@ -791,7 +791,7 @@ window.character = {
 		},
 	},
 
-	'sabo_v2' : {
+	'34' : {
 		'title' : 'Sabo V2',
 		'color' : 'qck',
 		'class' : 'fighter, freespirit',
@@ -815,7 +815,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_atk_up, skill_atk_up_color_str, skill_atk_up_color_qck, skill_atk_up_color_dex, hs_speed_up, hs_speed_up_color_qck, hs_speed_up_color_dex, hs_speed_up_color_str, target_nearby, ability_prevent_silence'
 	},
 
-	'sabo_v3' : {
+	'35' : {
 		'title' : 'Sabo V3',
 		'color' : 'dex',
 		'class' : 'fighter, shooter',
@@ -839,7 +839,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_atk_up, skill_atk_up_class_shooter, skill_atk_up_class_fighter, skill_atk_up_class_fs, hs_atk_up, hs_atk_up_class_fighter, hs_atk_up_class_shooter, hs_atk_up_class_fs, target_nearby, ability_prevent_silence'
 	},
 
-	'sanji_v3' : {
+	'36' : {
 		'title' : 'O-Soba Mask',
 		'color' : 'qck',
 		'class' : 'powerhouse, freespirit',
@@ -863,7 +863,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_miss_up, hs_atk_up, hs_atk_up_self, target_nearby, ability_prevent_silence'
 	},
 
-	'luffy_zoro' : {
+	'37' : {
 		'title' : 'Luffy & Zoro',
 		'color' : 'dual',
 		'class' : 'slasher, freespirit',
@@ -887,7 +887,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_crit_up, skill_crit_up_class_fs, skill_crit_up_class_slasher, hs_atk_up, hs_atk_up_class_fs, hs_atk_up_class_slasher, hs_crit_up, hs_crit_up_class_fs, hs_crit_up_class_slasher, target_nearby, ability_prevent_bind'
 	},
 
-	'chopper' : {
+	'38' : {
 		'title' : 'Chopper',
 		'color' : 'psy',
 		'class' : 'shooter, cerebral',
@@ -911,7 +911,7 @@ window.character = {
 		'tags': 'skill_heal, skill_bind_down, skill_silence_down, skill_para_down, hs_hp_up, target_nearby, ability_prevent_silence'
 	},
 
-	'lucci_v2' : {
+	'39' : {
 		'title' : 'Lucci V2',
 		'color' : 'qck',
 		'class' : 'shooter, powerhouse',
@@ -935,7 +935,7 @@ window.character = {
 		'tags': 'skill_def_down, skill_deal_dmg, hs_speed_up, hs_speed_up_class_shooter, hs_atk_up, hs_atk_up_self, target_highest_atk, ability_heal'
 	},
 
-	'komurasaki' : {
+	'40' : {
 		'title' : 'Komurasaki',
 		'color' : 'qck',
 		'class' : 'slasher, cerebral',
@@ -958,7 +958,7 @@ window.character = {
 		},
 	},
 
-	'ace_v2' : {
+	'41' : {
 		'title' : 'Ace V2',
 		'color' : 'int',
 		'class' : 'shooter, fighter',
@@ -981,7 +981,7 @@ window.character = {
 		},
 	},
 
-	'katakuri_v1_int' : {
+	'42' : {
 		'title' : 'Katakuri V1',
 		'color' : 'int',
 		'class' : 'striker, powerhouse',
@@ -1004,7 +1004,7 @@ window.character = {
 		},
 	},
 
-	'whitebeard_v2' : {
+	'43' : {
 		'title' : 'Whitebread v2',
 		'color' : 'qck',
 		'class' : 'striker, powerhouse',
@@ -1027,7 +1027,7 @@ window.character = {
 		},
 	},
 
-	'stampede_luffy' : {
+	'44' : {
 		'title' : 'Stampede Luffy',
 		'color' : 'psy',
 		'class' : 'fighter, powerhouse',
@@ -1051,7 +1051,7 @@ window.character = {
 		'tags': 'skill_atk_up, skill_atk_up_self, skill_deal_dmg, hs_atk_up, hs_atk_up_color_str, hs_atk_up_color_dex, hs_atk_up_color_psy, target_nearby, ability_prevent_para'
 	},
 
-	'shira_sherry' : {
+	'45' : {
 		'title' : 'Shirahoshi & Mansherry',
 		'color' : 'dual',
 		'class' : 'cerebral, striker',
@@ -1074,7 +1074,7 @@ window.character = {
 		},
 	},
 
-	'vivi_rebecca' : {
+	'46' : {
 		'title' : 'Vivi & Rebecca',
 		'color' : 'dual',
 		'class' : 'cerebral, striker, freespirit',
@@ -1097,7 +1097,7 @@ window.character = {
 		},
 	},
 
-	'inu_neko' : {
+	'47' : {
 		'title' : 'Inuarashi & Nekomamushi',
 		'color' : 'dual',
 		'class' : 'cerebral, striker, slasher',
@@ -1120,7 +1120,7 @@ window.character = {
 		},
 	},
 
-	'zeus_prometheus_bm' : {
+	'48' : {
 		'title' : 'Zeus & Prometheus & Bigmom',
 		'color' : 'dual',
 		'class' : 'powerhouse, striker, slasher',
@@ -1143,7 +1143,7 @@ window.character = {
 		},
 	},
 
-	'fujitora_v2' : {
+	'49' : {
 		'title' : 'Fujitora V2',
 		'color' : 'int',
 		'class' : 'powerhouse, slasher',
@@ -1166,7 +1166,7 @@ window.character = {
 		},
 	},
 
-	'zoro_v2' : {
+	'50' : {
 		'title' : 'Roronoa Zoro, Breaking Out of the Cage',
 		'color' : 'int',
 		'class' : 'driven, slasher',
@@ -1189,7 +1189,7 @@ window.character = {
 		},
 	},
 
-	'mihawk_v2' : {
+	'51' : {
 		'title' : 'Mihawk V2',
 		'color' : 'dex',
 		'class' : 'freespirit, slasher',
@@ -1213,7 +1213,7 @@ window.character = {
 		'tags': 'skill_cut_hp, skill_atk_up, hs_speed_up, hs_hp_up, hs_atk_up, hs_crit_up, ability_prevent_silence, ability_dmg_reduce'
 	},
 
-	'legend_cracker_qck' : {
+	'52' : {
 		'title' : 'Charlotte Cracker, Fear of the Infinite Biscuits',
 		'color' : 'qck',
 		'class' : 'powerhouse, slasher',
@@ -1237,7 +1237,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_crit_up, skill_ct_up, hs_ct_up, hs_speed_up, target_nearby, ability_prevent_bind, ability_dmg_reduce'
 	},
 
-	'doflamingo_v1' : {
+	'53' : {
 		'title' : 'Doflamingo V1',
 		'color' : 'int',
 		'class' : 'driven, slasher',
@@ -1261,7 +1261,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_def_up, skill_def_up_class_slasher, skill_def_up_class_driven, skill_crit_up, skill_crit_up_class_slasher, skill_crit_up_class_driven, hs_hp_up, hs_hp_up_class_driven, hs_hp_up_class_slasher, hs_def_up, hs_def_up_class_driven, hs_def_up_class_slasher, hs_atk_up, hs_atk_up_class_slasher, hs_atk_up_class_driven, target_nearby, ability_heal'
 	},
 
-	'boa_hancock_v2_psy' : {
+	'54' : {
 		'title' : 'Hancock V2',
 		'color' : 'psy',
 		'class' : 'freespirit, shooter',
@@ -1284,7 +1284,7 @@ window.character = {
 		},
 	},
 
-	'nekomamushi' : {
+	'55' : {
 		'title' : 'Nekomamushi',
 		'color' : 'psy',
 		'class' : 'striker, powerhouse',
@@ -1307,7 +1307,7 @@ window.character = {
 		},
 	},
 
-	'katakuri_v2' : {
+	'56' : {
 		'title' : 'Katakuri V2',
 		'color' : 'psy',
 		'class' : 'fighter, powerhouse',
@@ -1331,7 +1331,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_heal, skill_heal_self, hs_atk_up, hs_atk_up_class_shooter, hs_atk_up_class_fighter, hs_atk_up_class_slasher, hs_atk_up_class_shooter, hs_atk_up_class_cerebral, hs_atk_up_class_ph, target_highest_atk, ability_prevent_para'
 	},
 
-	'snakeman' : {
+	'57' : {
 		'title' : 'Snakeman',
 		'color' : 'str',
 		'class' : 'fighter, powerhouse',
@@ -1355,7 +1355,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, hs_atk_up, target_nearby, ability_prevent_para'
 	},
 
-	'cavendish' : {
+	'58' : {
 		'title' : 'Cavendish',
 		'color' : 'qck',
 		'class' : 'slasher, driven',
@@ -1379,7 +1379,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_atk_up, skill_atk_up_self, skill_def_up_self, hs_speed_up, hs_speed_up_color_qck, hs_speed_up_color_str, hs_speed_up_color_dex, target_nearby, ability_prevent_para'
 	},
 
-	'carrot' : {
+	'59' : {
 		'title' : 'Carrot',
 		'color' : 'qck',
 		'class' : 'slasher, fighter',
@@ -1403,7 +1403,7 @@ window.character = {
 		'tags': 'skill_fixed_dmg, skill_ct_shorten, hs_speed_up,hs_speed_up_class_fighter, hs_speed_up_class_shooter, hs_speed_up_class_slasher, hs_speed_up_class_cerebral, hs_atk_up, hs_atk_up_self, target_nearby, ability_prevent_para'
 	},
 
-	'zephyr' : {
+	'60' : {
 		'title' : 'Zephyr',
 		'color' : 'qck',
 		'class' : 'shooter, fighter',
@@ -1427,7 +1427,7 @@ window.character = {
 		'tags': 'skill_cut_hp, skill_fixed_dmg, hs_atk_up, hs_atk_up_class_shooter, hs_atk_up_self, target_nearby, ability_prevent_para'
 	},
 
-	'bege_capone_int_legend' : {
+	'61' : {
 		'title' : 'Capone "Gang" Bege, Immovable Fortress',
 		'color' : 'int',
 		'class' : 'shooter, driven',
@@ -1451,7 +1451,7 @@ window.character = {
 		'tags': 'skill_lock_target, skill_heal, skill_heal_self, skill_def_up, skill_def_up_class_shooter, hs_hp_up, hs_hp_up_class_shooter, hs_def_up, hs_def_up_self, target_nearby, ability_prevent_silence'
 	},
 
-	'franky_qck' : {
+	'62' : {
 		'title' : 'Franky',
 		'color' : 'qck',
 		'class' : 'shooter, freespirit',
@@ -1475,7 +1475,7 @@ window.character = {
 		'tags': 'skill_cut_hp, skill_def_up, skill_def_up_class_fighter, skill_def_up_class_slasher, skill_def_up_class_striker, skill_def_up_class_shooter, hs_hp_up, hs_hp_up_class_fighter, hs_hp_up_class_slasher, hs_hp_up_class_striker, hs_hp_up_class_shooter, target_nearby, ability_prevent_para'
 	},
 
-	'garp_psy_legend' : {
+	'63' : {
 		'title' : 'Garp',
 		'color' : 'psy',
 		'class' : 'powerhouse, freespirit',
@@ -1499,7 +1499,7 @@ window.character = {
 		'tags': 'skill_cut_hp, skill_silence_down, skill_atk_up, hs_atk_up, hs_guard_up, ability_prevent_silence, hs_atk_up, target_nearby'
 	},
 
-	'sanji_v1' : {
+	'64' : {
 		'title' : 'Sanji V1',
 		'color' : 'int',
 		'class' : 'powerhouse, fighter',
@@ -1523,7 +1523,7 @@ window.character = {
 		'tags': 'skill_def_down, skill_deal_dmg, hs_atk_up, hs_atk_up_color_int, hs_atk_up_self, target_nearby, ability_prevent_para'
 	},
 
-	'enel_qck' : {
+	'65' : {
 		'title' : 'God Enel',
 		'color' : 'qck',
 		'class' : 'shooter, striker',
@@ -1547,7 +1547,7 @@ window.character = {
 		'tags': 'skill_fixed_dmg, skill_def_down, hs_hp_up, hs_def_up, target_nearby, ability_prevent_para'
 	},
 
-	'shiki_qck' : {
+	'66' : {
 		'title' : 'Shiki',
 		'color' : 'qck',
 		'class' : 'driven, striker',
@@ -1571,7 +1571,7 @@ window.character = {
 		'tags': 'skill_fixed_dmg, skill_def_down, skill_para_enemies, hs_hp_up, hs_hp_up_color_int, hs_hp_up_color_dex, hs_hp_up_color_qck, hs_atk_up, target_highest_speed'
 	},
 
-	'whitebeard_marco' : {
+	'67' : {
 		'title' : 'Whitebeard & Marco',
 		'color' : 'dual',
 		'class' : 'powerhouse, striker',
@@ -1595,7 +1595,7 @@ window.character = {
 		'tags': 'skill_cut_hp, skill_heal, skill_heal_self, hs_guard_up, hs_def_up, hs_def_up_self, target_nearby, ability_prevent_silence'
 	},
 
-	'sanji_v2' : {
+	'68' : {
 		'title' : 'Sanji V2',
 		'color' : 'psy',
 		'class' : 'powerhouse, fighter',
@@ -1619,7 +1619,7 @@ window.character = {
 		'tags': 'skill_atk_up, skill_atk_up_self, skill_deal_dmg, hs_speed_up, hs_atk_up, hs_speed_up_class_fighter, target_nearby, ability_prevent_para'
 	},
 
-	'judge' : {
+	'69' : {
 		'title' : 'Judge',
 		'color' : 'int',
 		'class' : 'powerhouse, driven',
@@ -1643,7 +1643,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_atk_up, skill_atk_up_class_ph, hs_atk_up, hs_atk_up_class_fighter, hs_atk_up_class_ph, hs_atk_up_class_driven, hs_def_up, hs_def_up_self, target_highest_atk, ability_prevent_para'
 	},
 
-	'tesoro_qck' : {
+	'70' : {
 		'title' : 'Tesoro',
 		'color' : 'qck',
 		'class' : 'striker, driven',
@@ -1667,7 +1667,7 @@ window.character = {
 		'tags': 'skill_fixed_dmg, skill_def_up, hs_ct_up, hs_def_up, target_nearby, ability_heal'
 	},
 
-	'jinbe_v1' : {
+	'71' : {
 		'title' : 'Jinbe V1',
 		'color' : 'int',
 		'class' : 'fighter, powerhouse',
@@ -1691,7 +1691,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_atk_down, hs_hp_up, hs_hp_up_class_fighter, hs_def_up, hs_def_up_class_fighter, target_nearby, ability_heal'
 	},
 
-	'buggy_int' : {
+	'72' : {
 		'title' : 'Buggy',
 		'color' : 'int',
 		'class' : 'driven, shooter',
@@ -1715,7 +1715,7 @@ window.character = {
 		'tags': 'skill_atk_up, skill_speed_up, hs_speed_up, hs_atk_up, hs_atk_up_self, target_nearby, ability_heal'
 	},
 
-	'kizaru_psy' : {
+	'73' : {
 		'title' : 'Kizaru',
 		'color' : 'psy',
 		'class' : 'slasher, shooter',
@@ -1739,7 +1739,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_atk_up, skill_atk_up_class_slasher, skill_atk_up_class_shooter, hs_speed_up, hs_speed_up_class_slasher, hs_speed_up_class_shooter, hs_ct_up, hs_ct_up_class_slasher, hs_ct_up_class_shooter, target_nearby, ability_prevent_silence'
 	},
 
-	'kuzan_v2_aokiji_psy' : {
+	'74' : {
 		'title' : 'Kuzan V2',
 		'color' : 'psy',
 		'class' : 'slasher, shooter',
@@ -1763,7 +1763,7 @@ window.character = {
 		'tags': 'skill_fixed_dmg, skill_def_down, skill_def_down_color_str, skill_def_down_color_int, hs_speed_up, hs_speed_up_color_qck, hs_speed_up_color_qsy, target_nearby, ability_prevent_para, skill_ct_down, skill_ct_down_color_str, skill_ct_down_color_int, hs_speed_up, hs_speed_up_color_qsy, hs_speed_up_color_qck'
 	},
 
-	'akainu_v2' : {
+	'75' : {
 		'title' : 'Akainu V2',
 		'color' : 'int',
 		'class' : 'fighter, shooter',
@@ -1787,7 +1787,7 @@ window.character = {
 		'tags': 'skill_cut_hp, skill_def_down, skill_def_down_color_qck, skill_def_down_color_psy, hs_atk_up, hs_atk_up_color_str, hs_atk_up_color_int, target_highest_atk, ability_prevent_silence'
 	},
 
-	'shanks_v2' : {
+	'76' : {
 		'title' : 'Shanks V2',
 		'color' : 'int',
 		'class' : 'freespirit, cerebral',
@@ -1811,7 +1811,7 @@ window.character = {
 		'tags': 'skill_cut_hp, skill_guard_down, skill_crit_up, skill_crit_up_color_int, hs_crit_up, hs_crit_up_color_int, hs_atk_up, hs_atk_up_color_int, target_nearby, ability_prevent_para'
 	},
 
-	'law_v1' : {
+	'77' : {
 		'title' : 'Trafalgar Law, Former Warlord of the Sea',
 		'color' : 'psy',
 		'class' : 'freespirit, slasher',
@@ -1835,7 +1835,7 @@ window.character = {
 		'tags': 'skill_fixed_dmg, skill_def_down, hs_hp_up, hs_hp_up_class_slasher, hs_hp_up_class_fs, hs_rcv_up, hs_rcv_up_class_slasher, hs_rcv_up_class_fs, target_highest_def, ability_prevent_silence'
 	},
 
-	'bartolomeo' : {
+	'78' : {
 		'title' : 'Bartolomeo',
 		'color' : 'qck',
 		'class' : 'driven, striker',
@@ -1859,7 +1859,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_lock_target, skill_guard_up, hs_guard_up, hs_guard_up_class_driven, hs_guard_up_class_striker, hs_def_up, hs_def_up_class_driven, hs_def_up_class_striker, target_highest_atk, ability_prevent_silence'
 	},
 
-	'law_v2' : {
+	'79' : {
 		'title' : 'Law V2',
 		'color' : 'qck',
 		'class' : 'cerebral, striker',
@@ -1883,7 +1883,7 @@ window.character = {
 		'tags': 'skill_fixed_dmg, skill_crit_up, skill_crit_up_class_striker, hs_speed_up, hs_speed_up_class_striker, target_nearby, ability_prevent_silence'
 	},
 
-	'mihawk_v1' : {
+	'80' : {
 		'title' : 'Mihawk V1',
 		'color' : 'int',
 		'class' : 'slasher',
@@ -1907,7 +1907,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_guard_down, hs_atk_up, hs_atk_up_class_slasher'
 	},
 
-	'sengoku' : {
+	'81' : {
 		'title' : 'Sengoku',
 		'color' : 'int',
 		'class' : 'fighter, cerebral',
@@ -1931,7 +1931,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_atk_up, hs_hp_up, hs_atk_up, target_nearby, ability_prevent_para'
 	},
 
-	'kuzan_v1_aokiji_qck_legend' : {
+	'82' : {
 		'title' : 'Kuzan V1',
 		'color' : 'qck',
 		'class' : 'shooter, striker',
@@ -1955,7 +1955,7 @@ window.character = {
 		'tags': 'skill_fixed_dmg, skill_bind_enemies, hs_atk_up, target_nearby'
 	},
 
-	'shanks_v1' : {
+	'83' : {
 		'title' : 'Shanks V1',
 		'color' : 'psy',
 		'class' : 'slasher, cerebral',
@@ -1979,7 +1979,7 @@ window.character = {
 		'tags': 'skill_cut_hp, skill_fixed_dmg, skill_def_down, hs_atk_up, target_nearby, ability_prevent_silence'
 	},
 
-	'rayleigh_v1' : {
+	'84' : {
 		'title' : 'Rayleigh V1',
 		'color' : 'int',
 		'class' : 'slasher, fighter',
@@ -2003,7 +2003,7 @@ window.character = {
 		'tags': 'skill_silence_down, skill_silence_enemies, skill_atk_down, hs_speed_up, target_nearby, ability_prevent_silence'
 	},
 
-	'g4_v1' : {
+	'85' : {
 		'title' : 'Luffy Gear 4 V1',
 		'color' : 'psy',
 		'class' : 'freespirit, fighter',
@@ -2027,7 +2027,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_atk_down, skill_atk_down_self, skill_def_down, skill_def_down_self, hs_atk_up, hs_atk_up_self, hs_atk_up_class_fighter, hs_atk_up_class_fs, target_highest_atk, ability_prevent_para'
 	},
 
-	'sabo_v1_psy' : {
+	'86' : {
 		'title' : 'Sabo V1',
 		'color' : 'psy',
 		'class' : 'freespirit, fighter',
@@ -2051,7 +2051,7 @@ window.character = {
 		'tags': 'skill_def_down, skill_deal_dmg, skill_atk_up, skill_atk_up_class_fs, hs_speed_up, hs_speed_up_class_fs, hs_atk_up, hs_atk_up_class_fs, hs_atk_up_class_shooter, target_highest_atk, ability_heal'
 	},
 
-	'hancock_v1' : {
+	'87' : {
 		'title' : 'Hancock V1',
 		'color' : 'qck',
 		'class' : 'freespirit, shooter',
@@ -2075,7 +2075,7 @@ window.character = {
 		'tags': 'skill_fixed_dmg, skill_def_down, skill_heal, hs_atk_up, hs_atk_up_color_qck, hs_atk_up_color_psy, hs_rcv_up, hs_rcv_up_color_qck, hs_rcv_up_color_psy, target_nearby, ability_prevent_silence'
 	},
 
-	'fujitora_v1' : {
+	'88' : {
 		'title' : 'Fujitora V1',
 		'color' : 'int',
 		'class' : 'driven, powerhouse',
@@ -2099,7 +2099,7 @@ window.character = {
 		'tags': 'skill_cut_hp, hs_hp_up, hs_hp_up_class_driven, target_nearby, ability_heal'
 	},
 
-	'snakeman_v2' : {
+	'89' : {
 		'title' : 'Snake-man V2',
 		'color' : 'str',
 		'class' : 'fighter, freespirit',
@@ -2123,7 +2123,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_atk_up, skill_atk_up_color_str, hs_atk_up, hs_atk_up_color_str, hs_speed_up, hs_speed_up_color_str, target_nearby, ability_prevent_silence'
 	},
 
-	'Boa_Hancock_Devoted_to_Strawhat_Luffy' : {
+	'90' : {
 		'title' : 'Boa Hancock, Devoted to Strawhat Luffy',
 		'color' : 'str',
 		'class' : 'fighter, freespirit',
@@ -2146,7 +2146,7 @@ window.character = {
 		},
 	},
 
-	'Monkey_D_Luffy_Straw_Hat_Pirates_Outcome_of_a_Hard_fought_Battle' : {
+	'91' : {
 		'title' : 'Monkey D. Luffy, Straw Hat Pirates: Outcome of a Hard-fought Battle',
 		'color' : 'psy',
 		'class' : 'fighter, freespirit',
@@ -2169,7 +2169,7 @@ window.character = {
 		},
 	},
 
-	'Kami_Enel_Ruthless_Thunder' : {
+	'92' : {
 		'title' : 'Kami Enel, Ruthless Thunder',
 		'color' : 'int',
 		'class' : 'driven, shooter',
@@ -2193,7 +2193,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_def_up, skill_guard_up, hs_hp_up, hs_hp_up_color_int, hs_speed_up, hs_speed_up_color_int, hs_def_up, hs_def_up_color_int, target_nearby',
 	},
 
-	'Trafalgar_Law_True_Desire_of_Life' : {
+	'93' : {
 		'title' : 'Trafalgar Law, True Desire of Life',
 		'color' : 'str',
 		'class' : 'slasher, freespirit',
@@ -2216,7 +2216,7 @@ window.character = {
 		},
 	},
 
-	'Charlotte_Katakuri_Haki_that_Conquers_the_Future' : {
+	'94' : {
 		'title' : 'Charlotte Katakuri, Haki that Conquers the Future',
 		'color' : 'int',
 		'class' : 'driven, fighter',
@@ -2240,7 +2240,7 @@ window.character = {
 		'tags': 'skill_speed_down, skill_ct_down, skill_ct_down_class_fs, hs_speed_up, hs_speed_up_color_int, target_nearby, ability_prevent_para, skill_fixed_dmg, hs_def_down, hs_def_down_color_psy, hs_ct_down, hs_ct_down_color_psy'
 	},
 
-	'blackbeard_v2' : {
+	'95' : {
 		'title' : 'Blackbeard V2',
 		'color' : 'int',
 		'class' : 'driven, powerhouse',
@@ -2264,7 +2264,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_atk_up, skill_atk_up_self, skill_ct_up, skill_ct_up_self, hs_hp_up, hs_hp_up_color_int, hs_ct_up, hs_ct_up_self, target_nearby, ability_heal'
 	},
 
-	'sabo_v4_str' : {
+	'96' : {
 		'title' : 'Sabo V4',
 		'color' : 'str',
 		'class' : 'fighter, freespirit',
@@ -2288,7 +2288,7 @@ window.character = {
 		'tags': 'skill_atk_up, skill_atk_up_class_fs, skill_speed_up, skill_speed_up_class_fighter, hs_atk_up, target_nearby, ability_prevent_silence'
 	},
 
-	'nami_v2' : {
+	'97' : {
 		'title' : 'Onami, Charming Female Ninja',
 		'color' : 'qck',
 		'class' : 'striker, cerebral',
@@ -2312,7 +2312,7 @@ window.character = {
 		'tags': 'skill_def_down, skill_crit_up, skill_atk_up, skill_heal, hs_hp_up, hs_ct_up, hs_miss_up, target_nearby, ability_heal, ability_dmg_reduce'
 	},
 
-	'Hody' : {
+	'98' : {
 		'title' : 'Hody Jones, False Crusader Rampaging Recklessly',
 		'color' : 'int',
 		'class' : 'powerhouse, shooter',
@@ -2336,7 +2336,7 @@ window.character = {
 		'tags': 'skill_fixed_dmg, skill_def_up, skill_def_up_class_ph, hs_hp_up, hs_hp_up_class_ph, hs_ct_up, hs_crit_up_class_ph, target_highest_speed, ability_prevent_silence'
 	},
 
-	'shirahoshi' : {
+	'99' : {
 		'title' : 'Shirahoshi, Promised Reunion',
 		'color' : 'psy',
 		'class' : 'striker',
@@ -2360,7 +2360,7 @@ window.character = {
 		'tags': 'skill_heal, skill_blow_up, hs_rcv_up, hs_rcv_up_self, target_nearby, ability_prevent_silence, skill_atk_up, skill_atk_up_color_psy, skill_def_up, skill_def_up_color_psy, hs_crit_up, hs_crit_up_color_psy'
 	},
 
-	'jack' : {
+	'100' : {
 		'title' : 'Jack, Eleph-Eleph Fruit: Ancient Model User',
 		'color' : 'str',
 		'class' : 'striker, fighter',
@@ -2384,7 +2384,7 @@ window.character = {
 		'tags': 'skill_def_up, skill_cut_hp, hs_hp_up, hs_def_up, target_nearby, ability_heal'
 	},
 
-	'rayleigh_v3' : {
+	'101' : {
 		'title' : 'Dark King Rayleigh, Teaching a New Era',
 		'color' : 'psy',
 		'class' : 'cerebral, fighter',
@@ -2408,7 +2408,7 @@ window.character = {
 		'tags': 'skill_fixed_dmg, skill_def_down, skill_atk_up, hs_atk_up, hs_atk_up_class_fighter, hs_atk_up_class_cerebral, hs_def_up, hs_def_up_class_fighter, hs_def_up_class_cerebral, target_highest_atk, ability_prevent_silence',
 	},
 
-	'dex_tm_luffy' : {
+	'102' : {
 		'title' : 'Monkey D. Luffy, Celebrate 6th Anniversary Cruise',
 		'color' : 'dex',
 		'class' : 'freespirit, fighter',
@@ -2431,7 +2431,7 @@ window.character = {
 		},
 	},
 
-	'str_carrot_kizuna' : {
+	'103' : {
 		'title' : 'Carrot, Awakening Sulong',
 		'color' : 'str',
 		'class' : 'fighter, slasher',
@@ -2454,7 +2454,7 @@ window.character = {
 		},
 	},
 
-	'dex_kid_legend' : {
+	'104' : {
 		'title' : 'Eustass Kid, Magnetic Captain Challenging the Dragon',
 		'color' : 'dex',
 		'class' : 'driven, striker',
@@ -2478,7 +2478,7 @@ window.character = {
 		'tags': 'skill_def_up, skill_deal_dmg, hs_def_up, hs_def_up_color_dex, hs_hp_up, hs_hp_up_color_dex, target_highest_atk, ability_prevent_stack_dmg'
 	},
 
-	'dex_hawkins_legend' : {
+	'105' : {
 		'title' : 'Magician Basil Hawkins, Follower of the Dragon',
 		'color' : 'dex',
 		'class' : 'cerebral, slasher',
@@ -2502,7 +2502,7 @@ window.character = {
 		'tags': 'skill_def_up, skill_def_up_self, skill_atk_up, skill_atk_up_self, skill_lock_target, skill_deal_dmg, hs_speed_up, hs_speed_up_self, hs_guard_up, hs_guard_up_color_dex, hs_crit_up, hs_crit_up_color_dex, target_nearby, ability_heal'
 	},
 
-	'mr0_int_raid' : {
+	'106' : {
 		'title' : 'Mr. 0, Uncowardly Duel',
 		'color' : 'int',
 		'class' : 'driven, slasher',
@@ -2525,7 +2525,7 @@ window.character = {
 		},
 	},
 
-	'osoba_dex_raid' : {
+	'107' : {
 		'title' : 'O-Soba Mask, Mysterious Germa 66',
 		'color' : 'dex',
 		'class' : 'powerhouse, freespirit',
@@ -2548,7 +2548,7 @@ window.character = {
 		},
 	},
 
-	'xdrake_dex_rr' : {
+	'108' : {
 		'title' : 'Red Flag X Drake, Former Drake Pirate',
 		'color' : 'dex',
 		'class' : 'powerhouse, slasher',
@@ -2571,7 +2571,7 @@ window.character = {
 		},
 	},
 
-	'page_one_dex_rr' : {
+	'109' : {
 		'title' : 'Page One, Tobiroppo of the Beasts Pirates',
 		'color' : 'dex',
 		'class' : 'powerhouse, slasher',
@@ -2594,7 +2594,7 @@ window.character = {
 		},
 	},
 
-	'sanji_str_rr_pf' : {
+	'110' : {
 		'title' : 'Sanji, Burning Flames of Anger',
 		'color' : 'str',
 		'class' : 'powerhouse, fighter',
@@ -2618,7 +2618,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_atk_up, skill_atk_up_color_str, hs_atk_up, hs_atk_up_color_str, hs_speed_up, hs_speed_up_color_str, hs_ct_up, hs_ct_up_color_str'
 	},
 
-	'otama_str_lrr_pf' : {
+	'111' : {
 		'title' : 'O-Tama, Bonding with Komachiyo',
 		'color' : 'str',
 		'class' : 'freespirit, fighter',
@@ -2642,7 +2642,7 @@ window.character = {
 		'tags': 'skill_heal, hs_ct_up, hs_ct_up_class_fs, hs_ct_up_class_fighter, hs_crit_up, hs_crit_up_class_fs, hs_crit_up_class_fighter'
 	},
 
-	'luffy_boa_kizuna' : {
+	'112' : {
 		'title' : 'Luffy & Hancock, Joint Front for Training',
 		'color' : 'dual',
 		'class' : 'freespirit, fighter, shooter',
@@ -2665,7 +2665,7 @@ window.character = {
 		},
 	},
 
-	'smoker_qck_legend' : {
+	'113' : {
 		'title' : 'White Chase Smoker, Marine Who Carries Out His Own Justice',
 		'color' : 'qck',
 		'class' : 'striker, driven',
@@ -2689,7 +2689,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_para_enemies, hs_hp_up_color_qck, hs_hp_up, hidden_skill_accuracy_enemy_down, target_highest_atk, ability_prevent_para'
 	},
 
-	'sugar_qck_legend' : {
+	'114' : {
 		'title' : 'Sugar, Queen of the Toys',
 		'color' : 'qck',
 		'class' : 'cerebral, driven',
@@ -2713,7 +2713,7 @@ window.character = {
 		'tags': 'skill_def_down, skill_atk_down, skill_atk_down_color_str, skill_speed_down, skill_speed_down_color_str, hs_ct_up, hs_ct_up_color_qck, hs_ct_down, hs_ct_down_color_str, target_nearby, ability_heal'
 	},
 
-	'qck_caesar_rr' : {
+	'115' : {
 		'title' : 'Master Caesar, Gas-Gas Fruit User',
 		'color' : 'qck',
 		'class' : 'cerebral, slasher',
@@ -2737,7 +2737,7 @@ window.character = {
 		'tags': 'skill_continuous_dmg_up, skill_continuous_dmg_up_color_str, skill_continuous_dmg_up_color_int, hs_ct_up, target_nearby'
 	},
 
-	'qck_bonney_rr_ver_2' : {
+	'116' : {
 		'title' : 'Big Eater Jewelry Bonney, Hidden Worst Generation',
 		'color' : 'qck',
 		'class' : 'freespirit, fighter',
@@ -2761,7 +2761,7 @@ window.character = {
 		'tags': 'skill_heal, skill_atk_up, skill_atk_up_class_fighter, skill_atk_up_class_fs, skill_def_up, skill_def_up_class_fighter, skill_def_up_class_fs, hs_hp_up, hs_hp_up_class_fighter, hs_hp_up_class_fs, target_nearby'
 	},
 
-	'qck_ivankov_rr_ver_2' : {
+	'117' : {
 		'title' : 'Emporio Ivankov, Miracle Person Engineer',
 		'color' : 'qck',
 		'class' : 'freespirit, fighter',
@@ -2785,7 +2785,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_speed_up, skill_speed_up_class_fighter, skill_speed_up_class_fs, hs_atk_up, hs_atk_up_self, target_nearby'
 	},
 
-	'int_reiju_tm' : {
+	'118' : {
 		'title' : 'Vinsmoke Reiju, True Force of the Science Military Force',
 		'color' : 'int',
 		'class' : 'powerhouse, fighter',
@@ -2809,7 +2809,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_para_enemies, hs_speed_up, hs_speed_up_color_int, hs_atk_up, hs_atk_up_color_int, target_nearby'
 	},
 
-	'qck_blackbeard_pf' : {
+	'119' : {
 		'title' : "Blackbeard, Hell's Darkness",
 		'color' : 'qck',
 		'class' : 'powerhouse, fighter',
@@ -2833,7 +2833,7 @@ window.character = {
 		'tags': 'skill_fixed_dmg, skill_silence_enemies, hs_atk_up, hs_atk_up_class_driven, target_highest_atk'
 	},
 
-	'qck_stussy_pf' : {
+	'120' : {
 		'title' : "Stussy, Secret Justice from the Darkness",
 		'color' : 'qck',
 		'class' : 'shooter, freespirit',
@@ -2857,7 +2857,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_atk_up, skill_atk_up_color_qck, hs_speed_up, hs_speed_up_color_qck, hs_def_up, hs_def_up_color_qck, hs_atk_up, hs_atk_up_color_qck, target_nearby'
 	},
 
-	'qck_nekomamushi_pf' : {
+	'121' : {
 		'title' : "Nekomamushi, Misunderstanding King of Night",
 		'color' : 'qck',
 		'class' : 'striker, cerebral',
@@ -2881,7 +2881,7 @@ window.character = {
 		'tags': 'skill_ct_up, skill_def_up, skill_def_up_self, skill_def_up_class_striker, skill_def_up_class_cerebral, skill_atk_up, skill_atk_up_class_striker, skill_atk_up_class_cerebral, hs_def_up, hs_def_up_class_striker, hs_def_up_class_cerebral, hs_atk_up, hs_atk_up_class_striker, hs_atk_up_class_cerebral, target_nearby'
 	},
 
-	'qck_whitebread_pf' : {
+	'122' : {
 		'title' : "Whitebeard, Unchallenged Pinnacle for the Throne",
 		'color' : 'qck',
 		'class' : 'striker, fighter',
@@ -2905,7 +2905,7 @@ window.character = {
 		'tags': 'skill_def_down, skill_deal_dmg, skill_silence_enemies, hs_hp_up, hs_hp_up_color_qck, hs_atk_up, hs_atk_up_self, hs_ct_up, hs_ct_up_self, hs_speed_up, hs_speed_up_self, target_low_hp, ability_prevent_silence'
 	},
 
-	'str_kizuna_kaido' : {
+	'123' : {
 		'title' : "Kaido, Animal Kingdom Pirates",
 		'color' : 'str',
 		'class' : 'striker, driven',
@@ -2929,7 +2929,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_def_down, skill_atk_down, skill_heal, skill_heal_self, skill_silence_self, hs_hp_up, hs_hp_up_class_striker, hs_atk_up, hs_atk_up_class_striker, hs_atk_up_self, hs_speed_up_self, hs_speed_up, target_nearby'
 	},
 
-	'psy_law_v3_legend' : {
+	'124' : {
 		'title' : "Trafalgar Law, Alliance to Liberate the Land of Wano",
 		'color' : 'psy',
 		'class' : 'freespirit, slasher',
@@ -2953,7 +2953,7 @@ window.character = {
 		'tags': 'skill_fixed_dmg, skill_silence_down, skill_para_down, skill_bind_down, hs_ct_up, hs_ct_up_color_psy, hs_ct_down, hs_ct_down_class_driven, hs_ct_down_class_ph, hs_guard_down, hs_guard_down_class_driven, hs_guard_down_class_ph, hs_speed_down, hs_speed_down_class_driven, hidden_skill_speed_down_class_ph, target_nearby, ability_heal'
 	},
 
-	'psy_enel_pf' : {
+	'125' : {
 		'title' : "Kami Enel, The God Seeking his Dream World",
 		'color' : 'psy',
 		'class' : 'shooter, driven',
@@ -2977,7 +2977,7 @@ window.character = {
 		'tags': 'skill_fixed_dmg, skill_para_enemies, skill_atk_up, skill_atk_up_color_psy, hs_atk_up, hs_atk_up_psy, hs_speed_up, hs_speed_up_color_qsy, target_highest_speed, ability_prevent_para'
 	},
 
-	'psy_boa_legend_v3_summer' : {
+	'126' : {
 		'title' : "Boa Hancock, Vacation on the Evening Beach",
 		'color' : 'psy',
 		'class' : 'shooter, freespirit',
@@ -3001,7 +3001,7 @@ window.character = {
 		'tags': 'skill_fixed_dmg, skill_atk_down, skill_atk_up, skill_atk_up_color_psy, hs_atk_up, hs_atk_up_color_psy, hs_def_up, hs_def_up__color_psy, target_nearby, ability_prevent_silence'
 	},
 
-	'psy_nico_robin_summer_rr_2020' : {
+	'127' : {
 		'title' : "Nico Robin, Vacation on the Moonlit Beach",
 		'color' : 'psy',
 		'class' : 'fighter, cerebral',
@@ -3025,7 +3025,7 @@ window.character = {
 		'tags': 'skill_def_down, skill_atk_down, skill_atk_down_class_driven, hs_speed_up, hs_speed_up_color_qsy, hs_ct_up, hs_ct_up_color_psy, target_nearby'
 	},
 
-	'rebecca_psy_rr_summer_2020' : {
+	'128' : {
 		'title' : "Rebecca, Royal Family Vacation",
 		'color' : 'psy',
 		'class' : 'freespirit, slasher',
@@ -3049,7 +3049,7 @@ window.character = {
 		'tags': 'skill_crit_up, skill_atk_up, skill_atk_up_class_fs, hs_atk_up, hs_atk_up_color_psy, target_nearby'
 	},
 
-	'violet_psy_rr_summer_2020' : {
+	'129' : {
 		'title' : "Violet, Royal Family Vacation",
 		'color' : 'psy',
 		'class' : 'freespirit, cerebral',
@@ -3073,7 +3073,7 @@ window.character = {
 		'tags': 'skill_heal, skill_para_down, hs_hp_up, hs_hp_up_color_psy, hs_def_up, hs_def_up__color_psy, target_nearby'
 	},
 
-	'calgara_noland_pf' : {
+	'130' : {
 		'title' : "Calgara & Noland, Bell Ring Promise",
 		'color' : 'psy',
 		'class' : 'striker, slasher',
@@ -3097,7 +3097,7 @@ window.character = {
 		'tags': 'skill_atk_up, skill_atk_up_self, skill_speed_up, skill_deal_dmg, hs_atk_up, hs_atk_up_self, hs_ct_up, hs_speed_up, target_nearby, ability_prevent_bind'
 	},
 
-	'conis_pf_int' : {
+	'131' : {
 		'title' : "Conis, Young Girl Fighting Kami",
 		'color' : 'int',
 		'class' : 'freespirit, shooter',
@@ -3121,7 +3121,7 @@ window.character = {
 		'tags': 'skill_def_down, skill_speed_down, skill_speed_down_color_psy, skill_guard_down, skill_guard_down_color_psy, skill_para_enemies, skill_para_enemies_color_psy, skill_bind_enemies, skill_bind_enemies_color_psy, hs_ct_down, hs_ct_down_color_psy, hs_def_up, hs_def_up__color_int, target_nearby, ability_prevent_silence'
 	},
 
-	'kaku_pf_str' : {
+	'132' : {
 		'title' : "Kaku, Cipher Pol 'Aegis' Zero",
 		'color' : 'str',
 		'class' : 'slasher, powerhouse',
@@ -3145,7 +3145,7 @@ window.character = {
 		'tags': 'skill_def_down, skill_deal_dmg, hs_hp_up, hs_hp_up_color_str, hs_ct_down, hs_ct_down_color_dex, hs_def_down, target_nearby, ability_prevent_para'
 	},
 
-	'luffy_sanji_legend_str_psy' : {
+	'133' : {
 		'title' : "Luffy & Sanji, Faithful Friends at the Battlefront",
 		'color' : 'dual',
 		'class' : 'freespirit, fighter',
@@ -3169,7 +3169,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_atk_upm skill_speed_up, hs_atk_up, hs_speed_up, target_highest_hp, ability_prevent_silence'
 	},
 
-	'nami_int_wci_welcoming_hug' : {
+	'134' : {
 		'title' : "Nami, Welcoming Hug",
 		'color' : 'psy',
 		'class' : 'cerebral, striker',
@@ -3193,7 +3193,7 @@ window.character = {
 		'tags': 'skill_fixed_dmg, skill_heal, hs_hp_up, hs_speed_up, target_low_hp'
 	},
 
-	'bege_str_rr_Assassination_Plan' : {
+	'135' : {
 		'title' : "Capone Gang Bege, Assassination Plan at the Tea Party",
 		'color' : 'str',
 		'class' : 'driven, shooter',
@@ -3217,7 +3217,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_def_up, skill_def_up_color_str, hs_guard_up, hs_def_up, target_low_hp'
 	},
 
-	'germa_66_crew_legend_psy' : {
+	'136' : {
 		'title' : "Germa 66, Retaliation of the Science Military Force",
 		'color' : 'psy',
 		'class' : 'driven, powerhouse',
@@ -3241,7 +3241,7 @@ window.character = {
 		'tags': 'skill_fixed_dmg, skill_para_enemies, skill_para_enemies_color_int, hs_def_up, hs_def_up_color_psy, hs_hp_up, hs_hp_up_color_psy, hs_def_down, hs_def_down_color_inrt, target_highest_speed, ability_prevent_bind'
 	},
 
-	'3_commanders_big_mom_str_legend' : {
+	'137' : {
 		'title' : "Sweet 3 Commanders, Big Mom's Strong Children",
 		'color' : 'str',
 		'class' : 'slasher, powerhouse',
@@ -3265,7 +3265,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_ct_up, skill_ct_up_color_str, hs_atk_up, hs_atk_up_color_str, hs_hp_up, hs_hp_up_color_str, target_nearby, ability_prevent_stack_dmg'
 	},
 
-	'psy_soul_king_wci_raid_The_Musician_Fighting' : {
+	'138' : {
 		'title' : "Soul King Brook, The Musician Fighting with the Soul",
 		'color' : 'psy',
 		'class' : 'slasher, freespirit',
@@ -3289,7 +3289,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_silence_down, skill_bind_down, skill_silence_down_color_psy, skill_bind_down_color_psy, hs_atk_up, hs_atk_up_color_psy, target_highest_speed, ability_heal'
 	},
 
-	'str_perospero_Path_Blocking_Candy' : {
+	'139' : {
 		'title' : "Perospero, Path-Blocking Candy",
 		'color' : 'str',
 		'class' : 'driven, cerebral',
@@ -3313,7 +3313,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_atk_down, skill_def_down, hs_atk_up, hs_ct_up, target_low_hp'
 	},
 
-	'str_usoland_Snipers_Flower_Arangement' : {
+	'140' : {
 		'title' : "Usoland, Sniper's Flower Arangement",
 		'color' : 'str',
 		'class' : 'freespirit, shooter',
@@ -3337,7 +3337,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_accurate_down, skill_guard_down, hs_atk_up, hs_atk_up_class_shooter, hs_atk_up_class_fs, hs_speed_up, hs_speed_up_class_shooter, hs_speed_up_class_fs, target_nearby, ability_prevent_silence'
 	},
 
-	'dex_pvp_franky_lrr' : {
+	'141' : {
 		'title' : "Franky, Unprecedented Model Change",
 		'color' : 'dex',
 		'class' : 'freespirit, powerhouse',
@@ -3361,7 +3361,7 @@ window.character = {
 		'tags': 'skill_continuous_dmg_up, skill_def_down, skill_def_down_color_qck, skill_speed_down, skill_speed_down_color_qck, hs_atk_up, hs_atk_up_color_dex, hs_speed_up, hs_speed_up_color_dex, target_highest_speed, ability_prevent_silence'
 	},
 
-	'qck_leo_wicca_cub_pvp' : {
+	'142' : {
 		'title' : "Leo & Wicca & Cub",
 		'color' : 'qck',
 		'class' : 'freespirit, striker',
@@ -3385,7 +3385,7 @@ window.character = {
 		'tags': 'skill_para_enemies, skill_def_down, skill_atk_up, hs_hp_up, hs_hp_up_color_qck, hs_crit_up, hs_crit_up_color_qck, target_highest_atk, ability_prevent_silence'
 	},
 
-	'dual_sakazuki_kizaru_akainu_pvp' : {
+	'143' : {
 		'title' : "Sakazuki & Borsalino, Highest Strength of the Marines",
 		'color' : 'dual',
 		'class' : 'driven, slasher',
@@ -3409,7 +3409,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_atk_up, skill_atk_up_class_slasher, skill_atk_up_class_driven, skill_speed_up, hs_hp_up, hs_atk_up, target_nearby, ability_prevent_bind'
 	},
 
-	'halloween_mihawk_int' : {
+	'144' : {
 		'title' : "Mihawk: Deep Night Dark Road, Happy Scary Halloween",
 		'color' : 'int',
 		'class' : 'cerebral, slasher',
@@ -3433,7 +3433,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_atk_up, hs_def_down, target_highest_atk, ability_prevent_para'
 	},
 
-	'halloween_law_int_legend' : {
+	'145' : {
 		'title' : "Law: Road Midnight Street, Happy Scary Halloween",
 		'color' : 'int',
 		'class' : 'cerebral, slasher',
@@ -3457,7 +3457,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_silence_enemies, hs_speed_up, hs_def_down'
 	},
 
-	'int_hancock_halloween_2020_rr' : {
+	'146' : {
 		'title' : "Hancock: Midnight Party Queen, Happy Scary Halloween",
 		'color' : 'int',
 		'class' : 'cerebral, shooter',
@@ -3481,7 +3481,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_atk_up, hs_crit_up, hs_atk_up, hs_def_up, target_nearby, ability_prevent_para'
 	},
 
-	'int_buggy_halloween_2020_rr' : {
+	'147' : {
 		'title' : "Buggy: Terrifying Prank Clown, Happy Scary Halloween",
 		'color' : 'int',
 		'class' : 'driven, shooter',
@@ -3505,7 +3505,7 @@ window.character = {
 		'tags': 'skill_silence_enemies, skill_atk_down, hs_def_up, target_nearby, ability_prevent_para'
 	},
 
-	'int_crocodile_halloween_2020_raid' : {
+	'148' : {
 		'title' : "Crocodile: Ruler of the Night, Happy Scary Halloween",
 		'color' : 'int',
 		'class' : 'driven, cerebral',
@@ -3529,7 +3529,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_bind_enemies, hs_atk_up, hs_guard_up, target_nearby, ability_prevent_bind'
 	},
 
-	'int_moria_perona_pvp' : {
+	'149' : {
 		'title' : "Moria & Perona, The Beginning of a Nightmare",
 		'color' : 'int',
 		'class' : 'slasher, shooter',
@@ -3553,7 +3553,7 @@ window.character = {
 		'tags': 'skill_cut_hp, skill_silence_enemies, hs_hp_up, hs_def_up, target_nearby, ability_prevent_silence'
 	},
 
-	'psy_legend_gold_d_roger' : {
+	'150' : {
 		'title' : "Gol D. Roger, Captain of the Roger Pirates",
 		'color' : 'psy',
 		'class' : 'slasher, freespirit',
@@ -3577,7 +3577,7 @@ window.character = {
 		'tags': 'skill_fixed_dmg, skill_def_down, skill_atk_down, skill_speed_down, hs_def_up, hs_atk_up, hs_speed_up, hs_ct_up, target_nearby, ability_prevent_silence'
 	},
 
-	'str_legend_oden' : {
+	'151' : {
 		'title' : "Kozuki Oden, Heir to the Shogun of Wano",
 		'color' : 'str',
 		'class' : 'slasher, freespirit',
@@ -3601,7 +3601,7 @@ window.character = {
 		'tags': 'skill_fixed_dmg, skill_deal_dmg, skill_atk_up, skill_atk_up_class_slasher, hs_ct_up, hs_ct_up_class_slasher, hs_atk_up, hs_atk_up_class_slasher, target_highest_speed, ability_prevent_bind'
 	},
 
-	'onami_orobi_kizuna_dex' : {
+	'152' : {
 		'title' : "Onami & Orobi, Heroine Dancers of Wano Country",
 		'color' : 'dex',
 		'class' : 'cerebral, freespirit',
@@ -3625,7 +3625,7 @@ window.character = {
 		'tags': 'skill_continuous_dmg_up, skill_atk_up, hs_speed_up, hs_atk_up, target_highest_hp, ability_prevent_silence'
 	},
 
-	'tm_qck_queen' : {
+	'153' : {
 		'title' : "Queen, Brachiosaurus Rampage",
 		'color' : 'qck',
 		'class' : 'powerhouse, driven',
@@ -3649,7 +3649,7 @@ window.character = {
 		'tags': 'skill_atk_up, skill_def_up, skill_deal_dmg, hs_hp_up, hs_def_up, target_nearby, ability_heal'
 	},
 
-	'zorojuro_dex_legend' : {
+	'154' : {
 		'title' : "Zorojuro, A Bloodlust-Eldritch Ronin",
 		'color' : 'dex',
 		'class' : 'slasher, driven',
@@ -3673,7 +3673,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, hs_ct_up, hs_atk_up, hs_speed_up, ability_prevent_silence, ability_dmg_reduce'
 	},
 
-	'kaido_qck_legend' : {
+	'155' : {
 		'title' : "Kaido, Kanabo Bashful-Beatdown",
 		'color' : 'qck',
 		'class' : 'powerhouse, driven',
@@ -3697,7 +3697,7 @@ window.character = {
 		'tags': 'skill_def_down, skill_deal_dmg, skill_para_enemies, hs_atk_up, hs_speed_up, hs_hp_up, hs_def_up, target_nearby, ability_prevent_silence, ability_dmg_reduce'
 	},
 
-	'qck_kamazo_rr' : {
+	'156' : {
 		'title' : "Kamazo the Manslayer, Orochi's Assassin",
 		'color' : 'qck',
 		'class' : 'slasher, driven',
@@ -3721,7 +3721,7 @@ window.character = {
 		'tags': 'skill_atk_down, skill_deal_dmg, hs_atk_up, skill_crit_up, target_nearby, ability_prevent_bind'
 	},
 
-	'dex_gyukimaru_rr' : {
+	'157' : {
 		'title' : "Gyukimaru, Contemplating Warrior Monk",
 		'color' : 'dex',
 		'class' : 'slasher, striker',
@@ -3745,7 +3745,7 @@ window.character = {
 		'tags': 'skill_def_up, skill_deal_dmg, hs_atk_up, skill_crit_up, target_nearby, ability_prevent_para'
 	},
 
-	'dex_hiyori_event' : {
+	'158' : {
 		'title' : "Hiyori, Mysterious Beauty",
 		'color' : 'dex',
 		'class' : 'cerebral, freespirit',
@@ -3769,7 +3769,7 @@ window.character = {
 		'tags': 'skill_def_up, skill_deal_dmg, skill_heal, hs_atk_up, hs_guard_up, target_highest_def, ability_heal'
 	},
 
-	'dex_otoko_event' : {
+	'159' : {
 		'title' : "Otoko, Girl Being Followed",
 		'color' : 'dex',
 		'class' : 'shooter, freespirit',
@@ -3793,7 +3793,7 @@ window.character = {
 		'tags': 'skill_continuous_dmg_up, skill_guard_up, hs_speed_up, hs_hp_up, target_nearby, ability_prevent_bind'
 	},
 
-	'qck_lucy_pf_gift' : {
+	'160' : {
 		'title' : "Lucy, A Dark-Horse Champion Attaining Victory",
 		'color' : 'qck',
 		'class' : 'striker, freespirit',
@@ -3817,7 +3817,7 @@ window.character = {
 		'tags': 'skill_def_down, skill_deal_dmg, hs_atk_up, hs_hp_up, target_nearby, ability_prevent_bind'
 	},
 
-	'str_law_pf_rr' : {
+	'161' : {
 		'title' : "Trafalgar Law, Captive Heart",
 		'color' : 'str',
 		'class' : 'slasher, freespirit',
@@ -3841,7 +3841,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_atk_up, skill_speed_up, hs_hp_up, hs_def_up, target_low_hp, ability_prevent_silence'
 	},
 
-	'psy_luffytaro_raid' : {
+	'162' : {
 		'title' : "Luffytaro, Facing Death",
 		'color' : 'psy',
 		'class' : 'fighter, freespirit',
@@ -3865,7 +3865,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, hs_atk_up, hs_speed_up, target_low_hp, ability_prevent_bind'
 	},
 
-	'str_hawkins_pf_gift' : {
+	'163' : {
 		'title' : "Hawkins, Plan-Thwarting Headliner",
 		'color' : 'str',
 		'class' : 'slasher, cerebral',
@@ -3889,7 +3889,7 @@ window.character = {
 		'tags': 'skill_fixed_dmg, hs_hp_up, hs_def_up, target_highest_atk, ability_prevent_silence'
 	},
 
-	'dex_cavendish_pf_rr' : {
+	'164' : {
 		'title' : "Cavendish, Affectionate Nobleman",
 		'color' : 'dex',
 		'class' : 'slasher, driven',
@@ -3913,7 +3913,7 @@ window.character = {
 		'tags': 'skill_def_up, skill_deal_dmg, hs_crit_down, hs_def_up, hs_guard_up, target_nearby, ability_prevent_para'
 	},
 
-	'dex_bege_pez_kizuna' : {
+	'165' : {
 		'title' : "Bege & Pez, Enjoying the Evening With My Son",
 		'color' : 'dex',
 		'class' : 'shooter, driven',
@@ -3937,7 +3937,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_def_up, hs_hp_up, hs_def_up, target_nearby, ability_heal'
 	},
 
-	'psy_garp_tm' : {
+	'166' : {
 		'title' : "Monkey D. Garp, A Substance over Style Christmas",
 		'color' : 'psy',
 		'class' : 'freespirit, fighter',
@@ -3961,7 +3961,7 @@ window.character = {
 		'tags': 'skill_fixed_dmg, hs_speed_up, hs_def_up, target_low_hp, ability_prevent_stack_dmg'
 	},
 
-	'qck_dex_vivi_rebecca_legend_v2' : {
+	'167' : {
 		'title' : "Vivi & Rebecca, Happy White Christmas",
 		'color' : 'dual',
 		'class' : 'cerebral, striker',
@@ -3985,7 +3985,7 @@ window.character = {
 		'tags': 'skill_fixed_dmg, skill_atk_up, skill_crit_up, hs_atk_up, hs_crit_up, hs_ct_up, target_highest_speed, ability_prevent_bind'
 	},
 
-	'qck_psy_shira_mansherry_legend_v2' : {
+	'168' : {
 		'title' : "Shirahoshi & Mansherry, Two People Decorating the Christmas Tree",
 		'color' : 'dual',
 		'class' : 'cerebral, striker',
@@ -4009,7 +4009,7 @@ window.character = {
 		'tags': 'skill_heal, skill_def_up, hs_hp_up, hs_guard_up, target_nearby, ability_prevent_silence'
 	},
 
-	'qck_neptune_rr_xmas_2020' : {
+	'169' : {
 		'title' : "Neptune, Prepared Santa Claus",
 		'color' : 'qck',
 		'class' : 'cerebral, freespirit',
@@ -4033,7 +4033,7 @@ window.character = {
 		'tags': 'skill_heal, skill_deal_dmg, hs_hp_up, target_low_hp, ability_prevent_silence'
 	},
 
-	'dex_leo_rr_xmas_2020' : {
+	'170' : {
 		'title' : "Leo, Warrior Overlooking the Party",
 		'color' : 'dex',
 		'class' : 'cerebral, freespirit',
@@ -4057,7 +4057,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_def_down, skill_speed_down, skill_def_up, hs_guard_up, hs_miss_up, target_low_hp, ability_prevent_bind'
 	},
 
-	'dex_coby_raid_xmas_2020' : {
+	'171' : {
 		'title' : "Coby, White Night Christmas",
 		'color' : 'dex',
 		'class' : 'cerebral, fighter',
@@ -4081,7 +4081,7 @@ window.character = {
 		'tags': 'skill_heal, skill_atk_up, hs_hp_up, target_nearby, ability_prevent_silence'
 	},
 
-	'qck_hina_ambush_xmas_2020' : {
+	'172' : {
 		'title' : "Hina, Glittering Night",
 		'color' : 'qck',
 		'class' : 'cerebral, striker',
@@ -4105,7 +4105,7 @@ window.character = {
 		'tags': 'skill_cut_hp, skill_def_down, hs_hp_up, hs_atk_up, target_nearby, ability_prevent_stack_dmg'
 	},
 
-	'dex_bartolomeo_pf_gift' : {
+	'173' : {
 		'title' : "Bartolomeo, Betting on a Life's Worth",
 		'color' : 'dex',
 		'class' : 'driven, striker',
@@ -4129,7 +4129,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_def_up, hs_hp_up, hs_def_up, target_low_hp, ability_prevent_bind'
 	},
 
-	'dex_osoba_mask_pf_rr' : {
+	'174' : {
 		'title' : "Sobamask, Transparent Warrior",
 		'color' : 'dex',
 		'class' : 'fighter, powerhouse',
@@ -4153,7 +4153,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, hs_atk_up, hs_speed_up, hs_def_down, target_nearby, ability_prevent_silence'
 	},
 
-	'str_sakazuki_legend_v3' : {
+	'175' : {
 		'title' : "Sakazuki - Akainu, Uncompromised Determination and Justice",
 		'color' : 'str',
 		'class' : 'fighter, shooter',
@@ -4177,7 +4177,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, hs_atk_up, hs_speed_up, hs_def_down, target_nearby, ability_prevent_silence'
 	},
 
-	'psy_hawkins_kizuna' : {
+	'176' : {
 		'title' : "Basil Hawkins, Fortune-Telling Future",
 		'color' : 'psy',
 		'class' : 'cerebral, striker',
@@ -4201,7 +4201,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_silence_down, hs_atk_up, hs_hp_up, target_highest_hp, ability_prevent_silence'
 	},
 
-	'str_kid_tm' : {
+	'177' : {
 		'title' : "Eustass Kid, Unyielding Prisoner",
 		'color' : 'str',
 		'class' : 'fighter, driven',
@@ -4225,7 +4225,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_def_down, skill_speed_down, hs_atk_up, hs_hp_up, target_low_hp, ability_prevent_silence'
 	},
 
-	'str_int_bigmom_kaido_vs_legend_kaido' : {
+	'178' : {
 		'title' : "Kaido VS Big Mom, Two Menacing Emperors",
 		'color' : 'str',
 		'class' : 'powerhouse, driven',
@@ -4249,7 +4249,7 @@ window.character = {
 		'tags': 'skill_cut_hp, skill_ct_down, hs_atk_up, hs_def_up, hs_speed_up, target_nearby, ability_prevent_bind'
 	},
 
-	'str_int_bigmom_kaido_vs_legend_bigmom' : {
+	'179' : {
 		'title' : "Kaido VS Big Mom, Two Menacing Emperors",
 		'color' : 'int',
 		'class' : 'powerhouse, driven',
@@ -4273,7 +4273,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, hs_ct_up, hs_speed_up, target_nearby, ability_prevent_silence'
 	},
 
-	'str_king_rr' : {
+	'180' : {
 		'title' : "King the Wildfire, Beast Pirates All-Star",
 		'color' : 'str',
 		'class' : 'powerhouse, driven',
@@ -4297,7 +4297,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_def_down, hs_atk_up, target_nearby, ability_prevent_silence'
 	},
 
-	'psy_queen_rr' : {
+	'181' : {
 		'title' : "Queen the Plague, Beast Pirates All-Star",
 		'color' : 'psy',
 		'class' : 'powerhouse, driven',
@@ -4321,7 +4321,7 @@ window.character = {
 		'tags': 'skill_fixed_dmg, skill_heal, hs_guard_up, hs_hp_up, target_nearby, ability_prevent_silence'
 	},
 
-	'int_jack_rr' : {
+	'182' : {
 		'title' : "Jack the Drought, Beast Pirates All-Star",
 		'color' : 'int',
 		'class' : 'powerhouse, driven',
@@ -4345,7 +4345,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_silence_enemies, hs_speed_up, target_nearby, ability_prevent_silence'
 	},
 
-	'int_onami_shinobu_raid' : {
+	'183' : {
 		'title' : "Onami & Shinobu, Two Pretty Flowering Female Ninjas",
 		'color' : 'int',
 		'class' : 'freespirit, cerebral',
@@ -4369,7 +4369,7 @@ window.character = {
 		'tags': 'skill_silence_enemies, skill_heal, hs_hp_up, hs_guard_up, target_nearby, ability_heal'
 	},
 
-	'str_xdrake_pf_gift' : {
+	'184' : {
 		'title' : "Drake, Ancient Menace",
 		'color' : 'str',
 		'class' : 'striker, powerhouse',
@@ -4393,7 +4393,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_atk_up, hs_ct_up, hs_atk_up, target_nearby, ability_prevent_bind'
 	},
 
-	'int_jozu_pf_rr' : {
+	'185' : {
 		'title' : 'Diamond" Jozu, Right Fist Ice Crusher',
 		'color' : 'int',
 		'class' : 'fighter, powerhouse',
@@ -4417,7 +4417,7 @@ window.character = {
 		'tags': 'skill_fixed_dmg, skill_crit_up, hs_speed_up, hs_def_up, target_nearby'
 	},
 
-	'psy_enel_legend' : {
+	'186' : {
 		'title' : "God Enel, Divine-God's Desperate Ability",
 		'color' : 'psy',
 		'class' : 'driven, striker',
@@ -4442,7 +4442,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_def_up, skill_speed_up, hs_def_up, hs_speed_up, hs_ct_down, target_nearby, ability_prevent_silence, ability_dmg_reduce'
 	},
 
-	'psy_toy_solider_rebecca_pf_rr' : {
+	'187' : {
 		'title' : "Soldier & Rebecca",
 		'color' : 'psy',
 		'class' : 'freespirit, shooter',
@@ -4466,7 +4466,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_def_down, skill_def_up, hs_atk_up, hs_def_up, hs_hp_up, target_nearby, ability_prevent_silence, ability_dmg_reduce'
 	},
 
-	'vs_legend_akainu_ace_str_ace' : {
+	'188' : {
 		'title' : "Ace VS Akainu, Flame and Magma  - Ace",
 		'color' : 'str',
 		'class' : 'freespirit, shooter',
@@ -4490,7 +4490,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_atk_up, hs_atk_up, hs_def_up, target_nearby, ability_dmg_reduce, ability_prevent_bind'
 	},
 
-	'vs_legend_akainu_ace_qck_akainu' : {
+	'189' : {
 		'title' : "Ace VS Akainu, Flame and Magma  - Akainu",
 		'color' : 'qck',
 		'class' : 'driven, powerhouse',
@@ -4514,7 +4514,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_cut_hp, hs_atk_up, hs_def_up, hs_ct_up, target_nearby, ability_dmg_reduce, ability_prevent_bind'
 	},
 
-	'vs_akai_ace_batch_rr_str_luffy' : {
+	'190' : {
 		'title' : "Monkey D. Luffy, Younger Brother Rescuing His Older Brother",
 		'color' : 'str',
 		'class' : 'freespirit, fighter',
@@ -4538,7 +4538,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_atk_up, hs_hp_up, hs_atk_up, target_nearby, ability_prevent_bind'
 	},
 
-	'vs_akai_ace_batch_rr_str_jozu' : {
+	'191' : {
 		'title' : "Diamond Jozu, Body that Deflected the Worlds Strongest Slash",
 		'color' : 'str',
 		'class' : 'powerhouse, fighter',
@@ -4562,7 +4562,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_def_up, skill_heal, hs_hp_up, hs_def_up, target_highest_def, ability_prevent_bind'
 	},
 
-	'vs_akai_ace_batch_rr_qck_aokiji' : {
+	'192' : {
 		'title' : "Kuzan, Ice Blocking Earthquake",
 		'color' : 'qck',
 		'class' : 'shooter, freespirit',
@@ -4586,7 +4586,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_def_down, hs_hp_up, hs_atk_up, target_nearby, ability_prevent_silence'
 	},
 
-	'vs_akai_ace_batch_rr_qck_sengoku' : {
+	'193' : {
 		'title' : "Sengoku the Buddha, Resourceful General's Move",
 		'color' : 'qck',
 		'class' : 'powerhouse, cerebral',
@@ -4610,7 +4610,7 @@ window.character = {
 		'tags': 'skill_fixed_dmg, skill_speed_up, hs_hp_up, hs_atk_up, target_nearby, ability_prevent_silence'
 	},
 
-	'pf_gift_qck_hannyabal' : {
+	'194' : {
 		'title' : "Hannyabal, Pride of the Vice Warden",
 		'color' : 'qck',
 		'class' : 'driven, striker',
@@ -4634,7 +4634,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_atk_up, hs_crit_up, hs_atk_up, target_nearby, ability_prevent_silence'
 	},
 
-	'tm_dex_luffy_ace' : {
+	'195' : {
 		'title' : "Luffy & Ace, Brothers Joint Struggle",
 		'color' : 'dex',
 		'class' : 'freespirit, shooter',
@@ -4658,7 +4658,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_atk_up, hs_speed_up, hs_atk_up, target_nearby, ability_prevent_para'
 	},
 
-	'kizuna_qck_dofflamingo' : {
+	'196' : {
 		'title' : "Doflamingo, The Man Who Enjoys the Changing Times",
 		'color' : 'qck',
 		'class' : 'driven, slasher',
@@ -4682,7 +4682,7 @@ window.character = {
 		'tags': 'skill_para_enemies, skill_def_down, skill_speed_down, hs_def_up, hs_atk_up, target_highest_speed, ability_prevent_silence'
 	},
 
-	'qck_legend_magellan_strong_type' : {
+	'197' : {
 		'title' : "Magellan, Despair-Inducing Poison",
 		'color' : 'qck',
 		'class' : 'driven, shooter',
@@ -4706,7 +4706,7 @@ window.character = {
 		'tags': 'skill_def_down, skill_deal_dmg, hs_atk_up, hs_hp_up, hs_ct_up, target_nearby, ability_prevent_silence, ability_dmg_reduce'
 	},
 
-	'int_legend_moria_strong_type' : {
+	'198' : {
 		'title' : "Moria INT legend - V1",
 		'color' : 'int',
 		'class' : 'driven, powerhouse',
@@ -4730,7 +4730,7 @@ window.character = {
 		'tags': 'skill_fixed_dmg, skill_stat_down, hs_hp_up, hs_def_up, hs_ct_up, target_nearby, ability_prevent_silence, ability_dmg_reduce'
 	},
 
-	'int_legend_blackbeard_dual' : {
+	'199' : {
 		'title' : "Blackbeard DUAL legend",
 		'color' : 'dual',
 		'class' : 'driven, powerhouse',
@@ -4754,7 +4754,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_speed_down, skill_silence_enemies, hs_atk_up, hs_hp_up, hs_speed_up, target_nearby, ability_prevent_bind, ability_prevent_silence'
 	},
 
-	'int_jesus_burgess_2021_rr_v2' : {
+	'200' : {
 		'title' : "Jesus Burgess",
 		'color' : 'int',
 		'class' : 'driven, powerhouse',
@@ -4778,7 +4778,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, hs_atk_up, target_nearby, ability_prevent_silence'
 	},
 
-	'int_rr_vasco_shot' : {
+	'201' : {
 		'title' : "Vasco Shot",
 		'color' : 'int',
 		'class' : 'driven, shooter',
@@ -4802,7 +4802,7 @@ window.character = {
 		'tags': 'skill_crit_up, skill_def_down, hs_atk_up, hs_hp_up, target_nearby, ability_prevent_silence'
 	},
 
-	'psy_rr_avalo_pizarro' : {
+	'202' : {
 		'title' : "Avalo Pizarro",
 		'color' : 'psy',
 		'class' : 'driven, powerhouse',
@@ -4826,7 +4826,7 @@ window.character = {
 		'tags': 'skill_heal, skill_guard_up, hs_atk_up, target_nearby, ability_prevent_silence'
 	},
 
-	'int_rr_catarina_devon' : {
+	'203' : {
 		'title' : "Catarina Devon",
 		'color' : 'int',
 		'class' : 'driven, slasher',
@@ -4850,7 +4850,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_para_enemies, hs_atk_up, hs_speed_up, target_nearby, ability_prevent_para'
 	},
 
-	'qck_rr_bellamy' : {
+	'204' : {
 		'title' : "Bellamy the Hyena, Bullet of Dressrosa",
 		'color' : 'qck',
 		'class' : 'driven, fighter',
@@ -4874,7 +4874,7 @@ window.character = {
 		'tags': 'skill_cut_hp, skill_def_down, hs_def_down, hs_hp_up, hs_atk_up, target_nearby'
 	},
 
-	'qck_rr_pf_shiryu' : {
+	'205' : {
 		'title' : "Shiryu, Chief's Betrayal",
 		'color' : 'qck',
 		'class' : 'driven, slasher',
@@ -4898,7 +4898,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_fixed_dmg, hs_atk_up, hs_hp_up, hs_ct_up, target_nearby, ability_prevent_silence, ability_dmg_reduce'
 	},
 
-	'int_tm_shiryu' : {
+	'206' : {
 		'title' : "Shiryu, Blackbeard Pirates 2nd Titanic Captain",
 		'color' : 'int',
 		'class' : 'driven, slasher',
@@ -4922,7 +4922,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_fixed_dmg, hs_atk_up, hs_hp_up, hs_ct_up, target_nearby, ability_prevent_silence, ability_dmg_reduce'
 	},
 
-	'legend_fire_tank_pirates' : {
+	'207' : {
 		'title' : "Fire Tank Pirates, Family Protection Gang - Capone Gang Bege.",
 		'color' : 'dual',
 		'class' : 'driven, shooter',
@@ -4946,7 +4946,7 @@ window.character = {
 		'tags': 'skill_fixed_dmg, skill_blow_up, skill_heal, hs_def_up, hs_hp_up, hs_blow_up, target_highest_def, ability_dmg_reduce, ability_prevent_bind'
 	},
 
-	'kizuna_psy_katakuri' : {
+	'208' : {
 		'title' : "Charlotte Katakuri, Overwhelmingly Powerful Mochi",
 		'color' : 'psy',
 		'class' : 'powerhouse, shooter',
@@ -4970,7 +4970,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_speed_down, hs_miss_up, hs_ct_down, target_highest_atk, ability_prevent_bind'
 	},
 
-	'legend_int_bonney' : {
+	'209' : {
 		'title' : "Jewelry Bonney, Freely Control Ones Age",
 		'color' : 'int',
 		'class' : 'fighter, freespirit',
@@ -4994,7 +4994,7 @@ window.character = {
 		'tags': 'skill_atk_down, skill_atk_up, skill_ct_reduce, hs_atk_up, hs_def_down, target_nearby, ability_prevent_bind, ability_dmg_reduce'
 	},
 
-	'rr_dex_apoo_bonney_batch' : {
+	'210' : {
 		'title' : "Scratchmen Apoo, Alliance Talking About The Worst Generations",
 		'color' : 'dex',
 		'class' : 'shooter, freespirit',
@@ -5018,7 +5018,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_speed_down, hs_atk_up, hs_hp_up, target_nearby, ability_prevent_silence'
 	},
 
-	'rr_int_hawkins_bonney_batch' : {
+	'211' : {
 		'title' : "Basil Hawkins, Alliance Talking About The Worst Generations",
 		'color' : 'int',
 		'class' : 'cerebral, slasher',
@@ -5042,7 +5042,7 @@ window.character = {
 		'tags': 'skill_cut_hp, skill_lock_target, skill_guard_up, hs_guard_up, hs_def_up, target_nearby, ability_prevent_silence'
 	},
 
-	'rr_int_xdrake_bonney_batch' : {
+	'212' : {
 		'title' : "X Drake, Remembering the Past of Red Flags",
 		'color' : 'int',
 		'class' : 'powerhouse, slasher',
@@ -5066,7 +5066,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_crit_up, skill_speed_up, hs_guard_down,hs_atk_up, target_nearby, ability_prevent_bind'
 	},
 
-	'event_2021_qck_cavendish' : {
+	'213' : {
 		'title' : "Cavendish, The Grand White Knight Swordsman",
 		'color' : 'qck',
 		'class' : 'driven, slasher',
@@ -5090,7 +5090,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_atk_up, hs_speed_up, target_nearby, ability_prevent_silence'
 	},
 
-	'event_2021_str_bartolomeo' : {
+	'214' : {
 		'title' : "Bartolomeo, A Ferocious Bull That Yearns for More",
 		'color' : 'str',
 		'class' : 'driven, striker',
@@ -5114,7 +5114,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_def_up, hs_hp_up, target_low_hp, ability_prevent_silence'
 	},
 
-	'char_215' : {
+	'215' : {
 		'title' : "Smoker, Strike on the Shichibukai",
 		'color' : 'int',
 		'class' : 'driven, striker',
@@ -5138,7 +5138,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_silence_enemies, hs_atk_up, hs_miss_up, target_highest_speed, ability_prevent_bind, ability_dmg_reduce'
 	},
 
-	'char_216' : {
+	'216' : {
 		'title' : "Urouge",
 		'color' : 'dex',
 		'class' : 'fighter, powerhouse',
@@ -5162,7 +5162,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_atk_up, hs_atk_up, hs_def_up, target_nearby, ability_prevent_bind'
 	},
 
-	'char_217' : {
+	'217' : {
 		'title' : "Gear 4, monkey D luffy - 7th Anniversary",
 		'color' : 'qck',
 		'class' : 'fighter, freespirit',
@@ -5186,7 +5186,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_atk_up, skill_haste, hs_hp_up, hs_atk_up, hs_speed_up, target_nearby, ability_dmg_reduce, ability_prevent_silence'
 	},
 
-	'char_218' : {
+	'218' : {
 		'title' : "Trafalgar Law - 7th Anniversary",
 		'color' : 'dex',
 		'class' : 'slasher, cerebral',
@@ -5210,7 +5210,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_counter, hs_hp_up, hs_def_up, target_nearby, ability_prevent_para, ability_dmg_reduce'
 	},
 
-	'char_219' : {
+	'219' : {
 		'title' : "Captain Kid - 7th Anniversary",
 		'color' : 'str',
 		'class' : 'striker, driven',
@@ -5234,7 +5234,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_immu_def, skill_def_up, hs_atk_up, target_nearby, ability_prevent_bind, ability_dmg_reduce'
 	},
 
-	'char_220' : {
+	'220' : {
 		'title' : "Killer - 7th Anniversary",
 		'color' : 'qck',
 		'class' : 'striker, slasher',
@@ -5258,7 +5258,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_para_enemies, hs_speed_up, target_nearby, ability_prevent_bind'
 	},
 
-	'char_221' : {
+	'221' : {
 		'title' : "Roronoa Zoro - 7th Anniversary",
 		'color' : 'qck',
 		'class' : 'driven, slasher',
@@ -5282,7 +5282,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_atk_up, hs_hp_up, target_nearby, ability_prevent_silence'
 	},
 
-	'char_222' : {
+	'222' : {
 		'title' : "Jinbe - 7th Anniversary",
 		'color' : 'str',
 		'class' : 'fighter, cerebral',
@@ -5306,7 +5306,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_atk_up, hs_atk_up, target_nearby, ability_prevent_silence'
 	},
 
-	'char_223' : {
+	'223' : {
 		'title' : "Kaido & Bigmom - 7th Anniversary Event",
 		'color' : 'str',
 		'class' : 'driven, powerhouse',
@@ -5330,7 +5330,7 @@ window.character = {
 		'tags': 'skill_deal_dmg, skill_atk_up, hs_atk_up, target_nearby, ability_prevent_silence'
 	},
 
-	'char_224' : {
+	'224' : {
 		'title' : "Koala - Treasure Map",
 		'color' : 'dex',
 		'class' : 'fighter, freespirit',
