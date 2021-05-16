@@ -75,7 +75,7 @@ window.character = {
 	'4' : {
 		'title' : 'Luffy/Law',
 		'color' : 'dual',
-		'class' : 'fighter, freespirit, slasher',
+		'class' : 'fighter, slasher',
 		'stars' : 'legend',
 		'type' : 'Tấn công',
 		'skill' : {
@@ -347,7 +347,7 @@ window.character = {
 			'des' : 'Gây (ATK x 1.1) sát thương một vùng lớn và có 30% cơ hội làm tê liệt kẻ địch (paralysis).',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng DEXc SPEED lên 6 cấp, giảm thời gian dùng chiêu đi 2 giây.'
+			'des' : 'Tăng DEXc SPEED lên 6 cấp, tăng tốc CT đồng minh lên 2 cấp.'
 		},
 		'others' : {
 			'target' : 'Nhắm vào kẻ địch ở gần',
@@ -601,7 +601,7 @@ window.character = {
 	},
 
 	'26' : {
-		'title' : 'Kuzan, Unfaithful Beliefs of Justice',
+		'title' : 'Kuzan, Unfaithful Beliefs of Justice <span class="ht-none">Aokiji</span>',
 		'color' : 'qck',
 		'class' : 'freespirit, shooter',
 		'stars' : 'legend',
@@ -611,7 +611,7 @@ window.character = {
 			'des' : 'Gây (ATK x 2) sát thương cho một vùng lớn. 70% cơ hội khóa skill của kẻ địch có ATK cao nhất trong 6 giây.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng SPEED đồng minh STRc/DEXc/QCKc lên 5 cấp. Trong 15 giây đầu, tăng SPEED đồng mình STRc/DEXc/QCKc lên thêm 2 cấp.'
+			'des' : 'Tăng SPEED đồng minh STRc/DEXc/QCKc lên 5 cấp. Trong 40 giây đầu, tăng SPEED đồng minh STRc/DEXc/QCKc lên 5 cấp. Trong 40 giây đầu, tăng ATK đồng minh STRc/DEXc/QCKc lên 5 cấp'
 		},
 		'others' : {
 			'target' : 'Kẻ địch có SPEED cao.',
@@ -1221,7 +1221,7 @@ window.character = {
 		'type' : 'Tấn công',
 		'skill' : {
 			'note' : 'lv10 - 34 Giây',
-			'des' : 'Gây (ATK x 1.8) sát thương cho kẻ địch một vùng rộng. Tăng CRIT SLASHER/POWERHOUSE lên 7 cấp (15 giây). Khi HP nhỏ hoặc bằng 50%, tăng nộ bản thân lên 25%.',
+			'des' : 'Gây (ATK x 1.8) sát thương cho kẻ địch một vùng rộng. Tăng CRIT SLASHER/POWERHOUSE lên 7 cấp (15 giây). Khi HP nhỏ hoặc bằng 50%, tăng nộ bản thân lên 25%',
 		},
 		'hidden_skill' : {
 			'des' : 'Tăng tốc độ tích nộ đồng minh SLASHER/POWERHOUSE lên 6 cấp. Tăng SPEED đồng minh SLASHER/POWERHOUSE lên 3 cấp.'
@@ -1740,7 +1740,7 @@ window.character = {
 	},
 
 	'74' : {
-		'title' : 'Kuzan V2',
+		'title' : 'Kuzan V2 <span class="ht-none">Aokiji</span>',
 		'color' : 'psy',
 		'class' : 'slasher, shooter',
 		'stars' : 'legend',
@@ -1932,7 +1932,7 @@ window.character = {
 	},
 
 	'82' : {
-		'title' : 'Kuzan V1',
+		'title' : 'Kuzan V1 <span class="ht-none">Aokiji</span>',
 		'color' : 'qck',
 		'class' : 'shooter, striker',
 		'stars' : 'legend',
@@ -4563,7 +4563,7 @@ window.character = {
 	},
 
 	'192' : {
-		'title' : "Kuzan, Ice Blocking Earthquake",
+		'title' : "Kuzan, Ice Blocking Earthquake <span class='ht-none'>Aokiji</span>",
 		'color' : 'qck',
 		'class' : 'shooter, freespirit',
 		'stars' : 'Rare Recruit',
@@ -4690,7 +4690,7 @@ window.character = {
 		'type' : 'Phá hoại',
 		'skill' : {
 			'note' : 'lv10 - 27 Giây',
-			'des' : 'Giảm DEF một vùng kẻ địch đi 3 cấp trong 20 giây, và gây (ATK x 1.7) sát thương. 100% to put haste on himself, 50% chance to put haste on 1 QCKc ally. Trong 40 giây đầu, giảm DEF toàn bộ địch đi 3 cấp.',
+			'des' : 'Giảm DEF một vùng kẻ địch đi 3 cấp trong 20 giây, và gây (ATK x 1.7) sát thương. 100% cơ hội bứt tốc bản thân, 50% cơ hội bứt tốc 1 đồng minh QCKc. Trong 40 giây đầu, giảm DEF toàn bộ địch đi 3 cấp.',
 		},
 		'hidden_skill' : {
 			'des' : 'Tăng ATK lên 5 cấp, và HP lên 5 cấp cho đồng minh QCKc. Trong 30 giây đầu, tăng tốc tích nộ bản thân lên 2 cấp.'
@@ -4703,7 +4703,7 @@ window.character = {
 		'img' : {
 			'src' : 'qck_legend_magellan_strong_type.png'
 		},
-		'tags': 'skill_def_down, skill_deal_dmg, hs_atk_up, hs_hp_up, hs_ct_up, target_nearby, ability_prevent_silence, ability_dmg_reduce'
+		'tags': 'skill_def_down, skill_deal_dmg, skill_haste, hs_atk_up, hs_hp_up, hs_ct_up, target_nearby, ability_prevent_silence, ability_dmg_reduce'
 	},
 
 	'198' : {

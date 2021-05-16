@@ -151,26 +151,29 @@ function haitran_reset_filter () {
 	$('.filter_wrapper input[type="checkbox"]').prop('checked', false);
 	$('.pirate_festival_page .filter_block .filter_item .item').removeClass('active');
 	$('.fa_filter_panel .filter_panel > div').removeClass('active');
-	haitran_print_char('');
+	let filter = haitran_create_filter();
+	haitran_print_char(1, filter);
 	$('.search span.filter').trigger('click');
 }
 
 /* 
  * Show data
  */
-function haitran_print_char (filter) {
+function haitran_print_char (ini, filter) {
 	// Reset
-	$('.pirate_festival_page .body_page .char_wrapper').html("");
-	$('.page_wrapper .modal').remove();
-
+	if (!ini) {
+		$('.pirate_festival_page .body_page .char_wrapper').html("");
+		$('.page_wrapper .modal').remove();
+  }
+  
 	if (filter == '') {
-		ht_build_html();
+		ht_build_html(ini);
 	} else {
-		ht_build_html(filter);
+		ht_build_html(ini, filter);
 	}
 }
 
-function ht_build_html(filter = null) {
+function ht_build_html(ini, filter = null) {
 	// Rewrite the color
   function ht_rewrite(data) {
     data = data.replace(/STRc/g, '<span class="nt_color str">STR</span>');
@@ -194,113 +197,118 @@ function ht_build_html(filter = null) {
   // Main variables
   var char = window.character;
 	var modal_html = '';
-	// const timer = ms => new Promise(res => setTimeout(res, ms));
-	// async function load () { // We need to wrap the loop into an async function for this to work
-	//   for (var i = 0; i < 3; i++) {
-	//     await timer(3000); // then the created Promise can be awaited
-	//   }
-	// }
-	// load();
+
 	for (let i in char) {
     if (filter != null) {
     	if (!haitran_filter(char[i], filter)) {
-    		continue;
+    		// continue;
+    		$('.pirate_festival_page .body_page .char_wrapper .char._' + i).addClass('ht-none');
+    		$('.pirate_festival_page .body_page .char_wrapper .char._' + i).removeClass('ht-flex');
+    	}
+    	else {
+    		$('.pirate_festival_page .body_page .char_wrapper .char._' + i).addClass('ht-flex');
+    		$('.pirate_festival_page .body_page .char_wrapper .char._' + i).removeClass('ht-none');
     	}
     }
-
-		let row = char[i];
-		let type = row.color;
-		type = type.split(',');
-		let type_html = '';
-		for (let j in type) {
-			type_html += '<span class="color ' + type[j].trim() + '">' + type[j].trim() + '</span>';
-		}
-
-		let html = '<div class="open_modal char ' + i + '" data-toggle="modal" data-target="#' + i + '">';
     
-    html      += '<div class="sm_img">';
-    // html      +=   '<img src="sm_img/' + row.img.src + '" onerror="this.style.display=\'none\'" />';
-    html      +=   '<img src="sm_img/' + row.img.src + '" onerror="no_img(this);" />';
-    html      += '</div>';
-    
-    html      += '<div class="info_wrapper">';
-		html      +=   '<div class="name">';
-		html      +=     '<span><i class="fas fa-anchor"></i> ' + row.title + '</span>';
-		html      +=   '</div>';
+    if (!ini) {
+			let row = char[i];
+			let type = row.color;
+			type = type.split(',');
+			let type_html = '';
+			for (let j in type) {
+				type_html += '<span class="color ' + type[j].trim() + '">' + type[j].trim() + '</span>';
+			}
 
-		html      +=   '<div class="color">';
-		html      +=     type_html + ' - <span class="stars">' + row.stars + '</span>';
-		html      +=   '</div>';
-		html      += '</div>';
+			let html = '<div class="open_modal char _' + i + '" data-toggle="modal" data-target="#' + i + '">';
+	    
+	    html      += '<div class="sm_img">';
+	    // html      +=   '<img src="sm_img/' + row.img.src + '" onerror="this.style.display=\'none\'" />';
+	    html      +=   '<img src="sm_img/' + row.img.src + '" onerror="no_img(this);" />';
+	    html      += '</div>';
+	    
+	    html      += '<div class="info_wrapper">';
+			html      +=   '<div class="name">';
+			html      +=     '<span><i class="fas fa-anchor"></i> ' + row.title + '</span>';
+			html      +=   '</div>';
 
-		html    += '</div>';
-		$('.pirate_festival_page .body_page .char_wrapper').append(html);
+			html      +=   '<div class="color">';
+			html      +=     type_html + ' - <span class="stars">' + row.stars + '</span>';
+			html      +=   '</div>';
+			html      += '</div>';
 
-		modal_html    += '<div class="modal fade" id="' + i + '" role="dialog">';
-		modal_html    +=   '<div class="modal-dialog">';
-		modal_html    +=     '<div class="modal-content">';
-		modal_html    +=       '<div class="modal-header">';
-		modal_html    +=         '<button type="button" class="close" data-dismiss="modal">&times;</button><h4 class="modal-title">' + row.title + ' (' + row.stars + ')</h4>';
-		modal_html    +=       '</div>';
-		modal_html    +=       '<div class="modal-body">';
+			html    += '</div>';
+			$('.pirate_festival_page .body_page .char_wrapper').append(html);
 
-		modal_html    +=         '<div class="img_wrapper ht_mirror"><img data-src="images/' + row.img.src + '"/></div>';
+			modal_html    += '<div class="modal fade" id="' + i + '" role="dialog">';
+			modal_html    +=   '<div class="modal-dialog">';
+			modal_html    +=     '<div class="modal-content">';
+			modal_html    +=       '<div class="modal-header">';
+			modal_html    +=         '<button type="button" class="close" data-dismiss="modal">&times;</button><h4 class="modal-title">' + row.title + ' (' + row.stars + ')</h4>';
+			modal_html    +=       '</div>';
+			modal_html    +=       '<div class="modal-body">';
 
-		modal_html    +=         '<div class="info_wrapper">';
-		modal_html    +=           '<div class="info class">';
-		modal_html    +=             '<span><b>Class:</b> ' + ht_rewrite(row.class.toUpperCase()) + '</span>';
-		modal_html    +=           '</div>';
-		modal_html    +=           '<div class="info type">';
-		modal_html    +=             '<span><b>Loại:</b> ' + row.type + '</span>';
-		modal_html    +=           '</div>';
-		modal_html    +=           '<div class="info skill">';
-		modal_html    +=             '<span class="skill_title"><b>Kỹ năng (' + row.skill.note + '):</b> </span>';
-		modal_html    +=             '<span class="skill_des">';
-		let des_arr = row.skill.des.split(". ");
-		for (let des in des_arr) {
-			let des_row = ht_rewrite(des_arr[des]);
-			modal_html += '<p>- ' + des_row + '</p>';
-		}
-		modal_html    +=             '</span>';
-		modal_html    +=           '</div>';
-		modal_html    +=           '<div class="info hidden_skill">';
-		modal_html    +=             '<span class="hidden_skill_title"><b>Kỹ năng bị động:</b> </span>';
-		modal_html    +=             '<span class="skill_des">';
-		let h_des_arr = row.hidden_skill.des.split(". ");
-		for (let des in h_des_arr) {
-			let des_row = ht_rewrite(h_des_arr[des]);
-			modal_html += '<p>- ' + des_row + '</p>';
-		}
-		modal_html    +=             '</span>';
-		modal_html    +=           '</div>';
-		modal_html    +=           '<div class="info target">';
-		modal_html    +=             '<span class="target_title"><b>Mục tiêu:</b> ' + row.others.target + '</span>';
-		modal_html    +=           '</div>';
-		modal_html    +=           '<div class="info extra_ablility">';
-		modal_html    +=             '<span class="extra_ablility_title"><b>Khả năng:</b>';
-		let extra_ability_arr = row.others.extra_ability.split(". ");
-		for (let extra_ability in extra_ability_arr) {
-			let extra_ability_row = ht_rewrite(extra_ability_arr[extra_ability]);
-			modal_html += '<p>- ' + extra_ability_row + '</p>';
-		}
-		modal_html    +=             '</span>';
-		modal_html    +=           '</div>';
-		modal_html    +=           '<div class="info pattern">';
-		modal_html    +=             '<span class="pattern_title"><b>Thứ tự tấn công: </b> <p>' + row.pattern + '</p></span>';
-		modal_html    +=           '</div>';
-		modal_html    +=         '</div>';
+			modal_html    +=         '<div class="img_wrapper ht_mirror"><img data-src="images/' + row.img.src + '"/></div>';
 
-		modal_html    +=       '</div>';
-		modal_html    +=     '</div>';
-		modal_html    +=   '</div>';
-		modal_html    += '</div>';
+			modal_html    +=         '<div class="info_wrapper">';
+			modal_html    +=           '<div class="info class">';
+			modal_html    +=             '<span><b>Class:</b> ' + ht_rewrite(row.class.toUpperCase()) + '</span>';
+			modal_html    +=           '</div>';
+			modal_html    +=           '<div class="info type">';
+			modal_html    +=             '<span><b>Loại:</b> ' + row.type + '</span>';
+			modal_html    +=           '</div>';
+			modal_html    +=           '<div class="info skill">';
+			modal_html    +=             '<span class="skill_title"><b>Kỹ năng (' + row.skill.note + '):</b> </span>';
+			modal_html    +=             '<span class="skill_des">';
+			let des_arr = row.skill.des.split(". ");
+			for (let des in des_arr) {
+				let des_row = ht_rewrite(des_arr[des]);
+				modal_html += '<p>- ' + des_row + '</p>';
+			}
+			modal_html    +=             '</span>';
+			modal_html    +=           '</div>';
+			modal_html    +=           '<div class="info hidden_skill">';
+			modal_html    +=             '<span class="hidden_skill_title"><b>Kỹ năng bị động:</b> </span>';
+			modal_html    +=             '<span class="skill_des">';
+			let h_des_arr = row.hidden_skill.des.split(". ");
+			for (let des in h_des_arr) {
+				let des_row = ht_rewrite(h_des_arr[des]);
+				modal_html += '<p>- ' + des_row + '</p>';
+			}
+			modal_html    +=             '</span>';
+			modal_html    +=           '</div>';
+			modal_html    +=           '<div class="info target">';
+			modal_html    +=             '<span class="target_title"><b>Mục tiêu:</b> ' + row.others.target + '</span>';
+			modal_html    +=           '</div>';
+			modal_html    +=           '<div class="info extra_ablility">';
+			modal_html    +=             '<span class="extra_ablility_title"><b>Khả năng:</b>';
+			let extra_ability_arr = row.others.extra_ability.split(". ");
+			for (let extra_ability in extra_ability_arr) {
+				let extra_ability_row = ht_rewrite(extra_ability_arr[extra_ability]);
+				modal_html += '<p>- ' + extra_ability_row + '</p>';
+			}
+			modal_html    +=             '</span>';
+			modal_html    +=           '</div>';
+			modal_html    +=           '<div class="info pattern">';
+			modal_html    +=             '<span class="pattern_title"><b>Thứ tự tấn công: </b> <p>' + row.pattern + '</p></span>';
+			modal_html    +=           '</div>';
+			modal_html    +=         '</div>';
+
+			modal_html    +=       '</div>';
+			modal_html    +=     '</div>';
+			modal_html    +=   '</div>';
+			modal_html    += '</div>';
+	  }
 	}
-	$('.page_wrapper .modals').append(modal_html);
 
-	$('.open_modal').click((event) => {
-		let target = $($(event.currentTarget).attr('data-target')).find('.img_wrapper img');
-		target.attr('src', target.attr('data-src'));
-	});
+	if (!ini) {
+		$('.page_wrapper .modals').append(modal_html);
+
+		$('.open_modal').click((event) => {
+			let target = $($(event.currentTarget).attr('data-target')).find('.img_wrapper img');
+			target.attr('src', target.attr('data-src'));
+		});
+  }
 }
 
 // Default sm img
@@ -419,13 +427,13 @@ function haitran_handle_filter () {
 		let filter = haitran_create_filter();
 		clearTimeout(char_name_timeout);
 		char_name_timeout = setTimeout( function () {
-			haitran_print_char(filter);
+			haitran_print_char(1, filter);
 		}, 500);
 	});
 
 	$('select[name="color"]').add('select[name="class"]').add('select[name="type"]').change(function(event) {
 		let filter = haitran_create_filter();
-		haitran_print_char(filter);
+		haitran_print_char(1, filter);
 		$(this).parents('.filter_block').fadeToggle(300);
 		$('.pirate_festival_page .search span.filter').toggleClass('active');
 	});
@@ -473,7 +481,7 @@ function haitran_handle_filter () {
 			$(this).parent().removeClass('active');
 		}
 		let filter = haitran_create_filter();
-		haitran_print_char(filter);
+		haitran_print_char(1, filter);
 	});
 
 	// CT Filter
@@ -481,7 +489,7 @@ function haitran_handle_filter () {
   	if ($(this).attr('name') == 'head') {
   		if (parseInt($(this).val()) < parseInt($(this).parent().siblings('.block').find('input').val())) {
   			let filter = haitran_create_filter();
-				haitran_print_char(filter);
+				haitran_print_char(1, filter);
   		} else {
   			$('input[name="head"]').val(0);
   			alert('CT đầu phải nhỏ hơn CT cuối');
@@ -491,7 +499,7 @@ function haitran_handle_filter () {
   	if ($(this).attr('name') == 'tail') {
   		if (parseInt($(this).val()) > parseInt($(this).parent().siblings('.block').find('input').val())) {
   			let filter = haitran_create_filter();
-				haitran_print_char(filter);
+				haitran_print_char(1, filter);
   		} else {
   			$('input[name="tail"]').val(100);
   			alert('CT cuối phải lớn hơn CT đầu');
@@ -505,7 +513,7 @@ function haitran_handle_filter () {
  */
 function haitran_handle_all () {
 	haitran_handle_navigation_and_action_ui();
-	haitran_print_char('');
+	haitran_print_char(0, '');
 	haitran_handle_filter();
 }
 

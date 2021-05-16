@@ -19,6 +19,14 @@ button, a {
 	        transition: 0.3s;
 }
 
+.ht-none {
+  display: none !important;
+}
+
+.ht-flex {
+  display: flex !important;
+}
+
 .filter_block.init {
   display: block !important;
   opacity: 0;
