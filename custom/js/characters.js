@@ -936,26 +936,27 @@ window.character = {
 	},
 
 	'40' : {
-		'title' : 'Komurasaki',
-		'color' : 'qck',
+		'title' : 'Komurasaki, Orian"s Final Moment',
+		'color' : 'int',
 		'class' : 'slasher, cerebral',
 		'stars' : 'legend',
 		'type' : 'Hồi phục',
 		'skill' : {
-			'note' : 'lv10 - 30 Giây',
-			'des' : 'Hồi (1.45 x RCV) HP cho một vùng lớn. Khi máu lớn hơn hoặc bằng 50% tăng CRIT của QCKc và INTc lên 2 cấp (15 giây). ATK tăng thêm 4 cấp (15 giây) khi HP trên 80%',
+			'note' : 'lv10 - 29 Giây',
+			'des' : 'Hồi (2 x RCV) HP cho một vùng lớn. Tăng CRIT đồng minh QCKc/INTc lên 7 cấp trong 20 giây. Tăng ATK đồng minh QCKc/INTc lên 7 cấp trong 20 giây',
 		},
 		'hidden_skill' : {
-			'des' : 'QCKc, INTc tăng HP lên 5 cấp, DEF lên 1 cấp'
+			'des' : 'QCKc/INTc tăng RCV lên 5 cấp. QCKc/INTc tăng DEF lên 3 cấp'
 		},
 		'others' : {
-			'target' : 'Đang cập nhật',
-			'extra_ability' : 'Đang cập nhật',
+			'target' : 'Kẻ địch ở gần',
+			'extra_ability' : 'Hồi 250HP mỗi lượt. Giảm 30% sát thương đến từ kẻ địch PSYc',
 		},
-		'pattern': 'Đang cập nhật',
+		'pattern': 'Normal Atk → Heal lv1 → Normal Atk → Heal lv3',
 		'img' : {
 			'src' : 'komurasaki.png'
 		},
+		'tags': 'skill_heal, skill_crit_up, skill_atk_up, hs_rcv_up, hs_def_up, target_nearby, ability_heal, ability_dmg_reduce'
 	},
 
 	'41' : {
@@ -969,7 +970,7 @@ window.character = {
 			'des' : 'Gây (ATK x 0.7) sát thương lên một vùng rộng, tăng ATK FIGHTER/SHOOTER lên 4 cấp (20 giây) và rút ngắn thời gian trạng thái khóa (block) đi 11 giây',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng HP FIGHTER/SHOOTER lên 5 cấp, giảm thời gian dùng skill FIGHTER/SHOOTER đi 2 giây khi còn 70s'
+			'des' : 'Tăng HP FIGHTER/SHOOTER lên 5 cấp. Tăng tốc tích nộ cho đồng minh FIGHTER/SHOOTER lên 2 cấp khi còn 70s'
 		},
 		'others' : {
 			'target' : 'Đang cập nhật',
@@ -979,6 +980,7 @@ window.character = {
 		'img' : {
 			'src' : 'ace_v2.png'
 		},
+		'tags': 'skill_deal_dmg, skill_atk_up, skill_bind_down, hs_hp_up, hs_ct_up'
 	},
 
 	'42' : {
@@ -989,7 +991,7 @@ window.character = {
 		'type' : 'Phá hoại',
 		'skill' : {
 			'note' : 'lv10 - 29 Giây',
-			'des' : 'Tấn công một vùng lớn theo hàng ngang gây (ATK x 0.9) sát thương và giảm SPEED đi 6 cấp (30 giây)',
+			'des' : 'Tấn công một vùng lớn theo hàng ngang gây (ATK x 0.9) sát thương và giảm SPEED kẻ địch đi 6 cấp (30 giây)',
 		},
 		'hidden_skill' : {
 			'des' : 'Tăng tỉ lệ đánh lùi của đồng minh lên 6 cấp. Khi đẩy lùi 1 kẻ địch, Tăng ATK bản thân lên 7 cấp, cộng dồn 2 lần.'
@@ -1002,6 +1004,7 @@ window.character = {
 		'img' : {
 			'src' : 'katakuri.png'
 		},
+		'tags': 'skill_deal_dmg, skill_speed_down, hs_blow_up, hs_atk_up'
 	},
 
 	'43' : {
@@ -1025,6 +1028,7 @@ window.character = {
 		'img' : {
 			'src' : 'whitebeard_v2.png'
 		},
+		'tags': 'skill_cut_hp, skill_def_up, skill_atk_up, hs_hp_up, hs_def_up'
 	},
 
 	'44' : {
@@ -1072,6 +1076,7 @@ window.character = {
 		'img' : {
 			'src' : 'shira_sherry.png'
 		},
+		'tags': 'skill_heal, skill_para_down, skill_bind_down, hs_hp_up'
 	},
 
 	'46' : {
@@ -1095,6 +1100,7 @@ window.character = {
 		'img' : {
 			'src' : 'vivi_rebecca.png'
 		},
+		'tags': 'skill_def_down, skill_atk_up, hs_atk_up'
 	},
 
 	'47' : {
@@ -1118,6 +1124,7 @@ window.character = {
 		'img' : {
 			'src' : 'inu_neko.png'
 		},
+		'tags': 'skill_deal_dmg, skill_atk_up, skill_heal, hs_speed_up, hs_atk_up, target_nearby, ability_prevent_para'
 	},
 
 	'48' : {
@@ -1141,6 +1148,7 @@ window.character = {
 		'img' : {
 			'src' : 'zeus_prometheus_bm.png'
 		},
+		'tags': 'skill_deal_dmg, skill_atk_up, hs_atk_up, hs_hp_up, hs_def_down'
 	},
 
 	'49' : {
@@ -1164,6 +1172,7 @@ window.character = {
 		'img' : {
 			'src' : 'fujitora_v2.png'
 		},
+		'tags': 'skill_deal_dmg, skill_bind_enemies, hs_blow_up, hs_hp_up'
 	},
 
 	'50' : {
@@ -1187,6 +1196,7 @@ window.character = {
 		'img' : {
 			'src' : 'zoro_v2.png'
 		},
+		'tags': 'skill_atk_up, skill_deal_dmg, hs_blow_up, hs_atk_up, hs_def_up, target_highest_def, ability_prevent_para'
 	},
 
 	'51' : {
@@ -1282,6 +1292,7 @@ window.character = {
 		'img' : {
 			'src' : 'hancock_v2.png'
 		},
+		'tags': 'skill_fixed_dmg, skill_atk_up, skill_crit_up, hs_crit_up, hs_atk_up, ability_heal'
 	},
 
 	'55' : {
@@ -1305,6 +1316,7 @@ window.character = {
 		'img' : {
 			'src' : 'nekomamushi.png'
 		},
+		'tags': 'skill_deal_dmg, skill_def_up, hs_hp_up, hs_atk_up'
 	},
 
 	'56' : {
@@ -5139,7 +5151,7 @@ window.character = {
 	},
 
 	'216' : {
-		'title' : "Urouge",
+		'title' : "Urouge, Rookie's Series of Battles",
 		'color' : 'dex',
 		'class' : 'fighter, powerhouse',
 		'stars' : 'Pirate Festival',
@@ -5163,7 +5175,7 @@ window.character = {
 	},
 
 	'217' : {
-		'title' : "Gear 4, monkey D luffy - 7th Anniversary",
+		'title' : "Gear 4, Monkey D. Luffy, Competing Captains",
 		'color' : 'qck',
 		'class' : 'fighter, freespirit',
 		'stars' : 'Legend',
@@ -5187,7 +5199,7 @@ window.character = {
 	},
 
 	'218' : {
-		'title' : "Trafalgar Law - 7th Anniversary",
+		'title' : "Trafalgar Law, Competing Captains - 7th Anniversary",
 		'color' : 'dex',
 		'class' : 'slasher, cerebral',
 		'stars' : 'Legend',
@@ -5211,7 +5223,7 @@ window.character = {
 	},
 
 	'219' : {
-		'title' : "Captain Kid - 7th Anniversary",
+		'title' : "Eustass Captain Kid, Competing Captains - 7th Anniversary",
 		'color' : 'str',
 		'class' : 'striker, driven',
 		'stars' : 'Legend',
@@ -5235,7 +5247,7 @@ window.character = {
 	},
 
 	'220' : {
-		'title' : "Killer - 7th Anniversary",
+		'title' : "Killer, Pirate in the Storm",
 		'color' : 'qck',
 		'class' : 'striker, slasher',
 		'stars' : 'Rare Recruit',
@@ -5259,7 +5271,7 @@ window.character = {
 	},
 
 	'221' : {
-		'title' : "Roronoa Zoro - 7th Anniversary",
+		'title' : "Roronoa Zoro, Pirate in the Storm",
 		'color' : 'qck',
 		'class' : 'driven, slasher',
 		'stars' : 'Rare Recruit',
@@ -5283,7 +5295,7 @@ window.character = {
 	},
 
 	'222' : {
-		'title' : "Jinbe - 7th Anniversary",
+		'title' : "Jinbe, Straw Hat Pirates Helmsman",
 		'color' : 'str',
 		'class' : 'fighter, cerebral',
 		'stars' : 'Rare Recruit',
@@ -5307,7 +5319,7 @@ window.character = {
 	},
 
 	'223' : {
-		'title' : "Kaido & Bigmom - 7th Anniversary Event",
+		'title' : "Kaido & Big Mom, The Worst-Ever Alliance",
 		'color' : 'str',
 		'class' : 'driven, powerhouse',
 		'stars' : 'Event',
@@ -5331,7 +5343,7 @@ window.character = {
 	},
 
 	'224' : {
-		'title' : "Koala - Treasure Map",
+		'title' : "Koala, The 7th Anniversary Cruise",
 		'color' : 'dex',
 		'class' : 'fighter, freespirit',
 		'stars' : 'Treasure Map',
