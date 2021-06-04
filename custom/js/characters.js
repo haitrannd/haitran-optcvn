@@ -4942,10 +4942,10 @@ window.character = {
 		'type' : 'Phòng thủ',
 		'skill' : {
 			'note' : 'lv10 - 30 Giây',
-			'des' : 'Gây 1500 sát thương chuẩn cho kẻ địch trong một vùng rộng. Tăng tỉ lệ đánh lui của đồng minh lên 5 cấp. Khi HP nhỏ hơn hoặc bằng 50%, hồi HP tương đương (RCV x 2.5) trong một phạm vi nhỏ.',
+			'des' : 'Gây 1500 sát thương chuẩn cho kẻ địch trong một vùng rộng. Tăng tỉ lệ đánh lui của đồng minh lên 5 cấp trong 20 giây. Khi HP nhỏ hơn hoặc bằng 50%, hồi HP tương đương (RCV x 2.5) trong một phạm vi nhỏ.',
 		},
 		'hidden_skill' : {
-			'des' : 'Tăng HP đồng minh SHOOTER/DRIVEN lên 5 cấp. Tăng DEF đồng minh SHOOTER/DRIVEN lên 3 cấp. Tăng DEF bản thân lên 5 cấp. Tăng tỉ lệ đánh lui của đồng minh lên 5 cấp.'
+			'des' : 'Tăng HP đồng minh SHOOTER/DRIVEN lên 5 cấp. Tăng DEF đồng minh SHOOTER/DRIVEN lên 3 cấp. Tăng DEF bản thân lên 5 cấp. Tăng ATK đồng minh SHOOTER/DRIVEN lên 3 cấp. Tăng tỉ lệ đánh lui của toàn bộ đồng minh lên 5 cấp.'
 		},
 		'others' : {
 			'target' : 'Kẻ địch có DEF cao.',
@@ -4955,7 +4955,7 @@ window.character = {
 		'img' : {
 			'src' : 'legend_fire_tank_pirates.png'
 		},
-		'tags': 'skill_fixed_dmg, skill_blow_up, skill_heal, hs_def_up, hs_hp_up, hs_blow_up, target_highest_def, ability_dmg_reduce, ability_prevent_bind'
+		'tags': 'skill_fixed_dmg, skill_blow_up, skill_heal, hs_def_up, hs_hp_up, hs_blow_up, hs_atk_up, target_highest_def, ability_dmg_reduce, ability_prevent_bind'
 	},
 
 	'208' : {
@@ -5364,5 +5364,269 @@ window.character = {
 			'src' : '224.png'
 		},
 		'tags': 'skill_deal_dmg, skill_crit_up, skill_heal, hs_atk_up, hs_def_up, target_nearby, ability_prevent_para'
+	},
+
+	'225' : {
+		'title' : "Sanji & Pudding, Special Cake Complete!",
+		'color' : 'dual',
+		'class' : 'fighter, cerebral',
+		'stars' : 'Legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 35 Giây',
+			'des' : 'Giảm SPEED toàn bộ địch đi 9 cấp trong 20 giây. Gây (ATK x 2.5) sát thương cho 3 kẻ địch',
+		},
+		'hidden_skill' : {
+			'des' : 'Trong 40 giây đầu, giảm ATK toàn bộ địch đi 6 cấp. Giảm tốc độ tích nộ toàn bộ địch đi 2 cấp. Giảm DEF toàn bộ địch đi 2 cấp.'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : 'Miễn nhiễm khóa kĩ năng.',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : '225.png'
+		},
+		'tags': 'skill_deal_dmg, skill_speed_down, hs_atk_down, hs_ct_down, hs_def_down, target_nearby, ability_prevent_silence'
+	},
+
+	'226' : {
+		'title' : "Kuja Pirates, Robust Woman Pirates",
+		'color' : 'qck',
+		'class' : 'shooter, freespirit',
+		'stars' : 'Kizuna',
+		'type' : 'Phá hoại',
+		'skill' : {
+			'note' : 'lv10 - 27 Giây',
+			'des' : 'Gây (ATK x 1.8) sát thương cho 3 kẻ địch. Giảm ATK một vùng lớn kẻ địch đi 3 cấp trong 10 giây. Giảm DEF một vùng lớn kẻ địch đi 3 cấp trong 10 giây',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK đồng minh QCKc lên 6 cấp. Giảm DEF toàn bộ địch đi 3 cấp'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : 'Miễn nhiễm khóa hành động.',
+		},
+		'pattern': 'Normal Attack → Strong Attack → Level 1 Small Range Heal → Normal Attack',
+		'img' : {
+			'src' : '226.png'
+		},
+		'tags': 'skill_deal_dmg, skill_atk_down, skill_def_down, hs_atk_up, hs_def_down, target_nearby, ability_prevent_bind'
+	},
+
+	'227' : {
+		'title' : "Ace & Sabo, Raging Flame-Dragon",
+		'color' : 'dual',
+		'class' : 'shooter, freespirit',
+		'stars' : 'Legend',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 28 Giây',
+			'des' : 'Gây (ATK x 2.5) sát thương một vùng rộng. 50% cơ hội làm tê liệt 3 kẻ địch trong 10 giây. Tăng ATK toàn bộ đồng minh lên 5 cấp trong 15 giây. Tăng DEF toàn bộ đồng minh lên 3 cấp trong 15 giây',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng SPEED toàn bộ đồng minh lên 6 cấp. Tăng DEF toàn bộ đồng minh lên 3 cấp'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : 'Miễn nhiễm khóa hành động. Miễn nhiễm khóa kĩ năng',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : '227.png'
+		},
+		'tags': 'skill_deal_dmg, skill_para_enemies, skill_atk_up, skill_def_up, hs_speed_up, hs_def_up, target_nearby, ability_prevent_bind, ability_prevent_silence'
+	},
+
+	'228' : {
+		'title' : "Whitebeard VS Shanks, Failed Negotiations - Whitebeard",
+		'color' : 'int',
+		'class' : 'striker, powerhouse',
+		'stars' : 'Legend',
+		'type' : 'Phòng thủ',
+		'skill' : {
+			'note' : 'lv10 - 18 Giây',
+			'des' : 'Cắt 10% HP một vùng lớn kẻ địch. Tăng DEF đồng minh INTc lên 2 cấp trong 13 giây. Tăng ATK đồng minh INTc lên 3 cấp trong 13 giây. Khi trận đấu còn dưới hoặc bằng 50 giây, gây (ATk x 1) sát thương cho toàn bộ kẻ địch',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP đồng minh INTc lên 5 cấp. Tăng ATK đồng minh INTc lên 5 cấp. Nếu HP dưới 30%, tăng DEF bản thân lên 6 cấp'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : 'Miễn nhiễm khóa kĩ năng. Giảm 30% sát thương đến từ kẻ địch PSYc',
+		},
+		'pattern': 'Normal Attack → Level 2 Medium Range Heal → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : '228.png'
+		},
+		'tags': 'skill_cut_hp, skill_def_up, skill_atk_up, hs_hp_up, hs_atk_up, hs_def_up, target_nearby, ability_prevent_silence, ability_dmg_reduce'
+	},
+
+	'229' : {
+		'title' : "Whitebeard VS Shanks, Failed Negotiations - Shanks",
+		'color' : 'psy',
+		'class' : 'slasher, cerebral',
+		'stars' : 'Legend',
+		'type' : 'Phòng thủ',
+		'skill' : {
+			'note' : 'lv10 - 29 Giây',
+			'des' : 'Tăng DEF đồng minh PSYc lên 3 cấp trong 19 giây. Gây 1000 sát thương chuẩn cho toàn bộ địch. Khi trận đấu bằng hoặc dưới 50 giây, gây thêm 2000 sát thương chuẩn cho toàn bộ địch',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP đồng minh PSYc lên 5 cấp. Tăng ATK đồng minh PSYc lên 5 cấp. Khi HP còn dưới 30%, tăng DEF bản thân lên 7 cấp'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : 'Miễn nhiễm khóa kĩ năng. Giảm 30% sát thương đến từ kẻ địch INTc',
+		},
+		'pattern': 'Normal Attack → Level 2 Medium Range Heal → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : '228.png'
+		},
+		'tags': 'skill_def_up, skill_fixed_dmg, hs_hp_up, hs_atk_up, hs_def_up, target_nearby, ability_prevent_silence, ability_dmg_reduce'
+	},
+
+	'230' : {
+		'title' : "Marco, Sky-Soaring Phoenix",
+		'color' : 'int',
+		'class' : 'powerhouse, cerebral',
+		'stars' : 'Legend',
+		'type' : 'Hồi phục',
+		'skill' : {
+			'note' : 'lv10 - 31 Giây',
+			'des' : 'Gây (ATK x 2) sát thương một vùng lớn kẻ địch. Khi HP dưới 50%, hồi phục (RCV x 2.5) HP cho đồng minh trong một vùng rộng. Giảm DEF toàn bộ địch trong một vùng lớn đi 5 cấp trong 15 giây',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng SPEED đồng minh INTc lên 5 cấp. Tăng tỉ lệ đánh lui kẻ địch lên 5 cấp cho đồng minh INTc. Trong 30 giây đầu, tăng tốc độ tích nộ của đồng minh INTc lên 3 cấp'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : 'Miễn nhiễm khóa hành động. Giảm 30% sát thương đến từ kẻ địch PSYc',
+		},
+		'pattern': 'Normal Attack → Level 2 Medium Range Heal → Strong Attack → Full Power Attack',
+		'img' : {
+			'src' : '230.png'
+		},
+		'tags': 'skill_deal_dmg, skill_heal, skill_def_down, hs_speed_up, hs_blow_up, hs_ct_up, target_nearby, ability_prevent_bind, ability_dmg_reduce'
+	},
+
+	'231' : {
+		'title' : "Ben Beckman, First Mate Taking a Short Breakx",
+		'color' : 'psy',
+		'class' : 'striker, cerebral',
+		'stars' : 'Rare Recruit',
+		'type' : 'Phá hoại',
+		'skill' : {
+			'note' : 'lv10 - 21 Giây',
+			'des' : 'Gây 2000 sát thương chuẩn cho 1 kẻ địch. Giảm ATK một vùng kẻ địch đi 5 cấp trong 20 giây',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng HP đồng minh PSYc lên 6 cấp'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : '60% thoát trạng thái khóa kĩ năng',
+		},
+		'pattern': 'Normal Attack → Level 2 Self Heal → Strong Attack → Strong Attack',
+		'img' : {
+			'src' : '231.png'
+		},
+		'tags': 'skill_fixed_dmg, skill_atk_down, hs_hp_up, target_nearby, ability_prevent_silence'
+	},
+
+	'232' : {
+		'title' : "Vista, Embarking Flower Swords",
+		'color' : 'int',
+		'class' : 'slasher, powerhouse',
+		'stars' : 'Rare Recruit',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 26 Giây',
+			'des' : 'Gây 1500 sát thương chuẩn cho một vùng kẻ địch theo đường thẳng. Tăng SPEED đồng mình INTc lên 5 cấp trong 20 giây',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng SPEED đồng minh INTc lên 6 cấp'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : '60% thoát trạng thái khóa hành động',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Fullpower Attack',
+		'img' : {
+			'src' : '232.png'
+		},
+		'tags': 'skill_fixed_dmg, skill_speed_up, hs_speed_up, target_nearby, ability_prevent_bind'
+	},
+
+	'233' : {
+		'title' : "Rockstar, Red Hair Pirates (Rookie)",
+		'color' : 'psy',
+		'class' : 'fighter, powerhouse',
+		'stars' : 'Rare Recruit',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 22 Giây',
+			'des' : 'Gây (ATK x 1.3) sát thương cho một vùng kẻ địch theo đường thẳng. Tăng ATK đồng mình PSYc lên 5 cấp trong 20 giây',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK đồng minh PSYc lên 6 cấp'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : '60% thoát trạng thái khóa kĩ năng',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Fullpower Attack',
+		'img' : {
+			'src' : '233.png'
+		},
+		'tags': 'skill_deal_dmg, skill_atk_up, hs_atk_up, target_nearby, ability_prevent_silence'
+	},
+
+	'234' : {
+		'title' : "Blackbeard, Settlement on Banaro Island",
+		'color' : 'int',
+		'class' : 'driven, powerhouse',
+		'stars' : 'Event - Barano Island',
+		'type' : 'Phá hoại',
+		'skill' : {
+			'note' : 'lv10 - 26 Giây',
+			'des' : 'Cắt 20% HP một vùng lớn kẻ địch. Giảm DEF một cùng lớn kẻ địch đi 3 cấp trong 10 giây',
+		},
+		'hidden_skill' : {
+			'des' : 'Giảm DEF bản thân đi 3 cấp. Tăng ATK bản thân lên 7 cấp. Tăng HP cho đồng minh INTc lên 5 cấp'
+		},
+		'others' : {
+			'target' : 'Kẻ địch thấp máu.',
+			'extra_ability' : '60% thoát trạng thái khóa hành động',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Fullpower Attack',
+		'img' : {
+			'src' : '234.png'
+		},
+		'tags': 'skill_cut_hp, skill_def_down, hs_def_down, hs_atk_up, hs_hp_up, target_low_hp, ability_prevent_bind'
+	},
+
+	'235' : {
+		'title' : "Cracker - PVP RR",
+		'color' : 'str',
+		'class' : 'slasher, powerhouse',
+		'stars' : 'Pirate Festival',
+		'type' : 'Tấn công',
+		'skill' : {
+			'note' : 'lv10 - 18 Giây',
+			'des' : 'Gây (ATK x 1) sát thương cho 1 kẻ địch, đòn đánh này sẽ bỏ qua DEF của kẻ địch. Tăng ATK bản thân lên 5 cấp. Tăng tốc độ tích nộ đồng minh STRc lên 3 cấp trong 15 giây',
+		},
+		'hidden_skill' : {
+			'des' : 'Tăng ATK đồng minh STRc lên 5 cấp. Tăng SPEED đồng minh STRc lên 5 cấp. Trong 40 giây đầu, giảm ATK kẻ địch DEXc đi 5 cấp'
+		},
+		'others' : {
+			'target' : 'Kẻ địch ở gần.',
+			'extra_ability' : 'Miễn nhiễm khóa hành động. Giảm 30% sát thương đến từ kẻ địch DEXc',
+		},
+		'pattern': 'Normal Attack → Normal Attack → Strong Attack → Fullpower Attack',
+		'img' : {
+			'src' : '235.png'
+		},
+		'tags': 'skill_deal_dmg, skill_immu_def, skill_ct_up, hs_atk_up, hs_speed_up, hs_atk_down, target_nearby, ability_prevent_bind, ability_dmg_reduce'
 	},
 }
