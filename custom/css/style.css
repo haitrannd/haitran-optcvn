@@ -103,6 +103,8 @@ body .page_wrapper .body {
   width: 100vw;
   max-width: 700px;
   position: relative;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .menu {
@@ -158,7 +160,7 @@ body .page_wrapper .body {
 
 .page {
   overflow: hidden;
-	z-index: -1;
+	z-index: 1;
 	bottom: -100vh;
 	position: fixed;
   width: 100vw;
@@ -715,6 +717,7 @@ body .page_wrapper .body {
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch; /* iphone */
   line-height: 24px;
+  align-items: start;
 }
 
 .modal .img_wrapper {
