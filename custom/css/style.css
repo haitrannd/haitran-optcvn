@@ -892,4 +892,10 @@ span.nt_color.int {
       min-height: 100%;
     }
   }
+
+  @media (max-width: 375px) {
+    .modal .modal-dialog .modal-content .modal-body .info_wrapper {
+      max-height: 230px;
+    }
+  }
 /* End Responsive */
