@@ -893,7 +893,7 @@ span.nt_color.int {
     }
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 376px) {
     .modal .modal-dialog .modal-content .modal-body .info_wrapper {
       max-height: 230px;
     }
