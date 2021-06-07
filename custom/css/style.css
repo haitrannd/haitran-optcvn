@@ -717,13 +717,13 @@ body .page_wrapper .body {
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch; /* iphone */
   line-height: 24px;
-  align-items: start;
 }
 
 .modal .img_wrapper {
 	width: 300px;
   border-radius: 5px;
   margin: 0 auto;
+  align-items: start;
 }
 
 .modal .img_wrapper img {
