@@ -157,6 +157,7 @@ body .page_wrapper .body {
 }
 
 .page {
+  overflow: hidden;
 	z-index: -1;
 	bottom: -100vh;
 	position: fixed;
@@ -880,11 +881,12 @@ span.nt_color.int {
   @media (max-width: 480px) {
     .modal .img_wrapper {
       width: 100%;
+      min-height: calc((100vw - 50px) * 512 / 640);
     }
 
     .modal .img_wrapper img {
       width: 100%;
-      min-height: calc((100vw - 50px) * 512 / 640);
+      min-height: 100%;
     }
   }
 /* End Responsive */
