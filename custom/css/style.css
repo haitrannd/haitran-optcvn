@@ -895,7 +895,12 @@ span.nt_color.int {
 
   @media (max-width: 376px) {
     .modal .modal-dialog .modal-content .modal-body .info_wrapper {
-      max-height: 230px;
+      max-height: 200px;
+    }
+
+    .modal .img_wrapper {
+      width: 80%;
+      min-height: auto;
     }
   }
 /* End Responsive */
